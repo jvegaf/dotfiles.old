@@ -20,11 +20,17 @@ echo "👉  Cloning into: '$DOTFILES_PATH'"
 git clone --recurse-submodules -j8 --depth 1 https://github.com/jvegaf/dotfiles.git "$DOTFILES_PATH"
 export DOTLY_PATH="$DOTFILES_PATH/modules/dotly"
 
-echo "Installing dotly 🌚"
-"$DOTLY_PATH/bin/dot" self install
+echo "Installing dependencies"
+sudo apt-update
+sudo apt -y install zsh fzf rustc cargo
+cargo install exa docpars
+export PATH="$PATH:$HOME/.cargo/bin"
 
 echo "changing to Zsh shell ... "
 chsh -s `which zsh`
+
+echo "Installing dotly 🌚"
+"$DOTLY_PATH/bin/dot" self install
 
 echo "Installing Linux 🐧 Packages "
 bash "$DOTFILES_PATH/os/linux/packages/common_packages.sh"
