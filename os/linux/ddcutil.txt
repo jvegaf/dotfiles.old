@@ -1,0 +1,11 @@
+instalar ddcutil
+
+crear fichero /etc/X11/xorg.conf.d/nvidia.....
+
+
+para cambiarlo es 
+
+sudo ddcutil setvcp 0x10 100
+
+sudo ddcutil setvcp 0x10 0
+

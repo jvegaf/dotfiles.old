@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+##? Setups the environment
+#?? 1.0.0
+##?
+##? Usage:
+##?    install
+
+echo "🚀 Welcome to the jvegaf/dotfiles installer!"
+echo "-------------------------------------------------"
+echo
+read -rp "🤔  Where do you want to clone the dotfiles? (default ~/.dotfiles): " DOTFILES_PATH
+echo
+#DOTFILES_PATH="${DOTFILES_PATH:-~/.dotfiles}"
+export DOTFILES_PATH="$HOME/.dotfiles"
+echo "👉  Cloning into: '$DOTFILES_PATH'"
+
+git clone --recurse-submodules -j8 --depth 1 https://github.com/jvegaf/dotfiles.git "$DOTFILES_PATH"
+export DOTLY_PATH="$DOTFILES_PATH/modules/dotly"
+
+echo "Installing dotly 🌚"
+"$DOTLY_PATH/bin/dot" self install
+
+echo "changing to Zsh shell ... "
+chsh -s `which zsh`
+
+echo "Installing Linux 🐧 Packages "
+bash "$DOTFILES_PATH/os/linux/packages/common_packages.sh"
