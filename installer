@@ -21,7 +21,7 @@ git clone --recurse-submodules -j8 --depth 1 https://github.com/jvegaf/dotfiles.
 export DOTLY_PATH="$DOTFILES_PATH/modules/dotly"
 
 echo "Installing dependencies"
-sudo apt-update
+sudo apt update
 sudo apt -y install zsh fzf rustc cargo
 cargo install exa docpars
 export PATH="$PATH:$HOME/.cargo/bin"
