@@ -22,15 +22,15 @@ export DOTLY_PATH="$DOTFILES_PATH/modules/dotly"
 
 echo "Installing dependencies"
 sudo apt update
-sudo apt -y install zsh fzf rustc cargo
+sudo apt -y install fzf rustc cargo
 cargo install exa docpars
 export PATH="$PATH:$HOME/.cargo/bin"
 
-echo "changing to Zsh shell ... "
-chsh -s `which zsh`
+#echo "changing to Zsh shell ... "
+#chsh -s `which zsh`
+
+echo "Installing Linux 🐧 Packages "
+sh "$DOTFILES_PATH/os/linux/packages/common_packages.sh"
 
 echo "Installing dotly 🌚"
 "$DOTLY_PATH/bin/dot" self install
-
-echo "Installing Linux 🐧 Packages "
-bash "$DOTFILES_PATH/os/linux/packages/common_packages.sh"
