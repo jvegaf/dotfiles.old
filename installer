@@ -11,6 +11,13 @@ set -euo pipefail
 echo "🚀 Welcome to the jvegaf/dotfiles installer!"
 echo "-------------------------------------------------"
 echo
+
+echo "Installing previuos dependencies"
+sudo apt update
+sudo apt -y install fzf rustc cargo
+cargo install exa docpars
+export PATH="$HOME/.cargo/bin:$PATH"
+
 read -rp "🤔  Where do you want to clone the dotfiles? (default ~/.dotfiles): " DOTFILES_PATH
 echo
 #DOTFILES_PATH="${DOTFILES_PATH:-~/.dotfiles}"
@@ -19,18 +26,6 @@ echo "👉  Cloning into: '$DOTFILES_PATH'"
 
 git clone --recurse-submodules -j8 --depth 1 https://github.com/jvegaf/dotfiles.git "$DOTFILES_PATH"
 export DOTLY_PATH="$DOTFILES_PATH/modules/dotly"
-
-echo "Installing dependencies"
-sudo apt update
-sudo apt -y install fzf rustc cargo
-cargo install exa docpars
-export PATH="$PATH:$HOME/.cargo/bin"
-
-#echo "changing to Zsh shell ... "
-#chsh -s `which zsh`
-
-echo "Installing Linux 🐧 Packages "
-sh "$DOTFILES_PATH/os/linux/packages/common_packages.sh"
 
 echo "Installing dotly 🌚"
 "$DOTLY_PATH/bin/dot" self install
