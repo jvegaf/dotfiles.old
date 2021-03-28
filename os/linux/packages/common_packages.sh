@@ -2,14 +2,14 @@
 
 ## php 7.4
 sudo apt -y install software-properties-common
-#sudo add-apt-repository ppa:ondrej/php -y
+sudo add-apt-repository ppa:ondrej/php -y
 
 sudo apt update
 sudo apt upgrade -y
-sudo apt-get -y install php7.4-{cli,xml,bcmath,bz2,intl,gd,mbstring,mysql,zip} php-xdebug php-apcu tldr python3-pip filezilla gdebi transmission vlc build-essential htop screenfetch openjdk-11-jdk composer wget docker.io docker-compose vim simplescreenrecorder rofi xclip xdotool grep coreutils locate
+sudo apt-get -y install php7.4-{cli,xml,bcmath,bz2,intl,gd,mbstring,mysql,zip} php-xdebug php-apcu tldr python3-pip transmission vlc build-essential htop screenfetch openjdk-11-jdk composer wget docker.io docker-compose vim simplescreenrecorder rofi xclip xdotool grep coreutils locate
 
 # ubuntu distro
-sudo apt-get install -y gnome-sushi gnome-tweaks
+#sudo apt-get install -y gnome-sushi gnome-tweaks
 
 
 sudo systemctl start docker
@@ -39,14 +39,14 @@ sudo apt-get update
 sudo apt-get install -y nodejs yarn
 
 #dotNet 5
-wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
-sudo dpkg -i packages-microsoft-prod.deb
-sudo rm -rf packages-microsoft-prod.deb
-sudo apt-get update
-sudo apt-get install -y apt-transport-https
-sudo apt-get update
-sudo apt-get install -y dotnet-sdk-5.0
-
+#wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+#sudo dpkg -i packages-microsoft-prod.deb
+#sudo rm -rf packages-microsoft-prod.deb
+#sudo apt-get update
+#sudo apt-get install -y apt-transport-https
+#sudo apt-get update
+#sudo apt-get install -y dotnet-sdk-5.0
+#
 #snaps
-sudo snap install code --classic 
-sudo snap install intellij-idea-ultimate --classic
+#sudo snap install code --classic 
+#sudo snap install intellij-idea-ultimate --classic
