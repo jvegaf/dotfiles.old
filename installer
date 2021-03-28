@@ -13,8 +13,7 @@ echo "-------------------------------------------------"
 echo
 
 echo "Installing previuos dependencies"
-sudo apt update
-sudo apt install -y fzf rustc cargo
+sudo apt update && sudo apt install -y fzf rustc cargo
 cargo install exa docpars
 export PATH="$HOME/.cargo/bin:$PATH"
 
