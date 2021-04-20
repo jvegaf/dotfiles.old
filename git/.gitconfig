@@ -1,7 +1,6 @@
 [user]
 	name = Jose Vega
 	email = josevega234@gmail.com
-	signingkey = 6A85910C5B74FEF5
 
 [fetch]
 	prune = true
@@ -81,4 +80,3 @@
 [pull]
 	rebase = true
 [commit]
-	gpgsign = true

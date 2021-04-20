@@ -9,7 +9,7 @@ sudo apt upgrade -y
 sudo apt-get -y install php7.4-{cli,xml,bcmath,bz2,intl,gd,mbstring,mysql,zip} php-xdebug php-apcu tldr python3-pip transmission vlc build-essential htop screenfetch openjdk-11-jdk composer wget docker.io docker-compose vim simplescreenrecorder rofi xclip xdotool grep coreutils locate
 
 # ubuntu distro
-#sudo apt-get install -y gnome-sushi gnome-tweaks
+sudo apt-get install -y gnome-sushi gnome-tweaks
 
 
 sudo systemctl start docker
@@ -48,5 +48,5 @@ sudo apt-get install -y nodejs yarn
 #sudo apt-get install -y dotnet-sdk-5.0
 #
 #snaps
-#sudo snap install code --classic 
-#sudo snap install intellij-idea-ultimate --classic
+sudo snap install code --classic 
+sudo snap install intellij-idea-ultimate --classic
