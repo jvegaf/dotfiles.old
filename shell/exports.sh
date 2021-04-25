@@ -7,7 +7,7 @@ export FZF_DEFAULT_OPTS='
 '
 
 export path=(
-  "$HOME/bin"
+  "$HOME/opt"
   "$DOTLY_PATH/bin"
   "$DOTFILES_PATH/bin"
   "$GEM_HOME/bin"

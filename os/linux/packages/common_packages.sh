@@ -6,10 +6,10 @@ sudo add-apt-repository ppa:ondrej/php -y
 
 sudo apt update
 sudo apt upgrade -y
-sudo apt-get -y install php7.4-{cli,xml,bcmath,bz2,intl,gd,mbstring,mysql,zip} php-xdebug php-apcu tldr python3-pip transmission vlc build-essential htop screenfetch openjdk-11-jdk composer wget docker.io docker-compose vim simplescreenrecorder rofi xclip xdotool grep coreutils locate
+sudo apt-get -y install php7.4-{cli,xml,bcmath,bz2,intl,gd,mbstring,mysql,zip} php-xdebug php-apcu chromium-browser tldr python3-pip transmission vlc build-essential htop screenfetch openjdk-11-jdk composer wget docker.io docker-compose vim simplescreenrecorder rofi xclip xdotool grep coreutils locate
 
 # ubuntu distro
-sudo apt-get install -y gnome-sushi gnome-tweaks
+#sudo apt-get install -y gnome-sushi gnome-tweaks
 
 
 sudo systemctl start docker
@@ -27,9 +27,9 @@ sudo tee /usr/local/bin/docker-clean > /dev/null && \
 sudo chmod +x /usr/local/bin/docker-clean
 
 #chrome
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo dpkg -i google-chrome-stable_current_amd64.deb
-rm -rf google-chrome-stable_current_amd64.deb
+#wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+#sudo dpkg -i google-chrome-stable_current_amd64.deb
+#rm -rf google-chrome-stable_current_amd64.deb
 
 #nodejs
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
@@ -48,5 +48,6 @@ sudo apt-get install -y nodejs yarn
 #sudo apt-get install -y dotnet-sdk-5.0
 #
 #snaps
+
 sudo snap install code --classic 
 sudo snap install intellij-idea-ultimate --classic
