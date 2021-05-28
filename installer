@@ -32,4 +32,4 @@ echo "Installing dotly 🌚"
 "$DOTLY_PATH/bin/dot" self install
 
 echo "Installing ZimFW"
-zsh $DOTLY_PATH/modules/zimfw/zimfw.zsh install
+zsh "$DOTLY_PATH/modules/zimfw/zimfw.zsh install"
