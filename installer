@@ -25,8 +25,11 @@ echo
 export DOTFILES_PATH="$HOME/.dotfiles"
 echo "👉  Cloning into: '$DOTFILES_PATH'"
 
-git clone --recurse-submodules -j8 --depth 1 git@github.com:jvegaf/dotfiles.git "$DOTFILES_PATH"
+git clone --recurse-submodules -j8 --depth 1 https://github.com:jvegaf/dotfiles.git "$DOTFILES_PATH"
 export DOTLY_PATH="$DOTFILES_PATH/modules/dotly"
 
 echo "Installing dotly 🌚"
 "$DOTLY_PATH/bin/dot" self install
+
+echo "Installing ZimFW"
+zsh $DOTLY_PATH/modules/zimfw/zimfw.zsh install
