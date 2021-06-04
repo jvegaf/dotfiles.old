@@ -10,5 +10,4 @@
     ~/.Xresources: os/linux/.Xresources
     ~/.local/share/fonts: fonts
     ~/.config/autostart: os/linux/autostart
-    ~/.themes: os/linux/themes
     ~/.local/share/icons: os/linux/icons
