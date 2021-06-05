@@ -15,7 +15,7 @@ echo
 #echo "Installing previuos dependencies"
 #sudo apt-get update && sudo apt-get install -y fzf rustc cargo fonts-powerline
 #sudo pacman -S rust fzf
-chsh -s `which zsh`
+#chsh -s `which zsh`
 cargo install exa docpars
 export PATH="$HOME/.cargo/bin:$PATH"
 
