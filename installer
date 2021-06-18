@@ -16,7 +16,7 @@ echo "Installing previuos dependencies"
 sudo apt-get update && sudo apt-get install -y fzf rustc cargo fonts-powerline
 #sudo pacman -S rust fzf
 chsh -s `which zsh`
-cargo install exa docpars
+cargo install exa docpars git-delta
 export PATH="$HOME/.cargo/bin:$PATH"
 
 read -rp "🤔  Where do you want to clone the dotfiles? (default ~/.dotfiles): " DOTFILES_PATH
