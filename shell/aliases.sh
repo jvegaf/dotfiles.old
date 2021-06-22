@@ -28,7 +28,7 @@ alias gs="git status -sb"
 alias gsw="git switch"
 
 # Utils
-alias idea='intellij-idea-ultimate'
+alias idea='intellij-idea-community'
 alias mp='mousepad '
 alias k='kill -9'
 alias i.='(idea $PWD &>/dev/null &)'
