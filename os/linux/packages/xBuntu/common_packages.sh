@@ -36,11 +36,3 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt-get update
 sudo apt-get install -y nodejs yarn
 
-#dotNet 5
-
-#
-#snaps
-
-sudo snap install code --classic 
-sudo snap install intellij-idea-ultimate --classic
-sudo snap install gitkraken --classic
