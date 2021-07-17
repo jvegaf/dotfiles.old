@@ -80,3 +80,5 @@
 [pull]
 	rebase = true
 [commit]
+[cola]
+	spellcheck = false

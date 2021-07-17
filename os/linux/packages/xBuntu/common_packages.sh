@@ -13,6 +13,7 @@ sudo apt-get -y install tldr python3-pip vlc build-essential htop screenfetch op
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo usermod -aG docker $USER
+sudo usermod -aG dialout $USER
 
 #emoji-menu       https://github.com/jchook/emoji-menu
 wget 'https://bit.ly/emoji-menu'
