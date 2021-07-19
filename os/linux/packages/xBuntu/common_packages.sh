@@ -28,9 +28,9 @@ sudo tee /usr/local/bin/docker-clean > /dev/null && \
 sudo chmod +x /usr/local/bin/docker-clean
 
 #chrome
-wget https://dl.google.com/linux/direct/google-chrome-unstable_current_amd64.deb
-sudo dpkg -i google-chrome-unstable_current_amd64.deb
-rm -rf google-chrome-unstable_current_amd64.deb
+#wget https://dl.google.com/linux/direct/google-chrome-unstable_current_amd64.deb
+#sudo dpkg -i google-chrome-unstable_current_amd64.deb
+#rm -rf google-chrome-unstable_current_amd64.deb
 
 #nodejs
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
