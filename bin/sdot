@@ -2,10 +2,13 @@
 
 set -euo pipefail
 
-source "/home/jose/.dotfiles/shell/bash/.bashrc"
-
-##? dot, but without environment variables
+export DOTFILES_PATH="$HOME/.dotfiles"
+##? dot but without environment variables
+#?? 1.0.0
 ##?
-##? Same usage as dot
+##? Usage:
+##?    sdot
+##?    sdot <context>
+##?    sdot <context> <cmd> [<args>...]
 
-"$DOTLY_PATH/bin/dot" "$@"
+"$DOTFILES_PATH/bin/dot" "$@"

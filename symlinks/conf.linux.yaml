@@ -5,9 +5,7 @@
       create: true
       force: true
 
-- link:
-    ~/.dotly: os/linux/.dotly    
+- link:  
     ~/.Xresources: os/linux/.Xresources
     ~/.local/share/fonts: fonts
     ~/.config/autostart: os/linux/autostart
-    ~/.local/share/icons: os/linux/icons

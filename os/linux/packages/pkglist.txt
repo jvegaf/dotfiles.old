@@ -1,0 +1,15 @@
+ddcutil
+docker
+docker-compose
+jdk11-openjdk
+java11-openjfx
+neofetch
+nodejs-lts-fermium
+npm6
+rofi
+tldr
+vim
+vlc
+xclip
+xdotool
+yay
