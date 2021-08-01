@@ -28,12 +28,12 @@ alias gs="git status -sb"
 alias gsw="git switch"
 
 # Utils
-alias idea='intellij-idea-ultimate'
+alias idea='intellij-idea-ultimate-edition'
 alias mp='mousepad '
 alias k='kill -9'
 alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
-alias o.='(nemo $PWD &>/dev/null &)'
+alias o.='(nautilus $PWD &>/dev/null &)'
 alias up='dot package update_all'
 
 alias ddc='ddcutil setvcp 0x10 '
