@@ -23,6 +23,6 @@ echo
 export DOTFILES_PATH="$HOME/.dotfiles"
 echo "👉  Cloning into: '$DOTFILES_PATH'"
 
-git clone --branch arch --single-branch --recurse-submodules -j8 --depth 1 https://github.com/jvegaf/dotfiles.git "$DOTFILES_PATH"
+git clone --branch arch --single-branch --recurse-submodules -j8 --depth 1 git@github.com:jvegaf/dotfiles.git "$DOTFILES_PATH"
 
 "$DOTFILES_PATH/bin/dot" self install
