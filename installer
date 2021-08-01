@@ -13,7 +13,7 @@ echo "-------------------------------------------------"
 echo
 
 echo "Installing previuos dependencies"
-sudo pacman -S --noconfirm rust fzf
+sudo pacman -S --noconfirm --needed rust fzf
 cargo install exa docpars
 export PATH="$HOME/.cargo/bin:$PATH"
 
