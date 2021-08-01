@@ -3,6 +3,7 @@ docker
 docker-compose
 jdk11-openjdk
 java11-openjfx
+gradle
 neofetch
 nodejs-lts-fermium
 npm6
