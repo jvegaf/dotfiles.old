@@ -3,7 +3,6 @@
 set -euo pipefail
 
 source "$DOTFILES_PATH/scripts/core/_main.sh"
-source "$DOTFILES_PATH/scripts/self/utils/symlinks_tool.sh"
 
 ##? Add intellij Configurations symlink (since it's not synced via JetBrains Toolbox)
 #?? 1.0.0
@@ -12,5 +11,31 @@ source "$DOTFILES_PATH/scripts/self/utils/symlinks_tool.sh"
 ##?   set_config
 docs::eval "$@"
 
-log::note "Applying Intellij Symlinks"
-apply_intellij_symlinks
+log::note "Setting Intellij Config"
+
+preferences_dir="$HOME/.config/JetBrains"
+intellij_version=$(ls "$preferences_dir" | grep 'IdeaIC' | sort -r | head -n 1)
+intellij_config_folder="$preferences_dir/$intellij_version"
+intellij_options_folder="$intellij_config_folder/options"
+
+rm -rf "$intellij_config_folder/idea64.vmoptions"
+ln -s -i "$DOTFILES_PATH/editors/intellij/idea.vmoptions" "$intellij_config_folder/idea64.vmoptions"
+
+rm -rf "$intellij_options_folder/ide.general.xml"
+ln -s -i "$DOTFILES_PATH/editors/intellij/ide.general.xml" "$intellij_options_folder/ide.general.xml"
+
+rm -rf "$intellij_options_folder/editor.xml"
+ln -s -i "$DOTFILES_PATH/editors/intellij/editor.xml" "$intellij_options_folder/editor.xml"
+
+ln -s -i "$DOTFILES_PATH/editors/intellij/Code Style/" "$intellij_options_folder/codestyles"
+
+ln -s -i "$DOTFILES_PATH/editors/intellij/linux.keymaps/" "$intellij_config_folder/linux.keymaps"
+
+echo "Applied settings to path: $intellij_config_folder"
+echo "Done for $intellij_version!"
+
+
+
+
+
+

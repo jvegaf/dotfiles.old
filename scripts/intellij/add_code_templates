@@ -11,8 +11,8 @@ source "$DOTFILES_PATH/scripts/core/_main.sh"
 ##?   add_code_templates
 docs::eval "$@"
 
-preferences_dir="$HOME/Library/Application Support/JetBrains"
-intellij_version=$(ls "$preferences_dir" | grep 'IntelliJIdea' | sort -r | head -n 1)
+preferences_dir="$HOME/.config/JetBrains"
+intellij_version=$(ls "$preferences_dir" | grep 'IdeaIC' | sort -r | head -n 1)
 intellij_code_templates_folder="$preferences_dir/$intellij_version/fileTemplates"
 
 rm -rf "$intellij_code_templates_folder"

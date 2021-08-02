@@ -15,3 +15,4 @@ xclip
 xdotool
 yay
 bat
+youtube-dl
