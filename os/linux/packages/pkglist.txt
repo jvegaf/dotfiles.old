@@ -1,3 +1,4 @@
+tree
 ddcutil
 docker
 docker-compose
@@ -16,3 +17,4 @@ xdotool
 yay
 bat
 youtube-dl
+terminator
