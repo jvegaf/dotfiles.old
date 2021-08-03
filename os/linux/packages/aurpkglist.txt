@@ -1,3 +1,4 @@
 intellij-idea-community-edition-jre
 visual-studio-code-bin
 gitkraken
+whatsdesk-bin
