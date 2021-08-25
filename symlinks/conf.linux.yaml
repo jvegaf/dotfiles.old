@@ -8,5 +8,4 @@
 - link:  
     ~/.Xresources: os/linux/.Xresources
     ~/.local/share/fonts: fonts
-    ~/.config/terminator/plugins: os/linux/configs/terminator/plugins
-    ~/.vscode/terminator/plugins: os/linux/configs/terminator/plugins
+    ~/.config/terminator: os/linux/configs/terminator
