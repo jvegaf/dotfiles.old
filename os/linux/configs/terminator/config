@@ -1,0 +1,21 @@
+[global_config]
+  window_state = maximise
+  title_transmit_bg_color = "#000000"
+  title_inactive_bg_color = "#3d3846"
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, SearchPlugin
+  title_font = Cascadia Mono PL 12
+[keybindings]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    font = Cascadia Mono PL 12
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
