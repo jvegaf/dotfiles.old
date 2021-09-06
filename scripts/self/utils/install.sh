@@ -18,16 +18,12 @@ install_macos_custom() {
 }
 
 
-install_aur_packages() {
-  aurpkgs=$(cat "$DOTFILES_PATH/os/linux/packages/aurpkglist.txt")
-  yay -S $aurpkgs --noconfirm
-}
-
-install_linux_custom() {
-  sudo pacman -S --noconfirm --needed - < "$DOTFILES_PATH/os/linux/packages/pkglist.txt"
+install_common_packages() {
+  sh "$DOTFILES_PATH/os/linux/packages/common_packages.sh"
 }
 
 install_linux_extra() {
+  sh "$DOTFILES_PATH/os/linux/packages/chrome_setup.sh"
   #emoji-menu       https://github.com/jchook/emoji-menu
   wget 'https://bit.ly/emoji-menu'
   chmod +x emoji-menu
