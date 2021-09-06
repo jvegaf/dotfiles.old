@@ -23,10 +23,9 @@ if platform::is_macos; then
 fi
 
 if platform::is_linux; then
-  log::note "Installing Linux 🐧 custom packages"
+  log::note "Installing Linux 🐧 packages"
 
-  install_linux_custom
-  install_aur_packages
+  install_common_packages
   log::note "Installing Linux 🐧 extras"
 
   install_linux_extra
@@ -42,8 +41,8 @@ fi
 #log::note "Installing npm packages"
 #xargs sudo npm install -g <"$DOTFILES_PATH/langs/js/global_modules.txt"
 
-#log::note "Setting ZSH as the default shell"
-#sudo usermod -s "$(which zsh)"
+log::note "Setting ZSH as the default shell"
+sudo usermod -s "$(which zsh)"
 # chsh -s "$(command -v zsh)"
 
 
