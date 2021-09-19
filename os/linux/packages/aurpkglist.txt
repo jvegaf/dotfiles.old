@@ -1,5 +1,6 @@
 intellij-idea-community-edition-jre
 visual-studio-code-bin
 gitkraken
-whatsdesk-bin
-zsh-theme-powerlevel10k-git
+kicad-nighlty
+kicad-library-nightly
+kicad-library-3d-nightly
