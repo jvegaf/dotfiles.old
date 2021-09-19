@@ -5,11 +5,9 @@ docker-compose
 jdk11-openjdk
 java11-openjfx
 gradle
-neofetch
 nodejs-lts-fermium
 npm6
 rofi
-tldr
 vim
 vlc
 xclip
@@ -17,4 +15,3 @@ xdotool
 yay
 bat
 youtube-dl
-terminator

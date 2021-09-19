@@ -1,6 +1,6 @@
 intellij-idea-community-edition-jre
 visual-studio-code-bin
 gitkraken
-kicad-nighlty
+kicad-nightly
 kicad-library-nightly
 kicad-library-3d-nightly
