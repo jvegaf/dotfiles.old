@@ -12,6 +12,7 @@ export path=(
   "$DOTFILES_PATH/bin"
   "$GEM_HOME/bin"
   "$GOPATH/bin"
+  "$HOME/.local/bin"
   "$HOME/.cargo/bin"
   "/usr/local/opt/ruby/bin"
   "/usr/local/opt/python/libexec/bin"
