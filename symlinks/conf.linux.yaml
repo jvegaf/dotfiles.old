@@ -5,8 +5,7 @@
       create: true
       force: true
 
-- link:  
-    ~/.dotly: os/linux/.dotly    
-    ~/.Xresources: os/linux/.Xresources
+- link:
+    ~/.dotly: os/linux/.dotly
     ~/.local/share/fonts: fonts
     ~/.config/terminator: os/linux/configs/terminator

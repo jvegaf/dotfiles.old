@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+source "$DOTFILES_PATH/scripts/a-self/utils/install.sh"
+
+
+##? Install the packages needed
+#?? 1.0.0
+##?
+##? Usage:
+##?   install
+
+docs::parse "$@"
+
+log::note "Installing Linux 🐧 packages"
+
+install_common_packages
+log::note "Installing Linux 🐧 extras"
+
+install_linux_extra
+
+#log::note "Installing python packages"
+#pip3 install -r "$DOTFILES_PATH/langs/python/requirements.txt" || true
+#pip3 install -r "$DOTFILES_PATH/langs/python/requirements.txt"
+
+#log::note "Installing php packages"
+#composer global install
+
+#log::note "Installing npm packages"
+#xargs sudo npm install -g <"$DOTFILES_PATH/langs/js/global_modules.txt"
+

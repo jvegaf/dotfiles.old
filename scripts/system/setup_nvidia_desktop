@@ -2,14 +2,19 @@
 
 set -euo pipefail
 
-source "$DOTFILES_PATH/scripts/core/_main.sh"
+source "$DOTLY_PATH/scripts/core/_main.sh"
 
 ##? Setup nvidia 1660 config files to manage brightness 
 #?? 1.0.0
 ##?
 ##? Usage:
 ##?   setup_nvidia_desktop
-docs::eval "$@"
+docs::parse "$@"
+
+sudo add-apt-repository ppa:rockowitz/ddcutil -y
+sudo apt-get update
+
+sudo apt-get install -y ddcutil
 
 config_path="$DOTFILES_PATH/os/linux/configs/nvidia_desktop"
 
