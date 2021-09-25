@@ -1,5 +1,4 @@
 [global_config]
-  window_state = maximise
   title_transmit_bg_color = "#000000"
   title_inactive_bg_color = "#3d3846"
   enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, SearchPlugin
@@ -9,7 +8,7 @@
   [[default]]
     cursor_color = "#aaaaaa"
     font = Cascadia Mono PL 12
-    use_system_font = False
+    use_theme_colors = True
 [layouts]
   [[default]]
     [[[window0]]]

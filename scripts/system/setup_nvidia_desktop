@@ -18,5 +18,11 @@ sudo apt-get install -y ddcutil
 
 config_path="$DOTFILES_PATH/os/linux/configs/nvidia_desktop"
 
+if [ -d "/etc/X11/xorg.conf.d/" ];then
+    echo "xorg.conf.d exists "
+else
+    sudo mkdir "/etc/X11/xorg.conf.d"
+fi
+
 sudo cp "$config_path/90-nvidia_i2c.conf" "/etc/X11/xorg.conf.d/"
 sudo cp "$config_path/60-i2c-tools.rules" "/lib/udev/rules.d/"
