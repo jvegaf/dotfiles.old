@@ -1,5 +1,8 @@
 #!/bin/user/env bash
 
+install_homebrew() {
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+}
 
 install_common_packages() {
   sh "$DOTFILES_PATH/os/linux/packages/common_packages.sh"

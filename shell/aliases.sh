@@ -27,7 +27,7 @@ alias gcl="git clone"
 
 # Utils
 alias idea='intellij-idea-community'
-alias mp='mousepad '
+alias more='moar'
 alias k='kill -9'
 alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'

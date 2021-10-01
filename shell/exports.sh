@@ -12,6 +12,7 @@ export CODELY_THEME_PWD_MODE="short" # full, short, home_relative
 export JAVA_HOME='/Library/Java/JavaVirtualMachines/amazon-corretto-15.jdk/Contents/Home'
 export GEM_HOME="$HOME/.gem"
 export GOPATH="$HOME/.go"
+export HOMEBREW_BUNDLE_FILE="$DOTFILES_PATH/os/linux/brew/Brewfile"
 
 # ------------------------------------------------------------------------------
 # Apps
@@ -43,5 +44,6 @@ export path=(
   "/usr/bin"
   "/usr/sbin"
   "/sbin"
-  "/snap/bin"  
+  "/snap/bin"
+  "/home/linuxbrew/.linuxbrew/bin"  
 )

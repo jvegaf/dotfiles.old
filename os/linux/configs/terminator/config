@@ -8,7 +8,7 @@
   [[default]]
     cursor_color = "#aaaaaa"
     font = Cascadia Mono PL 12
-    use_theme_colors = True
+    foreground_color = "#ffffff"
 [layouts]
   [[default]]
     [[[window0]]]

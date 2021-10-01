@@ -15,11 +15,16 @@ source "$DOTFILES_PATH/scripts/a-self/utils/install.sh"
 docs::parse "$@"
 
 log::note "Installing Linux 🐧 packages"
-
 install_common_packages
-log::note "Installing Linux 🐧 extras"
 
+log::note "Installing Linux 🐧 extras"
 install_linux_extra
+
+log::note "Installing HomeBrew 🍺 packages"
+install_homebrew
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+brew bundle
+
 
 #log::note "Installing python packages"
 #pip3 install -r "$DOTFILES_PATH/langs/python/requirements.txt" || true
