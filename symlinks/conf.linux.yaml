@@ -9,3 +9,4 @@
     ~/.dotly: os/linux/.dotly
     ~/.local/share/fonts: fonts
     ~/.config/terminator: os/linux/configs/terminator
+    ~/.config/libinput-gestures.conf: os/linux/configs/gestures/libinput-gestures.conf    
