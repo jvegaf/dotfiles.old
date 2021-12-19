@@ -13,6 +13,7 @@ alias dotfiles='cd $DOTFILES_PATH'
 alias gaa="git add -A"
 alias gc='$DOTLY_PATH/bin/dot git commit'
 alias gca="git add --all && git commit --amend --no-edit"
+alias gcm="git commit -m"
 alias gco="git checkout"
 alias gd='$DOTLY_PATH/bin/dot git pretty-diff'
 alias gs="git status -sb"
