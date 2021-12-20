@@ -4,13 +4,7 @@ sudo apt -y install software-properties-common
 
 sudo apt update
 sudo apt upgrade -y
-sudo apt-get -y install tldr python3-pip vlc build-essential htop screenfetch wget docker.io docker-compose vim simplescreenrecorder rofi xclip xdotool grep coreutils locate
-
-#Liberica JDK
-wget https://download.bell-sw.com/java/11.0.11+9/bellsoft-jdk11.0.11+9-linux-amd64.deb
-sudo apt install -y ./bellsoft-jdk11.0.11+9-linux-amd64.deb
-sudo rm -rf bellsoft-jdk11.0.11+9-linux-amd64.deb
-
+sudo apt-get -y install tldr python3-pip vlc build-essential htop screenfetch wget docker.io docker-compose vim simplescreenrecorder rofi xclip xdotool grep coreutils locate openjdk-17-jdk
 
 sudo systemctl start docker
 sudo systemctl enable docker
