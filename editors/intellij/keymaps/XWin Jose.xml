@@ -1,6 +1,16 @@
 <keymap version="1" name="XWin Jose" parent="Default for XWin">
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift alt k" />
+  </action>
+  <action id="EditorToggleColumnMode">
+    <keyboard-shortcut first-keystroke="shift alt back_slash" />
+  </action>
+  <action id="HippieBackwardCompletion" />
   <action id="MoveTabRight">
-    <keyboard-shortcut first-keystroke="shift alt f2" />
+    <keyboard-shortcut first-keystroke="shift alt slash" />
+  </action>
+  <action id="NewClass">
+    <keyboard-shortcut first-keystroke="shift alt c" />
   </action>
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="shift alt d" />
@@ -8,6 +18,7 @@
   <action id="NewTypeScriptFile">
     <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
+  <action id="RecentChanges" />
   <action id="hg4idea.QFold" />
   <action id="tasks.goto" />
 </keymap>
