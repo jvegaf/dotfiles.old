@@ -6,7 +6,7 @@ jdk11-openjdk
 java11-openjfx
 gradle
 nodejs-lts-fermium
-npm6
+npm
 rofi
 vim
 vlc
