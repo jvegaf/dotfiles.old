@@ -20,8 +20,8 @@ export PATH="$HOME/.cargo/bin:$PATH"
 chsh -s `which zsh`
 
 
-read -rp "🤔  Where do you want to clone the dotfiles? (default ~/.dotfiles): " DOTFILES_PATH
-echo
+# read -rp "🤔  Where do you want to clone the dotfiles? (default ~/.dotfiles): " DOTFILES_PATH
+# echo
 #DOTFILES_PATH="${DOTFILES_PATH:-~/.dotfiles}"
 export DOTFILES_PATH="$HOME/.dotfiles"
 echo "👉  Cloning into: '$DOTFILES_PATH'"
