@@ -15,9 +15,10 @@ echo
 echo "Installing previuos dependencies"
 sudo apt-get update && sudo apt-get install -y fzf rustc cargo fonts-powerline
 
-chsh -s `which zsh`
-cargo install exa docpars git-delta
 export PATH="$HOME/.cargo/bin:$PATH"
+
+chsh -s `which zsh`
+
 
 read -rp "🤔  Where do you want to clone the dotfiles? (default ~/.dotfiles): " DOTFILES_PATH
 echo
@@ -34,4 +35,5 @@ echo "Installing dotly 🌚"
 echo "Installing Linux Packages"
 "$DOTLY_PATH/bin/dot" a-self install
 
+cargo install exa docpars git-delta
 
