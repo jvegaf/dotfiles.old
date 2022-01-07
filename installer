@@ -13,7 +13,7 @@ echo "-------------------------------------------------"
 echo
 
 echo "Installing previuos dependencies"
-sudo apt-get update && sudo apt-get install -y fzf rustc cargo fonts-powerline
+sudo apt-get update && sudo apt-get install -y fzf fonts-powerline
 
 export PATH="$HOME/.cargo/bin:$PATH"
 
