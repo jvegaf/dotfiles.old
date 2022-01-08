@@ -2,3 +2,4 @@ google-chrome
 intellij-idea-community-edition-jre
 visual-studio-code-bin
 gitkraken
+1password
