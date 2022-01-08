@@ -17,7 +17,7 @@ sudo pacman -S --noconfirm --needed base-devel rust fzf
 cargo install exa docpars
 export PATH="$HOME/.cargo/bin:$PATH"
 
-read -rp "🤔  Where do you want to clone the dotfiles? (default ~/.dotfiles): " DOTFILES_PATH
+#read -rp "🤔  Where do you want to clone the dotfiles? (default ~/.dotfiles): " DOTFILES_PATH
 echo
 #DOTFILES_PATH="${DOTFILES_PATH:-~/.dotfiles}"
 export DOTFILES_PATH="$HOME/.dotfiles"
@@ -28,3 +28,7 @@ git clone --branch arch --single-branch --recurse-submodules -j8 --depth 1 https
 export DOTLY_PATH="$DOTFILES_PATH/modules/dotly"
 
 "$DOTLY_PATH/bin/dot" self install
+
+"$DOTLY_PATH/bin/dot" setup install
+
+
