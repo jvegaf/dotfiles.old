@@ -2,8 +2,6 @@ tree
 ddcutil
 docker
 docker-compose
-jdk11-openjdk
-java11-openjfx
 gradle
 nodejs-lts-fermium
 npm
