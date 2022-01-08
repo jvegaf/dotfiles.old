@@ -6,6 +6,8 @@ export FZF_DEFAULT_OPTS='
   --reverse
 '
 
+export JAVA_HOME="/usr/lib/jvm/liberica-jdk-full"
+
 export path=(
   "$HOME/opt"
   "$DOTLY_PATH/bin"
@@ -22,5 +24,5 @@ export path=(
   "/usr/bin"
   "/usr/sbin"
   "/sbin"
-  "/snap/bin"  
+  "/usr/share/jetbrains-idea-ce/bin" 
 )

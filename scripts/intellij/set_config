@@ -29,7 +29,9 @@ ln -s -i "$DOTFILES_PATH/editors/intellij/editor.xml" "$intellij_options_folder/
 
 ln -s -i "$DOTFILES_PATH/editors/intellij/Code Style/" "$intellij_options_folder/codestyles"
 
-ln -s -i "$DOTFILES_PATH/editors/intellij/linux.keymaps/" "$intellij_config_folder/linux.keymaps"
+ln -s -i "$DOTFILES_PATH/editors/intellij/keymaps/" "$intellij_config_folder/keymaps"
+
+ln -s -i "$DOTFILES_PATH/editors/intellij/linux/" "$intellij_options_folder/linux"
 
 echo "Applied settings to path: $intellij_config_folder"
 echo "Done for $intellij_version!"
