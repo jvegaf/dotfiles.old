@@ -7,7 +7,9 @@ alias l="exa -l"
 alias la="exa -la"
 alias ~="cd ~"
 alias cdc="cd ~/Code"
-alias dotfiles='cd $DOTFILES_PATH'
+alias cddf="code $DOTFILES_PATH"
+alias dotfiles="cd $DOTFILES_PATH"
+
 
 # Git
 alias gaa="git add -A"
@@ -32,7 +34,7 @@ alias more='moar'
 alias k='kill -9'
 alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
-alias o.='(nemo $PWD &>/dev/null &)'
+alias o.='(nautilus $PWD &>/dev/null &)'
 alias up='dot package update_all'
 
 alias ddc='ddcutil setvcp 0x10 '

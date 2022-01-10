@@ -9,11 +9,9 @@ export CODELY_THEME_PWD_MODE="short" # full, short, home_relative
 # ------------------------------------------------------------------------------
 # Languages
 # ------------------------------------------------------------------------------
-export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
 export GEM_HOME="$HOME/.gem"
 export GOPATH="$HOME/.go"
 export HOMEBREW_BUNDLE_FILE="$DOTFILES_PATH/os/linux/brew/Brewfile"
-export PATH_TO_FX="/opt/javafx17/lib"
 # ------------------------------------------------------------------------------
 # Apps
 # ------------------------------------------------------------------------------
@@ -29,8 +27,6 @@ export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
 # Path - The higher it is, the more priority it has
 # ------------------------------------------------------------------------------
 export path=(
-  "$JAVA_HOME"
-  "$PATH_TO_FX"
   "$HOME/opt"
   "$DOTLY_PATH/bin"
   "$DOTFILES_PATH/bin"

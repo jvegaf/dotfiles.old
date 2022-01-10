@@ -1,14 +1,20 @@
 [global_config]
+  handle_size = 3
+  tab_position = hidden
   title_transmit_bg_color = "#000000"
   title_inactive_bg_color = "#3d3846"
   enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, SearchPlugin
   title_font = Cascadia Mono PL 12
+  putty_paste_style_source_clipboard = True
 [keybindings]
 [profiles]
   [[default]]
+    background_darkness = 0.83
+    background_type = transparent
     cursor_color = "#aaaaaa"
-    font = Cascadia Mono PL 12
+    font = IBM Plex Mono 11
     foreground_color = "#ffffff"
+    use_system_font = False
 [layouts]
   [[default]]
     [[[window0]]]
