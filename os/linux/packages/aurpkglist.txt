@@ -1,7 +1,6 @@
+1password
+gitkraken
 google-chrome
 intellij-idea-community-edition-jre
-visual-studio-code-bin
-gitkraken
-1password
 liberica-jdk-full-bin
-
+visual-studio-code-bin

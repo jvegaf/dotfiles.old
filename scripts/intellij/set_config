@@ -16,22 +16,18 @@ log::note "Setting Intellij Config"
 preferences_dir="$HOME/.config/JetBrains"
 intellij_version=$(ls "$preferences_dir" | grep 'IdeaIC' | sort -r | head -n 1)
 intellij_config_folder="$preferences_dir/$intellij_version"
-intellij_options_folder="$intellij_config_folder/options"
 
 rm -rf "$intellij_config_folder/idea64.vmoptions"
 ln -s -i "$DOTFILES_PATH/editors/intellij/idea.vmoptions" "$intellij_config_folder/idea64.vmoptions"
 
-rm -rf "$intellij_options_folder/ide.general.xml"
-ln -s -i "$DOTFILES_PATH/editors/intellij/ide.general.xml" "$intellij_options_folder/ide.general.xml"
+rm -rf "$intellij_config_folder/codestyles"
+ln -s -i "$DOTFILES_PATH/editors/intellij/codestyles/" "$intellij_config_folder/codestyles"
 
-rm -rf "$intellij_options_folder/editor.xml"
-ln -s -i "$DOTFILES_PATH/editors/intellij/editor.xml" "$intellij_options_folder/editor.xml"
-
-ln -s -i "$DOTFILES_PATH/editors/intellij/Code Style/" "$intellij_options_folder/codestyles"
-
+rm -rf "$intellij_config_folder/keymaps"
 ln -s -i "$DOTFILES_PATH/editors/intellij/keymaps/" "$intellij_config_folder/keymaps"
 
-ln -s -i "$DOTFILES_PATH/editors/intellij/linux/" "$intellij_options_folder/linux"
+rm -rf "$intellij_config_folder/options" 
+ln -s -i "$DOTFILES_PATH/editors/intellij/options/" "$intellij_config_folder/options"
 
 echo "Applied settings to path: $intellij_config_folder"
 echo "Done for $intellij_version!"

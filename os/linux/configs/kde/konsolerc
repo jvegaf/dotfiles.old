@@ -1,0 +1,8 @@
+[Desktop Entry]
+DefaultProfile=Jose Dark.profile
+
+[MainWindow][Toolbar mainToolBar]
+IconSize=16
+
+[UiSettings]
+ColorScheme=Default

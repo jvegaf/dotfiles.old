@@ -8,7 +8,8 @@ alias la="exa -la"
 alias ~="cd ~"
 alias cdc="cd ~/Code"
 alias cdf="code $DOTFILES_PATH"
-alias dotf="cd $DOTFILES_PATH"
+alias dotfiles="cd $DOTFILES_PATH"
+alias v="bat"
 
 # Git
 alias gaa="git add -A"
@@ -35,7 +36,7 @@ alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias o.='(dolphin $PWD &>/dev/null &)'
 alias up='dot package update_all'
-alias dfsc='dot setup commmit_changes'
+alias dfcc='dot setup commmit_changes'
 
 alias ddc='ddcutil setvcp 0x10 '
 alias ddcx='ddcutil setvcp 0x10 0'
