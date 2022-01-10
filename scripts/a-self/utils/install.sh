@@ -14,6 +14,9 @@ install_linux_extra() {
   
   sh "$DOTFILES_PATH/os/linux/packages/1password_setup.sh"
   echo "1Password installed"
+
+  sh "$DOTFILES_PATH/os/linux/packages/github_cli.sh"
+  echo "Github CLI installed"  
   
   #emoji-menu       https://github.com/jchook/emoji-menu
   wget 'https://bit.ly/emoji-menu'
