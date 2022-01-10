@@ -16,13 +16,11 @@ echo "Installing previuos dependencies"
 sudo apt-get update && sudo apt-get install -y fzf fonts-powerline
 
 export PATH="$HOME/.cargo/bin:$PATH"
+cargo install exa docpars git-delta
 
 chsh -s `which zsh`
 
 
-# read -rp "🤔  Where do you want to clone the dotfiles? (default ~/.dotfiles): " DOTFILES_PATH
-# echo
-#DOTFILES_PATH="${DOTFILES_PATH:-~/.dotfiles}"
 export DOTFILES_PATH="$HOME/.dotfiles"
 echo "👉  Cloning into: '$DOTFILES_PATH'"
 
@@ -34,6 +32,4 @@ echo "Installing dotly 🌚"
 
 echo "Installing Linux Packages"
 "$DOTLY_PATH/bin/dot" a-self install
-
-cargo install exa docpars git-delta
 

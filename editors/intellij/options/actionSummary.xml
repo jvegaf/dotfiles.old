@@ -1,0 +1,226 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="1" l="1641670961065" />
+    </e>
+    <e n="$Undo">
+      <i c="2" l="1641676959538" />
+    </e>
+    <e n="ChangeKeymap">
+      <i c="1" d="1" l="1641669134378" k="1641669134378" />
+    </e>
+    <e n="ChangeLaf">
+      <i c="3" l="1641668961138" />
+    </e>
+    <e n="ChangesView.Revert">
+      <i c="1" l="1641680829837" />
+    </e>
+    <e n="CollapseSelection">
+      <i c="2" l="1641676623801" />
+    </e>
+    <e n="CommentByLineComment">
+      <i c="4" l="1641676657323" />
+    </e>
+    <e n="ConfigureIcs">
+      <i c="1" l="1641809965939" />
+    </e>
+    <e n="Debug">
+      <i c="4" l="1641676661398" />
+    </e>
+    <e n="EditSource">
+      <i c="1" l="1641667239764" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="157" l="1641810208452" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="5" l="1641676860948" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="11" l="1641676827371" />
+    </e>
+    <e n="EditorCopy">
+      <i c="2" l="1641671218276" />
+    </e>
+    <e n="EditorCut">
+      <i c="3" l="1641680515810" />
+    </e>
+    <e n="EditorDown">
+      <i c="375" l="1641680517841" />
+    </e>
+    <e n="EditorDownWithSelection">
+      <i c="53" l="1641677106370" />
+    </e>
+    <e n="EditorDuplicate">
+      <i c="4" l="1641669589067" />
+    </e>
+    <e n="EditorEnter">
+      <i c="13" l="1641680518409" />
+    </e>
+    <e n="EditorEscape">
+      <i c="2" l="1641677305911" />
+    </e>
+    <e n="EditorLeft">
+      <i c="104" l="1641677308081" />
+    </e>
+    <e n="EditorLeftWithSelection">
+      <i c="22" l="1641677107511" />
+    </e>
+    <e n="EditorNextWord">
+      <i c="73" l="1641677105079" />
+    </e>
+    <e n="EditorNextWordWithSelection">
+      <i c="61" l="1641680513992" />
+    </e>
+    <e n="EditorPaste">
+      <i c="14" l="1641810194063" />
+    </e>
+    <e n="EditorPreviousWord">
+      <i c="62" l="1641677105464" />
+    </e>
+    <e n="EditorPreviousWordWithSelection">
+      <i c="44" l="1641680514346" />
+    </e>
+    <e n="EditorRight">
+      <i c="70" l="1641677291508" />
+    </e>
+    <e n="EditorRightWithSelection">
+      <i c="16" l="1641676540685" />
+    </e>
+    <e n="EditorScrollDown">
+      <i c="2" l="1641669406586" />
+    </e>
+    <e n="EditorUnindentSelection">
+      <i c="5" l="1641671284261" />
+    </e>
+    <e n="EditorUp">
+      <i c="533" l="1641677307783" />
+    </e>
+    <e n="EditorUpWithSelection">
+      <i c="25" l="1641677309095" />
+    </e>
+    <e n="ExportSettings">
+      <i c="1" l="1641809890377" />
+    </e>
+    <e n="ExternalSystem.ProjectRefreshAction">
+      <i c="1" l="1641667653934" />
+    </e>
+    <e n="ExternalSystem.RunTask">
+      <i c="1" l="1641667303760" />
+    </e>
+    <e n="Git.Commit.And.Push.Executor">
+      <i c="3" l="1641680927302" />
+    </e>
+    <e n="MoveLineDown">
+      <i c="8" l="1641669584432" />
+    </e>
+    <e n="MoveLineUp">
+      <i c="21" l="1641669592095" />
+    </e>
+    <e n="MoveStatementDown">
+      <i c="6" l="1641671138217" />
+    </e>
+    <e n="MoveStatementUp">
+      <i c="9" l="1641671138762" />
+    </e>
+    <e n="OptimizeImports">
+      <i c="2" l="1641680858172" />
+    </e>
+    <e n="QuickChangeScheme">
+      <i c="3" l="1641668958452" />
+    </e>
+    <e n="ReformatCode">
+      <i c="3" d="1" l="1641669593376" k="1641669106943" />
+    </e>
+    <e n="Run">
+      <i c="8" l="1641680593947" />
+    </e>
+    <e n="RunAnything">
+      <i c="4" l="1641677109000" />
+    </e>
+    <e n="SaveAll">
+      <i c="5" l="1641671294930" />
+    </e>
+    <e n="SearchEverywhere">
+      <i c="4" l="1641669127810" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="8" l="1641677300171" />
+    </e>
+    <e n="ShowSettings">
+      <i c="2" l="1641668966687" />
+    </e>
+    <e n="Stop">
+      <i c="4" l="1641680826603" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="3" l="1641676596925" />
+    </e>
+    <e n="Tree-selectChild">
+      <i c="5" l="1641668969461" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="18" l="1641668970432" />
+    </e>
+    <e n="Tree-selectParent">
+      <i c="1" l="1641668023691" />
+    </e>
+    <e n="Tree-selectPrevious">
+      <i c="5" l="1641668968764" />
+    </e>
+    <e n="com.intellij.application.options.schemes.AbstractSchemeActions$CopyAction">
+      <i c="1" l="1641667944492" />
+    </e>
+    <e n="com.intellij.application.options.schemes.AbstractSchemesPanel$ShowSchemesActionsListAction">
+      <i c="1" l="1641667943602" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="4" l="1641809873626" />
+    </e>
+    <e n="com.intellij.ide.actions.QuickChangeKeymapAction$1">
+      <i c="1" l="1641669137674" />
+    </e>
+    <e n="com.intellij.ide.actions.QuickChangeLookAndFeel$1">
+      <i c="1" l="1641668809731" />
+    </e>
+    <e n="com.intellij.ide.actions.QuickChangeLookAndFeel$LafChangeAction">
+      <i c="1" l="1641668965127" />
+    </e>
+    <e n="com.intellij.ide.plugins.newui.TabbedPaneHeaderComponent$3">
+      <i c="1" l="1641809342965" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="3" l="1641668803664" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="3" l="1641671439472" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
+      <i c="5" l="1641669273020" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$EditShortcutAction">
+      <i c="1" l="1641668033554" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$RemoveShortcutAction">
+      <i c="2" l="1641669218732" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="7" l="1641677110971" />
+    </e>
+    <e n="com.intellij.openapi.vcs.ex.LocalLineStatusTrackerImpl$LocalLineStatusMarkerRenderer$RollbackLineStatusRangeAction">
+      <i c="1" l="1641676397580" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$3">
+      <i c="3" l="1641809867560" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveDownAction">
+      <i c="1" l="1641669130229" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveUpAction">
+      <i c="1" l="1641669130864" />
+    </e>
+    <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+      <i c="3" l="1641677275151" />
+    </e>
+  </component>
+</application>
