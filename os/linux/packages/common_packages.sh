@@ -4,7 +4,7 @@ sudo apt -y install software-properties-common
 
 sudo apt update
 sudo apt upgrade -y
-sudo apt-get -y install tldr python3-pip vlc build-essential htop screenfetch wget docker.io docker-compose vim simplescreenrecorder rofi xclip xdotool grep coreutils locate openjdk-17-jdk
+sudo apt-get -y install tldr python3-pip vlc build-essential htop screenfetch wget docker.io docker-compose vim simplescreenrecorder rofi xclip xdotool grep coreutils locate
 
 sudo systemctl start docker
 sudo systemctl enable docker
