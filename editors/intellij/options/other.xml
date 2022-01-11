@@ -7,6 +7,11 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="23X0b8oKa6dKyigVgUlVGYR1pMW">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
         <entry key="Default (Template) Project">
           <value>
             <ProjectPluginTracker />
@@ -15,13 +20,24 @@
       </map>
     </trackers>
   </component>
+  <component name="JdkInstallerHistory">
+    <option name="installedItems">
+      <installed-jdk>
+        <option name="fullText" value="Amazon Corretto 16.0.2" />
+        <option name="installDir" value="$USER_HOME$/.jdks/corretto-16.0.2" />
+        <option name="javaHomeDir" value="$USER_HOME$/.jdks/corretto-16.0.2" />
+        <option name="sha256" value="dd2ef25ee1fe842eb5381a6b62af5c17bb2886e96d44df6e39c0831cb42a7a7a" />
+        <option name="url" value="https://corretto.aws/downloads/latest/amazon-corretto-16-x64-linux-jdk.tar.gz" />
+        <option name="versionText" value="16.0.2" />
+      </installed-jdk>
+    </option>
+  </component>
   <component name="PropertiesComponent">
     <property name="CWM_LOGGING_VERSION" value="1" />
     <property name="KEYMAP" value="close&#10;split&#10;rearra&#10;format" />
-    <property name="MarketplacePluginsSearchHistory" value="codely&#10;codel&#10;c&#10;javafx&#10;ka" />
+    <property name="MarketplacePluginsSearchHistory" value="/tag:Theme&#10;codely&#10;codel&#10;c&#10;javafx" />
     <property name="NonModalCommitCustomization.IsApplied" value="true" />
-    <property name="PluginConfigurable.selectionTab" value="1" />
-    <property name="appcds.runOnSecondStart" value="IC-213.6461.79-d63a2a3a423a0a160bbac29bd3f190bd15faf9aa5668a9a8fb6f5615f2fa2aa3" />
+    <property name="appcds.runOnSecondStart" value="IC-213.6461.79-809d164461b1f2efd44a0b8a2f8b004af72eadabff45c00c2221917a174facfd" />
     <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
     <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="build.toolwindow.run.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
@@ -29,7 +45,7 @@
     <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Sources" />
     <property name="defaultJdkConfigured" value="true" />
     <property name="eclipse.projects.detected" value="" />
-    <property name="file.gist.reindex.count" value="7" />
+    <property name="file.gist.reindex.count" value="11" />
     <property name="fileTypeChangedCounter" value="1" />
     <property name="fileTypeDetectors" value="com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector:com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
