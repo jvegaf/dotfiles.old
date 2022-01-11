@@ -77,7 +77,7 @@
     <feature id="ui.close.other.editors" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="debugger.evaluate.expression" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.quickjavadoc.lookup" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="ui.scheme.quickswitch" count="4" last-shown="0" last-used="1641865291718" shown-count="0" />
+    <feature id="ui.scheme.quickswitch" count="5" last-shown="0" last-used="1641911755667" shown-count="0" />
     <feature id="codeassists.highlight.implements" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.highlight.usages" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.smarttype.general" count="0" last-shown="1641677289971" last-used="0" shown-count="13" />

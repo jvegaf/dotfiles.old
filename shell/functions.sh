@@ -21,10 +21,12 @@ function recent_dirs() {
 
 function pacinst() {
   sudo pacman -S "$1" --noconfirm &&
-  echo "$1" >> "$DOTFILES_PATH"/os/linux/packages/pkglist.txt 
+  echo "$1" >> "$DOTFILES_PATH/os/linux/packages/pkglist.txt" 
+  echo "$1 installed :white_check_mark:"
 }
 
 function yayinst() {
   yay -S "$1" --noconfirm &&
-  echo "$1" >> "$DOTFILES_PATH"/os/linux/packages/aurpkglist.txt
+  echo "$1" >> "$DOTFILES_PATH/os/linux/packages/aurpkglist.txt"
+  echo "$1 installed :white_check_mark:"
 }

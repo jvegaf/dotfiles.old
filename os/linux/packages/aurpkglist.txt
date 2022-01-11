@@ -4,3 +4,4 @@ google-chrome
 intellij-idea-community-edition-jre
 liberica-jdk-full-bin
 visual-studio-code-bin
+sublime-text-4

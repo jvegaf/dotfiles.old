@@ -12,6 +12,11 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="23YWxBgt2sQP0wW198lHE51AaXh">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
         <entry key="Default (Template) Project">
           <value>
             <ProjectPluginTracker />
@@ -45,7 +50,7 @@
     <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Sources" />
     <property name="defaultJdkConfigured" value="true" />
     <property name="eclipse.projects.detected" value="" />
-    <property name="file.gist.reindex.count" value="11" />
+    <property name="file.gist.reindex.count" value="17" />
     <property name="fileTypeChangedCounter" value="1" />
     <property name="fileTypeDetectors" value="com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector:com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />

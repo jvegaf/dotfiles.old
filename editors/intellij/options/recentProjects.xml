@@ -4,12 +4,13 @@
       <map>
         <entry key="$USER_HOME$/Code/MusikBOX">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="23X0b8oKa6dKyigVgUlVGYR1pMW">
+            <RecentProjectMetaInfo frameTitle="musikbox" opened="true" projectWorkspaceId="23YWxBgt2sQP0wW198lHE51AaXh">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-213.6461.79" />
-              <option name="buildTimestamp" value="1640708773955" />
+              <option name="buildTimestamp" value="1640708793232" />
+              <frame x="0" y="0" width="1920" height="1036" extendedState="6" />
               <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1641865193633" />
+              <option name="projectOpenTimestamp" value="1641911745992" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
