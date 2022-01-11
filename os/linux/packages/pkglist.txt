@@ -24,3 +24,5 @@ github-cli
 kicad
 kicad-library
 kicad-library-3d
+git-delta
+transmission
