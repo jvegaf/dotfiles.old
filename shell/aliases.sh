@@ -1,5 +1,5 @@
-#!/bin/sh
-alias sudo='sudo !!'
+#!/usr/bin/sh
+alias sudo='sudo '
 
 alias ..="cd .."
 alias ...="cd ../.."
@@ -37,7 +37,7 @@ alias c.='(code $PWD &>/dev/null &)'
 alias o.='(dolphin $PWD &>/dev/null &)'
 alias up='$DOTLY_PATH/bin/dot package update_all'
 alias cddf='code $DOTFILES_PATH'
-alias dsave='$DOTLY_PATH/bin/dot setup commmit_changes'
+alias dsave='$DOTLY_PATH/bin/dot setup commit_changes'
 alias ddc='ddcutil setvcp 0x10 '
 alias ddcx='ddcutil setvcp 0x10 0'
 alias ddcv='ddcutil setvcp 0x10 100'
