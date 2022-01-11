@@ -10,3 +10,6 @@
     ~/.Xresources: os/linux/.Xresources
     ~/.local/share/fonts: fonts
     ~/.config/terminator: os/linux/configs/terminator
+    ~/.config/konsolerc: os/linux/configs/kde/konsolerc
+    ~/.local/share/konsole: os/linux/configs/local_share/konsole
+
