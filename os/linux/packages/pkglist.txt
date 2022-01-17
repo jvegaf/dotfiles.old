@@ -24,6 +24,3 @@ github-cli
 kicad
 kicad-library
 kicad-library-3d
-git-delta
-latte-dock
-kvantum-qt5

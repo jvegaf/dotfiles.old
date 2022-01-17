@@ -5,8 +5,4 @@ intellij-idea-community-edition-jre
 liberica-jdk-full-bin
 visual-studio-code-bin
 sublime-text-4
-kvantum-qt5-git
-latte-dock-git
-albert-git
-tabby-git
 tor-browser
