@@ -9,6 +9,7 @@ alias ~="cd ~"
 alias cdc="cd ~/Code"
 alias cddf="code $DOTFILES_PATH"
 alias dotfiles="cd $DOTFILES_PATH"
+alias logout="gnome-session-quit"
 
 
 # Git
