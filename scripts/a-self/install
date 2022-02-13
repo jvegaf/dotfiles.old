@@ -17,13 +17,19 @@ docs::parse "$@"
 log::note "Installing Linux 🐧 packages"
 install_common_packages
 
-log::note "Installing Linux 🐧 extras"
-install_linux_extra
-
 log::note "Installing HomeBrew 🍺 packages"
 install_homebrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+export HOMEBREW_BUNDLE_FILE="$DOTFILES_PATH/os/linux/brew/Brewfile"
 brew bundle
+
+if grep -qEi "(Microsoft|WSL)" /proc/version &> /dev/null ; then
+    log::note "Linux 🐧 extras are not required on WSL 😅"
+else
+    log::note "Installing Linux 🐧 extras"
+    install_linux_extra
+fi
+
 
 
 #log::note "Installing python packages"
