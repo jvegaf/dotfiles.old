@@ -1,5 +1,5 @@
 
-os/linux/icons/hicolor
+os/linux/icons/hicolor/
 editors/intellij/options/features.usage.statistics.xml
 editors/intellij/options/actionSummary.xml
 editors/intellij/options/jdk.table.xml
