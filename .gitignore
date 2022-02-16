@@ -9,7 +9,6 @@ editors/intellij/options/ui.lnf.xml
 editors/intellij/options/shared-indexes.xml
 editors/intellij/options/features.usage.statistics.xml
 editors/intellij/options/actionSummary.xml
-fonts/Da*
 .lh/
 os/linux/configs/terminator/plugins/__pycache__/
 editors/intellij/options/actionSummary.xml
@@ -25,3 +24,4 @@ editors/intellij/options/trusted-paths.xml
 editors/intellij/options/updates.xml
 editors/intellij/options/usage.statistics.xml
 editors/intellij/options/window.state.xml
+fonts/Da*
