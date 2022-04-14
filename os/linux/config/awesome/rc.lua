@@ -21,7 +21,7 @@ beautiful.init(gfs.get_configuration_dir() .. "theme/theme.lua")
 
 -- Default Applications
 terminal = "alacritty"
-editor = terminal .. " -e " .. os.getenv("EDITOR")
+editor = "nvim"
 vscode = "code"
 browser = "firefox"
 launcher = "rofi -show drun -theme " .. theme_dir .. "rofi.rasi"

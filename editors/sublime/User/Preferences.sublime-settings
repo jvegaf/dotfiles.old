@@ -10,4 +10,8 @@
 	"close_windows_when_empty": true,
 	
 
+	"ignored_packages":
+	[
+		"Vintage",
+	],
 }

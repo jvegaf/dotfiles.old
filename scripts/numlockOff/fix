@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+source "$DOTFILES_PATH/scripts/numlockOff/utils/fix.sh"
+
+
+##? Fix the numlock bug in Xubuntu
+#?? 1.0.0
+##?
+##? Usage:
+##?   fix
+
+docs::parse "$@"
+
+
+fix_unlock
+log::note "Numlock disabled 🔓"
