@@ -8,5 +8,9 @@
 - link:
     ~/.dotly: os/linux/.dotly
     ~/.local/share/fonts: fonts
-    ~/.config/terminator: os/linux/configs/terminator
-    ~/.config/libinput-gestures.conf: os/linux/configs/gestures/libinput-gestures.conf    
+    ~/.config/terminator: os/linux/config/terminator
+    ~/.config/nvim: editors/nvim
+    ~/.config/sublime-text/Packages/User: editors/sublime/User
+    ~/.config/awesome: os/linux/config/awesome
+    ~/.config/kitty: os/linux/config/kitty
+    ~/.config/libinput-gestures.conf: os/linux/config/gestures/libinput-gestures.conf    

@@ -5,5 +5,6 @@ zmodule zimfw/input
 zmodule zsh-users/zsh-autosuggestions
 zmodule zsh-users/zsh-syntax-highlighting
 zmodule zimfw/completion
+zmodule romkatv/powerlevel10k --use degit
 
 zhighlighters=(main brackets)

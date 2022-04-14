@@ -31,12 +31,15 @@ alias gcl="git clone"
 
 # Utils
 alias idea='intellij-idea-community'
-alias more='moar'
+alias vim='nvim'
+alias v='nvim'
+alias cat='bat'
 alias k='kill -9'
+alias grep='grep --color=auto'
 alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias pc.='(pycharm-community $PWD &>/dev/null &)'
-alias o.='(nemo $PWD &>/dev/null &)'
+alias o.='(thunar $PWD &>/dev/null &)'
 alias up='dot package update_all'
 alias qtdesigner='(qt6-tools designer $PWD &>/dev/null &)'
 
