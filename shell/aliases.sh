@@ -7,7 +7,9 @@ alias l="exa -l"
 alias la="exa -la"
 alias ~="cd ~"
 alias cdc="cd ~/Code"
-alias cddf="code $DOTFILES_PATH"
+alias doc="cd ~/Documents"
+alias dw="cd ~/Downloads"
+alias dt="cd ~/Desktop"
 alias dotfiles="cd $DOTFILES_PATH"
 alias logout="gnome-session-quit"
 
@@ -33,7 +35,7 @@ alias gcl="git clone"
 alias idea='intellij-idea-community'
 alias vim='nvim'
 alias v='nvim'
-alias cat='bat'
+alias c='bat'
 alias k='kill -9'
 alias grep='grep --color=auto'
 alias i.='(idea $PWD &>/dev/null &)'
