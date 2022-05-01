@@ -1,0 +1,8 @@
+1password
+gitkraken
+google-chrome
+intellij-idea-community-edition-jre
+liberica-jdk-full-bin
+visual-studio-code-bin
+sublime-text-4
+tor-browser

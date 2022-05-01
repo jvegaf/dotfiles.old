@@ -1,28 +1,33 @@
 #!/bin/user/env bash
 
-install_homebrew() {
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-}
-
 install_common_packages() {
-  sh "$DOTFILES_PATH/os/linux/packages/common_packages.sh"
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/common_packages.sh"
   echo "Common packages installed"
 
-  sh "$DOTFILES_PATH/os/linux/packages/nodejs-setup.sh"
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/nodejs-setup.sh"
   echo "Node JS installed"
 }
 
+install_arch_common_packages() {
+  sudo pacman -S --noconfirm --needed - < "$DOTFILES_PATH/os/linux/packages/arch/pkglist.txt"
+}
+
+install_arch_linux_extra() {
+  aurpkgs=$(cat "$DOTFILES_PATH/os/linux/packages/arch/aurpkglist.txt")
+  paru -S "$aurpkgs" --noconfirm --needed
+}
+
 install_linux_extra() {
-  sh "$DOTFILES_PATH/os/linux/packages/chrome_setup.sh"
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/chrome_setup.sh"
   echo "Chrome installed"
   
-  sh "$DOTFILES_PATH/os/linux/packages/1password_setup.sh"
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/1password_setup.sh"
   echo "1Password installed"
 
-  sh "$DOTFILES_PATH/os/linux/packages/github_cli.sh"
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/github_cli.sh"
   echo "Github CLI installed"
 
-  sh "$DOTFILES_PATH/os/linux/packages/docker_setup.sh"
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/docker_setup.sh"
   echo "Docker installed"
   
     
