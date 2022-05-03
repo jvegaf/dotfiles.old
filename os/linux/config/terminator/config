@@ -19,7 +19,6 @@
     foreground_color = "#ffffff"
     show_titlebar = False
     scrollback_lines = 1000
-    use_system_font = False
     copy_on_selection = True
   [[Light]]
     background_color = "#fdf6e3"
