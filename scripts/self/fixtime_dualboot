@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+source "$DOTFILES_PATH/scripts/self/utils/changes.sh"
+
+##? Fix time problem in dual boot
+#?? 1.0.0
+##?
+##? Usage:
+##?   fixtime_dualboot  
+docs::parse "$@"
+
+timedatectl set-local-rtc 1
+log::note "Dual boot Time ⏲️ fixed ✌️"
+
+

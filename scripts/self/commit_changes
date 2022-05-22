@@ -3,7 +3,7 @@
 set -euo pipefail
 
 source "$DOTLY_PATH/scripts/core/_main.sh"
-source "$DOTFILES_PATH/scripts/a-self/utils/changes.sh"
+source "$DOTFILES_PATH/scripts/self/utils/changes.sh"
 
 ##? Commit dotfiles changes and push to repository
 #?? 1.0.0
