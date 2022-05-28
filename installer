@@ -21,7 +21,7 @@ else
 fi
 
 export PATH="$HOME/.cargo/bin:$PATH"
-cargo install exa docpars bat git-delta
+cargo install docpars bat git-delta
 
 export DOTFILES_PATH="$HOME/.dotfiles"
 echo "👉  Cloning into: '$DOTFILES_PATH'"
@@ -33,5 +33,5 @@ echo "Installing dotly 🌚"
 "$DOTLY_PATH/bin/dot" self install
 
 echo "Installing Linux Packages"
-"$DOTLY_PATH/bin/dot" self install
+"$DOTFILES_PATH/bin/dot" self install
 
