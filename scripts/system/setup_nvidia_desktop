@@ -11,9 +11,9 @@ source "$DOTLY_PATH/scripts/core/_main.sh"
 ##?   setup_nvidia_desktop
 docs::parse "$@"
 
-sudo apt-get update
+# sudo apt-get update
 
-sudo apt-get install -y ddcutil
+# sudo apt-get install -y ddcutil
 
 config_path="$DOTFILES_PATH/os/linux/config/nvidia_desktop"
 

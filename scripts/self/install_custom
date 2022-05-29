@@ -6,11 +6,11 @@ source "$DOTLY_PATH/scripts/core/_main.sh"
 source "$DOTFILES_PATH/scripts/self/utils/install.sh"
 
 
-##? Install the packages needed
+##? Install the linux packages needed
 #?? 1.0.0
 ##?
 ##? Usage:
-##?   install
+##?   install_custom
 
 docs::parse "$@"
 

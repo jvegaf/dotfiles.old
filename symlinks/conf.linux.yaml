@@ -14,3 +14,11 @@
     ~/.config/awesome: os/linux/config/awesome
     ~/.config/kitty: os/linux/config/kitty
     ~/.config/libinput-gestures.conf: os/linux/config/gestures/libinput-gestures.conf    
+    ~/.config/alacritty: os/linux/config/alacritty
+    ~/.config/mpd: os/linux/config/mpd
+    ~/.config/ncmpcpp: os/linux/config/ncmpcpp
+    ~/.config/starship: os/linux/config/starship
+    ~/.config/wfuzz: os/linux/config/wfuzz
+    ~/.config/neofetch: os/linux/config/neofetch
+    ~/.profile: os/linux/.profile
+    ~/.Xresources: os/linux/.Xresources

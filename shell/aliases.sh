@@ -34,7 +34,6 @@ alias gl='$DOTLY_PATH/bin/dot git pretty-log'
 alias gsw="git switch"
 
 # Utils
-alias idea='intellij-idea-community'
 alias vim='nvim'
 alias v='nvim'
 alias c='bat'
