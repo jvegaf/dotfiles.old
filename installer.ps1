@@ -354,7 +354,7 @@ $WinGet = @(
     "TeamViewer.TeamViewer",
     "Google.Chrome",
     "10186emoacht.Monitorian_0q7myvhtpbc7w",
-    "21090PaddyXu.QuickLook_egxr34yet59cg",
+    "21090PaddyXu.QuickLook_egxr34yet59cg"
     )
 foreach ($item in $WinGet) {
     Install-WinGetApp -PackageID "$item"
@@ -378,7 +378,7 @@ if ($HomeWorkstation) {
 # Install Chocolatey Packages
 $Choco = @(
     "sublimetext4",
-    "1password",
+    "1password"
 )
 foreach ($item in $Choco) {
     Install-ChocoApp -Package "$item"
