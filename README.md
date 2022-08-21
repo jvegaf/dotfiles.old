@@ -3,7 +3,6 @@
 </h1>
 
 ## 🚀 Installation
-```bash
-sudo apt install zsh curl git -y && \
-bash <(curl -s https://raw.githubusercontent.com/jvegaf/dotfiles/main/installer)
+```pwsh
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/jvegaf/dotfiles/win/installer.ps1'))
 ```
