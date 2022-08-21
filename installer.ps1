@@ -144,7 +144,7 @@ if ((Get-ExecutionPolicy -Scope CurrentUser) -notcontains "Unrestricted") {
     Write-Verbose -Message "Setting Execution Policy for Current User..."
     Start-Process -FilePath "PowerShell" -ArgumentList "Set-ExecutionPolicy","-Scope","CurrentUser","-ExecutionPolicy","Unrestricted","-Force" -Verb RunAs -Wait
     Write-Output "Restart/Re-Run script!!!"
-    Start-Sleep -Seconds 10
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/jvegaf/dotfiles/win/installer.ps1'))
     Break
 }
 
