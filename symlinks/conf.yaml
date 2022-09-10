@@ -16,6 +16,7 @@
     ~/.zlogin: shell/zsh/.zlogin
     ~/.zshenv: shell/zsh/.zshenv
     ~/.zshrc: shell/zsh/.zshrc
+    ~/.p10k.zsh: shell/zsh/.p10k.zsh
     ~/.inputrc: shell/.inputrc
     ~/.gitconfig: git/.gitconfig
     ~/.gitattributes: git/.gitattributes

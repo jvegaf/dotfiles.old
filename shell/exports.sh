@@ -39,11 +39,9 @@ export path=(
   "/usr/local/opt/python/libexec/bin"
   "/usr/local/bin"
   "/usr/local/sbin"
-  "/opt/intellij-idea-ue-eap/bin"
   "/bin"
   "/usr/bin"
   "/usr/sbin"
   "/sbin"
   "/snap/bin"
-  "/home/linuxbrew/.linuxbrew/bin"  
 )
