@@ -20,5 +20,10 @@
     ~/.config/starship: os/linux/config/starship
     ~/.config/wfuzz: os/linux/config/wfuzz
     ~/.config/neofetch: os/linux/config/neofetch
+    ~/.config/rofi: os/linux/config/rofi
+    ~/.config/polybar: os/linux/config/polybar
+    ~/.config/sxhkd: os/linux/config/sxhkd
+    ~/.config/picom: os/linux/config/picom
+    ~/.config/i3: os/linux/config/i3
     ~/.profile: os/linux/.profile
     ~/.Xresources: os/linux/.Xresources
