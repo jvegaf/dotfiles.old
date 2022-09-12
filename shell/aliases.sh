@@ -36,7 +36,7 @@ alias gsw="git switch"
 # Utils
 alias vim='nvim'
 alias v='nvim'
-alias c='bat'
+alias b='bat'
 alias k='kill -9'
 alias grep='grep --color=auto'
 alias i.='(idea $PWD &>/dev/null &)'

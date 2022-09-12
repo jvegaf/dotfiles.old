@@ -37,3 +37,14 @@ source "$DOTFILES_PATH/shell/zsh/key-bindings.zsh"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 (( ! ${+functions[p10k]} )) || p10k finalize
+
+bindkey "^[[1;3C" forward-word
+bindkey "^[[1;3D" backward-word
+
+# ctrl+backspace: delete word before
+bindkey '^H' backward-kill-word
+# ctrl+delete: delete word after
+bindkey "\e[3;5~" kill-word
+
+# Disable the capslock key and map it to escape
+setxkbmap -option caps:backspace

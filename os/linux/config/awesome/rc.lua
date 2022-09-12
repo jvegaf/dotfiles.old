@@ -21,9 +21,9 @@ beautiful.init(gfs.get_configuration_dir() .. "theme/theme.lua")
 terminal = "kitty"
 editor = terminal .. " -e " .. os.getenv("EDITOR")
 vscode = "code"
-browser = "firefox"
+browser = "google-chrome-stable"
 launcher = "rofi -show drun -theme " .. os.getenv("HOME") .. "/.config/awesome/theme/rofi.rasi"
-file_manager = "nautilus"
+file_manager = "nemo"
 music_client = terminal .. " --class music -e ncmpcpp"
 
 -- Weather API
@@ -37,6 +37,19 @@ screen_height = awful.screen.focused().geometry.height
 
 -- Autostart
 awful.spawn.with_shell(gfs.get_configuration_dir() .. "configuration/autostart")
+
+-- Gestures
+ awful.key({ modkey }, "a",
+         function ()
+             awful.layout.set(awful.layout.suit.corner.nw)
+             for _, c in ipairs(client.get()) do
+                 if c.maximized then
+                     c.maximized = not c.maximized
+                     c:raise()
+                 end 
+             end
+         end,
+        {description = "show all open windows of workspace", group = "client"})
 
 -- Import Configuration
 require("configuration")
