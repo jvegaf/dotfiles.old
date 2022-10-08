@@ -104,10 +104,10 @@ theme.widget_border_width = dpi(2)
 theme.widget_border_color = theme.darker_bg
 
 -- Radius
-theme.border_radius = dpi(12)
-theme.client_radius = dpi(10)
-theme.dashboard_radius = dpi(10)
-theme.widget_radius = dpi(10)
+theme.border_radius = dpi(0)
+theme.client_radius = dpi(0)
+theme.dashboard_radius = dpi(0)
+theme.widget_radius = dpi(0)
 
 -- Taglist
 local taglist_square_size = dpi(0)
@@ -292,7 +292,7 @@ theme.machi_editor_border_opacity = 0.25
 theme.machi_editor_active_opacity = 0.25
 
 -- Tag Preview
-theme.tag_preview_client_border_radius = dpi(6)
+theme.tag_preview_client_border_radius = dpi(0)
 theme.tag_preview_client_opacity = 0.1
 theme.tag_preview_client_bg = theme.xbackground
 theme.tag_preview_client_border_color = theme.darker_bg

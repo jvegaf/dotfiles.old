@@ -172,3 +172,57 @@ Sep 21 02:11 : config: option 'buffer_time' on line 23 was not recognized
 Sep 21 02:11 : config: option 'max_client' on line 38 was not recognized
 Sep 26 00:33 : config: option 'buffer_time' on line 23 was not recognized
 Sep 26 00:33 : config: option 'max_client' on line 38 was not recognized
+Sep 26 02:47 : config: option 'buffer_time' on line 23 was not recognized
+Sep 26 02:47 : config: option 'max_client' on line 38 was not recognized
+Sep 26 02:48 : client: [0] command "close" during idle
+Sep 30 13:25 : config: option 'buffer_time' on line 23 was not recognized
+Sep 30 13:25 : config: option 'max_client' on line 38 was not recognized
+Sep 30 13:34 : config: option 'buffer_time' on line 23 was not recognized
+Sep 30 13:34 : config: option 'max_client' on line 38 was not recognized
+Sep 30 15:48 : exception: Not playing
+Sep 30 19:51 : config: option 'buffer_time' on line 23 was not recognized
+Sep 30 19:51 : config: option 'max_client' on line 38 was not recognized
+Oct 02 00:22 : config: option 'buffer_time' on line 23 was not recognized
+Oct 02 00:22 : config: option 'max_client' on line 38 was not recognized
+Oct 02 04:36 : client: [0] command "close" during idle
+Oct 02 05:01 : config: option 'buffer_time' on line 23 was not recognized
+Oct 02 05:01 : config: option 'max_client' on line 38 was not recognized
+Oct 02 19:08 : config: option 'buffer_time' on line 23 was not recognized
+Oct 02 19:08 : config: option 'max_client' on line 38 was not recognized
+Oct 03 00:40 : exception: Not playing
+Oct 03 00:40 : exception: Not playing
+Oct 03 00:40 : exception: Not playing
+Oct 03 00:40 : exception: Not playing
+Oct 03 00:40 : exception: Not playing
+Oct 03 00:40 : exception: Not playing
+Oct 03 01:11 : config: option 'buffer_time' on line 23 was not recognized
+Oct 03 01:11 : config: option 'max_client' on line 38 was not recognized
+Oct 05 00:21 : config: option 'buffer_time' on line 23 was not recognized
+Oct 05 00:21 : config: option 'max_client' on line 38 was not recognized
+Oct 05 00:21 : client: [0] command "close" during idle
+Oct 05 23:26 : config: option 'buffer_time' on line 23 was not recognized
+Oct 05 23:26 : config: option 'max_client' on line 38 was not recognized
+Oct 05 23:33 : config: option 'buffer_time' on line 23 was not recognized
+Oct 05 23:33 : config: option 'max_client' on line 38 was not recognized
+Oct 06 00:50 : config: option 'buffer_time' on line 23 was not recognized
+Oct 06 00:50 : config: option 'max_client' on line 38 was not recognized
+Oct 06 01:27 : config: option 'buffer_time' on line 23 was not recognized
+Oct 06 01:27 : config: option 'max_client' on line 38 was not recognized
+Oct 06 01:29 : config: option 'buffer_time' on line 23 was not recognized
+Oct 06 01:29 : config: option 'max_client' on line 38 was not recognized
+Oct 07 02:19 : config: option 'buffer_time' on line 23 was not recognized
+Oct 07 02:19 : config: option 'max_client' on line 38 was not recognized
+Oct 07 02:23 : config: option 'buffer_time' on line 23 was not recognized
+Oct 07 02:23 : config: option 'max_client' on line 38 was not recognized
+Oct 07 15:53 : config: option 'buffer_time' on line 23 was not recognized
+Oct 07 15:53 : config: option 'max_client' on line 38 was not recognized
+Oct 07 15:57 : client: [0] command "close" during idle
+Oct 07 23:03 : config: option 'buffer_time' on line 23 was not recognized
+Oct 07 23:03 : config: option 'max_client' on line 38 was not recognized
+Oct 07 23:03 : exception: Not playing
+Oct 07 23:04 : exception: Not playing
+Oct 07 23:04 : exception: Not playing
+Oct 07 23:40 : config: option 'buffer_time' on line 23 was not recognized
+Oct 07 23:40 : config: option 'max_client' on line 38 was not recognized
+Oct 07 23:46 : config: option 'buffer_time' on line 23 was not recognized
+Oct 07 23:46 : config: option 'max_client' on line 38 was not recognized

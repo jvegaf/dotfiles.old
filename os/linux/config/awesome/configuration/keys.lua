@@ -25,6 +25,7 @@ local machi = require("module.layout-machi")
 local helpers = require("helpers")
 
 -- Default modkey.
+-- modkey = "Mod1"
 modkey = "Mod4"
 alt = "Mod1"
 ctrl = "Control"
