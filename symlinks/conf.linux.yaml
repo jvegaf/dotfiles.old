@@ -1,4 +1,4 @@
-- clean: ['~']
+- clean: ["~"]
 
 - defaults:
     link:
@@ -9,11 +9,11 @@
     ~/.dotly: os/linux/.dotly
     ~/.local/share/fonts: fonts
     ~/.config/terminator: os/linux/config/terminator
-    ~/.config/nvim: editors/nvim
+    ~/.config/nvim/lua/user: editors/nvim/lua/user
     ~/.config/sublime-text/Packages/User: editors/sublime/User
     ~/.config/awesome: os/linux/config/awesome
     ~/.config/kitty: os/linux/config/kitty
-    ~/.config/libinput-gestures.conf: os/linux/config/gestures/libinput-gestures.conf    
+    ~/.config/libinput-gestures.conf: os/linux/config/gestures/libinput-gestures.conf
     ~/.config/alacritty: os/linux/config/alacritty
     ~/.config/mpd: os/linux/config/mpd
     ~/.config/ncmpcpp: os/linux/config/ncmpcpp
