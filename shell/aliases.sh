@@ -4,7 +4,7 @@ alias sudo='sudo '
 alias ..="cd .."
 alias ...="cd ../.."
 alias l="exa -l"
-alias la="exa -la"
+alias ll="exa -la"
 alias ~="cd ~"
 alias cdc="cd ~/Code"
 alias doc="cd ~/Documents"
@@ -43,7 +43,7 @@ alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias v.='(nvim $PWD &>/dev/null &)'
 alias pc.='(pycharm-community $PWD &>/dev/null &)'
-alias o.='(thunar $PWD &>/dev/null &)'
+alias o.='(nemo $PWD &>/dev/null &)'
 alias up='dot package update_all'
 
 alias ddc='ddcutil setvcp 0x10 '
