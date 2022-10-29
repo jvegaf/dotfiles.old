@@ -33,5 +33,5 @@ echo "Installing dotly 🌚"
 "$DOTLY_PATH/bin/dot" self install
 
 echo "Installing Linux Packages"
-"$DOTFILES_PATH/bin/dot" self install_custom
+"$DOTLY_PATH/bin/dot" self install_custom
 
