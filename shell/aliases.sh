@@ -3,8 +3,8 @@ alias sudo='sudo '
 
 alias ..="cd .."
 alias ...="cd ../.."
-alias l="exa -l"
-alias ll="exa -la"
+alias l="lsd -l"
+alias ll="lsd -la"
 alias ~="cd ~"
 alias cdc="cd ~/Code"
 alias doc="cd ~/Documents"
@@ -12,7 +12,7 @@ alias dw="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias dotfiles="cd $DOTFILES_PATH"
 alias logout="gnome-session-quit"
-alias apsr="apt-cache search"
+alias nvcfg="cd ~/.config/nvim"
 
 
 # Git
