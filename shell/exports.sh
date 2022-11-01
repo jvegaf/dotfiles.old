@@ -43,5 +43,6 @@ export path=(
   "/usr/bin"
   "/usr/sbin"
   "/sbin"
-  "/snap/bin"
+  "/snap/bin",
+  "$HOME/.platformio/penv/bin"
 )

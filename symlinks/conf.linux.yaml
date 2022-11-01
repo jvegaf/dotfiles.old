@@ -9,7 +9,6 @@
     ~/.dotly: os/linux/.dotly
     ~/.local/share/fonts: fonts
     ~/.config/terminator: os/linux/config/terminator
-    ~/.config/nvim: editors/nvim
     ~/.config/sublime-text/Packages/User: editors/sublime/User
     ~/.config/awesome: os/linux/config/awesome
     ~/.config/kitty: os/linux/config/kitty
