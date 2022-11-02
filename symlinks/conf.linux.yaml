@@ -21,6 +21,7 @@
     ~/.config/neofetch: os/linux/config/neofetch
     ~/.config/rofi: os/linux/config/rofi
     ~/.config/polybar: os/linux/config/polybar
+    ~/.config/ranger: os/linux/config/ranger
     ~/.config/sxhkd: os/linux/config/sxhkd
     ~/.config/picom: os/linux/config/picom
     ~/.config/i3: os/linux/config/i3
