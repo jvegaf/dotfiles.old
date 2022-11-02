@@ -16,6 +16,7 @@ alias nvcfg="cd ~/.config/nvim"
 
 
 # Git
+alias g="lazygit"
 alias gaa="git add -A"
 alias gb="git branch"
 alias gba="git branch --all"
