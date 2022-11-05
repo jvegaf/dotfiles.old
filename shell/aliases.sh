@@ -11,7 +11,7 @@ alias doc="cd ~/Documents"
 alias dw="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias dotfiles="cd $DOTFILES_PATH"
-alias logout="gnome-session-quit"
+alias logout="xfce4-session-logout"
 alias nvcfg="cd ~/.config/nvim"
 
 

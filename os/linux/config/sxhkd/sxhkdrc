@@ -9,16 +9,16 @@ super + Return
 # program launcher
 #super + @space
 super + d
-	rofi -show run
+	rofi -show drun
   #dmenu_run
 
 # launch browser
 super + w
-  google-chrome
+  google-chrome-stable
 
 #launch filemanager
 super + f
-  nautilus
+  nemo
 
 # make sxhkd reload its configuration files:
 super + Escape
