@@ -25,5 +25,6 @@
     ~/.config/sxhkd: os/linux/config/sxhkd
     ~/.config/picom: os/linux/config/picom
     ~/.config/i3: os/linux/config/i3
+    ~/.config/PrusaSlicer: os/linux/config/PrusaSlicer
     ~/.profile: os/linux/.profile
     ~/.Xresources: os/linux/.Xresources
