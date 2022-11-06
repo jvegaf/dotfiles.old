@@ -8,4 +8,4 @@ export VISUAL=nvim;
 export EDITOR=nvim;
 export SUDO_PROMPT="passwd: "
 
-export LIBGL_ALWAYS_SOFTWARE=1
+#export LIBGL_ALWAYS_SOFTWARE=1

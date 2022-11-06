@@ -11,7 +11,7 @@ alias doc="cd ~/Documents"
 alias dw="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias dotfiles="cd $DOTFILES_PATH"
-alias logout="xfce4-session-logout"
+alias logout="gnome-session-quit"
 alias nvcfg="cd ~/.config/nvim"
 
 
@@ -44,7 +44,7 @@ alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias v.='(nvim $PWD &>/dev/null &)'
 alias pc.='(pycharm-community $PWD &>/dev/null &)'
-alias o.='(nemo $PWD &>/dev/null &)'
+alias o.='(nautilus $PWD &>/dev/null &)'
 alias up='dot package update_all'
 
 alias ddc='ddcutil setvcp 0x10 '

@@ -17,3 +17,4 @@ configuration {
 }
 
 @import "rafa-theme.rasi"
+@theme "/usr/share/rofi/themes/arthur.rasi"
