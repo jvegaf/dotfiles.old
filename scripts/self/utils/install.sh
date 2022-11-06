@@ -1,7 +1,7 @@
 #!/bin/user/env bash
 
 install_common_packages() {
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/common_packages.sh"
+  sh "$DOTFILES_PATH/os/linux/packages/:wqxBuntu/common_packages.sh"
   echo "Common packages installed"
 
   sh "$DOTFILES_PATH/os/linux/packages/xBuntu/nodejs-setup.sh"
@@ -9,7 +9,8 @@ install_common_packages() {
 }
 
 install_arch_common_packages() {
-  sudo pacman -S --noconfirm --needed - < "$DOTFILES_PATH/os/linux/packages/arch/pkglist.txt"
+  #sudo pacman -S --noconfirm --needed - < "$DOTFILES_PATH/os/linux/packages/arch/pkglist.txt"
+  sh "$DOTFILES_PATH/os/linux/packages/arch/paru_setup.sh"
 }
 
 install_arch_linux_extra() {

@@ -5,6 +5,10 @@ pacman -S --needed --noconfirm - < pkglist.txt
 
 # Save
 pacman -Qqen > pkglist.txt
+pacman -Qqem > aurpkglist.txt
+
+
+pacman -Qqe > allpkglist.txt
 
 </br></br>
 
