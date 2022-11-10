@@ -5,6 +5,7 @@ sudo pacman -S --needed --noconfirm docker docker-compose
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo usermod -aG docker $USER
+sudo groupadd dialout
 sudo usermod -aG dialout $USER
 
 #docker-clean
