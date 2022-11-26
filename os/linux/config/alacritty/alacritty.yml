@@ -16,19 +16,19 @@ window:
 ## Font
 font:
   normal:
-    family: FiraCode Nerd Font Mono
+    family: ComicCodeLigaturesNF
     style: Regular
 
   bold:
-    family: Firaode Nerd Font Mono
+    family: ComicCodeLigaturesNF
     style: Bold
 
   italic:
-    family: Vicor Mono Font Light
+    family: ComicCodeLigaturesNF
     style: Italic
 
   bold_italic:
-    family: Victor Mono Font
+    family: ComicCodeLigaturesNF
     style: Bold Italic
 
   size: 9

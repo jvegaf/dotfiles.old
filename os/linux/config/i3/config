@@ -65,7 +65,7 @@ bindsym $mod+shift+delete exec --no-startup-id systemctl poweroff -i
 bindsym $mod+f exec nemo
 bindsym $mod+shift+p exec flameshot gui
 bindsym $mod+d exec rofi -show drun
-bindsym $mod+w exec brave
+bindsym $mod+w exec chromium
 #rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/polybar/scripts/rofi/launcher.rasi
 
 # change focus
