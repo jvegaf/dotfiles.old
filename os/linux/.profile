@@ -1,6 +1,5 @@
 # path
 export PATH="$HOME/.local/bin:$PATH"
-export PATH="$HOME/.cargo/bin:$PATH"
 
 #env
 export TODO_PATH="$HOME/.todo"
@@ -9,3 +8,4 @@ export EDITOR=nvim;
 export SUDO_PROMPT="passwd: "
 
 #export LIBGL_ALWAYS_SOFTWARE=1
+. "$HOME/.cargo/env"

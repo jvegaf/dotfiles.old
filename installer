@@ -17,7 +17,8 @@ if grep -qEi "(archlinux)" /proc/version &> /dev/null ; then
     # sudo pacman -S git base-devel rustup --noconfirm --needed
 else 
     echo "Installing previuos dependencies"
-    sudo apt-get update && sudo apt-get install -y build-essential rustc cargo fzf fonts-powerline
+    sudo apt-get update && sudo apt-get install -y build-essential fzf fonts-powerline
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 fi
 
 export PATH="$HOME/.cargo/bin:$PATH"

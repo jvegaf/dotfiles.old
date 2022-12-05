@@ -13,6 +13,7 @@ alias dt="cd ~/Desktop"
 alias dotfiles="cd $DOTFILES_PATH"
 alias logout="gnome-session-quit"
 alias nvcfg="cd ~/.config/nvim"
+alias lvcfg="cd ~/.config/lvim"
 alias r='ranger'
 
 # Git

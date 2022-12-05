@@ -3,6 +3,7 @@
 set -euo pipefail
 
 source "$DOTLY_PATH/scripts/core/_main.sh"
+source "$DOTFILES_PATH/scripts/self/utils/fonts-setup.sh"
 source "$DOTFILES_PATH/scripts/self/utils/install.sh"
 
 
@@ -13,6 +14,9 @@ source "$DOTFILES_PATH/scripts/self/utils/install.sh"
 ##?   install_custom
 
 docs::parse "$@"
+
+log::note "Installing fonts "
+install_fonts
 
 if grep -qEi "(archlinux)" /proc/version &> /dev/null ; then
     #TODO: install paru
