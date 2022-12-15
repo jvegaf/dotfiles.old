@@ -26,5 +26,6 @@
     ~/.config/i3: os/linux/config/i3
     ~/.config/PrusaSlicer: os/linux/config/PrusaSlicer
     ~/.config/kglobalshortcutsrc: os/linux/config/kglobalshortcutsrc
+    ~/.config/kwinrc: os/linux/config/kwinrc
     ~/.profile: os/linux/.profile
     ~/.Xresources: os/linux/.Xresources
