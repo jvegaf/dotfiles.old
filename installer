@@ -16,6 +16,10 @@ if grep -qEi "(archlinux)" /proc/version &> /dev/null ; then
     echo "Installing previuos dependencies"
     sudo pacman -S git base-devel rustup --noconfirm --needed
     rustup default stable
+elif grep -qEi "(manjaro)" /proc/version &> /dev/null ; then
+    echo "Installing previuos dependencies"
+    sudo pacman -S git base-devel rustup --noconfirm --needed
+    rustup default stable
 else 
     echo "Installing previuos dependencies"
     sudo apt-get update && sudo apt-get install -y build-essential fzf fonts-powerline
