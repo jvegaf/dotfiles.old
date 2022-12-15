@@ -6,7 +6,7 @@ export CODELY_THEME_MODE="dark"
 export CODELY_THEME_PROMPT_IN_NEW_LINE=false
 export CODELY_THEME_PWD_MODE="short" # full, short, home_relative
 export EDITOR="$HOME/.local/bin/lvim"
- ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 # Languages
 # ------------------------------------------------------------------------------
 export GEM_HOME="$HOME/.gem"
@@ -16,9 +16,9 @@ export HOMEBREW_BUNDLE_FILE="$DOTFILES_PATH/os/linux/brew/Brewfile"
 # Apps
 # ------------------------------------------------------------------------------
 if [ "$CODELY_THEME_MODE" = "dark" ]; then
-  fzf_colors="pointer:#ebdbb2,bg+:#3c3836,fg:#ebdbb2,fg+:#fbf1c7,hl:#8ec07c,info:#928374,header:#fb4934"
+	fzf_colors="pointer:#ebdbb2,bg+:#3c3836,fg:#ebdbb2,fg+:#fbf1c7,hl:#8ec07c,info:#928374,header:#fb4934"
 else
-  fzf_colors="pointer:#db0f35,bg+:#d6d6d6,fg:#808080,fg+:#363636,hl:#8ec07c,info:#928374,header:#fffee3"
+	fzf_colors="pointer:#db0f35,bg+:#d6d6d6,fg:#808080,fg+:#363636,hl:#8ec07c,info:#928374,header:#fffee3"
 fi
 
 export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
@@ -27,22 +27,22 @@ export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
 # Path - The higher it is, the more priority it has
 # ------------------------------------------------------------------------------
 export path=(
-  "$HOME/bin"
-  "$HOME/opt"
-  "$DOTLY_PATH/bin"
-  "$DOTFILES_PATH/bin"
-  "$GEM_HOME/bin"
-  "$GOPATH/bin"
-  "$HOME/.local/bin"
-  "$HOME/.cargo/bin"
-  "/usr/local/opt/ruby/bin"
-  "/usr/local/opt/python/libexec/bin"
-  "/usr/local/bin"
-  "/usr/local/sbin"
-  "/bin"
-  "/usr/bin"
-  "/usr/sbin"
-  "/sbin"
-  "/snap/bin",
-  "$HOME/.platformio/penv/bin"
+	"$HOME/bin"
+	"$HOME/opt"
+	"$DOTLY_PATH/bin"
+	"$DOTFILES_PATH/bin"
+	"$GEM_HOME/bin"
+	"$GOPATH/bin"
+	"$HOME/.local/bin"
+	"$HOME/.cargo/bin"
+	"/usr/local/opt/ruby/bin"
+	"/usr/local/opt/python/libexec/bin"
+	"/usr/local/bin"
+	"/usr/local/sbin"
+	"/bin"
+	"/usr/bin"
+	"/usr/sbin"
+	"/sbin"
+	"/snap/bin",
+	"$HOME/.platformio/penv/bin"
 )

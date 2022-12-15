@@ -7,7 +7,6 @@
 
 - link:
     ~/.dotly: os/linux/.dotly
-    ~/.local/share/fonts: fonts
     ~/.config/terminator: os/linux/config/terminator
     ~/.config/sublime-text/Packages/User: editors/sublime/User
     ~/.config/awesome: os/linux/config/awesome
@@ -26,5 +25,6 @@
     ~/.config/picom: os/linux/config/picom
     ~/.config/i3: os/linux/config/i3
     ~/.config/PrusaSlicer: os/linux/config/PrusaSlicer
+    ~/.config/kglobalshortcutsrc: os/linux/config/kglobalshortcutsrc
     ~/.profile: os/linux/.profile
     ~/.Xresources: os/linux/.Xresources
