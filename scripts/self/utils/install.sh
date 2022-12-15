@@ -9,8 +9,8 @@ install_common_packages() {
 }
 
 install_arch_common_packages() {
-  #sudo pacman -S --noconfirm --needed - < "$DOTFILES_PATH/os/linux/packages/arch/pkglist.txt"
-  sh "$DOTFILES_PATH/os/linux/packages/arch/paru_setup.sh"
+  sudo pacman -Syyu --noconfirm
+  sudo pacman -S --noconfirm --needed - < "$DOTFILES_PATH/os/linux/packages/arch/pkglist.txt"
 }
 
 install_arch_linux_extra() {
@@ -41,4 +41,12 @@ install_linux_extra() {
 
 install_nvm() {
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+}
+
+paru_setup() {
+  mkdir ~/.opt
+  cd ~/.opt
+  git clone https://aur.archlinux.org/paru.git
+  cd paru
+  makepkg -si
 }
