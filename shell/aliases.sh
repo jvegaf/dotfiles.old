@@ -36,7 +36,7 @@ alias gl='$DOTLY_PATH/bin/dot git pretty-log'
 alias gsw="git switch"
 
 # Utils
-alias v='lvim'
+alias v='nvim'
 alias b='bat'
 alias k='kill -9'
 alias grep='grep --color=auto'
