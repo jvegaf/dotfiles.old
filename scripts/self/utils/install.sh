@@ -4,8 +4,9 @@ install_common_packages() {
   sh "$DOTFILES_PATH/os/linux/packages/xBuntu/common_packages.sh"
   echo "Common packages installed"
 
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/nodejs-setup.sh"
-  echo "Node JS installed"
+  #sh "$DOTFILES_PATH/os/linux/packages/xBuntu/nodejs-setup.sh"
+  
+  #echo "Node JS installed"
 }
 
 install_arch_common_packages() {
