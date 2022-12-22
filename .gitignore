@@ -26,3 +26,7 @@ editors/intellij/options/usage.statistics.xml
 editors/intellij/options/window.state.xml
 fonts/Da*
 os/linux/configs/terminator/plugins/__pycache__/searchplugin.cpython-38.pyc
+_BACKUP_*
+_BASE*
+_LOCAL*
+_REMOTE*
