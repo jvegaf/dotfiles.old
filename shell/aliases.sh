@@ -14,7 +14,7 @@ alias dotfiles="cd $DOTFILES_PATH"
 alias logout="gnome-session-quit"
 alias nvcfg="cd ~/.config/nvim/lua/custom"
 alias lvcfg="cd ~/.config/lvim"
-alias r='ranger'
+alias r="ranger"
 
 # Git
 alias g="lazygit"

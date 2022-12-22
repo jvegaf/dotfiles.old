@@ -29,3 +29,4 @@
     ~/.config/kwinrc: os/linux/config/kwinrc
     ~/.profile: os/linux/.profile
     ~/.Xresources: os/linux/.Xresources
+    ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml: os/linux/config/xfce4/xfce4-keyboard-shortcuts.xml
