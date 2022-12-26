@@ -2,14 +2,18 @@
   focus = system
   handle_size = 3
   tab_position = hidden
+  broadcast_default = all
+  scroll_tabbar = True
+  homogeneous_tabbar = False
   title_transmit_bg_color = "#000000"
   title_inactive_bg_color = "#3d3846"
   enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, SearchPlugin
   title_font = Cascadia Mono PL 12
   putty_paste_style_source_clipboard = True
 [keybindings]
-  split_horiz = <Alt>period
-  split_vert = <Alt>slash
+  split_horiz = <Super>question
+  split_vert = <Super>slash
+  close_term = <Super>x
 [profiles]
   [[default]]
     background_darkness = 0.76
@@ -18,6 +22,7 @@
     font = Cascadia Mono PL 12
     foreground_color = "#ffffff"
     show_titlebar = False
+    scrollbar_position = hidden
     scrollback_lines = 1000
     copy_on_selection = True
   [[Light]]
@@ -36,4 +41,5 @@
     [[[child1]]]
       type = Terminal
       parent = window0
+      profile = default
 [plugins]
