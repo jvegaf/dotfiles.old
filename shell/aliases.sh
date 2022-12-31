@@ -12,9 +12,11 @@ alias dw="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias dotfiles="cd $DOTFILES_PATH"
 alias logout="gnome-session-quit"
+alias avcfg="cd ~/.config/nvim/lua/user"
 alias nvcfg="cd ~/.config/nvim/lua/custom"
 alias lvcfg="cd ~/.config/lvim"
 alias r="ranger"
+alias paru="paru --bottomup"
 
 # Git
 alias g="lazygit"
