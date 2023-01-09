@@ -13,7 +13,7 @@ alias dt="cd ~/Desktop"
 alias dotfiles="cd $DOTFILES_PATH"
 alias logout="gnome-session-quit"
 alias avcfg="cd ~/.config/nvim/lua/user"
-alias nvcfg="cd ~/.config/nvim/lua/custom"
+alias nvcfg="cd ~/.config/nvim/lua"
 alias lvcfg="cd ~/.config/lvim"
 alias r="ranger"
 alias paru="paru --bottomup"
@@ -38,7 +38,7 @@ alias gl='$DOTLY_PATH/bin/dot git pretty-log'
 alias gsw="git switch"
 
 # Utils
-alias v='lvim'
+alias v='nvim'
 alias b='bat'
 alias k='kill -9'
 alias grep='grep --color=auto'
@@ -52,3 +52,7 @@ alias up='dot package update_all'
 alias ddc='ddcutil setvcp 0x10 '
 alias ddcx='ddcutil setvcp 0x10 0'
 alias ddcv='ddcutil setvcp 0x10 100'
+
+# WSL
+alias expl='/mnt/c/Windows/explorer.exe'
+alias winyank='/mnt/c/Users/josev/scoop/shims/win32yank.exe'

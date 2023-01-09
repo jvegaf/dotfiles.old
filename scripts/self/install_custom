@@ -42,6 +42,7 @@ elif grep -qEi "(ubuntu)" /proc/version &> /dev/null ; then
     install_common_packages
     install_linux_extra
 elif grep -qEi "(Microsoft|WSL)" /proc/version &> /dev/null ; then
+    install_nvm
     install_common_packages
     log::note "Linux 🐧 extras are not required on WSL 😅"
 fi
