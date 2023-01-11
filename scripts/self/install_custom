@@ -58,6 +58,6 @@ pip3 install -r "$DOTFILES_PATH/langs/python/requirements.txt" || true
 
 log::note "Installing npm packages"
 #xargs sudo npm install -g <"$DOTFILES_PATH/langs/js/global_modules.txt"
-nvm install --lts
-nvm use --lts
-npm install -g neovim yarn
+#nvm install --lts
+#nvm use --lts
+#npm install -g neovim yarn
