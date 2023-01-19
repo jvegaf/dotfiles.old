@@ -11,5 +11,5 @@ source "$DOTFILES_PATH/scripts/core/_main.sh"
 ##?   dual_boot_fix
 ##?
 
-sudo timedatectl set-local-rtc 1 &&
+sudo timedatectl set-local-rtc 1 --adjust-system-clock
 echo "Time Fixed 👌"

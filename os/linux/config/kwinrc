@@ -9,3 +9,9 @@ Name_2=Desktop 2
 Name_3=Desktop 3
 Number=3
 Rows=1
+
+[Windows]
+RollOverDesktops=true
+
+[Xwayland]
+Scale=1

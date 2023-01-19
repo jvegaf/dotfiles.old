@@ -1,8 +1,6 @@
 1password
 arduino-language-server-bin
-freecad-linkstage3-bin
 google-chrome
-paru
 tor-browser
 ttymidi
 visual-studio-code-bin
