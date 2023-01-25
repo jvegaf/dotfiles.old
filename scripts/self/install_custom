@@ -25,8 +25,8 @@ if grep -qEi "(archlinux)" /proc/version &> /dev/null ; then
     install_nvm
     paru_setup
     # TODO: ask before install extras if are netbook or laptop
-    # log::note "Installing Linux 🐧 extras"
-    # install_arch_linux_extra
+    log::note "Installing Linux 🐧 extras"
+    install_arch_linux_extra
 elif grep -qEi "(manjaro)" /proc/version &> /dev/null ; then
     #TODO: install paru
     log::note "Installing ArchLinux 🐧 packages"
