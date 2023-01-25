@@ -3,6 +3,7 @@ alias sudo='sudo '
 
 alias ..="cd .."
 alias ...="cd ../.."
+alias ....="cd ../../.."
 alias l="lsd -l"
 alias ll="lsd -la"
 alias ~="cd ~"
@@ -13,10 +14,11 @@ alias dt="cd ~/Desktop"
 alias dotfiles="cd $DOTFILES_PATH"
 alias logout="gnome-session-quit"
 alias avcfg="cd ~/.config/nvim/lua/user"
-alias nvcfg="cd ~/.config/nvim/lua"
+alias nvcfg="cd ~/.config/nvim"
 alias lvcfg="cd ~/.config/lvim"
 alias r="ranger"
 alias paru="paru --bottomup"
+alias edalias="nvim $DOTFILES_PATH/shell/aliases.sh"
 
 # Git
 alias g="lazygit"
@@ -46,7 +48,7 @@ alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias v.='(nvim $PWD &>/dev/null &)'
 alias pc.='(pycharm-community $PWD &>/dev/null &)'
-alias o.='(dolphin $PWD &>/dev/null &)'
+alias o.='(nemo $PWD &>/dev/null &)'
 alias up='dot package update_all'
 
 alias ddc='ddcutil setvcp 0x10 '
