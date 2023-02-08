@@ -27,7 +27,7 @@ else
 fi
 
 export PATH="$HOME/.cargo/bin:$PATH"
-cargo install docpars
+cargo install docpars lsd git-delta
 
 export DOTFILES_PATH="$HOME/.dotfiles"
 echo "👉  Cloning into: '$DOTFILES_PATH'"
