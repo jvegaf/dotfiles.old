@@ -49,6 +49,7 @@ bindkey "\e[3;5~" kill-word
 
 # Disable the capslock key and map it to escape
 #setxkbmap -option caps:backspace
+export TERM=xterm-256color
 
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
