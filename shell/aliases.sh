@@ -19,6 +19,8 @@ alias lvcfg="cd ~/.config/lvim"
 alias r="ranger"
 alias paru="paru --bottomup"
 alias edalias="nvim $DOTFILES_PATH/shell/aliases.sh"
+alias run="./run"
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 
 # Git
 alias g="lazygit"
