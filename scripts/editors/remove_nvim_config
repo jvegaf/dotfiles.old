@@ -1,9 +1,32 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$DOTFILES_PATH/scripts/core/_main.sh"
+
+##? Remove Neovim Configurations
+#?? 1.0.0
+##?
+##? Usage:
+##?   remove_nvim_config
+docs::eval "$@"
+
+log::note "Removing Neovim config"
+
+# config_dir="$HOME/.config/nvim"
+local_dir="$HOME/.local/share/nvim"
+cache_dir="$HOME/.cache/nvim"
+
+# rm -rf "$config_dir"
+rm -rf "$local_dir"
+rm -rf "$cache_dir"
+
+log::note "Neovim config removed successfully"
+
+exit 0
 
 
 
 
 
-# packer installation
 
-git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim

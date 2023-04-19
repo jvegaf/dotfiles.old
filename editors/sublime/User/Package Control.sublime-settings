@@ -6,7 +6,10 @@
 	"installed_packages":
 	[
 		"Emoji",
+		"FormatLua",
+		"LuaExtended",
 		"Package Control",
+		"Pretty Lua",
 		"VimL",
 	],
 }

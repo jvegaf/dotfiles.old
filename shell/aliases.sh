@@ -42,6 +42,8 @@ alias gl='$DOTLY_PATH/bin/dot git pretty-log'
 alias gsw="git switch"
 
 # Utils
+alias rmd='rm -rf'
+alias sb="/snap/bin/subl"
 alias v='nvim'
 alias b='bat'
 alias k='kill -9'
@@ -49,6 +51,7 @@ alias grep='grep --color=auto'
 alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias v.='(nvim $PWD &>/dev/null &)'
+alias l.='(lapce $PWD &>/dev/null &)'
 alias pc.='(pycharm-community $PWD &>/dev/null &)'
 alias o.='(nemo $PWD &>/dev/null &)'
 alias up='dot package update_all'
