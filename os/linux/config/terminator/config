@@ -5,10 +5,7 @@
   broadcast_default = all
   scroll_tabbar = True
   homogeneous_tabbar = False
-  title_transmit_bg_color = "#000000"
-  title_inactive_bg_color = "#3d3846"
   enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, SearchPlugin
-  title_font = Cascadia Mono PL 12
   putty_paste_style_source_clipboard = True
 [keybindings]
   split_horiz = <Super>question
@@ -18,7 +15,6 @@
   [[default]]
     background_darkness = 0.76
     background_type = transparent
-    cursor_color = "#aaaaaa"
     font = Cascadia Mono PL 12
     foreground_color = "#ffffff"
     show_titlebar = False
@@ -29,7 +25,6 @@
     background_color = "#fdf6e3"
     background_darkness = 0.68
     background_type = transparent
-    cursor_color = "#aaaaaa"
     foreground_color = "#657b83"
     show_titlebar = False
     copy_on_selection = True

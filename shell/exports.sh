@@ -5,7 +5,8 @@ export CODELY_THEME_MINIMAL=false
 export CODELY_THEME_MODE="dark"
 export CODELY_THEME_PROMPT_IN_NEW_LINE=false
 export CODELY_THEME_PWD_MODE="short" # full, short, home_relative
-export EDITOR="$HOME/.local/bin/lvim"
+export EDITOR="/usr/bin/nvim"
+# export EDITOR="$HOME/.local/bin/lvim"
 # ------------------------------------------------------------------------------
 # Languages
 # ------------------------------------------------------------------------------
@@ -27,8 +28,8 @@ export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
 # Path - The higher it is, the more priority it has
 # ------------------------------------------------------------------------------
 export path=(
-	"$HOME/bin"
-	"$HOME/opt"
+	"$HOME/.bin"
+	"$HOME/.opt"
 	"$DOTLY_PATH/bin"
 	"$DOTFILES_PATH/bin"
 	"$GEM_HOME/bin"
@@ -45,6 +46,6 @@ export path=(
 	"/sbin"
 	"/snap/bin",
 	"$HOME/.platformio/penv/bin",
-  "/mnt/c/Windows",
-  "$USERPROFILE/scoop/shims"
+	"/mnt/c/Windows",
+	"$USERPROFILE/scoop/shims"
 )

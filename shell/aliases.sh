@@ -14,6 +14,7 @@ alias dt="cd ~/Desktop"
 alias dotfiles="cd $DOTFILES_PATH"
 alias logout="gnome-session-quit"
 alias avcfg="cd ~/.config/nvim/lua/user"
+alias chadcfg="cd ~/.config/nvim/lua/custom"
 alias nvcfg="cd ~/.config/nvim"
 alias lvcfg="cd ~/.config/lvim"
 alias r="ranger"
@@ -53,7 +54,7 @@ alias c.='(code $PWD &>/dev/null &)'
 alias v.='(nvim $PWD &>/dev/null &)'
 alias l.='(lapce $PWD &>/dev/null &)'
 alias pc.='(pycharm-community $PWD &>/dev/null &)'
-alias o.='(nemo $PWD &>/dev/null &)'
+alias o.='(nautilus $PWD &>/dev/null &)'
 alias up='dot package update_all'
 
 alias ddc='ddcutil setvcp 0x10 '

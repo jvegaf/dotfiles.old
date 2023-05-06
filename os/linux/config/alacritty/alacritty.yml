@@ -16,22 +16,22 @@ window:
 ## Font
 font:
   normal:
-    family: ComicCodeLigaturesNF
+    family: JetBrainsMono Nerd Font
     style: Regular
 
   bold:
-    family: ComicCodeLigaturesNF
+    family: JetBrainsMono Nerd Font
     style: Bold
 
   italic:
-    family: ComicCodeLigaturesNF
+    family: JetBrainsMono Nerd Font
     style: Italic
 
   bold_italic:
-    family: ComicCodeLigaturesNF
+    family: JetBrainsMono Nerd Font
     style: Bold Italic
 
-  size: 11
+  size: 13
 
   offset:
     x: 0
@@ -64,7 +64,7 @@ selection:
 
 # Cursor
 cursor:
-  style: 'Underline'
+  style: "Underline"
 
 # Shell
 shell:
