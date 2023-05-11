@@ -6,7 +6,6 @@ source "$DOTLY_PATH/scripts/core/_main.sh"
 source "$DOTFILES_PATH/scripts/self/utils/fonts-setup.sh"
 source "$DOTFILES_PATH/scripts/self/utils/install.sh"
 
-
 ##? Install the linux packages needed
 #?? 1.0.0
 ##?
@@ -15,39 +14,42 @@ source "$DOTFILES_PATH/scripts/self/utils/install.sh"
 
 docs::parse "$@"
 
-log::note "Installing fonts "
-install_fonts
-
-if grep -qEi "(archlinux)" /proc/version &> /dev/null ; then
-    #TODO: install paru
-    log::note "Installing ArchLinux 🐧 packages"
-    install_arch_common_packages
-    install_nvm
-    paru_setup
-    # TODO: ask before install extras if are netbook or laptop
-    log::note "Installing Linux 🐧 extras"
-    install_arch_linux_extra
-elif grep -qEi "(manjaro)" /proc/version &> /dev/null ; then
-    #TODO: install paru
-    log::note "Installing ArchLinux 🐧 packages"
-    install_arch_common_packages
-    install_nvm
-    paru_setup
-    # TODO: ask before install extras if are netbook or laptop
-    # log::note "Installing Linux 🐧 extras"
-    # install_arch_linux_extra
-elif grep -qEi "(ubuntu)" /proc/version &> /dev/null ; then
-    log::note "Installing Linux 🐧 packages"
-    install_nvm
-    install_common_packages
-    install_linux_extra
-elif grep -qEi "(Microsoft|WSL)" /proc/version &> /dev/null ; then
-    install_nvm
-    install_common_packages
-    log::note "Linux 🐧 extras are not required on WSL 😅"
+if grep -qEi "(archlinux)" /proc/version &>/dev/null; then
+	#TODO: install paru
+	log::note "Installing fonts "
+	install_fonts
+	log::note "Installing ArchLinux 🐧 packages"
+	install_arch_common_packages
+	install_nvm
+	paru_setup
+	# TODO: ask before install extras if are netbook or laptop
+	log::note "Installing Linux 🐧 extras"
+	install_arch_linux_extra
+elif grep -qEi "(manjaro)" /proc/version &>/dev/null; then
+	#TODO: install paru
+	log::note "Installing fonts "
+	install_fonts
+	log::note "Installing ArchLinux 🐧 packages"
+	install_arch_common_packages
+	install_nvm
+	paru_setup
+	# TODO: ask before install extras if are netbook or laptop
+	# log::note "Installing Linux 🐧 extras"
+	# install_arch_linux_extra
+elif grep -qEi "(ubuntu)" /proc/version &>/dev/null; then
+	log::note "Installing fonts "
+	install_fonts
+	log::note "Installing Linux 🐧 packages"
+	install_nvm
+	install_common_packages
+	install_linux_extra
+elif grep -qEi "(microsoft|WSL)" /proc/version &>/dev/null; then
+	log::note "Linux 🐧 extras are not required on WSL 😅"
+	install_nvm
+	install_common_packages
+	install_wslu
+	log::note "WSL utils installed ✅"
 fi
-
-
 
 log::note "Installing python packages"
 pip3 install -r "$DOTFILES_PATH/langs/python/requirements.txt" || true

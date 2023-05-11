@@ -21,6 +21,15 @@ if [ "$CODELY_THEME_MODE" = "dark" ]; then
 else
 	fzf_colors="pointer:#db0f35,bg+:#d6d6d6,fg:#808080,fg+:#363636,hl:#8ec07c,info:#928374,header:#fffee3"
 fi
+# ------------------------------------------------------------------------------
+# Browser
+# ------------------------------------------------------------------------------
+if [[ $(grep microsoft /proc/version) ]]; then
+	echo "Bash is running on WSL"
+	export BROWSER="wslview"
+else
+	echo "Bash is running on linux"
+fi
 
 export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
 
