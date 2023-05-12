@@ -54,7 +54,7 @@ alias c.='(code $PWD &>/dev/null &)'
 alias v.='(nvim $PWD &>/dev/null &)'
 alias l.='(lapce $PWD &>/dev/null &)'
 alias pc.='(pycharm-community $PWD &>/dev/null &)'
-alias o.='(nautilus $PWD &>/dev/null &)'
+alias o.='(nemo $PWD &>/dev/null &)'
 alias up='dot package update_all'
 
 alias ddc='ddcutil setvcp 0x10 '
