@@ -3,17 +3,14 @@
 set -euo pipefail
 
 source "$DOTLY_PATH/scripts/core/_main.sh"
-source "$DOTFILES_PATH/scripts/numlockOff/utils/fix.sh"
 
-
-##? Fix the numlock bug in Xubuntu
+##? Swap caps and esc
 #?? 1.0.0
 ##?
 ##? Usage:
-##?   fix
+##?   swap_caps_esc
 
 docs::parse "$@"
 
-
 fix_unlock
-log::note "Numlock disabled 🔓"
+log::note "Caps and esc swapped "
