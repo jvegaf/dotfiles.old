@@ -12,5 +12,6 @@ source "$DOTLY_PATH/scripts/core/_main.sh"
 
 docs::parse "$@"
 
-fix_unlock
+setxkbmap -option caps:swapescape
+
 log::note "Caps and esc swapped "
