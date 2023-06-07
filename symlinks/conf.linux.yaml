@@ -24,6 +24,8 @@
     ~/.config/sxhkd: os/linux/config/sxhkd
     ~/.config/picom: os/linux/config/picom
     ~/.config/i3: os/linux/config/i3
+    ~/.config/bspwm: os/linux/config/bspwm
+    ~/.config/scripts: os/linux/config/scripts
     ~/.config/PrusaSlicer: os/linux/config/PrusaSlicer
     ~/.config/kglobalshortcutsrc: os/linux/config/kglobalshortcutsrc
     ~/.config/kwinrc: os/linux/config/kwinrc
