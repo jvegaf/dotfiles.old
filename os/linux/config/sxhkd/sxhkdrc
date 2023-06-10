@@ -1,6 +1,12 @@
 #
 # wm independent hotkeys
 #
+XF86MonBrightnessUp
+  $HOME/.config/scripts/brightup
+
+
+XF86MonBrightnessDown
+  $HOME/.config/scripts/brightdown
 
 # terminal emulator
 super + Return
@@ -26,7 +32,6 @@ super + Escape
 
 #
 # bspwm hotkeys
-#
 
 # quit/restart bspwm
 super + alt + {q,r}
