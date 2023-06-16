@@ -25,10 +25,10 @@ fi
 # Browser
 # ------------------------------------------------------------------------------
 if [[ $(grep microsoft /proc/version) ]]; then
-	echo "Bash is running on WSL"
+	# echo "Bash is running on WSL"
 	export BROWSER="wslview"
-else
-	echo "Bash is running on linux"
+	# else
+	# echo "Bash is running on linux"
 fi
 
 export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
