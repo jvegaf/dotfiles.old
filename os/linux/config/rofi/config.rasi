@@ -4,7 +4,7 @@ configuration {
     me-select-entry: "MouseSecondary";
     me-accept-entry: "MousePrimary";
     scroll-method: 1;
-    lines: 7;
+    //lines: 7;
     location: 0;
     yoffset: -100;
     hide-scrollbar: true;
