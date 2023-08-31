@@ -54,15 +54,15 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 . "$HOME/.cargo/env"
 
-          # Adding wsl-open as a browser for Bash for Windows
-          if [[ $(uname -r) =~ (m|M)icrosoft ]]; then
-            if [[ -z $BROWSER ]]; then
-              export BROWSER=wsl-open
-            else
-              export BROWSER=$BROWSER:wsl-open
-            fi
-          fi
-          
+# Adding wsl-open as a browser for Bash for Windows
+if [[ $(uname -r) =~ (m|M)icrosoft ]]; then
+  if [[ -z $BROWSER ]]; then
+    export BROWSER=wsl-open
+  else
+    export BROWSER=$BROWSER:wsl-open
+  fi
+fi
+
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"

@@ -22,6 +22,7 @@ alias paru="paru --bottomup"
 alias edalias="nvim $DOTFILES_PATH/shell/aliases.sh"
 alias run="./run"
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+alias open='xdg-open'
 
 # Git
 alias g="lazygit"

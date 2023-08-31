@@ -1,7 +1,8 @@
 #!/bin/bash
 
-sudo apt remove -y neovim
-sudo apt autoremove -y
+# sudo apt remove -y neovim
+# sudo apt autoremove -y
+sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install -y ninja-build gettext cmake unzip curl
 
 mkdir $HOME/.tmp
