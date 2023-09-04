@@ -2,12 +2,9 @@
 
 set -euo pipefail
 
-#keys
-# sudo dconf load /org/cinnamon/desktop/keybindings/ < keys.conf
+dump_file="$DOTFILES_PATH/os/linux/config/dconf/cinnamon_dump.conf"
 
-#all
-#
-dconf load /org/cinnamon/ <cinnamon-dump.conf
+dconf load /org/cinnamon/ < $dump_file
 
 echo "config restored"
 

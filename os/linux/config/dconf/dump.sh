@@ -2,11 +2,12 @@
 
 set -euo pipefail
 
-#keys
-dconf dump /org/cinnamon/desktop/keybindings/ >keys.conf
+dump_file="$DOTFILES_PATH/os/linux/config/dconf/cinnamon_dump.conf"
 
-#all
-#
-dconf dump /org/cinnamon/ >cinnamon-dump.conf
+rm -rf "$dump_file"
+
+dconf dump /org/cinnamon/ > $dump_file
 
 echo "dump finalized"
+
+exit 0
