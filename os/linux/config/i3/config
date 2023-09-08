@@ -1,8 +1,7 @@
 # # <<--------- General Settings --------->>
 floating_modifier  $mod
 font               pango:monospace 10
-set                $term --no-startup-id alacritty
-set                $alt  --no-startup-id cool-retro-term
+set                $term --no-startup-id wezterm
 set                $mod Mod4
 set                $screencast bash ~/.config/scripts/record_vid
 exec               --no-startup-id dex --autostart --environment i3
@@ -133,11 +132,11 @@ exec_always 		      --no-startup-id $HOME/.config/picom/launch.sh
 exec                  xset r rate 300 30
 exec                  mpd
 # exec_always           --no-startup-id bash ~/.config/polybar/material/scripts/pywal.sh ~/.config/i3/wallpapers
-exec_always           --no-startup-id $HOME/.config/dunst/wal_dunst.sh
-# exec_always           --no-startup-id $HOME/.config/polybar/launch.sh --docky
-exec_always           --no-startup-id /usr/bin/dunst
-exec                  --no-startup-id $term --class ncmpcpp -e ncmpcpp
-exec                  --no-startup-id $term --class dropterm
+# exec_always           --no-startup-id $HOME/.config/dunst/wal_dunst.sh
+exec_always           --no-startup-id $HOME/.config/polybar/launch.sh --docky
+# exec_always           --no-startup-id /usr/bin/dunst
+# exec                  --no-startup-id $term --class ncmpcpp -e ncmpcpp
+# exec                  --no-startup-id $term --class dropterm
 
 # <<--------- Bindings --------->>
 bindsym Print               exec --no-startup-id flameshot gui
@@ -208,13 +207,13 @@ bindsym $mod+Ctrl+q mode "$mode_system"
 bindsym $mod+Shift+q  exec --no-startup-id i3-msg exit, mode "default" 
 
 # <<--------- Old Status Bar --------->>
-bar {
-	font pango:monospace 9
-	position top
-	# tray_output none
-	# status_command ~/Downloads/Programs/bumblebee-status/bumblebee-status -m disk \
-	# 	indicator layout-xkb battery brightness pasink time \
-	# 	-p root.path=/ time.format="%H:%M CW %V" date.format="%a, %b %d %Y" \
-	# 	-t dracula-powerline
-}
+# bar {
+# 	font pango:monospace 9
+# 	position top
+# 	# tray_output none
+# 	# status_command ~/Downloads/Programs/bumblebee-status/bumblebee-status -m disk \
+# 	# 	indicator layout-xkb battery brightness pasink time \
+# 	# 	-p root.path=/ time.format="%H:%M CW %V" date.format="%a, %b %d %Y" \
+# 	# 	-t dracula-powerline
+# }
 
