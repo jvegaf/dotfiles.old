@@ -1,81 +1,53 @@
-## Import files (Colors,Etc)
+## Copyright (C) 2020-2023 Aditya Shakya <adi1090x@gmail.com>
+
+## Configuration for Alacritty, the GPU enhanced terminal emulator.
+## It's a very basic and simple config file, for full configuration...
+## See, /usr/share/doc/alacritty/example/alacritty.yml
+
+## Import files (Colors, Fonts, Etc)
 import:
-  - ~/.config/alacritty/night/colors.yml
+  - ~/.config/alacritty/colors.yml
+  - ~/.config/alacritty/fonts.yml
 
 ## Set environment variables
 env:
-  TERM: xterm-256color
+  TERM: alacritty
+  WINIT_X11_SCALE_FACTOR: '1.0'
 
 ## Terminal window settings
 window:
-  opacity: 1.0
+  dimensions:
+    columns: 82
+    lines: 24
+
   padding:
-    x: 25
-    y: 25
+    x: 12
+    y: 12
 
-## Font
-font:
-  normal:
-    family: JetBrainsMono Nerd Font
-    style: Regular
+  decorations: full
+  startup_mode: Windowed
+  dynamic_title: true
 
-  bold:
-    family: JetBrainsMono Nerd Font
-    style: Bold
-
-  italic:
-    family: JetBrainsMono Nerd Font
-    style: Italic
-
-  bold_italic:
-    family: JetBrainsMono Nerd Font
-    style: Bold Italic
-
-  size: 8
-
-  offset:
-    x: 0
-    y: 0
-
-  glyph_offset:
-    x: 0
-    y: 0
-
-# Class
-class:
-  instance: Alacritty
-  general: Alacritty
-
-# Scrolling
-scrolling:
+## scrolling
   history: 10000
   multiplier: 3
 
-# Visual
-visual_bell:
-  animation: EaseOutExpo
-  duration: 0.5
-  color: "#ffffff"
+## Background opacity
+  opacity: 1.0
 
-# Selection
-selection:
-  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
-  save_to_clipboard: true
-
-# Cursor
+## Cursor
 cursor:
-  style: "Underline"
+  style:
+    shape: Block
+    blinking: On
 
-# Shell
-shell:
-  program: /usr/bin/zsh
+  unfocused_hollow: false
 
-# Mouse
-mouse:
-  double_click: { threshold: 300 }
-  triple_click: { threshold: 300 }
-  hide_when_typing: true
-
-# Global Configuration
+## Live config reload
 live_config_reload: true
-draw_bold_text_with_bright_colors: true
+
+## Shell
+#shell:
+#  program: /bin/zsh
+#  args:
+#    - --login

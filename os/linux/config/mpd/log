@@ -226,3 +226,5 @@ Oct 07 23:40 : config: option 'buffer_time' on line 23 was not recognized
 Oct 07 23:40 : config: option 'max_client' on line 38 was not recognized
 Oct 07 23:46 : config: option 'buffer_time' on line 23 was not recognized
 Oct 07 23:46 : config: option 'max_client' on line 38 was not recognized
+Sep 16 14:17 : config: option 'buffer_time' on line 23 was not recognized
+Sep 16 14:17 : config: option 'max_client' on line 38 was not recognized
