@@ -97,7 +97,7 @@ super + shift + h
 	bspwinmask
 
 # Close App
-super + {_,shift + }c
+super + {_,shift + }q
 	bspc node -{c,k}
 
 # kill window
