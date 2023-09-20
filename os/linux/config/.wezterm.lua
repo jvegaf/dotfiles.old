@@ -4,10 +4,10 @@ local act = wezterm.action
 
 local wsl_domains = wezterm.default_wsl_domains()
 
-wezterm.on("gui-startup", function(cmd)
-	local _, _, window = wezterm.mux.spawn_window(cmd or {})
-	window:gui_window():toggle_fullscreen()
-end)
+-- wezterm.on("gui-startup", function(cmd)
+-- 	local _, _, window = wezterm.mux.spawn_window(cmd or {})
+-- 	window:gui_window():toggle_fullscreen()
+-- end)
 
 for _, domain in ipairs(wsl_domains) do
 	domain.default_cwd = "~"
@@ -40,8 +40,8 @@ return {
 		{ action = act.PasteFrom("Clipboard"),                            mods = "CTRL|SHIFT", key = "V" },
 		{ action = act.ResetFontSize,                                     mods = "CTRL", key = "0" },
 		{ action = act.ToggleFullScreen,                                  key = "F11" },
-		{ action = act.SplitHorizontal({ domain = "CurrentPaneDomain" }), mods = "CTRL|SHIFT|ALT", key = "." },
-		{ action = act.SplitVertical({ domain = "CurrentPaneDomain" }),   mods = "CTRL|SHIFT|ALT", key = "/" },
+		{ action = act.SplitHorizontal({ domain = "CurrentPaneDomain" }), mods = "CTRL|SHIFT|ALT", key = ">" },
+		{ action = act.SplitVertical({ domain = "CurrentPaneDomain" }),   mods = "CTRL|SHIFT|ALT", key = "?" },
 		{ action = act.ActivatePaneDirection("Left"),                     mods = "CTRL|SHIFT", key = "LeftArrow" },
 		{ action = act.ActivatePaneDirection("Right"),                    mods = "CTRL|SHIFT", key = "RightArrow" },
 		{ action = act.ActivatePaneDirection("Up"),                       mods = "CTRL|SHIFT", key = "UpArrow" },
