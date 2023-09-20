@@ -6,7 +6,7 @@ FD_VERSION=$(curl -s "https://api.github.com/repos/sharkdp/fd/releases/latest" |
 
 curl -Lo fd.deb "https://github.com/sharkdp/fd/releases/latest/download/fd_${FD_VERSION}_amd64.deb"
 
-sudo apt install -y ./fd.deb
+sudo dpkg -i ./fd.deb
 
 fd --version
 

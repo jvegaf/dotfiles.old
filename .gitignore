@@ -31,3 +31,4 @@ _BASE*
 _LOCAL*
 _REMOTE*
 os/linux/config/PrusaSlicer/cache
+__pycache__
