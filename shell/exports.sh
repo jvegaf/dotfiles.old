@@ -10,6 +10,7 @@ export EDITOR="/usr/bin/nvim"
 # ------------------------------------------------------------------------------
 # Languages
 # ------------------------------------------------------------------------------
+export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
 export GEM_HOME="$HOME/.gem"
 export GOPATH="$HOME/.go"
 export HOMEBREW_BUNDLE_FILE="$DOTFILES_PATH/os/linux/brew/Brewfile"
