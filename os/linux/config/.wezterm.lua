@@ -22,7 +22,7 @@ return {
 	font = wezterm.font({
 		-- family = "FiraCode Nerd Font Mono",
 		family = "JetBrainsMono Nerd Font",
-		weight = "Light",
+		weight = "Regular",
 		stretch = "Normal",
 		style = "Normal",
 		harfbuzz_features = { "cv29", "cv30", "ss01", "ss03", "ss06", "ss07", "ss09" },
