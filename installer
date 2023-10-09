@@ -22,12 +22,12 @@ elif grep -qEi "(manjaro)" /proc/version &> /dev/null ; then
     rustup default stable
 else 
     echo "Installing previuos dependencies"
-    sudo apt-get update && sudo apt-get install -y build-essential fzf fonts-powerline
+    sudo apt-get update && sudo apt-get install -y build-essential fzf fonts-powerline python3-pip python-is-python3
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 fi
 
 export PATH="$HOME/.cargo/bin:$PATH"
-cargo install docpars lsd git-delta
+cargo install docpars lsd git-delta bat
 
 export DOTFILES_PATH="$HOME/.dotfiles"
 echo "👉  Cloning into: '$DOTFILES_PATH'"
