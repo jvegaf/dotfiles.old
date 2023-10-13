@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-dump_file="$DOTFILES_PATH/os/linux/config/dconf/cinnamon_dump.conf"
+dump_file="$DOTFILES_PATH/os/linux/config/dconf/cinnamon/cinnamon_dump.conf"
 
 dconf load /org/cinnamon/ < $dump_file
 
