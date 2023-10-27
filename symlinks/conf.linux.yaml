@@ -36,6 +36,7 @@
     ~/.config/rofi: os/linux/config/rofi
     ~/.config/scripts: os/linux/config/scripts
     ~/.config/starship: os/linux/config/starship
+    ~/.screenlayout: os/linux/config/screenlayout
     ~/.config/sublime-text/Packages/User: editors/sublime/User
     ~/.config/sxhkd: os/linux/config/sxhkd
     ~/.config/terminator: os/linux/config/terminator

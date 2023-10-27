@@ -1,7 +1,7 @@
 # # <<--------- General Settings --------->>
 floating_modifier  $mod
 font               pango:monospace 10
-set                $term --no-startup-id wezterm
+set                $term --no-startup-id kitty
 set                $mod Mod4
 set                $screencast bash ~/.config/scripts/record_vid
 exec               --no-startup-id dex --autostart --environment i3
@@ -142,7 +142,7 @@ exec_always           --no-startup-id $HOME/.config/polybar/launch.sh --docky
 bindsym Print               exec --no-startup-id flameshot gui
 bindsym $mod+w			        exec --no-startup-id google-chrome-stable
 bindsym $mod+shift+w	      exec --no-startup-id qutebrowser
-bindsym $mod+l 			        exec --no-startup-id thunar
+bindsym $mod+l 			        exec --no-startup-id nemo
 bindsym $mod+o			        exec --no-startup-id obsidian; exec ~/.config/scripts/obs-pic
 bindsym $mod+g 			        exec --no-startup-id telegram-desktop -g 78x24+50+20
 bindsym $mod+z			        exec --no-startup-id zotero
@@ -188,8 +188,8 @@ bindsym $mod+r    mode "default"
 # hide_edge_borders smart_no_gaps
 # gaps inner 10
 # gaps outer 10
-# for_window [class="^.*"]    border pixel 0
-# for_window [title="^.*"]    border pixel 0
+for_window [class="^.*"]    border pixel 0
+for_window [title="^.*"]    border pixel 0
 # bindsym $mod+Shift+minus	  gaps inner current plus 5
 # bindsym $mod+Shift+plus		  gaps inner current minus 5
 # bindsym $mod+Shift+d		    gaps inner current set 0; gaps outer current set 0
