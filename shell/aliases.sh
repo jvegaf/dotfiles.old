@@ -20,6 +20,7 @@ alias lvcfg="cd ~/.config/lvim"
 alias r="ranger"
 alias paru="paru --bottomup"
 alias edalias="nvim $DOTFILES_PATH/shell/aliases.sh"
+alias dfscripts="cd $DOTFILES_PATH/os/linux/packages/xBuntu"
 alias run="./run"
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 alias open='xdg-open'

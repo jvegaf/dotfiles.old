@@ -9,7 +9,7 @@ nnoremap <SPACE> <Nop>
 let mapleader=" "
 
 " Options
-set	clipboard="unnamedplus"
+set	clipboard+=unnamedplus
 set	fileencoding="utf-8"
 set	hlsearch
 set	ignorecase
@@ -85,6 +85,7 @@ nmap <Leader>wc <Action>(ActivateCommitToolWindow)
 nmap <Leader>wd <Action>(ActivateDatabaseToolWindow)
 nmap <Leader>wn <Action>(ActivateNotificationsToolWindow)
 nmap <Leader>wnc <Action>(ClearAllNotifications)
+nmap <Leader>t <Action>(ActivateTerminalToolWindow)
 
 " Perform actions in code
 nmap <Leader>ca <Action>(ShowIntentionActions)
@@ -135,7 +136,7 @@ nmap vv V
 
 nmap zk <Action>(MethodUp)
 nmap zj <Action>(MethodDown)
-map gq <Action>(ReformatCode)
+nmap gq <Action>(ReformatCode)
 
 nmap <leader>gg <Action>(ActivateCommitToolWindow)
 " Don't use Ex mode, use Q for formatting.
