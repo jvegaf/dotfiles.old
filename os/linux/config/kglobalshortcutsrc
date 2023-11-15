@@ -3,9 +3,15 @@ _k_friendly_name=Activity Manager
 switch-to-activity-=none,none,
 switch-to-activity-2d6f60af-5a7c-4583-9aad-957d6c9078f5=none,none,Switch to activity "Default"
 switch-to-activity-320255e9-2921-4025-a0e0-9dfaf03d96b5=none,none,Switch to activity "Default"
+switch-to-activity-7267c402-abda-4a69-90b1-2d1fb94a0514=none,none,Switch to activity "Default"
 switch-to-activity-75279784-db76-42c1-95bf-f7839fcbff89=none,none,Switch to activity "Default"
 switch-to-activity-7d37784c-0d70-4c7d-a62a-b308dc895afe=none,none,Switch to activity "Default"
 switch-to-activity-b869cb74-1bff-4db8-97be-cc62ea929c54=none,none,Switch to activity "Default"
+
+[Alacritty.desktop]
+New=none,none,New Terminal
+_k_friendly_name=Alacritty
+_launch=Meta+Return,none,Alacritty
 
 [KDE Keyboard Layout Switcher]
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
@@ -36,10 +42,6 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 _k_friendly_name=Custom Shortcuts Service
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
 
-[kitty.desktop]
-_k_friendly_name=kitty
-_launch=Meta+Return,none,kitty
-
 [kmix]
 _k_friendly_name=Audio Volume
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Decrease Microphone Volume
@@ -59,13 +61,14 @@ _k_friendly_name=Session Management
 
 [kwin]
 Activate Window Demanding Attention=Meta+Ctrl+A,Meta+Ctrl+A,Activate Window Demanding Attention
-Decrease Opacity=none,,Decrease Opacity of Active Window by 5 %
+Decrease Opacity=none,,Decrease Opacity of Active Window by 5%
+Edit Tiles=Meta+T,Meta+T,Toggle Tiles Editor
 Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
 ExposeAll=Ctrl+F10\tLaunch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
 ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on current desktop)
-Increase Opacity=none,,Increase Opacity of Active Window by 5 %
-Invert Screen Colors=none,,Invert Screen Colors
+Increase Opacity=none,,Increase Opacity of Active Window by 5%
+Invert Screen Colors=none,none,Invert Screen Colors
 Kill Window=Meta+Ctrl+Esc,Meta+Ctrl+Esc,Kill Window
 MoveMouseToCenter=Meta+F6,Meta+F6,Move Mouse to Center
 MoveMouseToFocus=Meta+F5,Meta+F5,Move Mouse to Focus
@@ -118,6 +121,10 @@ Switch to Screen 4=none,,Switch to Screen 4
 Switch to Screen 5=none,,Switch to Screen 5
 Switch to Screen 6=none,,Switch to Screen 6
 Switch to Screen 7=none,,Switch to Screen 7
+Switch to Screen Above=none,,Switch to Screen Above
+Switch to Screen Below=none,,Switch to Screen Below
+Switch to Screen to the Left=none,,Switch to Screen to the Left
+Switch to Screen to the Right=none,,Switch to Screen to the Right
 Toggle Night Color=none,none,Toggle Night Color
 Toggle Window Raise/Lower=none,,Toggle Window Raise/Lower
 Walk Through Desktop List=none,,Walk Through Desktop List
@@ -139,18 +146,22 @@ Window Fullscreen=none,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=none,,Expand Window Vertically
 Window Lower=none,,Lower Window
-Window Maximize=Meta+PgUp\tMeta+Shift+Up,Meta+PgUp,Maximize Window
+Window Maximize=Meta+Shift+Up,Meta+PgUp,Maximize Window
 Window Maximize Horizontal=none,,Maximize Window Horizontally
 Window Maximize Vertical=none,,Maximize Window Vertically
 Window Minimize=Meta+PgDown,Meta+PgDown,Minimize Window
 Window Move=none,,Move Window
 Window Move Center=none,,Move Window to the Center
-Window No Border=none,,Hide Window Border
+Window No Border=none,,Toggle Window Titlebar and Frame
 Window On All Desktops=none,,Keep Window on All Desktops
 Window One Desktop Down=Meta+Ctrl+Shift+Down,Meta+Ctrl+Shift+Down,Window One Desktop Down
 Window One Desktop Up=Meta+Ctrl+Shift+Up,Meta+Ctrl+Shift+Up,Window One Desktop Up
 Window One Desktop to the Left=Meta+Ctrl+Shift+Left,Meta+Ctrl+Shift+Left,Window One Desktop to the Left
 Window One Desktop to the Right=Meta+Ctrl+Shift+Right,Meta+Ctrl+Shift+Right,Window One Desktop to the Right
+Window One Screen Down=none,,Window One Screen Down
+Window One Screen Up=none,,Window One Screen Up
+Window One Screen to the Left=none,,Window One Screen to the Left
+Window One Screen to the Right=none,,Window One Screen to the Right
 Window Operations Menu=Alt+F3,Alt+F3,Window Operations Menu
 Window Pack Down=none,,Move Window Down
 Window Pack Left=none,,Move Window Left
@@ -206,6 +217,51 @@ view_actual_size=Meta+0,Meta+0,Zoom to Actual Size
 view_zoom_in=Meta++\tMeta+=,Meta++,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
+[lattedock]
+_k_friendly_name=Latte Dock
+activate entry 1=none,Meta+1,Activate Entry 1
+activate entry 10=none,Meta+0,Activate Entry 10
+activate entry 11=Meta+Z,Meta+Z,Activate Entry 11
+activate entry 12=Meta+X,Meta+X,Activate Entry 12
+activate entry 13=none,Meta+C,Activate Entry 13
+activate entry 14=none,Meta+V,Activate Entry 14
+activate entry 15=Meta+B,Meta+B,Activate Entry 15
+activate entry 16=Meta+N,Meta+N,Activate Entry 16
+activate entry 17=Meta+M,Meta+M,Activate Entry 17
+activate entry 18=Meta+\\,,Meta+\\,,Activate Entry 18
+activate entry 19=none,Meta+.,Activate Entry 19
+activate entry 2=none,Meta+2,Activate Entry 2
+activate entry 3=none,Meta+3,Activate Entry 3
+activate entry 4=none,Meta+4,Activate Entry 4
+activate entry 5=none,Meta+5,Activate Entry 5
+activate entry 6=none,Meta+6,Activate Entry 6
+activate entry 7=none,Meta+7,Activate Entry 7
+activate entry 8=none,Meta+8,Activate Entry 8
+activate entry 9=none,Meta+9,Activate Entry 9
+activate widget 192=Launch (D),none,Activate Unknown Widget
+new instance for entry 1=Meta+Ctrl+1,Meta+Ctrl+1,New Instance for Entry 1
+new instance for entry 10=Meta+Ctrl+0,Meta+Ctrl+0,New Instance for Entry 10
+new instance for entry 11=Meta+Ctrl+Z,Meta+Ctrl+Z,New Instance for Entry 11
+new instance for entry 12=none,Meta+Ctrl+X,New Instance for Entry 12
+new instance for entry 13=Meta+Ctrl+C,Meta+Ctrl+C,New Instance for Entry 13
+new instance for entry 14=Meta+Ctrl+V,Meta+Ctrl+V,New Instance for Entry 14
+new instance for entry 15=Meta+Ctrl+B,Meta+Ctrl+B,New Instance for Entry 15
+new instance for entry 16=Meta+Ctrl+N,Meta+Ctrl+N,New Instance for Entry 16
+new instance for entry 17=Meta+Ctrl+M,Meta+Ctrl+M,New Instance for Entry 17
+new instance for entry 18=Meta+Ctrl+\\,,Meta+Ctrl+\\,,New Instance for Entry 18
+new instance for entry 19=Meta+Ctrl+.,Meta+Ctrl+.,New Instance for Entry 19
+new instance for entry 2=Meta+Ctrl+2,Meta+Ctrl+2,New Instance for Entry 2
+new instance for entry 3=Meta+Ctrl+3,Meta+Ctrl+3,New Instance for Entry 3
+new instance for entry 4=Meta+Ctrl+4,Meta+Ctrl+4,New Instance for Entry 4
+new instance for entry 5=Meta+Ctrl+5,Meta+Ctrl+5,New Instance for Entry 5
+new instance for entry 6=Meta+Ctrl+6,Meta+Ctrl+6,New Instance for Entry 6
+new instance for entry 7=Meta+Ctrl+7,Meta+Ctrl+7,New Instance for Entry 7
+new instance for entry 8=Meta+Ctrl+8,Meta+Ctrl+8,New Instance for Entry 8
+new instance for entry 9=Meta+Ctrl+9,Meta+Ctrl+9,New Instance for Entry 9
+show latte global settings=none,Meta+W,Show Latte Global Settings
+show latte view=Meta+`,Meta+`,Show Latte Dock/Panel
+show view settings=Meta+A,Meta+A,Cycle Through Dock/Panel Settings Windows
+
 [mediacontrol]
 _k_friendly_name=Media Controller
 mediavolumedown=none,,Media volume down
@@ -224,6 +280,12 @@ _launch=Meta+F\tMeta+E,Meta+E,Dolphin
 [org.kde.kcalc.desktop]
 _k_friendly_name=KCalc
 _launch=Launch (1),Launch (1),KCalc
+
+[org.kde.konsole.desktop]
+NewTab=none,none,Open a New Tab
+NewWindow=none,none,Open a New Window
+_k_friendly_name=Konsole
+_launch=Ctrl+Alt+T,Ctrl+Alt+T,Konsole
 
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
@@ -269,9 +331,32 @@ activate task manager entry 6=Meta+6,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
+activate widget 112=none,none,Activate Application Launcher Widget
+activate widget 138=none,none,Activate Application Launcher Widget
+activate widget 167=none,none,Activate Application Launcher Widget
+activate widget 192=none,none,Activate Application Launcher Widget
+activate widget 220=none,none,Activate Application Launcher Widget
+activate widget 245=none,none,Activate Application Launcher Widget
+activate widget 271=none,none,Activate Application Launcher Widget
+activate widget 29=none,none,Activate Application Launcher Widget
 activate widget 3=Alt+F1,none,Activate Application Launcher Widget
+activate widget 30=none,none,Activate Application Launcher Widget
+activate widget 300=none,none,Activate Application Launcher Widget
+activate widget 325=none,none,Activate Application Launcher Widget
+activate widget 4=none,none,Activate Application Launcher Widget
+activate widget 404=none,none,Activate Application Launcher Widget
 activate widget 41=none,none,Activate Application Launcher Widget
+activate widget 430=none,none,Activate Application Launcher Widget
+activate widget 458=none,none,Activate Application Launcher Widget
+activate widget 483=none,none,Activate Application Launcher Widget
+activate widget 5=none,none,Activate Application Launcher Widget
+activate widget 508=none,none,Activate Application Launcher Widget
+activate widget 535=none,none,Activate Application Launcher Widget
+activate widget 54=none,none,Activate Application Launcher Widget
+activate widget 563=none,none,Activate Application Launcher Widget
+activate widget 594=none,none,Activate Application Launcher Widget
 activate widget 65=none,none,Activate Application Launcher Widget
+activate widget 83=none,none,Activate Application Launcher Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
@@ -284,7 +369,7 @@ previous activity=Meta+Shift+Tab,Meta+Shift+Tab,Walk through activities (Reverse
 repeat_action=Meta+Ctrl+R,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
 show-barcode=none,,Show Barcode…
-show-on-mouse-pos=Meta+V,Meta+V,Open Klipper at Mouse Position
+show-on-mouse-pos=Meta+V,Meta+V,Show Items at Mouse Position
 stop current activity=none,Meta+S,Stop Current Activity
 switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity

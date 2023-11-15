@@ -32,3 +32,6 @@ _LOCAL*
 _REMOTE*
 os/linux/config/PrusaSlicer/cache
 __pycache__
+os/linux/config/ranger/colorschemes/__pycache__
+os/linux/config/ranger/plugins/__pycache__
+os/linux/config/ranger/plugins/ranger_devicons/__pycache__

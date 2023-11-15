@@ -51,12 +51,12 @@ alias v='nvim'
 alias b='bat'
 alias k='kill -9'
 alias grep='grep --color=auto'
-alias idea='/snap/bin/intellij-idea-ultimate'
+alias idea='intellij-idea-ultimate-edition'
 alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias v.='(nvim $PWD &>/dev/null &)'
 alias l.='(lapce $PWD &>/dev/null &)'
-alias o.='(nemo $PWD &>/dev/null &)'
+alias o.='(dolphin $PWD &>/dev/null &)'
 alias up='dot package update_all'
 
 alias ddc='ddcutil setvcp 0x10 '
@@ -66,3 +66,9 @@ alias ddcv='ddcutil setvcp 0x10 100'
 # WSL
 alias expl='/mnt/c/Windows/explorer.exe'
 alias winyank='/mnt/c/Users/josev/scoop/shims/win32yank.exe'
+
+#VPN
+alias vpnup='sudo systemctl start wg-quick@TL_vpn'
+alias vpndown='sudo systemctl stop wg-quick@TL_vpn'
+alias vpnstatus='sudo systemctl status wg-quick@TL_vpn'
+# status vpn tunnel sudo wg

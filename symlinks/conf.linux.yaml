@@ -14,6 +14,7 @@
     ~/.config/bspwm: os/linux/config/bspwm
     ~/.config/dconf: os/linux/config/dconf
     ~/.config/dunst: os/linux/config/dunst
+    ~/.config/filezilla: os/linux/config/filezilla
     ~/.config/gtk-3.0: os/linux/config/gtk-3.0
     ~/.config/i3: os/linux/config/i3
     ~/.config/kglobalshortcutsrc: os/linux/config/kglobalshortcutsrc

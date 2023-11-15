@@ -56,6 +56,7 @@ nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
 nmap <leader>q :q<CR>
+nmap <ESC><ESC> :nohlsearch<Bar>:echo<CR>
 
 " Code navigation keymaps
 nmap gb <Action>(Back)
@@ -71,12 +72,12 @@ nmap gcc <Action>(CommentByLineComment)
 " Other windows access
 nmap <Leader>e :NERDTreeFocus<CR>
 nmap <Leader>o :NERDTreeToggle<CR>
-nmap <Leader>s <Action>(FileStructurePopup)
+nmap <Leader>fs <Action>(FileStructurePopup)
 nmap <Leader>ff <Action>(SearchEverywhere)
 nmap <Leader>fg <Action>(FindInPath)
 nmap <Leader>fr <Action>(RenameFile)
-nmap <Leader>r :registers<cr>
-vmap <Leader>r :registers<cr>
+nmap <Leader>' :registers<cr>
+vmap <Leader>' :registers<cr>
 nmap <Leader>al :actionlist<space>
 nmap <Leader>wp <Action>(ActivateProblemsViewToolWindow)
 nmap <Leader>wr <Action>(ActivateRunToolWindow)
@@ -85,15 +86,19 @@ nmap <Leader>wc <Action>(ActivateCommitToolWindow)
 nmap <Leader>wd <Action>(ActivateDatabaseToolWindow)
 nmap <Leader>wn <Action>(ActivateNotificationsToolWindow)
 nmap <Leader>wnc <Action>(ClearAllNotifications)
-nmap <Leader>t <Action>(ActivateTerminalToolWindow)
+nmap <Leader>wt <Action>(ActivateTerminalToolWindow)
+nmap <Leader>ut <Action>(ChangeLaf)
+
 
 " Perform actions in code
 nmap <Leader>ca <Action>(ShowIntentionActions)
+nmap <Leader>oi <Action>(OptimizeImports)
 nmap <Leader>cr <Action>(RenameElement)
-nmap <Leader>cf <Action>(ShowReformatFileDialog)
+nmap <Leader>rf <Action>(ShowReformatFileDialog)
 nmap <Leader>cg <Action>(Generate)
-vmap <Leader>cv <Action>(IntroduceVariable)
-vmap <Leader>cm <Action>(ExtractMethod)
+vmap <Leader>rv <Action>(IntroduceVariable)
+vmap <Leader>rm <Action>(ExtractMethod)
+vmap <A-s> <Action>($SearchWeb)
 
 " Save current file with C-s
 nmap <A-w> :w<CR>
@@ -134,6 +139,8 @@ let g:NERDTreeMapCloseDir="h"
 
 nmap vv V
 
+vnoremap p "_dP"
+
 nmap zk <Action>(MethodUp)
 nmap zj <Action>(MethodDown)
 nmap gq <Action>(ReformatCode)
@@ -142,7 +149,7 @@ nmap <leader>gg <Action>(ActivateCommitToolWindow)
 " Don't use Ex mode, use Q for formatting.
 " map Q gq
 nmap <leader>. <action>(RecentFiles)
-
+nmap <Leader-ESC> <Action>(HideActiveWindow)
 " --- Enable IdeaVim plugins https://jb.gg/ideavim-plugins
 
 " Highlight copied text
