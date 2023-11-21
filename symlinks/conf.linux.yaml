@@ -46,4 +46,6 @@
     ~/.profile: os/linux/.profile
     ~/.wezterm.lua: os/linux/config/.wezterm.lua
     ~/mimeapps.list: os/linux/config/mimeapps.list
+    ~/.FreeCAD: os/linux/config/.FreeCAD
+        
 
