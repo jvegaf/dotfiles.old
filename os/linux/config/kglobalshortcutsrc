@@ -7,11 +7,7 @@ switch-to-activity-7267c402-abda-4a69-90b1-2d1fb94a0514=none,none,Switch to acti
 switch-to-activity-75279784-db76-42c1-95bf-f7839fcbff89=none,none,Switch to activity "Default"
 switch-to-activity-7d37784c-0d70-4c7d-a62a-b308dc895afe=none,none,Switch to activity "Default"
 switch-to-activity-b869cb74-1bff-4db8-97be-cc62ea929c54=none,none,Switch to activity "Default"
-
-[Alacritty.desktop]
-New=none,none,New Terminal
-_k_friendly_name=Alacritty
-_launch=Meta+Return,none,Alacritty
+switch-to-activity-d14d1f58-036c-4754-8893-a282483c2c16=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
@@ -260,7 +256,7 @@ new instance for entry 8=Meta+Ctrl+8,Meta+Ctrl+8,New Instance for Entry 8
 new instance for entry 9=Meta+Ctrl+9,Meta+Ctrl+9,New Instance for Entry 9
 show latte global settings=none,Meta+W,Show Latte Global Settings
 show latte view=Meta+`,Meta+`,Show Latte Dock/Panel
-show view settings=Meta+A,Meta+A,Cycle Through Dock/Panel Settings Windows
+show view settings=none,Meta+A,Cycle Through Dock/Panel Settings Windows
 
 [mediacontrol]
 _k_friendly_name=Media Controller
@@ -275,7 +271,7 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 
 [org.kde.dolphin.desktop]
 _k_friendly_name=Dolphin
-_launch=Meta+F\tMeta+E,Meta+E,Dolphin
+_launch=Meta+F,Meta+E,Dolphin
 
 [org.kde.kcalc.desktop]
 _k_friendly_name=KCalc
@@ -285,7 +281,7 @@ _launch=Launch (1),Launch (1),KCalc
 NewTab=none,none,Open a New Tab
 NewWindow=none,none,Open a New Window
 _k_friendly_name=Konsole
-_launch=Ctrl+Alt+T,Ctrl+Alt+T,Konsole
+_launch=Meta+Return,Ctrl+Alt+T,Konsole
 
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
@@ -349,7 +345,7 @@ activate widget 41=none,none,Activate Application Launcher Widget
 activate widget 430=none,none,Activate Application Launcher Widget
 activate widget 458=none,none,Activate Application Launcher Widget
 activate widget 483=none,none,Activate Application Launcher Widget
-activate widget 5=none,none,Activate Application Launcher Widget
+activate widget 5=Meta+A,none,Activate Application Launcher Widget
 activate widget 508=none,none,Activate Application Launcher Widget
 activate widget 535=none,none,Activate Application Launcher Widget
 activate widget 54=none,none,Activate Application Launcher Widget
@@ -387,3 +383,14 @@ kcm-lookandfeel=none,none,Global Theme
 kcm-users=none,none,Users
 powerdevilprofilesconfig=none,none,Energy Saving
 screenlocker=none,none,Screen Locking
+
+[wacomtablet]
+Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Map to fullscreen
+Map to screen 1=none,Meta+Ctrl+1,Map to screen 1
+Map to screen 2=none,Meta+Ctrl+2,Map to screen 2
+Next Profile=none,Meta+Ctrl+N,Next profile
+Previous Profile=Meta+Ctrl+P,Meta+Ctrl+P,Previous Profile
+Toggle screen map selection=none,Meta+Ctrl+M,Toggle between all screens
+Toggle stylus mode=Meta+Ctrl+S,Meta+Ctrl+S,Toggle the Stylus Tool Relative/Absolute
+Toggle touch tool=Meta+Ctrl+T,Meta+Ctrl+T,Enable/Disable the Touch Tool
+_k_friendly_name=Wacom Tablet

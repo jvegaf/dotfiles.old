@@ -7,26 +7,20 @@
 </defs>
 <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
 
-<g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(3.125,0,0,3.125,-112.5,0)"
-font-family="System Font" font-size="10" font-weight="400" font-style="normal" 
-opacity="0.001" >
-<rect x="36" y="0" width="16" height="16"/>
+<g fill="#c9ced2" fill-opacity="1" stroke="none" transform="matrix(2.5,0,0,2.5,2.5,2.5)"
+font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
+>
+<circle cx="9" cy="9" r="9"/>
 </g>
 
-<g fill="#5294e2" fill-opacity="1" stroke="none" transform="matrix(3.125,0,0,3.125,-112.5,0)"
-font-family="System Font" font-size="10" font-weight="400" font-style="normal" 
+<g fill="none" stroke="#eff0f1" stroke-opacity="1" stroke-width="1.01" stroke-linecap="round" stroke-linejoin="round" transform="matrix(2.5,0,0,2.5,2.5,2.5)"
+font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
 >
-<circle cx="44" cy="8" r="7"/>
-</g>
-
-<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(3.125,0,0,3.125,-112.5,0)"
-font-family="System Font" font-size="10" font-weight="400" font-style="normal" 
->
-<path vector-effect="none" fill-rule="nonzero" d="M42.7995,5 L46.1812,5 C46.6315,5 46.9975,5.36847 47,5.8188 L47,9.2005 L42.7995,5 M45.2069,11.0069 L41.8118,11.0069 C41.3615,11.0069 40.9931,10.6385 40.9931,10.1882 L40.9931,6.79308 L45.2069,11.0069"/>
+<path vector-effect="none" fill-rule="evenodd" d="M4,9 L9,4 L14,9 L9,14 L4,9"/>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
-font-family="System Font" font-size="10" font-weight="400" font-style="normal" 
+font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
 >
 </g>
 </g>

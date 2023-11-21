@@ -54,8 +54,8 @@ export path=(
 	"/usr/bin"
 	"/usr/sbin"
 	"/sbin"
-	"/snap/bin",
-	"$HOME/.platformio/penv/bin",
-	"/mnt/c/Windows",
+	"/snap/bin"
+	"$HOME/.platformio/penv/bin"
+	"/mnt/c/Windows"
 	"$USERPROFILE/scoop/shims"
 )

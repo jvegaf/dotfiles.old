@@ -72,8 +72,9 @@ nmap gcc <Action>(CommentByLineComment)
 " Other windows access
 nmap <Leader>e :NERDTreeFocus<CR>
 nmap <Leader>o :NERDTreeToggle<CR>
-nmap <Leader>fs <Action>(FileStructurePopup)
+nmap <Leader>cs <Action>(FileStructurePopup)
 nmap <Leader>ff <Action>(SearchEverywhere)
+vmap <Leader>ff <Action>(SearchEverywhere)
 nmap <Leader>fg <Action>(FindInPath)
 nmap <Leader>fr <Action>(RenameFile)
 nmap <Leader>' :registers<cr>
@@ -98,6 +99,7 @@ nmap <Leader>rf <Action>(ShowReformatFileDialog)
 nmap <Leader>cg <Action>(Generate)
 vmap <Leader>rv <Action>(IntroduceVariable)
 vmap <Leader>rm <Action>(ExtractMethod)
+nmap <Leader>ri <Action>(Inline)
 vmap <A-s> <Action>($SearchWeb)
 
 " Save current file with C-s
