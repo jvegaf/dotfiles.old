@@ -7,6 +7,10 @@ install_common_packages() {
 	sh "$DOTFILES_PATH/os/linux/packages/xBuntu/lazygit-setup.sh"
 
 	echo "Lazygit installed"
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/github_cli.sh"
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/fd.sh"
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/sdkman-setup.sh"
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/neovim-stable.sh"
 }
 
 install_arch_common_packages() {
