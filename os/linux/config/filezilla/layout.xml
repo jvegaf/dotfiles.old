@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<FileZilla3 version="3.65.0" platform="*nix">
-	<Layout Builddate="2023-08-14" Buildtime="07:20:12">
+<FileZilla3 version="3.58.0" platform="*nix">
+	<Layout Builddate="2022-02-11" Buildtime="18:05:09">
 		<Resources>
-			<xrc file="dialogs.xrc" date="1691997612" />
-			<xrc file="netconfwizard.xrc" date="1691997612" />
+			<xrc file="dialogs.xrc" date="1644602709" />
+			<xrc file="netconfwizard.xrc" date="1644602709" />
 		</Resources>
 		<Language id="en_US" date="">
-			<Font font="Noto Sans 10" width="792" height="19" />
+			<Font font="Ubuntu 10" width="772" height="16" />
 		</Language>
 	</Layout>
 </FileZilla3>

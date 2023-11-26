@@ -54,6 +54,7 @@ export path=(
 	"/usr/bin"
 	"/usr/sbin"
 	"/sbin"
+  "$HOME/.local/share/JetBrains/Toolbox/scripts"
 	"/snap/bin"
 	"$HOME/.platformio/penv/bin"
 	"/mnt/c/Windows"

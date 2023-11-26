@@ -21,7 +21,7 @@ return {
     exit_behavior = "Close",
     font = wezterm.font_whit_fallback("JetBrainsMono Nerd Font"),
     -- font = wezterm.font("ComicCodeLigatures NF", { weight = "Medium" }),
-    font_size = 12,
+    font_size = 10,
     force_reverse_video_cursor = true,
     hide_mouse_cursor_when_typing = true,
     hide_tab_bar_if_only_one_tab = true,
