@@ -8,6 +8,7 @@ alias l="lsd -l"
 alias ll="lsd -la"
 alias ~="cd ~"
 alias cdc="cd ~/Code"
+alias cdcl="cd ~/Code/tl/tulotero"
 alias doc="cd ~/Documents"
 alias dw="cd ~/Downloads"
 alias dt="cd ~/Desktop"
@@ -24,6 +25,11 @@ alias dfscripts="cd $DOTFILES_PATH/os/linux/packages/xBuntu"
 alias run="./run"
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 alias open='xdg-open'
+
+# Security
+alias checkrootkits="sudo rkhunter --update; sudo rkhunter --propupd; sudo rkhunter --check"
+alias checkvirus="clamscan --recursive=yes --infected /home"
+alias updateantivirus="sudo freshclam"
 
 # Git
 alias g="lazygit"
@@ -63,6 +69,8 @@ alias up='dot package update_all'
 alias ddc='ddcutil setvcp 0x10 '
 alias ddcx='ddcutil setvcp 0x10 0'
 alias ddcv='ddcutil setvcp 0x10 100'
+
+alias winreb='sudo grub-reboot 2 && sudo reboot'
 
 # WSL
 alias expl='/mnt/c/Windows/explorer.exe'

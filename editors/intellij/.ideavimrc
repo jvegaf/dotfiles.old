@@ -88,7 +88,7 @@ nmap <Leader>wd <Action>(ActivateDatabaseToolWindow)
 nmap <Leader>wn <Action>(ActivateNotificationsToolWindow)
 nmap <Leader>wnc <Action>(ClearAllNotifications)
 nmap <Leader>wt <Action>(ActivateTerminalToolWindow)
-nmap <Leader>ut <Action>(ChangeLaf)
+nmap <Leader>uc <Action>(ChangeLaf)
 
 
 " Perform actions in code
@@ -104,7 +104,7 @@ vmap <A-s> <Action>($SearchWeb)
 
 " Save current file with C-s
 nmap <A-w> :w<CR>
-nmap zz :wq<CR>
+nmap ZZ :wq<CR>
 
 " Debug keymaps
 nmap <Leader>db <Action>(ToggleLineBreakpoint)
@@ -142,6 +142,8 @@ let g:NERDTreeMapCloseDir="h"
 nmap vv V
 
 vnoremap p "_dP"
+
+nnoremap jk <ESC>
 
 nmap zk <Action>(MethodUp)
 nmap zj <Action>(MethodDown)
