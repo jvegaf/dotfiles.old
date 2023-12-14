@@ -44,7 +44,7 @@
     ~/.config/wfuzz: os/linux/config/wfuzz
     ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml: os/linux/config/xfce4/xfce4-keyboard-shortcuts.xml
     ~/.profile: os/linux/.profile
-    ~/.wezterm.lua: os/linux/config/.wezterm.lua
+    ~/.wezterm.lua: os/linux/config/wezterm.lua
     ~/mimeapps.list: os/linux/config/mimeapps.list
     ~/.FreeCAD: os/linux/config/.FreeCAD
         
