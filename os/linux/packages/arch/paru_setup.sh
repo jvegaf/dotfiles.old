@@ -7,6 +7,6 @@ cd paru
 makepkg -si
 
 sudo paru -Sy
-paru -S --noconfirm --needed - < allpkglist.txt
+#paru -S --noconfirm --needed - < allpkglist.txt
 
 echo "all packages installed "

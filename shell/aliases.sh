@@ -17,7 +17,7 @@ alias logout="gnome-session-quit"
 alias avcfg="nvim ~/.config/nvim/lua/user/init.lua"
 alias chadcfg="nvim ~/.config/nvim/lua/custom/init.lua"
 alias nvcfg="nvim ~/.config/nvim/init.lua"
-alias lvcfg="nvim ~/.config/lvim/config.lua"
+alias lvcfg="lvim ~/.config/lvim/config.lua"
 alias r="ranger"
 alias paru="paru --bottomup"
 alias edalias="nvim $DOTFILES_PATH/shell/aliases.sh"
@@ -63,7 +63,7 @@ alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias v.='(nvim $PWD &>/dev/null &)'
 alias l.='(lapce $PWD &>/dev/null &)'
-alias o.='(nemo $PWD &>/dev/null &)'
+alias o.='(thunar $PWD &>/dev/null &)'
 alias up='dot package update_all'
 
 alias ddc='ddcutil setvcp 0x10 '
