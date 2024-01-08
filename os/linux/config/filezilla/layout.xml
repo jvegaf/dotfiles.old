@@ -6,7 +6,7 @@
 			<xrc file="netconfwizard.xrc" date="1703329066" />
 		</Resources>
 		<Language id="en_US" date="1703329066">
-			<Font font="Sans 10" width="725" height="15" />
+			<Font font="Cantarell 11" width="834" height="19" />
 		</Language>
 	</Layout>
 </FileZilla3>
