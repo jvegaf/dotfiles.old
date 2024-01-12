@@ -1,5 +1,5 @@
 1password
-arduino-language-server-bin
+intellij-idea-ultimate-jre
 google-chrome
 tor-browser
 ttymidi

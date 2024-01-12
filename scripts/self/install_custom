@@ -21,7 +21,7 @@ if grep -qEi "(archlinux)" /proc/version &>/dev/null; then
 	log::note "Installing ArchLinux 🐧 packages"
 	install_arch_common_packages
 	install_nvm
-	paru_setup
+	# paru_setup
 	# TODO: ask before install extras if are netbook or laptop
 	log::note "Installing Linux 🐧 extras"
 	install_arch_linux_extra
@@ -32,10 +32,10 @@ elif grep -qEi "(manjaro)" /proc/version &>/dev/null; then
 	log::note "Installing ArchLinux 🐧 packages"
 	install_arch_common_packages
 	install_nvm
-	paru_setup
+	# paru_setup
 	# TODO: ask before install extras if are netbook or laptop
 	# log::note "Installing Linux 🐧 extras"
-	# install_arch_linux_extra
+	install_arch_linux_extra
 elif grep -qEi "(ubuntu)" /proc/version &>/dev/null; then
 	log::note "Installing fonts "
 	install_fonts
