@@ -16,7 +16,7 @@ alias dotfiles="cd $DOTFILES_PATH"
 alias logout="gnome-session-quit"
 alias avcfg="nvim ~/.config/nvim/lua/user/init.lua"
 alias chadcfg="nvim ~/.config/nvim/lua/custom/init.lua"
-alias nvcfg="nvim ~/.config/nvim/init.lua"
+alias nvcfg="cd ~/.config/nvim"
 alias lvcfg="lvim ~/.config/lvim/config.lua"
 alias r="ranger"
 alias paru="paru --bottomup"
@@ -58,7 +58,7 @@ alias b='bat'
 alias k='kill -9'
 alias grep='grep --color=auto'
 # alias idea='intellij-idea-ultimate-edition'
-# alias idea='intellij-idea-ultimate'
+alias idea='intellij-idea-ultimate'
 alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias v.='(nvim $PWD &>/dev/null &)'
@@ -70,7 +70,7 @@ alias ddc='ddcutil setvcp 0x10 '
 alias ddcx='ddcutil setvcp 0x10 0'
 alias ddcv='ddcutil setvcp 0x10 100'
 
-alias winreb='sudo grub-reboot 2 && sudo reboot'
+alias winreb='sudo grub-reboot 4 && sudo reboot'
 
 # WSL
 alias expl='/mnt/c/Windows/explorer.exe'

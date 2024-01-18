@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<FileZilla3 version="3.66.4" platform="*nix">
+<FileZilla3 version="3.65.0" platform="*nix">
 	<Settings>
 		<Setting name="Use Pasv mode">1</Setting>
 		<Setting name="Limit local ports">0</Setting>
@@ -133,7 +133,7 @@
 		<Setting name="Window position and size">0 2450 32 1200 856 </Setting>
 		<Setting name="Tab data" sensitive="1">
 			<Tabs>
-				<Tab connected="1" selected="1">
+				<Tab selected="1">
 					<Host>192.168.0.32</Host>
 					<Port>2121</Port>
 					<Protocol>0</Protocol>
@@ -146,7 +146,7 @@
 					<BypassProxy>0</BypassProxy>
 					<Name>NAS</Name>
 					<Site>0/NAS</Site>
-					<RemotePath>1 0 8 Volume_1 10 001-musica</RemotePath>
+					<RemotePath>1 0 8 Volume_1 11 0000-Lotero</RemotePath>
 					<LocalPath>/home/jvegaf/</LocalPath>
 				</Tab>
 			</Tabs>

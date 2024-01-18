@@ -9,6 +9,7 @@ nnoremap <SPACE> <Nop>
 let mapleader=" "
 
 " Options
+"set	clipboard=unnamedplus
 set	clipboard+=unnamedplus
 set	fileencoding="utf-8"
 set	hlsearch
@@ -36,7 +37,7 @@ set showmode
 
 " Recommanded ideavim settings
 set ideajoin
-set ideaput
+" set ideaput
 set ideamarks
 
 " Plugins
@@ -46,7 +47,7 @@ set commentary
 set highlightedyank
 
 " Tab navigation keymaps
-nmap <A-q> :tabclose<CR>
+nmap <leader>q :tabclose<CR>
 
 " Window navigation keymaps
 nmap <Leader>v :vsplit<CR>

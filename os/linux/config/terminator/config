@@ -1,7 +1,7 @@
 [global_config]
   focus = system
   handle_size = 3
-  tab_position = hidden
+  window_state = maximise
   broadcast_default = all
   scroll_tabbar = True
   homogeneous_tabbar = False
