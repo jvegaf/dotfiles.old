@@ -1,0 +1,23 @@
+!regolith.look.path: /usr/share/regolith-look/dracula
+!regolith.look.path: /usr/share/regolith-look/ayu-dark
+#Xft.dpi: 130
+wm.bar.mode: dock
+wm.gaps.inner.size:15
+!regolith.wallpaper.file: /usr/share/desktop-base/joy-inksplat-theme/wallpaper/gnome-background.xml
+!regolith.lockscreen.wallpaper.file: /usr/share/desktop-base/joy-inksplat-theme/wallpaper/gnome-background.xml
+!regolith.wallpaper.file: /usr/share/desktop-base/joy-theme/wallpaper/gnome-background.xml
+!regolith.lockscreen.wallpaper.file: /usr/share/desktop-base/joy-theme/wallpaper/gnome-background.xml
+wm.bar.position: top
+wm.window.border.size: 3
+wm.gaps.inner.size: 10
+!regolith.wallpaper.file: /usr/share/backgrounds/Lobster_Wallpaper.png
+regolith.wallpaper.file: ~/.config/i3/wallpapers/bg_0.jpg
+regolith.wallpaper.options: zoom
+regolith.lockscreen.wallpaper.file: /usr/share/backgrounds/Lobster_Wallpaper.png
+regolith.lockscreen.wallpaper.options: zoom
+wm.binding.look_selector: m
+
+!i3xrocks.weather.location: whitby 
+!i3xrocks.date.format2: %A %m/%d %I:%M
+wm.resize.small: 3
+wm.resize.large: 12

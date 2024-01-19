@@ -42,6 +42,7 @@
     ~/.config/sxhkd: os/linux/config/sxhkd
     ~/.config/terminator: os/linux/config/terminator
     ~/.config/wfuzz: os/linux/config/wfuzz
+    ~/.config/regolith3: os/linux/config/regolith3
     ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml: os/linux/config/xfce4/xfce4-keyboard-shortcuts.xml
     ~/.profile: os/linux/.profile
     ~/.wezterm.lua: os/linux/config/wezterm.lua
