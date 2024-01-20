@@ -146,7 +146,7 @@
 					<BypassProxy>0</BypassProxy>
 					<Name>NAS</Name>
 					<Site>0/NAS</Site>
-					<RemotePath>1 0 8 Volume_1 11 0000-Lotero 9 Documents</RemotePath>
+					<RemotePath>1 0 8 Volume_1 10 001-musica</RemotePath>
 					<LocalPath>/home/jvegaf/</LocalPath>
 				</Tab>
 			</Tabs>

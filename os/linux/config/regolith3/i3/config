@@ -205,8 +205,10 @@ bindsym $mod+$alt+Ctrl+h move container to workspace prev; workspace prev
 
 # Session Management bindings customizations
 # set_from_resource $wm.binding.exit_app wm.binding.exit_app Ctrl+c
-bindsym $mod+$wm.binding.exit_app [con_id="__focused__"] kill
+# bindsym $mod+$wm.binding.exit_app [con_id="__focused__"] kill
+bindsym $mod+Ctrl+q exec --no-startup-id i3-msg exit
 bindsym $alt+Shift+q kill
+bindsym $mod+q kill
 
 bindsym Print               exec --no-startup-id flameshot gui
 
