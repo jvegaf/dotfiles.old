@@ -130,7 +130,7 @@
 		<Setting name="Site Manager position">0 2354 244 1052 547 </Setting>
 		<Setting name="Remote filelist sortorder">0 0</Setting>
 		<Setting name="Greeting version">3.66.4</Setting>
-		<Setting name="Window position and size">0 2450 32 1200 856 </Setting>
+		<Setting name="Window position and size">0 464 54 1200 856 </Setting>
 		<Setting name="Tab data" sensitive="1">
 			<Tabs>
 				<Tab connected="1" selected="1">
@@ -146,7 +146,7 @@
 					<BypassProxy>0</BypassProxy>
 					<Name>NAS</Name>
 					<Site>0/NAS</Site>
-					<RemotePath>1 0 8 Volume_1 10 001-musica</RemotePath>
+					<RemotePath>1 0 8 Volume_1 17 0000-linux-backup</RemotePath>
 					<LocalPath>/home/jvegaf/</LocalPath>
 				</Tab>
 			</Tabs>

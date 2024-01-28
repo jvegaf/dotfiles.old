@@ -8,14 +8,13 @@ alias l="lsd -l"
 alias ll="lsd -la"
 alias ~="cd ~"
 alias cdc="cd ~/Code"
-alias cdcl="cd ~/Code/tl/tulotero"
 alias doc="cd ~/Documents"
 alias dw="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias dotfiles="cd $DOTFILES_PATH"
 alias logout="gnome-session-quit"
 alias avcfg="nvim ~/.config/nvim/lua/user/init.lua"
-alias chadcfg="nvim ~/.config/nvim/lua/custom/init.lua"
+alias chadcfg="cd ~/.config/nvim/lua/custom"
 alias nvcfg="cd ~/.config/nvim"
 alias lvcfg="lvim ~/.config/lvim/config.lua"
 alias r="ranger"
@@ -63,14 +62,14 @@ alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias v.='(nvim $PWD &>/dev/null &)'
 alias l.='(lapce $PWD &>/dev/null &)'
-alias o.='(thunar $PWD &>/dev/null &)'
+alias o.='(nautilus $PWD &>/dev/null &)'
 alias up='dot package update_all'
 
 alias ddc='ddcutil setvcp 0x10 '
 alias ddcx='ddcutil setvcp 0x10 0'
 alias ddcv='ddcutil setvcp 0x10 100'
 
-alias winreb='sudo grub-reboot 4 && sudo reboot'
+alias winreb='sudo grub-reboot 2 && sudo reboot'
 
 # WSL
 alias expl='/mnt/c/Windows/explorer.exe'
