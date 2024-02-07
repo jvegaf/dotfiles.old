@@ -1,4 +1,3 @@
-
 os/linux/icons/hicolor/
 editors/intellij/options/features.usage.statistics.xml
 editors/intellij/options/actionSummary.xml
@@ -35,3 +34,4 @@ __pycache__
 os/linux/config/ranger/colorschemes/__pycache__
 os/linux/config/ranger/plugins/__pycache__
 os/linux/config/ranger/plugins/ranger_devicons/__pycache__
+
