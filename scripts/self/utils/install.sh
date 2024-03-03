@@ -22,7 +22,7 @@ install_arch_linux_extra() {
 	sh "$DOTFILES_PATH/os/linux/packages/arch/docker_setup.sh"
 	echo "Docker installed"
 	aurpkgs=$(cat "$DOTFILES_PATH/os/linux/packages/arch/aurpkglist.txt")
-	paru -S "$aurpkgs" --noconfirm --needed
+	sudo yay -S "$aurpkgs" --noconfirm --needed
 }
 
 install_linux_extra() {
