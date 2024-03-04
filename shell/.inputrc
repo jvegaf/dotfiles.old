@@ -6,6 +6,6 @@ $if Bash
   "\C-m": "\C-b\e\C-j"
   "\C-p":previous-history
   "\C-n":next-history
-  "\C-a.":beginning-of-line
+  "\C-0.":beginning-of-line
   "\C-e.":end-of-line
 $endif

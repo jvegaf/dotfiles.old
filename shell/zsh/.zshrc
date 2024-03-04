@@ -40,8 +40,8 @@ source "$DOTFILES_PATH/shell/zsh/key-bindings.zsh"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 (( ! ${+functions[p10k]} )) || p10k finalize
 
-bindkey "^[[1;3C" forward-word
-bindkey "^[[1;3D" backward-word
+# bindkey "^[[1;3C" forward-word
+# bindkey "^[[1;3D" backward-word
 
 # ctrl+backspace: delete word before
 bindkey '^H' backward-kill-word
