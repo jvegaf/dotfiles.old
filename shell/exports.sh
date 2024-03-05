@@ -15,6 +15,7 @@ export M2_HOME="$HOME/.sdkman/candidates/maven/3.6.3"
 export GEM_HOME="$HOME/.gem"
 export GOPATH="$HOME/.go"
 export HOMEBREW_BUNDLE_FILE="$DOTFILES_PATH/os/linux/brew/Brewfile"
+export MYAVIMRC="$HOME/.config/nvim/lua/user/init.lua"
 # ------------------------------------------------------------------------------
 # Apps
 # ------------------------------------------------------------------------------
