@@ -123,14 +123,14 @@ nmap <leader>qD <Action>(QuickTypeDefinition)
 " code
 map <leader>c <Action>(CommentByLineComment)
 map <leader>C <Action>(CommentByBlockComment)
-nmap <leader>qf <Action>(ShowIntentionActions)
-nmap <leader>se <Action>(ShowErrorDescription)
+nmap <leader>ga <Action>(ShowIntentionActions)
+nmap <leader>ge <Action>(ShowErrorDescription)
 nmap <leader>om <Action>(OverrideMethods)
 nmap <leader>im <Action>(ImplementMethods)
 nmap <leader>fc <Action>(ReformatCode)
 nmap <leader>ic <Action>(InspectCode)
 nmap <leader>so <Action>(SelectAllOccurrences)
-nmap <leader>gc <Action>(Generate)
+nmap <leader>gg <Action>(Generate)
 nmap <leader>gt <Action>(GoToTest)
 
 " Keymaps to move lines of code up and down
@@ -210,17 +210,17 @@ nmap gn <Action>(ShowNavBar)
 
 " terminal
 nmap <leader>tt <Action>(ActivateTerminalToolWindow)
-nmap <leader>tc <Action>(Terminal.OpenInTerminal)
+nmap <leader>to <Action>(Terminal.OpenInTerminal)
 
 " bookmark
 nmap mm <Action>(ToggleBookmark)
 nmap ms <Action>(ShowBookmarks)
 
 " todo
-nmap <leader>to <Action>(ActivateTODOToolWindow)
+nmap <leader>td <Action>(ActivateTODOToolWindow)
 
 " task
-nmap <leader>ts <Action>(tasks.goto)
+nmap <leader>tk <Action>(tasks.goto)
 
 " idea join
 nmap \\jl <Action>(EditorJoinLines)
@@ -275,7 +275,7 @@ set exchange
 set NERDTree
 let g:NERDTreeMapActivateNode="l"
 let g:NERDTreeMapCloseDir="h"
-map <leader>e :NERDTree<CR>
+map <leader>e :NERDTreeToggle<CR>
 
 " replace with register (bundle plugin)
 " usage: https://github.com/vim-scripts/ReplaceWithRegister
