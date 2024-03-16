@@ -7,6 +7,7 @@ switch-to-activity-7267c402-abda-4a69-90b1-2d1fb94a0514=none,none,Switch to acti
 switch-to-activity-75279784-db76-42c1-95bf-f7839fcbff89=none,none,Switch to activity "Default"
 switch-to-activity-7d37784c-0d70-4c7d-a62a-b308dc895afe=none,none,Switch to activity "Default"
 switch-to-activity-b869cb74-1bff-4db8-97be-cc62ea929c54=none,none,Switch to activity "Default"
+switch-to-activity-d0453604-0ed7-4891-bb99-964b46fbbe7d=none,none,Switch to activity "Default"
 switch-to-activity-d14d1f58-036c-4754-8893-a282483c2c16=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
@@ -26,7 +27,7 @@ _k_friendly_name=Accessibility
 [kcm_touchpad]
 Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
 Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
-Toggle Touchpad=Touchpad Toggle,Touchpad Toggle,Toggle Touchpad
+Toggle Touchpad=Touchpad Toggle,Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Toggle Touchpad
 _k_friendly_name=Touchpad
 
 [kded5]
@@ -37,6 +38,10 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 [khotkeys]
 _k_friendly_name=Custom Shortcuts Service
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
+
+[kitty.desktop]
+_k_friendly_name=kitty
+_launch=Meta+Return,none,kitty
 
 [kmix]
 _k_friendly_name=Audio Volume
@@ -66,6 +71,7 @@ ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on curr
 Increase Opacity=none,,Increase Opacity of Active Window by 5%
 Invert Screen Colors=none,none,Invert Screen Colors
 Kill Window=Meta+Ctrl+Esc,Meta+Ctrl+Esc,Kill Window
+Move Tablet to Next Output=none,none,Move the tablet to the next output
 MoveMouseToCenter=Meta+F6,Meta+F6,Move Mouse to Center
 MoveMouseToFocus=Meta+F5,Meta+F5,Move Mouse to Focus
 MoveZoomDown=none,none,Move Zoomed Area Downwards
@@ -210,7 +216,7 @@ Window to Screen 6=none,,Window to Screen 6
 Window to Screen 7=none,,Window to Screen 7
 _k_friendly_name=KWin
 view_actual_size=Meta+0,Meta+0,Zoom to Actual Size
-view_zoom_in=Meta++\tMeta+=,Meta++,Zoom In
+view_zoom_in=Meta++\tMeta+=,Meta++\tMeta+=,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
 [lattedock]
@@ -260,11 +266,11 @@ show view settings=none,Meta+A,Cycle Through Dock/Panel Settings Windows
 
 [mediacontrol]
 _k_friendly_name=Media Controller
-mediavolumedown=none,none,Media volume down
-mediavolumeup=none,none,Media volume up
+mediavolumedown=none,,Media volume down
+mediavolumeup=none,,Media volume up
 nextmedia=Media Next,Media Next,Media playback next
 pausemedia=Media Pause,Media Pause,Pause media playback
-playmedia=none,none,Play media playback
+playmedia=none,,Play media playback
 playpausemedia=Media Play,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
@@ -276,12 +282,6 @@ _launch=Meta+F,Meta+E,Dolphin
 [org.kde.kcalc.desktop]
 _k_friendly_name=KCalc
 _launch=Launch (1),Launch (1),KCalc
-
-[org.kde.konsole.desktop]
-NewTab=none,none,Open a New Tab
-NewWindow=none,none,Open a New Window
-_k_friendly_name=Konsole
-_launch=Meta+Return,Ctrl+Alt+T,Konsole
 
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
@@ -354,7 +354,7 @@ activate widget 41=none,none,Activate Application Launcher Widget
 activate widget 430=none,none,Activate Application Launcher Widget
 activate widget 458=none,none,Activate Application Launcher Widget
 activate widget 483=none,none,Activate Application Launcher Widget
-activate widget 5=Meta+A,none,Activate Application Launcher Widget
+activate widget 5=,none,Activate Application Launcher Widget
 activate widget 508=none,none,Activate Application Launcher Widget
 activate widget 535=none,none,Activate Application Launcher Widget
 activate widget 54=none,none,Activate Application Launcher Widget
