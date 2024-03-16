@@ -16,12 +16,16 @@ install_common_packages() {
 install_arch_common_packages() {
 	sudo pacman -Syyu --noconfirm
 	sudo pacman -S --noconfirm --needed - <"$DOTFILES_PATH/os/linux/packages/arch/pkglist.txt"
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/sdkman-setup.sh"
 }
 
 install_arch_linux_extra() {
 	sh "$DOTFILES_PATH/os/linux/packages/arch/docker_setup.sh"
 	echo "Docker installed"
 	aurpkgs=$(cat "$DOTFILES_PATH/os/linux/packages/arch/aurpkglist.txt")
+	if ! type yay >/dev/null 2>&1; then
+		sh "$DOTFILES_PATH/os/linux/packages/arch/yay_setup.sh"
+	fi
 	sudo yay -S "$aurpkgs" --noconfirm --needed
 }
 

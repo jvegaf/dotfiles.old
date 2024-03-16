@@ -15,34 +15,29 @@ source "$DOTFILES_PATH/scripts/self/utils/install.sh"
 docs::parse "$@"
 
 if grep -qEi "(archlinux)" /proc/version &>/dev/null; then
-	#TODO: install paru
-	log::note "Installing fonts "
-	install_fonts
 	log::note "Installing ArchLinux 🐧 packages"
 	install_arch_common_packages
-	install_nvm
-	# paru_setup
-	# TODO: ask before install extras if are netbook or laptop
 	log::note "Installing Linux 🐧 extras"
 	install_arch_linux_extra
-elif grep -qEi "(manjaro)" /proc/version &>/dev/null; then
-	#TODO: install paru
 	log::note "Installing fonts "
 	install_fonts
+	install_nvm
+elif grep -qEi "(manjaro)" /proc/version &>/dev/null; then
 	log::note "Installing ArchLinux 🐧 packages"
 	install_arch_common_packages
-	install_nvm
-	# paru_setup
-	# TODO: ask before install extras if are netbook or laptop
-	# log::note "Installing Linux 🐧 extras"
+	log::note "Installing Linux 🐧 extras"
 	install_arch_linux_extra
+	log::note "Installing fonts "
+	install_fonts
+	log::note "Installing NVM "
+	install_nvm
 elif grep -qEi "(ubuntu)" /proc/version &>/dev/null; then
 	log::note "Installing fonts "
 	install_fonts
 	log::note "Installing Linux 🐧 packages"
-	install_nvm
 	install_common_packages
 	install_linux_extra
+	install_nvm
 elif grep -qEi "(microsoft|WSL)" /proc/version &>/dev/null; then
 	log::note "Linux 🐧 extras are not required on WSL 😅"
 	install_nvm

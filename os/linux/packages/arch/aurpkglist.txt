@@ -1,6 +1,11 @@
 1password
-intellij-idea-ultimate-jre
 google-chrome
-tor-browser
-ttymidi
+intellij-idea-ultimate-edition
+intellij-idea-ultimate-edition-jre
+javafx-scenebuilder
+logseq-desktop-bin
+nulloy-git
+postman-bin
+via-bin
 visual-studio-code-bin
+woeusb-ng
