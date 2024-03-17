@@ -6,12 +6,12 @@ export CODELY_THEME_MODE="dark"
 export CODELY_THEME_PROMPT_IN_NEW_LINE=false
 export CODELY_THEME_PWD_MODE="short" # full, short, home_relative
 export EDITOR="/usr/bin/nvim"
-export M2_HOME="$HOME/.sdkman/candidates/maven/3.6.3"
+export M2_HOME="$HOME/.sdkman/candidates/maven/current"
+export WINEPREFIX="$HOME/.fusion360/wineprefixes/default"
 # export EDITOR="$HOME/.local/bin/lvim"
 # ------------------------------------------------------------------------------
 # Languages
 # ------------------------------------------------------------------------------
-# export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
 export GEM_HOME="$HOME/.gem"
 export GOPATH="$HOME/.go"
 export HOMEBREW_BUNDLE_FILE="$DOTFILES_PATH/os/linux/brew/Brewfile"
