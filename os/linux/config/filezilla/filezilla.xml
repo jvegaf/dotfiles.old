@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<FileZilla3 version="3.66.5" platform="*nix">
+<FileZilla3 version="3.58.0" platform="*nix">
 	<Settings>
 		<Setting name="Use Pasv mode">1</Setting>
 		<Setting name="Limit local ports">0</Setting>
@@ -81,7 +81,6 @@
 		<Setting name="Show queue">1</Setting>
 		<Setting name="Default editor" platform="unix" />
 		<Setting name="Always use default editor">0</Setting>
-		<Setting name="File associations (v2)" platform="unix" />
 		<Setting name="Comparison mode">1</Setting>
 		<Setting name="Icon theme">default</Setting>
 		<Setting name="Icon scale">125</Setting>
@@ -131,6 +130,7 @@
 		<Setting name="Greeting version">3.66.5</Setting>
 		<Setting name="Window position and size">1 0 0 1717 840 </Setting>
 		<Setting name="Splitter positions (v2)">97 -231 500000000 353 353 500000000</Setting>
+		<Setting name="File associations (v2)" platform="unix">js /bin/nvim</Setting>
 		<Setting name="Tab data" sensitive="1">
 			<Tabs>
 				<Tab connected="1" selected="1">
@@ -146,7 +146,7 @@
 					<BypassProxy>0</BypassProxy>
 					<Name>NAS</Name>
 					<Site>0/NAS</Site>
-					<RemotePath>1 0 8 Volume_1 11 0000-Lotero 9 Documents</RemotePath>
+					<RemotePath>1 0 8 Volume_1 10 001-musica</RemotePath>
 					<LocalPath>/home/th3g3ntl3man/</LocalPath>
 				</Tab>
 			</Tabs>
