@@ -8,9 +8,6 @@ feh
 filezilla
 flameshot
 gnome-keyring
-kicad
-kicad-library
-kicad-library-3d
 kitty
 lazygit
 lsd
@@ -30,6 +27,7 @@ rofi
 rustup
 sed
 tldr
+tmux
 ttf-jetbrains-mono-nerd
 tree
 unarchiver
