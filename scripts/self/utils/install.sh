@@ -7,16 +7,14 @@ install_common_packages() {
 	sh "$DOTFILES_PATH/os/linux/packages/xBuntu/lazygit-setup.sh"
 
 	echo "Lazygit installed"
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/github_cli.sh"
-#   sh "$DOTFILES_PATH/os/linux/packages/xBuntu/fd.sh"
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/sdkman-setup.sh"
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/neovim-stable.sh"
+    sh "$DOTFILES_PATH/os/linux/packages/xBuntu/github_cli.sh"
 }
 
 install_arch_common_packages() {
 	sudo pacman -Syyu --noconfirm
 	sudo pacman -S --noconfirm --needed - <"$DOTFILES_PATH/os/linux/packages/arch/pkglist.txt"
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/sdkman-setup.sh"
+  
+    sh "$DOTFILES_PATH/os/linux/packages/xBuntu/sdkman-setup.sh"
 }
 
 install_arch_linux_extra() {
@@ -46,6 +44,9 @@ install_linux_extra() {
 	wget 'https://bit.ly/emoji-menu'
 	chmod +x emoji-menu
 	sudo mv emoji-menu /usr/local/bin
+    
+	sh "$DOTFILES_PATH/os/linux/packages/xBuntu/sdkman-setup.sh"
+    sh "$DOTFILES_PATH/os/linux/packages/xBuntu/neovim-stable.sh"
 }
 
 install_nvm() {
