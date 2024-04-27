@@ -1,0 +1,12 @@
+1password
+gitkraken
+google-chrome
+libselinux
+nchat
+pbgopy
+tor-browser-bin
+via-bin
+visual-studio-code-bin
+whatsdesk-bin
+yay
+yay-debug
