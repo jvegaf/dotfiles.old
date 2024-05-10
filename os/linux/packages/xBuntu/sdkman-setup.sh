@@ -1,6 +1,5 @@
+B
 #!/bin/bash
-
-set -euo pipefail
 
 echo "Installing SDKMAN ☕ "
 

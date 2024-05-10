@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# set -euo fails
-
 fonts_folder="$HOME/.fonts"
 
 mkdir $fonts_folder
