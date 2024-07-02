@@ -12,6 +12,7 @@
     ~/.config/alacritty: os/linux/config/alacritty
     ~/.config/awesome: os/linux/config/awesome
     ~/.config/bspwm: os/linux/config/bspwm
+    ~/.config/xremap: os/linux/config/xremap
     #~/.config/dconf: os/linux/config/dconf
     ~/.config/dunst: os/linux/config/dunst
     ~/.config/filezilla: os/linux/config/filezilla
