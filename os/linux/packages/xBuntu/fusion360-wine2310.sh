@@ -4,11 +4,11 @@ set -euo pipefail
 
 sudo apt-get -y install yad p7zip p7zip-full p7zip-rar curl winbind cabextract wget
 
-sudo dpkg --add-architecture i386 
+sudo dpkg --add-architecture i386
 sudo mkdir -pm755 /etc/apt/keyrings
 sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
 
-sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/mantic/winehq-mantic.sources
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/noble/winehq-noble.sources
 
 sudo apt update && sudo apt install -y --install-recommends winehq-staging
 

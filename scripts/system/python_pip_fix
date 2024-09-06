@@ -11,6 +11,6 @@ source "$DOTFILES_PATH/scripts/core/_main.sh"
 ##?   python_pip_fix
 ##?
 
-sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
+sudo rm /usr/lib/python3.12/EXTERNALLY-MANAGED
 
 echo "Pip Fixed 👌"

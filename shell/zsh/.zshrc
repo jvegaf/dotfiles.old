@@ -66,3 +66,5 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 
 
+
+PATH=~/.console-ninja/.bin:$PATH
