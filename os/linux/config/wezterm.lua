@@ -30,6 +30,7 @@ return {
 	force_reverse_video_cursor = true,
 	hide_mouse_cursor_when_typing = true,
 	hide_tab_bar_if_only_one_tab = true,
+	leader = { key = "a", mods = "ALT" },
 	keys = {
 		{ action = act.ResetFontSize, mods = "CTRL", key = "0" },
 		{ action = act.DecreaseFontSize, mods = "CTRL", key = "-" },
@@ -44,16 +45,33 @@ return {
 		-- { action = act.ActivatePaneDirection("Up"), mods = "CTRL|SHIFT", key = "UpArrow" },
 		-- { action = act.ActivatePaneDirection("Down"), mods = "CTRL|SHIFT", key = "DownArrow" },
 		-- { action = act.SpawnTab("CurrentPaneDomain"), mods = "CTRL|SHIFT", key = "t" },
-		--   {
-		--     action = act.SplitHorizontal({ domain = "CurrentPaneDomain" }),
-		--     mods = "CTRL|SHIFT|ALT",
-		--     key = ">",
-		--   },
-		--   {
-		--     action = act.SplitVertical({ domain = "CurrentPaneDomain" }),
-		--     mods = "CTRL|SHIFT|ALT",
-		--     key = "?",
-		--   },
+    {
+      action = act.TogglePaneZoomState,
+      mods = "LEADER",
+      key = "m",
+    },
+    {
+      action = act.RotatePanes "Clockwise",
+      mods = "LEADER",
+      key = "Space",
+    },
+    {
+        mods = 'LEADER',
+        key = '0',
+        action = wezterm.action.PaneSelect {
+        mode = 'SwapWithActive',
+      },
+    },
+		  {
+		    action = act.SplitHorizontal({ domain = "CurrentPaneDomain" }),
+		    mods = "LEADER",
+		    key = ".",
+		  },
+		  {
+		    action = act.SplitVertical({ domain = "CurrentPaneDomain" }),
+		    mods = "LEADER",
+		    key = "-",
+		  },
 	},
 	mouse_bindings = {
 		{
