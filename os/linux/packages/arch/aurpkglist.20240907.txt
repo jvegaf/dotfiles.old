@@ -1,0 +1,3 @@
+1password
+candle-git
+xremap-gnome-bin

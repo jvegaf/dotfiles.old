@@ -6,9 +6,9 @@ echo "dumping packages ⚡"
 
 today=$(date +%Y%m%d)
 
-pacman -Qqen >pkglist.$today.txt
-pacman -Qqem >aurpkglist.$today.txt
+pacman -Qqen >pkglist."$today".txt
+pacman -Qqem >aurpkglist."$today".txt
 
-echo "packages dumped ✔️"
+echo "packages dumped ✅"
 
 exit 0
