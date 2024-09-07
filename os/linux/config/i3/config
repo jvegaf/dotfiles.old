@@ -20,8 +20,8 @@ bindsym     XF86MonBrightnessUp     exec $HOME/.config/scripts/brightup
 bindsym     XF86MonBrightnessDown   exec $HOME/.config/scripts/brightdown
 
 # <<--------- Touchpad --------->>
-bindsym     $mod+shift+t exec $HOME/.config/scripts/touchpad_toggle
-exec        synclient TouchpadOff=1
+# bindsym     $mod+shift+t exec $HOME/.config/scripts/touchpad_toggle
+# exec        synclient TouchpadOff=1
 
 # <<--------- Media Control --------->>
 bindsym     XF86AudioNext exec --no-startup-id mpc next
@@ -128,7 +128,7 @@ exec_always         feh --bg-fill ~/.config/i3/wallpapers/bg_0.jpg
 exec_always 		      --no-startup-id $HOME/.config/picom/launch.sh 
 # exec                  conky -c "$HOME/.config/conky/conkyrc-mpd"
 # exec                  conky -c "$HOME/.config/conky/conky.conf"
-# exec                  $HOME/.config/scripts/dayplan
+exec                  --no-startup-id $HOME/.screenlayout/cueva.sh
 exec                  xset r rate 300 30
 exec                  mpd
 # exec_always           --no-startup-id bash ~/.config/polybar/material/scripts/pywal.sh ~/.config/i3/wallpapers
@@ -140,9 +140,9 @@ exec_always           --no-startup-id $HOME/.config/polybar/launch.sh --docky
 
 # <<--------- Bindings --------->>
 bindsym Print               exec --no-startup-id flameshot gui
-bindsym $mod+w			        exec --no-startup-id google-chrome-stable
+bindsym $mod+w			        exec --no-startup-id firefox
 bindsym $mod+shift+w	      exec --no-startup-id qutebrowser
-bindsym $mod+l 			        exec --no-startup-id nemo
+bindsym $mod+l 			        exec --no-startup-id thunar
 bindsym $mod+o			        exec --no-startup-id obsidian; exec ~/.config/scripts/obs-pic
 bindsym $mod+g 			        exec --no-startup-id telegram-desktop -g 78x24+50+20
 bindsym $mod+z			        exec --no-startup-id zotero
@@ -194,7 +194,7 @@ for_window [title="^.*"]    border pixel 0
 # bindsym $mod+Shift+plus		  gaps inner current minus 5
 # bindsym $mod+Shift+d		    gaps inner current set 0; gaps outer current set 0
 
-# <<--------- System Power Control --------->>
+# <<--------- System Power Control --------->>Z
 set $mode_system System (e) logout, (r) reboot, (s) sleep, (Shift+s) shutdown
 mode "$mode_system" {
 	bindsym r       exec --no-startup-id systemctl reboot, mode "default"
