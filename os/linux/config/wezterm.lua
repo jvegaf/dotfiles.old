@@ -44,34 +44,49 @@ return {
 		-- { action = act.ActivatePaneDirection("Right"), mods = "CTRL|SHIFT", key = "RightArrow" },
 		-- { action = act.ActivatePaneDirection("Up"), mods = "CTRL|SHIFT", key = "UpArrow" },
 		-- { action = act.ActivatePaneDirection("Down"), mods = "CTRL|SHIFT", key = "DownArrow" },
-		-- { action = act.SpawnTab("CurrentPaneDomain"), mods = "CTRL|SHIFT", key = "t" },
-    {
-      action = act.TogglePaneZoomState,
-      mods = "LEADER",
-      key = "m",
-    },
-    {
-      action = act.RotatePanes "Clockwise",
-      mods = "LEADER",
-      key = "Space",
-    },
-    {
-        mods = 'LEADER',
-        key = '0',
-        action = wezterm.action.PaneSelect {
-        mode = 'SwapWithActive',
-      },
-    },
-		  {
-		    action = act.SplitHorizontal({ domain = "CurrentPaneDomain" }),
-		    mods = "LEADER",
-		    key = ".",
-		  },
-		  {
-		    action = act.SplitVertical({ domain = "CurrentPaneDomain" }),
-		    mods = "LEADER",
-		    key = "-",
-		  },
+		{ action = act.SpawnTab("CurrentPaneDomain"), mods = "LEADER", key = "c" },
+		{
+			action = act.TogglePaneZoomState,
+			mods = "LEADER",
+			key = "m",
+		},
+		{
+			action = act.RotatePanes("Clockwise"),
+			mods = "LEADER",
+			key = "Space",
+		},
+		{
+			mods = "LEADER",
+			key = "0",
+			action = wezterm.action.PaneSelect({
+				mode = "SwapWithActive",
+			}),
+		},
+		{
+			action = act.SplitHorizontal({ domain = "CurrentPaneDomain" }),
+			mods = "LEADER",
+			key = ".",
+		},
+		{
+			action = act.SplitVertical({ domain = "CurrentPaneDomain" }),
+			mods = "LEADER",
+			key = "-",
+		},
+		{
+			action = act.CloseCurrentPane({ confirm = true }),
+			mods = "LEADER",
+			key = "x",
+		},
+		{
+			action = act.CloseCurrentTab({ confirm = true }),
+			mods = "LEADER",
+			key = "e",
+		},
+		{
+			action = act.CloseCurrentTab({ confirm = true }),
+			mods = "LEADER",
+			key = "e",
+		},
 	},
 	mouse_bindings = {
 		{
