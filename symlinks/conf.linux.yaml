@@ -8,6 +8,7 @@
 - link:
     ~/.dotly: os/linux/.dotly
     ~/.Xresources: os/linux/.Xresources
+    ~/.local/share/backgrounds: backgrounds
     ~/.config/PrusaSlicer: os/linux/config/PrusaSlicer
     ~/.config/alacritty: os/linux/config/alacritty
     ~/.config/awesome: os/linux/config/awesome
