@@ -17,3 +17,13 @@ function recent_dirs() {
 
   cd "$(echo "$selected" | sed "s/\~/$escaped_home/")" || echo "Invalid directory"
 }
+
+quote_search_terms() {
+  for term in "$@"; do
+    echo "\"$term\" "
+  done
+}
+
+function gg() {
+  xdg-open "https://www.google.com/search?q=$(quote_search_terms "$@")"
+}
