@@ -68,6 +68,9 @@ alias up='dot package update_all'
 alias ddc='ddcutil setvcp 0x10 '
 alias ddcx='ddcutil setvcp 0x10 0'
 alias ddcv='ddcutil setvcp 0x10 100'
+alias perfmode='dot system cpumode performance'
+alias savemode='dot system cpumode powersave'
+alias currmode='dot system cpumode current'
 
 alias winreb='sudo grub-reboot 2 && sudo reboot'
 
