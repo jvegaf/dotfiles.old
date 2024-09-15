@@ -19,6 +19,7 @@
     ~/.config/filezilla: os/linux/config/filezilla
     ~/.config/gtk-3.0: os/linux/config/gtk-3.0
     ~/.config/i3: os/linux/config/i3
+    ~/.config/i3blocks: os/linux/config/i3blocks
     ~/.config/kglobalshortcutsrc: os/linux/config/kglobalshortcutsrc
     ~/.config/kitty: os/linux/config/kitty
     ~/.config/kwinrc: os/linux/config/kwinrc
