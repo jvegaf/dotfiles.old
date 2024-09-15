@@ -1,4 +1,4 @@
-- clean: ['~']
+- clean: ["~"]
 
 - defaults:
     link:
@@ -11,6 +11,7 @@
 
 - link:
     ~/.bash_profile: shell/bash/.bash_profile
+    ~/.clang-format: langs/cpp/.clang-format
     ~/.bashrc: shell/bash/.bashrc
     ~/.zimrc: shell/zsh/.zimrc
     ~/.zlogin: shell/zsh/.zlogin
@@ -21,4 +22,3 @@
     ~/.gitconfig: git/.gitconfig
     ~/.gitattributes: git/.gitattributes
     ~/.gitignore_global: git/.gitignore_global
-
