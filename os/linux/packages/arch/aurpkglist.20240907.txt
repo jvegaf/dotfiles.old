@@ -1,3 +1,2 @@
 1password
-candle-git
-xremap-gnome-bin
+visual-studio-code-bin

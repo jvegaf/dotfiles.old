@@ -300,7 +300,6 @@ reiserfsprogs
 ripgrep
 ripgrep-all
 ristretto
-rofi-lbonn-wayland
 rp-pppoe
 rsync
 rtl8821cu-morrownr-dkms-git
@@ -371,7 +370,6 @@ wezterm
 wget
 wireless-regdb
 wireless_tools
-wl-clipboard
 wpa_supplicant
 wttr
 wvdial
