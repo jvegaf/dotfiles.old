@@ -64,6 +64,7 @@ alias v.='(nvim $PWD &>/dev/null &)'
 alias l.='(lapce $PWD &>/dev/null &)'
 alias o.='(nemo $PWD &>/dev/null &)'
 alias up='dot package update_all'
+alias py='python3'
 
 alias ddc='ddcutil setvcp 0x10 '
 alias ddcx='ddcutil setvcp 0x10 0'
