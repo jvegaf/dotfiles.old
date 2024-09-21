@@ -1,5 +1,5 @@
-[font]
-size = 12
+# [font]
+# size = 12
 
 [font.bold]
 family = "JetBrainsMono NF"
@@ -16,3 +16,19 @@ style = "Italic"
 [font.normal]
 family = "JetBrainsMono NF"
 style = "Regular"
+
+# [font.bold]
+# family = "Hack Nerd Font Mono"
+# style = "Bold"
+#
+# [font.italic]
+# family = "Hack Nerd Font Mono"
+# style = "Italic"
+#
+# [font.normal]
+# family = "Hack Nerd Font Mono"
+# style = "Regular"
+#
+# [font.bold_italic]
+# family = "Hack Nerd Font Mono"
+# style = "Italic"

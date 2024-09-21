@@ -23,3 +23,6 @@ shape = "Block"
 [shell]
 program = "/bin/zsh"
 args = ["--login", "-c", "tmux new-session -A -s main-alacritty"]
+
+[selection]
+save_to_clipboard = true
