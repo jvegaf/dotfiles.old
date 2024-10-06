@@ -15,6 +15,7 @@
     ~/.config/bspwm: os/linux/config/bspwm
     ~/.config/xremap: os/linux/config/xremap
     #~/.config/dconf: os/linux/config/dconf
+    ~/.config/autorandr: os/linux/config/autorandr
     ~/.config/dunst: os/linux/config/dunst
     ~/.config/filezilla: os/linux/config/filezilla
     ~/.config/gtk-3.0: os/linux/config/gtk-3.0

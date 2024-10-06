@@ -1,10 +1,11 @@
+#!/usr/bin/env sh
 #
 # wm independent hotkeys
 #
 
 # terminal emulator
 super + Return
-	/opt/kitty/bin/kitty
+	/bin/kitty
 
 # program launcher
 super + d

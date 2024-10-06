@@ -1,24 +1,15 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
-## Add this to your wm startup file.
+## Files and Directories
+DIR="$HOME/.config/polybar"
 
-# Terminate already running bar instances
-killall -q polybar
+## Launch Polybar with selected style
+launch_bar() {
+	if [[ ! $(pidof polybar) ]]; then
+		polybar -q bar -c "$DIR"/config &
+	else
+		polybar-msg cmd restart
+	fi
+}
 
-## Wait until the processes have been shut down
-while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
-
-## Launch
-
-## Left bar
-polybar log -c ~/.config/polybar/current.ini &
-polybar my_ip_bar -c ~/.config/polybar/current.ini &
-polybar vpn_bar -c ~/.config/polybar/current.ini &
-
-## Right bar
-# polybar top -c ~/.config/polybar/current.ini &
-polybar primary -c ~/.config/polybar/current.ini &
-polybar victim_target_bar -c ~/.config/polybar/current.ini &
-
-## Center bar
-polybar primary -c ~/.config/polybar/workspace.ini &
+launch_bar
