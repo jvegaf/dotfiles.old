@@ -262,4 +262,4 @@ exec --no-startup-id feh --bg-fill ~/.config/i3/wallpapers/bg_0.jpg
 exec_always           --no-startup-id $HOME/.config/polybar/launch.sh &
 
 #exec                  --no-startup-id $HOME/.screenlayout/dell_casa.sh
-exec --no-startup-id autorandr --load casa_surface
+# exec --no-startup-id autorandr --load casa_surface

@@ -5,7 +5,7 @@
 
 # terminal emulator
 super + Return
-	/bin/kitty
+	kitty
 
 # program launcher
 super + d
@@ -138,7 +138,7 @@ alt + super + {Left,Down,Up,Right}
 # Google-Chrome
 
 super + shift + g
-	google-chrome
+	firefox
 
 # Open Burpsuite Professional
 
