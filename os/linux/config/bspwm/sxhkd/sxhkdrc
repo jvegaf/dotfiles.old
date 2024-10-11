@@ -130,7 +130,8 @@ super + shift + d
 
 #rofi
 super + d
-    ~/.config/bspwm/launcher/launcher.sh
+    rofi -show drun
+    # ~/.config/bspwm/launcher/launcher.sh
 
 #reload sxhkd:
 super + shift + s
