@@ -243,7 +243,7 @@ bindsym $mod+r mode "resize"
 # hide_edge_borders both
 # smart_gaps inverse_outer
 
-gaps outer 15
+gaps outer 10
 gaps inner 10
 
 default_floating_border pixel 3

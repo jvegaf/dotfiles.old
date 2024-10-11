@@ -34,9 +34,9 @@ super + F6
 super + F7
     virtualbox
 
-#Thunar
+#nautilus
 super + F8
-    thunar
+    nautilus
 
 #Audio player
 super + F9
@@ -117,12 +117,12 @@ super + KP_Enter
 
 #File-Manager
 super + shift + Return
-	thunar
+	nautilus
 
 #Keyboard dependent
 #File-Manager
 #super + shift + KP_Enter
-#	thunar
+#	nautilus
 
 #dmenu
 super + shift + d
@@ -138,7 +138,7 @@ super + shift + s
 
 #Keyboard dependent
 #super + shift + KP_Enter
-#	thunar
+#	nautilus
 
 
 #################################################################
@@ -163,7 +163,7 @@ ctrl + alt + Prior
 
 #File-Manager
 ctrl + alt + b
-     thunar
+     nautilus
 
 #Catfish
 ctrl + alt + c
@@ -474,7 +474,7 @@ super + shift + r
 
 #kill
 super + shift + q
-	bspc node -c
+	bspc quit
 
 #Logout
 #super + shift + x
