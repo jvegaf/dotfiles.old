@@ -24,6 +24,6 @@ quote_search_terms() {
   done
 }
 
-function gg() {
+function ww() {
   xdg-open "https://www.google.com/search?q=$(quote_search_terms "$@")"
 }
