@@ -2,12 +2,10 @@
 
 # sudo apt remove -y neovim
 # sudo apt autoremove -y
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update 
 sudo apt-get install -y ninja-build gettext cmake unzip curl
 
-rm -rf $HOME/.tmp
-mkdir $HOME/.tmp
-cd $HOME/.tmp
+cd /tmp
 
 git clone https://github.com/neovim/neovim && \
 	cd neovim && \
