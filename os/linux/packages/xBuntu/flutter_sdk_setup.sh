@@ -14,9 +14,9 @@ sudo apt-get install \
       libstdc++-12-dev
 
 cd /tmp
-curl https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.19.6-stable.tar.xz -o flutter_linux_3.19.6-stable.tar.xz
-sudo tar xf flutter_linux_3.19.6-stable.tar.xz --directory=/usr/bin/
-echo 'export PATH="$HOME/development/flutter/bin:$PATH"' >> ~/.zshenv
+curl https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.24.3-stable.tar.xz -o flutter_linux_3.24.3-stable.tar.xz
+sudo tar xf flutter_linux_3.24.3-stable.tar.xz --directory=/usr/bin/
+echo 'export PATH="/usr/bin/flutter/bin:$PATH"' >> ~/.zshenv
 
 log::note "Flutter SDK installed ✅, check it with 'flutter doctor -v'"
 
