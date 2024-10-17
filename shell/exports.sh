@@ -53,6 +53,7 @@ export path=(
 	"/usr/local/sbin"
 	"/bin"
 	"/usr/bin"
+	"/usr/bin/flutter/bin"
 	"/usr/sbin"
 	"/sbin"
   "$HOME/.local/share/JetBrains/Toolbox/scripts"
