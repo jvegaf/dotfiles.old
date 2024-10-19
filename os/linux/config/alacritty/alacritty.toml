@@ -1,8 +1,8 @@
-general.import = [
-  "~/.config/alacritty/colors.toml",
-  "~/.config/alacritty/fonts.toml",
-]
+import = ["~/.config/alacritty/colors.toml", "~/.config/alacritty/fonts.toml"]
 
+[shell]
+program = "/bin/zsh"
+args = ["--login", "-c", "tmux new-session -A -s main-alacritty"]
 
 [window]
 decorations = "full"
@@ -19,10 +19,6 @@ unfocused_hollow = false
 blinking = "On"
 shape = "Block"
 
-# start zsh then attach to a consistent tmux session that lives beyond quitting the app
-[terminal.shell]
-program = "/bin/zsh"
-args = ["--login", "-c", "tmux new-session -A -s main-alacritty"]
 
 [selection]
 save_to_clipboard = true
