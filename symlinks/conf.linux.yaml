@@ -49,6 +49,7 @@
     ~/.screenlayout: os/linux/config/screenlayout
     ~/.config/sublime-text/Packages/User: editors/sublime/User
     ~/.config/sxhkd: os/linux/config/sxhkd
+    ~/.config/termite: os/linux/config/termite
     ~/.config/terminator: os/linux/config/terminator
     ~/.config/wfuzz: os/linux/config/wfuzz
     ~/.config/regolith3: os/linux/config/regolith3
