@@ -72,6 +72,7 @@ alias ddcx='ddcutil setvcp 0x10 0'
 alias ddcv='ddcutil setvcp 0x10 100'
 alias perfmode='dot system cpumode performance'
 alias savemode='dot system cpumode powersave'
+alias schedmode='dot system cpumode schedutil'
 alias currmode='dot system cpumode current'
 
 alias winreb='sudo grub-reboot 2 && sudo reboot'
