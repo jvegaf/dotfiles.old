@@ -27,3 +27,9 @@ quote_search_terms() {
 function ww() {
   xdg-open "https://www.google.com/search?q=$(quote_search_terms "$@")"
 }
+
+function www() {
+  xdg-open "https://"$@""
+}
+
+
