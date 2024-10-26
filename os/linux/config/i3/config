@@ -10,7 +10,9 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
-set $term --no-startup-id kitty
+set $term --no-startup-id wezterm
+set $file-browser --no-startup-id nemo
+set $web-browser --no-startup-id brave
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -47,31 +49,32 @@ bindsym     XF86MonBrightnessDown   exec $HOME/.config/scripts/brightdown
 # exec        synclient TouchpadOff=1
 
 # <<--------- Bindings --------->>
-bindsym Print               exec --no-startup-id flameshot gui
-bindsym $mod+w			        exec --no-startup-id firefox
+bindsym Print             exec --no-startup-id flameshot gui
+bindsym $mod+e            exec $file-browser
+bindsym $mod+w            exec --no-startup-id firefox
 #bindsym $mod+shift+w	      exec --no-startup-id qutebrowser
-bindsym $mod+l 			        exec --no-startup-id thunar
-bindsym $mod+o			        exec --no-startup-id obsidian; exec ~/.config/scripts/obs-pic
-bindsym $mod+g 			        exec --no-startup-id telegram-desktop -g 78x24+50+20
-bindsym $mod+z			        exec --no-startup-id zotero
-bindsym $mod+u              exec --no-startup-id $term --class "dropurl" -e nvim ~/.config/scripts/url.txt
-bindsym $mod+F12		        exec i3-input -F 'exec goldendict %s' -P 'Word: '
-bindsym $mod+p 			        exec ls -v -r ~/Media/Pictures/Wallpapers/*.png | nsxiv -t -b -
+bindsym $mod+l            exec --no-startup-id thunar
+bindsym $mod+o            exec --no-startup-id obsidian; exec ~/.config/scripts/obs-pic
+bindsym $mod+g            exec --no-startup-id telegram-desktop -g 78x24+50+20
+bindsym $mod+z            exec --no-startup-id zotero
+bindsym $mod+u            exec --no-startup-id $term --class "dropurl" -e nvim ~/.config/scripts/url.txt
+bindsym $mod+F12          exec i3-input -F 'exec goldendict %s' -P 'Word: '
+bindsym $mod+p            exec ls -v -r ~/Media/Pictures/Wallpapers/*.png | nsxiv -t -b -
 #bindsym $mod+shift+c			  exec ~/.config/scripts/conf_selector
 #bindsym $mod+shift+l	      exec $term -e ~/.config/scripts/lfub
-bindsym $mod+n			        exec $HOME/Documents/Repositories/RofiNoter/main
-bindsym $mod+shift+s        exec $screencast
-bindsym $mod+d              exec rofi -show drun -show-icons
-bindsym $mod+shift+e        exec rofi -show emoji -modi emoji
-bindsym $mod+shift+x	      exec $HOME/.config/scripts/lock
-bindsym $mod+Return 	      exec $term
-bindsym $mod+Shift+Return   exec $alt
-bindsym $mod+semicolon	    layout toggle split
-bindsym $mod+backslash	    split h
-bindsym $mod+slash	        split v
-bindsym $mod+Shift+r        restart
-bindsym $mod+f		          fullscreen toggle
-bindsym $mod+q              kill
+bindsym $mod+n            exec $HOME/Documents/Repositories/RofiNoter/main
+bindsym $mod+shift+s      exec $screencast
+bindsym $mod+d            exec rofi -show drun -show-icons
+bindsym $mod+shift+e      exec rofi -show emoji -modi emoji
+bindsym $mod+shift+x      exec $HOME/.config/scripts/lock
+bindsym $mod+Return       exec $term
+bindsym $mod+Shift+Return exec $web-browser
+bindsym $mod+semicolon    layout toggle split
+bindsym $mod+backslash    split h
+bindsym $mod+slash        split v
+bindsym $mod+Shift+r      restart
+bindsym $mod+f            fullscreen toggle
+bindsym $mod+q            kill
 
 # <<--------- Focus Control --------->>
 bindsym $mod+Shift+space    floating toggle
@@ -243,8 +246,8 @@ bindsym $mod+r mode "resize"
 # hide_edge_borders both
 # smart_gaps inverse_outer
 
-gaps outer 10
-gaps inner 10
+gaps outer 6
+gaps inner 6
 
 default_floating_border pixel 3
 default_border pixel 3

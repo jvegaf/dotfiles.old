@@ -16,7 +16,7 @@ sudo apt-get install \
 cd /tmp
 curl https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.24.3-stable.tar.xz -o flutter_linux_3.24.3-stable.tar.xz
 sudo tar xf flutter_linux_3.24.3-stable.tar.xz --directory=/usr/bin/
-echo 'export PATH="/usr/bin/flutter/bin:$PATH"' >> ~/.zshenv
+# echo 'export PATH="/usr/bin/flutter/bin:$PATH"' >> ~/.zshenv
 
 log::note "Flutter SDK installed ✅, check it with 'flutter doctor -v'"
 
