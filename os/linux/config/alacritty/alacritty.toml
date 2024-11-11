@@ -1,6 +1,5 @@
-import = ["~/.config/alacritty/colors.toml", "~/.config/alacritty/fonts.toml"]
 
-[shell]
+[terminal.shell]
 program = "/bin/zsh"
 args = ["--login", "-c", "tmux new-session -A -s main-alacritty"]
 
@@ -25,3 +24,8 @@ save_to_clipboard = true
 
 [env]
 TERM = "tmux-256color"
+
+[general]
+import = ["~/.config/alacritty/colors.toml", "~/.config/alacritty/fonts.toml"]
+
+[terminal]
