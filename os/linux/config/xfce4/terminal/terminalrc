@@ -1,13 +1,15 @@
-## Copyright (C) 2020-2023 Aditya Shakya <adi1090x@gmail.com>
-
 [Configuration]
+BackgroundDarkness=0.920000
+MiscSearchDialogOpacity=100
+MiscShowUnsafePasteDialog=FALSE
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBellUrgent=FALSE
 MiscBordersDefault=TRUE
-MiscCursorBlinks=TRUE
+MiscCursorBlinks=FALSE
 MiscCursorShape=TERMINAL_CURSOR_SHAPE_BLOCK
-MiscDefaultGeometry=82x25
+MiscDefaultGeometry=100x30
 MiscInheritGeometry=FALSE
 MiscMenubarDefault=FALSE
 MiscMouseAutohide=FALSE
@@ -24,15 +26,17 @@ MiscCopyOnSelect=FALSE
 MiscShowRelaunchDialog=TRUE
 MiscRewrapOnResize=TRUE
 MiscUseShiftArrowsToScroll=FALSE
-MiscSlimTabs=TRUE
+MiscSlimTabs=FALSE
 MiscNewTabAdjacent=FALSE
-MiscSearchDialogOpacity=100
-MiscShowUnsafePasteDialog=TRUE
+ColorForeground=#e3e3ea
+ColorBackground=#08052b
+ColorCursor=#ff7f7f
+ColorCursorForeground=#FFFFFF
+ColorBold=#7fbaff
+TabActivityColor=#81813d3d9c9c
+ColorCursorUseDefault=FALSE
+ColorBoldIsBright=FALSE
 ScrollingUnlimited=TRUE
-FontName=JetBrainsMono Nerd Font 10
+FontName=JetBrains Mono NF 10
+ColorPalette=rgb(0,0,0);rgb(170,0,0);rgb(76,61,170);rgb(170,85,0);rgb(0,0,170);rgb(170,0,170);rgb(0,170,170);rgb(170,170,170);rgb(85,85,85);rgb(255,85,85);rgb(85,255,85);rgb(255,255,85);rgb(85,85,255);rgb(255,85,255);rgb(85,255,255);rgb(255,255,255)
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
-ColorForeground=#ababb2b2bfbf
-ColorBackground=#1e1e21212828
-ColorCursor=#ababb2b2bfbf
-ColorBoldUseDefault=FALSE
-ColorPalette=#323236363d3d;#e0e06b6b7474;#9898c3c37979;#e5e5c0c07a7a;#6262aeaeefef;#c7c77878dddd;#5555b6b6c2c2;#ababb2b2bfbf;#505054545b5b;#eaea75757e7e;#a2a2cdcd8383;#efefcaca8484;#6c6cb8b8f9f9;#d2d28282e7e7;#5f5fc0c0cccc;#b5b5bcbcc9c9
