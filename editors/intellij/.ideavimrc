@@ -6,24 +6,44 @@ set history=1000
 set showmode
 
 " leader
-map <space> <nop>
-let mapleader="\<space>"
+nnoremap <space> <nop>
+let mapleader=' '
 
-set clipboard+=unnamed
+set clipboard+=unnamedplus
 
-" find and replace
+set surround  "usage: https://github.com/tpope/vim-surround
+set easymotion  " jump-motion (required idea plugin: IdeaVim-EasyMotion, AceJump)
+set commentary
+set ReplaceWithRegister  "usage: https://github.com/vim-scripts/ReplaceWithRegister
 set hlsearch
 set incsearch
+set number relativenumber
+set exchange  " usage: https://github.com/tommcdo/vim-exchange
 set ignorecase
 set smartcase
 set gdefault
-nmap <leader>nh :noh<CR>
-
-" ideavim settings
-set ideajoin
+set ideajoin  " https://github.com/JetBrains/ideavim/wiki/%22ideajoin%22-examples
 set ideamarks
 set idearefactormode=normal
 set ideastatusicon=gray
+set highlightedyank
+set NERDTree
+set vim-paragraph-motion
+set textobj-indent
+set textobj-entire
+set argtextobj
+" https://github.com/AlexPl292/IdeaVim-EasyMotion#supported-commands
+" default <leader><leader>f<char> to jump to char"
+nmap <leader>nh :noh<CR>
+
+" highlight yank (bundle plugin)
+let g:highlightedyank_highlight_duration = "1000"
+let g:highlightedyank_highlight_color = "rgba(57, 197, 187, 155)"
+
+let g:NERDTreeMapActivateNode="l"
+let g:NERDTreeMapCloseDir="h"
+nnoremap <leader>e :NERDTreeToggle<CR>
+
 
 map <leader>,cc <Action>(ChangeColorScheme)
 
@@ -33,24 +53,25 @@ map L $
 map J }
 map K {
 
-nmap vv V
+nnoremap vv V
 
 " better escape
-imap jk <Esc>
+inoremap jj <Esc>
 
 " location
-nmap <C-i> <Action>(Back)
-nmap <C-o> <Action>(Forward)
+nmap <C-o> <Action>(Back)
+nmap <C-]> <Action>(Forward)
 
 " buffer (buffer < window < tab)
-nmap <leader>xx <Action>(CloseContent)
+nmap Q <Action>(CloseContent)
+nmap W <Action>(SaveContent)
 nmap <leader>xa <Action>(CloseAllEditors)
 nmap <leader>xo <Action>(CloseAllEditorsButActive)
 nmap <leader>xp <Action>(CloseAllUnpinnedEditors)
 
 " window
-nmap <C-Tab> <Action>(PreviousTab)
-nmap <Tab> <Action>(NextTab)
+nmap <C-S-Tab> <Action>(PreviousTab)
+nmap <C-Tab> <Action>(NextTab)
 nmap <leader>p <Action>(PinActiveEditorTab)
 
 nmap <leader>1 <Action>(GoToTab1)
@@ -97,6 +118,7 @@ nmap <leader>mg <Action>(GoToMenu)
 nmap <leader>ms <Action>(ScopeViewPopupMenu)
 nmap <leader>mt <Action>(EditorTabPopupMenu)
 nmap <leader>mw <Action>(ToolWindowsGroup)
+nmap <C-m> <Action>(ShowPopupMenu)
 
 " file
 nmap <leader>of <Action>(OpenFile)
@@ -121,13 +143,11 @@ nmap <leader>qd <Action>(QuickDefinition)
 nmap <leader>qD <Action>(QuickTypeDefinition)
 
 " code
-map <leader>c <Action>(CommentByLineComment)
-map <leader>C <Action>(CommentByBlockComment)
-nmap <leader>ga <Action>(ShowIntentionActions)
-nmap <leader>ge <Action>(ShowErrorDescription)
+nmap <leader>ca <Action>(ShowIntentionActions)
+nmap <leader>ce <Action>(ShowErrorDescription)
 nmap <leader>om <Action>(OverrideMethods)
 nmap <leader>im <Action>(ImplementMethods)
-nmap <leader>fc <Action>(ReformatCode)
+nmap <leader>cf <Action>(ReformatCode)
 nmap <leader>ic <Action>(InspectCode)
 nmap <leader>so <Action>(SelectAllOccurrences)
 nmap <leader>gg <Action>(Generate)
@@ -158,7 +178,7 @@ nmap <leader>bb <Action>(BuildMenu)
 
 " refactor
 nmap <leader>rn <Action>(RenameElement)
-nmap <leader>re <Action>(Refactorings.QuickListPopupAction)
+xnoremap \\r <Action>(Refactorings.QuickListPopupAction)
 nmap <leader>uw <Action>(Unwrap)
 nmap <leader>sw <Action>(SurroundWith)
 nmap <leader>sd <Action>(SafeDelete)
@@ -170,9 +190,9 @@ nmap <leader>hm <Action>(MethodHierarchy)
 nmap <leader>ht <Action>(TypeHierarchy)
 
 " collapse
-nmap zz <Action>(ExpandCollapseToggleAction)
-nmap za <Action>(CollapseAllRegions)
-nmap zA <Action>(ExpandAllRegions)
+" nmap zz <Action>(ExpandCollapseToggleAction)
+" nmap za <Action>(CollapseAllRegions)
+" nmap zA <Action>(ExpandAllRegions)
 
 " zen
 nmap <leader>z <Action>(ToggleZenMode)
@@ -188,8 +208,8 @@ nmap [u <Action>(GotoPrevElementUnderCaretUsage)
 nmap ]u <Action>(GotoNextElementUnderCaretUsage)
 nmap [o <Action>(PreviousOccurence)
 nmap ]o <Action>(NextOccurence)
-nmap [m <Action>(MethodUp)
-nmap ]m <Action>(MethodDown)
+nmap [[ <Action>(MethodUp)
+nmap ]] <Action>(MethodDown)
 nmap [c <Action>(JumpToLastChange)
 nmap ]c <Action>(JumpToNextChange)
 
@@ -237,19 +257,6 @@ nmap <leader>ir <Action>(IdeaVim.ReloadVimRc.reload)
 map <ESC><ESC> :nohlsearch<CR>
 
 
-" text-object (bundle plugin)
-set vim-paragraph-motion
-set textobj-indent
-set textobj-entire
-set argtextobj
-
-" jump-motion (required idea plugin: IdeaVim-EasyMotion, AceJump)
-set easymotion
-
-" highlight yank (bundle plugin)
-set highlightedyank
-let g:highlightedyank_highlight_duration = "1000"
-let g:highlightedyank_highlight_color = "rgba(57, 197, 187, 155)"
 
 " translation (required idea plugin: Translation)
 nmap \\tt <Action>($ShowTranslationDialogAction)
@@ -262,29 +269,13 @@ nmap <leader>ss <Action>(osmedile.intellij.stringmanip.PopupChoiceAction)
 
 " code screenshot (required idea plugin: Code Screenshots)
 nmap <leader>cs <Action>(one.util.ideaplugin.screenshoter.CopyImageAction)
-
-" surround (bundle plugin)
-" usage: https://github.com/tpope/vim-surround
-set surround
-
-" exchange (bundle plugin)
-" usage: https://github.com/tommcdo/vim-exchange
-set exchange
-
-" nerdtree (bundle plugin)
-set NERDTree
-let g:NERDTreeMapActivateNode="l"
-let g:NERDTreeMapCloseDir="h"
-map <leader>e :NERDTreeToggle<CR>
-
-" replace with register (bundle plugin)
-" usage: https://github.com/vim-scripts/ReplaceWithRegister
-set ReplaceWithRegister
-
 " continuous shift
-xnoremap < <gv
-xnoremap > >gv
+vnoremap < <gv
+vnoremap > >gv
+
+vnoremap <Esc> <ESC>
+vnoremap p "_dP
 
 " alias
-nmap <C-a> ggVG"+y
+nnoremap <C-a> ggVG"+y
 
