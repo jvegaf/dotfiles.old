@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -euo pipefail
+set -eu pipefail
 
 dump_file="$DOTFILES_PATH/os/linux/config/dconf/cinnamon/cinnamon_dump.conf"
 
