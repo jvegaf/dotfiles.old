@@ -40,7 +40,14 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
+let g:gitgutter_map_keys = get(g:, 'gitgutter_map_keys', 0)
+
 Plug 'airblade/vim-gitgutter'
+
+nmap <silent> ]g :GitGutterNextHunk<CR>
+nmap <silent> [g :GitGutterPrevHunk<CR>
+
 Plug 'vim-scripts/grep.vim'
 Plug 'vim-scripts/CSApprox'
 Plug 'Raimondi/delimitMate'
@@ -50,6 +57,10 @@ Plug 'Yggdroot/indentLine'
 Plug 'editor-bootstrap/vim-bootstrap-updater'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :GBrowse
 Plug 'joshdick/onedark.vim'
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'tomasr/molokai'
+Plug 'ku1ik/vim-monokai'
+Plug 'machakann/vim-highlightedyank'
 
 "Dart/Flutter
 Plug 'dart-lang/dart-vim-plugin'
@@ -86,6 +97,11 @@ Plug 'honza/vim-snippets'
 Plug 'vim-scripts/c.vim', {'for': ['c', 'cpp']}
 Plug 'ludwig/split-manpage.vim'
 
+let g:cpp_class_scope_highlight = get(g:, 'cpp_class_scope_highlight', 1)
+let g:cpp_class_decl_highlight = get(g:, 'cpp_class_decl_highlight', 1)
+let g:cpp_no_function_highlight = get(g:, 'cpp_no_function_highlight', 1)
+
+Plug 'octol/vim-cpp-enhanced-highlight'
 
 " html
 "" HTML Bundle
@@ -115,7 +131,210 @@ Plug 'raimon49/requirements.txt.vim', {'for': 'requirements'}
 " typescript
 Plug 'leafgarland/typescript-vim'
 Plug 'HerringtonDarkholme/yats.vim'
+Plug 'maxmellon/vim-jsx-pretty'
 
+
+let g:AutoPairsMapSpace = get(g:, 'AutoPairsMapSpace', 0)
+
+Plug 'jiangmiao/auto-pairs'
+Plug 'schickling/vim-bufonly'
+
+nnoremap <Leader>bo :BufOnly<CR>
+
+
+let g:closetag_emptyTags_caseSensitive =
+      \ get(g:, 'g:closetag_emptyTags_caseSensitive', 1)
+let g:closetag_filetypes =
+      \ get(g:, 'closetag_filetypes', 'html,xhtml,phtml,javascript.jsx,typescript.tsx')
+
+Plug 'alvan/vim-closetag'
+Plug 'editorconfig/editorconfig-vim'
+
+
+let g:Illuminate_delay = get(g:, 'Illuminate_delay', 250)
+let g:Illuminate_ftblacklist = get(g:, 'Illuminate_ftblacklist', ['nerdtree'])
+
+Plug 'RRethy/vim-illuminate'
+Plug 'Yggdroot/indentLine'
+Plug 'haya14busa/is.vim'
+Plug 'sbdchd/neoformat'
+
+" TODO: add this to neoformat
+" nnoremap <Leader>= :Neoformat<CR>
+" vnoremap <Leader>= :Neoformat<CR>
+
+let g:NERDDefaultAlign = get(g:, 'NERDDefaultAlign', 'left')
+
+Plug 'scrooloose/nerdcommenter'
+Plug 'danro/rename.vim'
+Plug 'tpope/vim-repeat'
+
+
+let g:sneak#label = get(g:, 'sneak#lable', 1)
+let g:sneak#use_ic_scs = get(g:, 'sneak#use_ic_scs', 1)
+
+Plug 'justinmk/vim-sneak'
+
+map f <Plug>Sneak_f
+map F <Plug>Sneak_F
+map t <Plug>Sneak_t
+map T <Plug>Sneak_T
+
+Plug 'tpope/vim-surround'
+Plug 'edkolev/tmuxline.vim'
+Plug 'cespare/vim-toml'
+
+let g:undotree_WindowLayout = get(g:, 'undotree_WindowLayout', 4)
+
+Plug 'mbbill/undotree'
+
+nnoremap <Leader>tu :TagbarClose<CR>:UndotreeToggle<CR>
+
+
+let g:ycm_key_list_select_completion =
+      \ get(g:, 'ycm_key_list_select_completion', ['<TAB>', '<Down>'])
+let g:ycm_key_list_previous_completion =
+      \ get(g:, 'ycm_key_list_previous_completion', ['<S-TAB>', '<Up>'])
+let g:ycm_auto_trigger =
+      \ get(g:, 'ycm_auto_trigger', 1)
+let g:ycm_autoclose_preview_window_after_insertion =
+      \ get(g:, 'ycm_autoclose_preview_window_after_insertion', 1)
+let g:ycm_seed_identifiers_with_syntax =
+      \ get(g:, 'ycm_seed_identifiers_with_syntax', 1)
+let g:ycm_collect_identifiers_from_comments_and_strings =
+      \ get(g:, 'ycm_collect_identifiers_from_comments_and_strings', 1)
+let g:ycm_python_binary_path =
+      \ get(g:, 'ycm_python_binary_path', 'python')
+let g:ycm_show_diagnostics_ui =
+      \ get(g:, 'ycm_show_diagnostics_ui', 0)
+let g:ycm_key_detailed_diagnostics =
+      \ get(g:, 'ycm_key_detailed_diagnostics', '')
+let g:ycm_semantic_triggers = get(g:, 'ycm_semantic_triggers', {
+      \ 'c': ['->', '.', 're!\w{3}'],
+      \ 'cpp': ['->', '.', '::', 're!\w{3}'],
+      \ 'cs' : ['.', 're!\w{3}'],
+      \ 'cuda': ['->', '.', '::', 're!\w{3}'],
+      \ 'd' : ['.', 're!\w{3}'],
+      \ 'elixir' : ['.', 're!\w{3}'],
+      \ 'erlang': [':'],
+      \ 'go' : ['.', 're!\w{3}'],
+      \ 'java' : ['.', 're!\w{3}'],
+      \ 'javascript' : ['.', 're!\w{3}'],
+      \ 'javascript.jsx' : ['.', 're!\w{3}'],
+      \ 'lua': ['.', ':'],
+      \ 'objc': ['->', '.', 're!\[[_a-zA-Z]+\w*\s', 're!^\s*[^\W\d]\w*\s', 're!\[.*\]\s'],
+      \ 'objcpp': ['->', '.', '::', 're!\w{3}'],
+      \ 'ocaml': ['.', '#'],
+      \ 'perl': ['->'],
+      \ 'perl6' : ['.', 're!\w{3}'],
+      \ 'php': ['->', '::'],
+      \ 'python' : ['.', 're!\w{3}'],
+      \ 'ruby': ['.', '::'],
+      \ 'rust': ['.', '::'],
+      \ 'scala' : ['.', 're!\w{3}'],
+      \ 'sh': ['re![\w-]{2}', '/', '-'],
+      \ 'typescript' : ['.', 're!\w{3}'],
+      \ 'typescript.tsx' : ['.', 're!\w{3}'],
+      \ 'vb' : ['.', 're!\w{3}'],
+      \ 'vim': ['re![_a-zA-Z]+[_\w]*\.'],
+      \ 'zsh': ['re![\w-]{2}', '/', '-'],
+      \ })
+let g:ycm_filetype_whitelist = get(g:, 'ycm_filetype_whitelist', {
+      \ 'c': 1,
+      \ 'cpp': 1,
+      \ 'go': 1,
+      \ 'java': 1,
+      \ 'javascript': 1,
+      \ 'javascript.jsx': 1,
+      \ 'python': 1,
+      \ 'rust': 1,
+      \ 'sh': 1,
+      \ 'typescript': 1,
+      \ 'typescript.tsx': 1,
+      \ 'vim': 1,
+      \ 'zsh': 1,
+      \ })
+let g:ycm_extra_conf_globlist = get(g:, 'ycm_extra_conf_globlist', [
+      \ '~/*',
+      \ ])
+let g:custom_ycm_install_options = '--clangd-completer --java-completer  --ts-completer'
+
+Plug 'Valloric/YouCompleteMe', {'do': './install.py ' . g:custom_ycm_install_options}
+
+nnoremap <Leader>jc :YcmCompleter GoToInclude<CR>
+nnoremap <Leader>jd :YcmCompleter GoToDeclaration<CR>
+nnoremap <Leader>ji :YcmCompleter GoToImplementation<CR>
+nnoremap <Leader>jj :YcmCompleter GoToDefinition<CR>
+nnoremap <Leader>jr :YcmCompleter GoToReferences<CR>
+nnoremap <Leader>jt :YcmCompleter GoToType<CR>
+
+nnoremap <LocalLeader>K :YcmCompleter GetDoc<CR>
+nnoremap <LocalLeader>k :YcmCompleter GetType<CR>
+
+
+Plug 'hecal3/vim-leader-guide'
+
+function! s:leader_guide_display_func()
+  let g:leaderGuide#displayname = substitute(g:leaderGuide#displayname, '#', '', '')
+  let g:leaderGuide#displayname = substitute(g:leaderGuide#displayname, '\c<cr>$', '', '')
+  let g:leaderGuide#displayname = substitute(g:leaderGuide#displayname, '^<SID>', '', '')
+  let g:leaderGuide#displayname = substitute(g:leaderGuide#displayname, '^<Plug>', '', '')
+  let g:leaderGuide#displayname = substitute(g:leaderGuide#displayname, ':call ', '', '')
+endfunction
+
+if exists('g:leaderGuide_displayfunc')
+  call add(g:leaderGuide_displayfunc, function('s:leader_guide_display_func'))
+else
+  let g:leaderGuide_displayfunc = [function('s:leader_guide_display_func')]
+endif
+
+map <Leader>. <Plug>leaderguide-global
+nnoremap <silent> <Leader> :LeaderGuide mapleader<CR>
+vnoremap <silent> <Leader> :LeaderGuideVisual mapleader<CR>
+
+" if mapleader != maplocalleader
+"   map <LocalLeader>. <Plug>leaderguide-buffer
+"   nnoremap <silent> <LocalLeader> :LeaderGuide  maplocalleader<CR>
+"   vnoremap <silent> <LocalLeader> :LeaderGuideVisual  maplocalleader<CR>
+" endif
+
+
+Plug 'junegunn/gv.vim'
+
+" Open commit browser
+nnoremap <Leader>gV :GV<Space>
+" List commits that affected the current file
+nnoremap <Leader>gv :GV!<CR>
+vnoremap <Leader>gv :GV!<CR>
+
+Plug 'tpope/vim-endwise'
+
+
+let g:vim_json_syntax_conceal = get(g:, 'vim_json_syntax_conceal', 0)
+
+Plug 'elzr/vim-json'
+
+"*********************************************************************
+" GutenYe/json5.vim
+"*********************************************************************
+
+if v:version < 901
+  Plug 'GutenYe/json5.vim'
+endif
+
+Plug 'ekalinin/Dockerfile.vim'
+
+"*********************************************************************
+" kevinhui/vim-docker-tools
+"*********************************************************************
+
+let g:dockertools_default_all = get(g:, 'dockertools_default_all', 1)
+let g:dockertools_sudo_mode  = get(g:, 'dockertools_sudo_mode', 0)
+let g:dockertools_docker_cmd = get(g:, 'dockertools_docker_cmd', 'docker')
+
+Plug 'kevinhui/vim-docker-tools'
+
+nnoremap <Leader>td :DockerToolsToggle<CR>
 
 "*****************************************************************************
 "*****************************************************************************
@@ -139,6 +358,8 @@ set encoding=utf-8
 set fileencoding=utf-8
 set fileencodings=utf-8
 set ttyfast
+set nocompatible
+
 
 "" Fix backspace indent
 set backspace=indent,eol,start
@@ -150,7 +371,8 @@ set shiftwidth=4
 set expandtab
 
 "" Map leader to ,
-let mapleader=','
+let mapleader=' '
+let maplocalleader=','
 
 "" Enable hidden buffers
 set hidden
@@ -182,13 +404,30 @@ syntax on
 set ruler
 set number
 set relativenumber
+set showcmd
+
+" Don’t reset cursor to start of line when moving around
+set nostartofline
+
+" Show “invisible” characters
+set lcs=tab:▸\ ,trail:·,nbsp:_
+set list
 
 let no_buffers_menu=1
-colorscheme onedark
+" colorscheme onedark
+colorscheme molokai
+set background=dark
 
 
 " Better command line completion
 set wildmenu
+
+" Allow cursor keys in insert mode
+set esckeys
+
+
+set undodir=~/.vim/undo
+set undofile
 
 " mouse support
 set mouse=a
@@ -258,13 +497,28 @@ if exists("*fugitive#statusline")
 endif
 
 " vim-airline
-let g:airline_theme = 'powerlineish'
+" let g:airline_theme = 'powerlineish'
+let g:airline_theme = 'molokai'
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#ale#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tagbar#enabled = 1
 let g:airline_skip_empty_sections = 1
 
+nmap <Leader>1 <Plug>AirlineSelectTab1
+nmap <Leader>2 <Plug>AirlineSelectTab2
+nmap <Leader>3 <Plug>AirlineSelectTab3
+nmap <Leader>4 <Plug>AirlineSelectTab4
+nmap <Leader>5 <Plug>AirlineSelectTab5
+nmap <Leader>6 <Plug>AirlineSelectTab6
+nmap <Leader>7 <Plug>AirlineSelectTab7
+nmap <Leader>8 <Plug>AirlineSelectTab8
+nmap <Leader>9 <Plug>AirlineSelectTab9
+nmap <leader>- <Plug>AirlineSelectPrevTab
+nmap <leader>+ <Plug>AirlineSelectNextTab
+
+nmap <silent> [t <Plug>AirlineSelectPrevTab
+nmap <silent> ]t <Plug>AirlineSelectNextTab
 "*****************************************************************************
 "" Abbreviations
 "*****************************************************************************
@@ -319,6 +573,39 @@ if !exists('*s:setupWrapping')
   endfunction
 endif
 
+
+function! s:CloseWindowsAutomatically()
+  if winnr('$') != 1
+    return
+  endif
+  if (&buftype == 'quickfix' || (exists('b:NERDTree') && b:NERDTree.isTabTree()))
+    q
+  endif
+endfunction
+
+function! HasFeatures()
+  return has('timers') && exists('*job_start') && exists('*ch_close_in')
+endfunction
+
+function! IsLinux()
+  return has('unix') && !has('macunix') && !has('win32unix')
+endfunction
+
+function! IsMac()
+  return has('macunix')
+endfunction
+
+function! IsWindows()
+  return has('win32') || has('win64')
+endfunction
+
+function! TrySource(filepath)
+  if filereadable(a:filepath)
+    execute 'source' fnameescape(a:filepath)
+  endif
+endfunction
+
+
 "*****************************************************************************
 "" Autocmd Rules
 "*****************************************************************************
@@ -349,7 +636,26 @@ augroup END
 
 set autoread
 
-"*****************************************************************************
+augroup CloseWindowsAutomatically
+  autocmd!
+  autocmd BufEnter * call s:CloseWindowsAutomatically()
+augroup END
+
+" autocmd InsertLeave * set nocursorline
+" autocmd InsertEnter * set cursorline
+
+if has("autocmd")
+  au VimEnter,InsertLeave * silent execute '!echo -ne "\\e[2 q"' | redraw!
+  au InsertEnter,InsertChange *
+    \ if v:insertmode == 'i' |
+    \   silent execute '!echo -ne "\\e[6 q"' | redraw! |
+    \ elseif v:insertmode == 'r' |
+    \   silent execute '!echo -ne "\\e[4 q"' | redraw! |
+    \ endif
+  au VimLeave * silent execute '!echo -ne "\\e[ q"' | redraw!
+endif
+
+""*****************************************************************************
 "" Mappings
 "*****************************************************************************
 
@@ -385,7 +691,7 @@ nnoremap <leader>. :lcd %:p:h<CR>
 
 
 "" Opens an edit command with the path of the currently edited file filled in
-noremap <Leader>e :e <C-R>=expand("%:p:h") . "/" <CR>
+noremap <Leader>E :e <C-R>=expand("%:p:h") . "/" <CR>
 
 "" Opens a tab edit command with the path of the currently edited file filled
 noremap <Leader>te :tabe <C-R>=expand("%:p:h") . "/" <CR>
@@ -435,53 +741,61 @@ if has('autocmd')
   autocmd GUIEnter * set visualbell t_vb=
 endif
 
-"" Copy/Paste/Cut
-if has('unnamedplus')
-  set clipboard=unnamed,unnamedplus
-endif
+" Use the OS clipboard by default
+" if has('clipboard')
+"   if has('unnamedplus')
+"     set clipboard=unnamed,unnamedplus
+"   else
+"     set clipboard=unnamed
+"   endif
+" endif
+
+set clipboard=unnamedplus
+
+
 
 noremap YY "+y<CR>
 noremap <leader>p "+gP<CR>
 noremap XX "+x<CR>
 
-if has('macunix')
-  " pbcopy for OSX copy/paste
-  vmap <C-x> :!pbcopy<CR>
-  vmap <C-c> :w !pbcopy<CR><CR>
-endif
 
 "" Buffer nav
-noremap <leader>z :bp<CR>
+" noremap <leader>z :bp<CR>
 noremap <leader>q :q<CR>
-noremap <leader>x :bn<CR>
-noremap <leader>w :bn<CR>
+" noremap <leader>x :bn<CR>
+" noremap <leader>w :bn<CR>
 
 "" Close buffer
 noremap W :w<CR>
 noremap Q :bd<CR>
 
+nnoremap vv V
+
 "" Clean search (highlight)
 nnoremap <silent> <leader><space> :noh<cr>
-
-"" Switching windows
-noremap <C-j> <C-w>j
-noremap <C-k> <C-w>k
-noremap <C-l> <C-w>l
-noremap <C-h> <C-w>h
 
 "" Vmap for maintain Visual Mode after shifting > and <
 vmap < <gv
 vmap > >gv
 
-"" Move visual block
-vnoremap J :m '>+1<CR>gv=gv
-vnoremap K :m '<-2<CR>gv=gv
+"" Move
+execute "set <M-j>=\ej"
+execute "set <M-k>=\ek"
 
+nnoremap <M-j> :m .+1<CR>==
+nnoremap <M-k> :m .-2<CR>==
+inoremap <M-j> <Esc>:m .+1<CR>==gi
+inoremap <M-k> <Esc>:m .-2<CR>==gi
+vnoremap <M-j> :m '>+1<CR>gv=gv
+vnoremap <M-k> :m '<-2<CR>gv=gv
 "" Open current line on GitHub
 nnoremap <Leader>o :.GBrowse<CR>
 
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
+
+
+
 
 "*****************************************************************************
 "" Custom configs
@@ -593,3 +907,16 @@ else
   let g:airline_symbols.readonly = ''
   let g:airline_symbols.linenr = ''
 endif
+
+
+
+function! s:internet_search(q)
+  let url ='https://www.google.com/search?q=%s'
+  let q = substitute(a:q, '["\n]', ' ', 'g')
+  let q = substitute(q, '[[:punct:] ]', '\=printf("%%%02X", char2nr(submatch(0)))', 'g')
+  let open = IsLinux() ? 'xdg-open' : 'open'
+  call system(printf(open . ' "' . url . '"', q))
+endfunction
+
+nnoremap <silent> <Leader>se :call <SID>internet_search(expand('<cWORD>'))<CR>
+xnoremap <silent> <Leader>se "gy:call <SID>internet_search(@g)<CR>

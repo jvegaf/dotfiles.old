@@ -121,8 +121,8 @@ return {
 	-- color_scheme = 'Catppuccin Frappe',
 	disable_default_key_bindings = true,
 	exit_behavior = "Close",
-	-- font = wezterm.font_with_fallback({ "JetBrainsMono NF" }),
-	font = wezterm.font_with_fallback({ "ComicCodeLigatures NF", "Noto Color Emoji" }),
+	-- font = wezterm.font_with_fallback({ "ComicCodeLigatures NF", "Noto Color Emoji" }),
+	font = wezterm.font_with_fallback({ "JetBrainsMono NF", "Noto Color Emoji" }),
 	font_size = 13,
 	front_end = "OpenGL",
 	force_reverse_video_cursor = true,
@@ -181,9 +181,19 @@ return {
 			key = "e",
 		},
 		{
-			action = act.CloseCurrentTab({ confirm = true }),
+			action = act.ActivateTabRelative(1),
 			mods = "LEADER",
-			key = "e",
+			key = "n",
+		},
+		{
+			action = act.ActivateTabRelative(-1),
+			mods = "LEADER",
+			key = "m",
+		},
+		{
+			action = act.ActivateTabRelative(1),
+			mods = "LEADER",
+			key = "n",
 		},
 	},
 	mouse_bindings = {

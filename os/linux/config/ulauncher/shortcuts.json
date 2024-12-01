@@ -148,5 +148,15 @@
         "is_default_search": false,
         "run_without_argument": false,
         "added": 1732489744.4717638
+    },
+    "113e2a98-2ebb-40bb-95c7-b4d587ce4b4c": {
+        "id": "113e2a98-2ebb-40bb-95c7-b4d587ce4b4c",
+        "name": "TrackId.net",
+        "keyword": "ti",
+        "cmd": "https://trackid.net/audiostreams?keywords=%s",
+        "icon": null,
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1732491301.6956453
     }
 }

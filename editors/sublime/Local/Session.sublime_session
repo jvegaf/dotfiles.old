@@ -1,26 +1,56 @@
 {
 	"file_history":
 	[
+		"/home/th3g3ntl3man/Downloads/generate.vim",
+		"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/iTunes Music Library.xml",
+		"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/PropertyList-1.0.dtd.webarchive",
+		"/home/th3g3ntl3man/Documents/01-Music Manager/tagger/tagger/mixxx.py",
+		"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/app.jsx",
+		"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/footer.jsx",
+		"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/header.jsx",
+		"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/sidebar.jsx",
+		"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/package.json",
+		"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/app.js",
+		"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/iTunes.xml",
+		"/home/th3g3ntl3man/Documents/01-Music Manager/museeks/src/shared/types/interfaces.ts",
+		"/home/th3g3ntl3man/Documents/python-packaging-source/pyside6/installer/linux/.fpm",
+		"/home/th3g3ntl3man/Code/py/Symphony/symphony.spec",
+		"/home/th3g3ntl3man/Documents/python-packaging-source/pyside6/installer/linux/package.sh",
+		"/home/th3g3ntl3man/Code/py/FeelUOwn/pyinstaller_hooks/hook-feeluown.py",
+		"/home/th3g3ntl3man/Code/py/Apollo/pyproject.toml",
+		"/home/th3g3ntl3man/Downloads/Dockerfile",
+		"/home/th3g3ntl3man/Documents/python-packaging-source/OUTPUT/pyside6/installer/windows/app.ifp",
+		"/home/th3g3ntl3man/Documents/python-packaging-source/common/installer/linux/package.sh",
+		"/home/th3g3ntl3man/Code/py/Apollo/poetry.toml",
+		"/home/th3g3ntl3man/Documents/python-packaging-source/common/installer/linux/.fpm",
+		"/home/th3g3ntl3man/Code/py/MusicBox/MusicPlayer/dbManager/userInfoManager.py",
+		"/home/th3g3ntl3man/Code/py/MusicBox/MusicPlayer/dbManager/dbManager.py",
+		"/home/th3g3ntl3man/Code/py/Groove/Groove.pro",
+		"/home/th3g3ntl3man/.dotfiles/editors/sublime/Packages/Default/Preferences.sublime-settings",
+		"/home/th3g3ntl3man/.dotfiles/editors/sublime/Packages/User/Preferences.sublime-settings",
+		"/home/th3g3ntl3man/Code/py/cookiecutter_prueba/symphony/setup.py",
+		"/home/th3g3ntl3man/Documents/python-packaging-source/common/data-folder/hello-world.spec",
 		"/home/th3g3ntl3man/UntitledProject/UntitledProjectContent/App.qml",
 		"/home/th3g3ntl3man/UntitledProject/UntitledProject/Constants.qml",
 		"/home/th3g3ntl3man/UntitledProject/UntitledProjectContent/Screen01.ui.qml"
 	],
 	"folder_history":
 	[
+		"/home/th3g3ntl3man/Code/py/MusicBox"
 	],
 	"last_version": 4180,
-	"last_window_id": 1,
+	"last_window_id": 4,
 	"log_indexing": false,
-	"next_update_check": 1732198946,
+	"next_update_check": 1733062946,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 600.0,
-		"new_window_maximized": false,
+		"new_window_height": 0.0,
+		"new_window_maximized": true,
 		"new_window_position":
 		[
-			807.0,
-			155.0
+			0.0,
+			60.0
 		],
 		"new_window_settings":
 		{
@@ -40,6 +70,18 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"packin",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					]
 				],
 				"width": 0.0
 			},
@@ -61,6 +103,33 @@
 			},
 			"file_history":
 			[
+				"/home/th3g3ntl3man/Downloads/generate.vim",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/iTunes Music Library.xml",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/PropertyList-1.0.dtd.webarchive",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/tagger/tagger/mixxx.py",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/app.jsx",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/footer.jsx",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/header.jsx",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/sidebar.jsx",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/package.json",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/app.js",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/iTunes.xml",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/museeks/src/shared/types/interfaces.ts",
+				"/home/th3g3ntl3man/Documents/python-packaging-source/pyside6/installer/linux/.fpm",
+				"/home/th3g3ntl3man/Code/py/Symphony/symphony.spec",
+				"/home/th3g3ntl3man/Documents/python-packaging-source/pyside6/installer/linux/package.sh",
+				"/home/th3g3ntl3man/Code/py/FeelUOwn/pyinstaller_hooks/hook-feeluown.py",
+				"/home/th3g3ntl3man/Code/py/Apollo/pyproject.toml",
+				"/home/th3g3ntl3man/Downloads/Dockerfile",
+				"/home/th3g3ntl3man/Documents/python-packaging-source/OUTPUT/pyside6/installer/windows/app.ifp",
+				"/home/th3g3ntl3man/Documents/python-packaging-source/common/installer/linux/package.sh",
+				"/home/th3g3ntl3man/Code/py/Apollo/poetry.toml",
+				"/home/th3g3ntl3man/Documents/python-packaging-source/common/installer/linux/.fpm",
+				"/home/th3g3ntl3man/Code/py/MusicBox/MusicPlayer/dbManager/userInfoManager.py",
+				"/home/th3g3ntl3man/Code/py/MusicBox/MusicPlayer/dbManager/dbManager.py",
+				"/home/th3g3ntl3man/Code/py/Groove/Groove.pro",
+				"/home/th3g3ntl3man/Code/py/cookiecutter_prueba/symphony/setup.py",
+				"/home/th3g3ntl3man/Documents/python-packaging-source/common/data-folder/hello-world.spec",
 				"/home/th3g3ntl3man/UntitledProject/UntitledProjectContent/App.qml",
 				"/home/th3g3ntl3man/UntitledProject/UntitledProject/Constants.qml",
 				"/home/th3g3ntl3man/UntitledProject/UntitledProjectContent/Screen01.ui.qml"
@@ -147,13 +216,13 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 302.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 800.0
+		"new_window_width": 0.0
 	},
 	"windows":
 	[
@@ -178,6 +247,18 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"packin",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					]
 				],
 				"width": 0.0
 			},
@@ -199,6 +280,33 @@
 			},
 			"file_history":
 			[
+				"/home/th3g3ntl3man/Downloads/generate.vim",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/iTunes Music Library.xml",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/PropertyList-1.0.dtd.webarchive",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/tagger/tagger/mixxx.py",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/app.jsx",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/footer.jsx",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/header.jsx",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/sidebar.jsx",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/package.json",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/app.js",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/iTunes.xml",
+				"/home/th3g3ntl3man/Documents/01-Music Manager/museeks/src/shared/types/interfaces.ts",
+				"/home/th3g3ntl3man/Documents/python-packaging-source/pyside6/installer/linux/.fpm",
+				"/home/th3g3ntl3man/Code/py/Symphony/symphony.spec",
+				"/home/th3g3ntl3man/Documents/python-packaging-source/pyside6/installer/linux/package.sh",
+				"/home/th3g3ntl3man/Code/py/FeelUOwn/pyinstaller_hooks/hook-feeluown.py",
+				"/home/th3g3ntl3man/Code/py/Apollo/pyproject.toml",
+				"/home/th3g3ntl3man/Downloads/Dockerfile",
+				"/home/th3g3ntl3man/Documents/python-packaging-source/OUTPUT/pyside6/installer/windows/app.ifp",
+				"/home/th3g3ntl3man/Documents/python-packaging-source/common/installer/linux/package.sh",
+				"/home/th3g3ntl3man/Code/py/Apollo/poetry.toml",
+				"/home/th3g3ntl3man/Documents/python-packaging-source/common/installer/linux/.fpm",
+				"/home/th3g3ntl3man/Code/py/MusicBox/MusicPlayer/dbManager/userInfoManager.py",
+				"/home/th3g3ntl3man/Code/py/MusicBox/MusicPlayer/dbManager/dbManager.py",
+				"/home/th3g3ntl3man/Code/py/Groove/Groove.pro",
+				"/home/th3g3ntl3man/Code/py/cookiecutter_prueba/symphony/setup.py",
+				"/home/th3g3ntl3man/Documents/python-packaging-source/common/data-folder/hello-world.spec",
 				"/home/th3g3ntl3man/UntitledProject/UntitledProjectContent/App.qml",
 				"/home/th3g3ntl3man/UntitledProject/UntitledProject/Constants.qml",
 				"/home/th3g3ntl3man/UntitledProject/UntitledProjectContent/Screen01.ui.qml"
@@ -279,7 +387,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,807,95,1607,695,1920,1080,0",
+			"position": "0,1,0,0,0,0,0,1920,1048,1920,1080,2",
 			"project": "",
 			"replace":
 			{
@@ -321,7 +429,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 302.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{

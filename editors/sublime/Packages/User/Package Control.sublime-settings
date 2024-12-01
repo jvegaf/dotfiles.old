@@ -5,11 +5,14 @@
 	],
 	"installed_packages":
 	[
+		"Dockerfile Syntax Highlighting",
 		"Emoji",
 		"FormatLua",
+		"Googler",
 		"LuaExtended",
 		"Package Control",
 		"Pretty Lua",
+		"TOML",
 		"VimL",
 	],
 }

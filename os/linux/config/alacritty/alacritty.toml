@@ -23,7 +23,7 @@ shape = "Block"
 save_to_clipboard = true
 
 [env]
-TERM = "tmux-256color"
+# TERM = "tmux-256color"
 
 [general]
 import = ["~/.config/alacritty/colors.toml", "~/.config/alacritty/fonts.toml"]

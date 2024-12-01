@@ -1,0 +1,1 @@
+{"description": "Formatting lua to a more readable form by using Lua Development Tools library.", "version": "0.1.2", "url": "https://github.com/denglf/FormatLua", "dependencies": [], "sublime_text": "*", "platforms": ["*"]}
