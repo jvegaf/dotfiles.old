@@ -32,8 +32,6 @@
     ~/.config/neofetch: os/linux/config/neofetch
     ~/.config/nitrogen: os/linux/config/nitrogen
     ~/.config/networkmanager-dmenu: os/linux/config/networkmanager-dmenu
-    ~/.ideavimrc: editors/intellij/.ideavimrc
-    ~/.vimrc: editors/vim/vimrc
     ~/.config/obmenu-generator: os/linux/config/obmenu-generator
     ~/.config/openbox: os/linux/config/openbox
     ~/.config/openbox-themes: os/linux/config/openbox-themes

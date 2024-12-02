@@ -1,14 +1,11 @@
 - clean: ["~"]
-
 - defaults:
     link:
       create: true
       force: true
-
 - create:
     - $DOTFILES_PATH/shell/bash/completions
     - $DOTFILES_PATH/shell/bash/themes
-
 - link:
     ~/.bash_profile: shell/bash/.bash_profile
     ~/.clang-format: langs/cpp/.clang-format
@@ -22,3 +19,5 @@
     ~/.gitconfig: git/.gitconfig
     ~/.gitattributes: git/.gitattributes
     ~/.gitignore_global: git/.gitignore_global
+    ~/.ideavimrc: editors/intellij/.ideavimrc
+    ~/.vim: editors/vim

@@ -1,6 +1,7 @@
 {
 	"file_history":
 	[
+		"/home/th3g3ntl3man/Code/ft/mysample/lib/main.dart",
 		"/home/th3g3ntl3man/Downloads/generate.vim",
 		"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/iTunes Music Library.xml",
 		"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/PropertyList-1.0.dtd.webarchive",
@@ -41,7 +42,7 @@
 	"last_version": 4180,
 	"last_window_id": 4,
 	"log_indexing": false,
-	"next_update_check": 1733062946,
+	"next_update_check": 1733149346,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -50,7 +51,7 @@
 		"new_window_position":
 		[
 			0.0,
-			60.0
+			84.0
 		],
 		"new_window_settings":
 		{
@@ -103,6 +104,7 @@
 			},
 			"file_history":
 			[
+				"/home/th3g3ntl3man/Code/ft/mysample/lib/main.dart",
 				"/home/th3g3ntl3man/Downloads/generate.vim",
 				"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/iTunes Music Library.xml",
 				"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/PropertyList-1.0.dtd.webarchive",
@@ -280,6 +282,7 @@
 			},
 			"file_history":
 			[
+				"/home/th3g3ntl3man/Code/ft/mysample/lib/main.dart",
 				"/home/th3g3ntl3man/Downloads/generate.vim",
 				"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/iTunes Music Library.xml",
 				"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/PropertyList-1.0.dtd.webarchive",
@@ -387,7 +390,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,1920,1048,1920,1080,2",
+			"position": "0,1,0,0,0,0,24,1920,1048,3840,1080,0",
 			"project": "",
 			"replace":
 			{
