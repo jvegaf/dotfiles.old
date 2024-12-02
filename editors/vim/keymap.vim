@@ -21,9 +21,8 @@ nnoremap <Leader>bo :BufOnly<CR>
 
 
 
-" TODO: add this to neoformat
-" nnoremap <Leader>= :Neoformat<CR>
-" vnoremap <Leader>= :Neoformat<CR>
+nnoremap gq :Neoformat<CR>
+vnoremap gq :Neoformat<CR>
 
 
 map f <Plug>Sneak_f
@@ -101,11 +100,11 @@ cnoreabbrev W w
 cnoreabbrev Q q
 cnoreabbrev Qall qall
 
-nnoremap <silent> <F2> :NERDTreeFind<CR>
+nnoremap <silent> <leader>fe :NERDTreeFind<CR>
 nnoremap <silent> <leader>e :NERDTreeToggle<CR>
 
 " grep.vim
-nnoremap <silent> <leader>f :Rgrep<CR>
+nnoremap <silent> <leader>fg :Rgrep<CR>
 " terminal emulation
 nnoremap <silent> <leader>sh :terminal<CR>
 
@@ -184,8 +183,8 @@ nnoremap <silent> <leader><space> :noh<cr>
 vmap < <gv
 vmap > >gv
 
-"" Move
 
+"" Move
 nnoremap <M-j> :m .+1<CR>==
 nnoremap <M-k> :m .-2<CR>==
 inoremap <M-j> <Esc>:m .+1<CR>==gi
@@ -200,3 +199,28 @@ cmap w!! w !sudo tee > /dev/null %
 
 nmap <Leader>, :Files<CR>
 nmap <Leader>; :Buffers<CR>
+
+" Syntax often gets messed up on files with multiple languages
+noremap <F12> <Esc>:syntax sync fromstart<CR>
+inoremap <F12> <C-o>:syntax sync fromstart<CR>
+
+
+function! s:internet_search(q)
+  let url ='https://www.google.com/search?q=%s'
+  let q = substitute(a:q, '["\n]', ' ', 'g')
+  let q = substitute(q, '[[:punct:] ]', '\=printf("%%%02X", char2nr(submatch(0)))', 'g')
+  let open = IsLinux() ? 'xdg-open' : 'open'
+  call system(printf(open . ' "' . url . '"', q))
+endfunction
+
+"" web search
+nnoremap <silent> <Leader>se :call <SID>internet_search(expand('<cWORD>'))<CR>
+xnoremap <silent> <Leader>se "gy:call <SID>internet_search(@g)<CR>
+
+inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <cr>    pumvisible() ? asyncomplete#close_popup() : "\<cr>"
+inoremap <expr> <cr> pumvisible() ? asyncomplete#close_popup() . "\<cr>" : "\<cr>"
+imap <c-space> <Plug>(asyncomplete_force_refresh)
+" For Vim 8 (<c-@> corresponds to <c-space>):
+" imap <c-@> <Plug>(asyncomplete_force_refresh)

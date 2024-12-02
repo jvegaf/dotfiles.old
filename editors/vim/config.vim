@@ -9,7 +9,7 @@ set fileencoding=utf-8
 set fileencodings=utf-8
 set ttyfast
 set autoread
-
+set completeopt+=menuone
 
 "" Fix backspace indent
 set backspace=indent,eol,start
@@ -164,6 +164,7 @@ let g:sneak#use_ic_scs = get(g:, 'sneak#use_ic_scs', 1)
 
 let g:undotree_WindowLayout = get(g:, 'undotree_WindowLayout', 4)
 
+"" youcompleteme
 
 let g:ycm_key_list_select_completion =
       \ get(g:, 'ycm_key_list_select_completion', ['<TAB>', '<Down>'])
@@ -347,7 +348,7 @@ end
 " snippets
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsJumpBackwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 let g:UltiSnipsEditSplit="vertical"
 
 " ale
@@ -444,18 +445,6 @@ else
   let g:airline_symbols.linenr = ''
 endif
 
-
-
-function! s:internet_search(q)
-  let url ='https://www.google.com/search?q=%s'
-  let q = substitute(a:q, '["\n]', ' ', 'g')
-  let q = substitute(q, '[[:punct:] ]', '\=printf("%%%02X", char2nr(submatch(0)))', 'g')
-  let open = IsLinux() ? 'xdg-open' : 'open'
-  call system(printf(open . ' "' . url . '"', q))
-endfunction
-
-nnoremap <silent> <Leader>se :call <SID>internet_search(expand('<cWORD>'))<CR>
-xnoremap <silent> <Leader>se "gy:call <SID>internet_search(@g)<CR>
 
 "" vim-lsp
 

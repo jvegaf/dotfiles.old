@@ -41,3 +41,5 @@ function! s:CloseWindowsAutomatically()
     q
   endif
 endfunction
+
+

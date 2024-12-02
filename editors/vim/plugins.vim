@@ -169,9 +169,13 @@ Plug 'kevinhui/vim-docker-tools'
 Plug 'sheerun/vim-polyglot'
 
 "" vim-lsp
+
+Plug 'prabirshrestha/async.vim'
+Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
-
+Plug 'thomasfaingnaert/vim-lsp-snippets'
+Plug 'thomasfaingnaert/vim-lsp-ultisnips'
 "*****************************************************************************
 "*****************************************************************************
 
