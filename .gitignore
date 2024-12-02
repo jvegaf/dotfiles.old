@@ -34,4 +34,7 @@ __pycache__
 os/linux/config/ranger/colorschemes/__pycache__
 os/linux/config/ranger/plugins/__pycache__
 os/linux/config/ranger/plugins/ranger_devicons/__pycache__
-
+editors/vim/plugged
+editors/vim/undo/*
+editors/vim/swap/*
+editors/vim/backup/*
