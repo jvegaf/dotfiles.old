@@ -166,6 +166,11 @@ Plug 'ekalinin/Dockerfile.vim'
 
 Plug 'kevinhui/vim-docker-tools'
 
+Plug 'sheerun/vim-polyglot'
+
+"" vim-lsp
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
 
 "*****************************************************************************
 "*****************************************************************************

@@ -198,3 +198,5 @@ nnoremap <Leader>o :.GBrowse<CR>
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
 
+nmap <Leader>, :Files<CR>
+nmap <Leader>; :Buffers<CR>
