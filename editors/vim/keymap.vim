@@ -160,7 +160,6 @@ nmap <leader>y :History:<CR>
 nmap <silent> <F4> :TagbarToggle<CR>
 
 noremap YY "+y<CR>
-noremap <leader>p "+gP<CR>
 noremap XX "+x<CR>
 
 
@@ -205,22 +204,16 @@ noremap <F12> <Esc>:syntax sync fromstart<CR>
 inoremap <F12> <C-o>:syntax sync fromstart<CR>
 
 
-function! s:internet_search(q)
-  let url ='https://www.google.com/search?q=%s'
-  let q = substitute(a:q, '["\n]', ' ', 'g')
-  let q = substitute(q, '[[:punct:] ]', '\=printf("%%%02X", char2nr(submatch(0)))', 'g')
-  let open = IsLinux() ? 'xdg-open' : 'open'
-  call system(printf(open . ' "' . url . '"', q))
-endfunction
-
 "" web search
-nnoremap <silent> <Leader>se :call <SID>internet_search(expand('<cWORD>'))<CR>
-xnoremap <silent> <Leader>se "gy:call <SID>internet_search(@g)<CR>
+"" Select text and type <Leader>w to do a web search
+"""Type <Leader>waw in to search web for a word
+"""Type <Leader>wa( to search web for the text wrapped in the bracket
+"""Type <Leader>was to search web for a sentence)
 
-inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-inoremap <expr> <cr>    pumvisible() ? asyncomplete#close_popup() : "\<cr>"
-inoremap <expr> <cr> pumvisible() ? asyncomplete#close_popup() . "\<cr>" : "\<cr>"
-imap <c-space> <Plug>(asyncomplete_force_refresh)
-" For Vim 8 (<c-@> corresponds to <c-space>):
-" imap <c-@> <Plug>(asyncomplete_force_refresh)
+nmap <silent> <Leader>w <Plug>SearchNormal
+vmap <silent> <Leader>w <Plug>SearchVisual
+
+nmap <Leader>pi :PlugInstall<CR>
+nmap <Leader>pu :PlugUpdate<CR>
+nmap <Leader>pc :PlugClean<CR>
+nmap <Leader>ps :PlugStatus<CR>

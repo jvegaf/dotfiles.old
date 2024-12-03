@@ -28,12 +28,6 @@ augroup vimrc-remember-cursor-position
   autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 augroup END
 
-"" txt
-augroup vimrc-wrapping
-  autocmd!
-  autocmd BufRead,BufNewFile *.txt call s:setupWrapping()
-augroup END
-
 "" make/cmake
 augroup vimrc-make-cmake
   autocmd!
@@ -41,6 +35,7 @@ augroup vimrc-make-cmake
   autocmd BufNewFile,BufRead CMakeLists.txt setlocal filetype=cmake
 augroup END
 
+autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
 
 if has("autocmd")
   au VimEnter,InsertLeave * silent execute '!echo -ne "\\e[2 q"' | redraw!

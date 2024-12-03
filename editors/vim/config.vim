@@ -4,12 +4,12 @@ set nocompatible
 "" Basic Setup
 "*****************************************************************************"
 "" Encoding
-set encoding=utf-8
-set fileencoding=utf-8
-set fileencodings=utf-8
+set encoding=UTF-8
+set fileencoding=UTF-8
+set fileencodings=UTF-8
 set ttyfast
 set autoread
-set completeopt+=menuone
+set completeopt=menuone
 
 "" Fix backspace indent
 set backspace=indent,eol,start
@@ -82,34 +82,21 @@ set t_Co=256
 set guioptions=egmrti
 set gfn=Monospace\ 10
 
-if has("gui_running")
-  if has("gui_mac") || has("gui_macvim")
-    set guifont=Menlo:h12
-    set transparency=7
-  endif
+let g:CSApprox_loaded = 1
+
+" IndentLine
+let g:indentLine_enabled = 1
+let g:indentLine_concealcursor = ''
+let g:indentLine_char = '┆'
+let g:indentLine_faster = 1
+
+
+if $COLORTERM == 'gnome-terminal'
+  set term=gnome-256color
 else
-  let g:CSApprox_loaded = 1
-
-  " IndentLine
-  let g:indentLine_enabled = 1
-  let g:indentLine_concealcursor = ''
-  let g:indentLine_char = '┆'
-  let g:indentLine_faster = 1
-
-
-  if $COLORTERM == 'gnome-terminal'
-    set term=gnome-256color
-  else
-    if $TERM == 'xterm'
-      set term=xterm-256color
-    endif
+  if $TERM == 'xterm'
+    set term=xterm-256color
   endif
-
-endif
-
-
-if &term =~ '256color'
-  set t_ut=
 endif
 
 
@@ -313,23 +300,14 @@ command! FixWhitespace :%s/\s\+$//e
 
 
 "" fzf.vim
-set wildmode=list:longest,list:full
-set wildignore+=*.o,*.obj,.git,*.rbc,*.pyc,__pycache__
-let $FZF_DEFAULT_COMMAND =  "find * -path '*/\.*' -prune -o -path 'node_modules/**' -prune -o -path 'target/**' -prune -o -path 'dist/**' -prune -o  -type f -print -o -type l -print 2> /dev/null"
-
-" The Silver Searcher
-if executable('ag')
-  let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -g ""'
-  set grepprg=ag\ --nogroup\ --nocolor
-endif
-
-" ripgrep
+" Enable search capabilities if possible
 if executable('rg')
-  let $FZF_DEFAULT_COMMAND = 'rg --files --hidden --follow --glob "!.git/*"'
-  set grepprg=rg\ --vimgrep
-  command! -bang -nargs=* Find call fzf#vim#grep('rg --column --line-number --no-heading --fixed-strings --ignore-case --hidden --follow --glob "!.git/*" --color "always" '.shellescape(<q-args>).'| tr -d "\017"', 1, <bang>0)
-endif
+    nnoremap <C-T> :Rg<Space>
+elseif executable('ag')
+    nnoremap <C-T> :Ag<Space>
+end
 
+" Settings
 let g:fzf_buffers_jump = 1
 let g:fzf_commits_log_options = '--graph --color=always --format="%C(auto)%h%d %s %C(black)%C(bold)%cr"'
 
@@ -357,11 +335,6 @@ let g:ale_linters = {}
 " Tagbar
 let g:tagbar_autofocus = 1
 
-" Disable visualbell
-set noerrorbells visualbell t_vb=
-if has('autocmd')
-  autocmd GUIEnter * set visualbell t_vb=
-endif
 
 " Use the OS clipboard by default
 " if has('clipboard')
@@ -448,6 +421,7 @@ endif
 
 "" vim-lsp
 
+let g:asyncomplete_auto_completeopt = 0
 
 let g:lsp_diagnostics_enabled = 1
 let g:lsp_diagnostics_echo_cursor = 1
