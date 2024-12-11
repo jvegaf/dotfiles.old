@@ -274,7 +274,7 @@ let g:airline_skip_empty_sections = 1
 
 
 "" NERDTree configuration
-let g:NERDTreeChDirMode=2
+let g:NERDTreeChDirMode=3
 let g:NERDTreeIgnore=['node_modules','\.rbc$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__']
 let g:NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$', '\.bak$', '\~$']
 let g:NERDTreeShowBookmarks=1
