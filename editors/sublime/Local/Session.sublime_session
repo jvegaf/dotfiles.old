@@ -1,6 +1,16 @@
 {
 	"file_history":
 	[
+		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extension Scripts/000003.log",
+		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/_metadata/computed_hashes.json",
+		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/_metadata/verified_contents.json",
+		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/devtools.bundle.js",
+		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/devtools.html",
+		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/manifest.json",
+		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/options.html",
+		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Preferences",
+		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/gfbliohnnapiefjpjlpjnehglfpaknnc/1.17.5_0/_metadata/computed_hashes.json",
+		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/cjpalhdlnbpafiamejdnhcphjbkeiagm/1.61.2_0/dashboard.html",
 		"/home/th3g3ntl3man/.config/Harmony/TracksDB-mrview-fd3556cf2d555d6d9a617ab2d808995c/000003.log",
 		"/home/th3g3ntl3man/.config/Harmony/TracksDB/000003.log",
 		"/home/th3g3ntl3man/.config/Harmony/PlaylistsDB/MANIFEST-000002",
@@ -61,7 +71,7 @@
 	"last_version": 4180,
 	"last_window_id": 7,
 	"log_indexing": false,
-	"next_update_check": 1733565016,
+	"next_update_check": 1734083416,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -95,6 +105,18 @@
 				"selected_items":
 				[
 					[
+						"prett",
+						"Pretty JSON: Format JSON"
+					],
+					[
+						"install pa",
+						"Package Control: Install Package"
+					],
+					[
+						"format",
+						"Pretty Lua: Format"
+					],
+					[
 						"Package Control: ",
 						"Package Control: Install Package"
 					],
@@ -127,6 +149,17 @@
 			},
 			"file_history":
 			[
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extension Scripts/LOG",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extension Scripts/000003.log",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/_metadata/computed_hashes.json",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/_metadata/verified_contents.json",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/devtools.bundle.js",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/devtools.html",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/manifest.json",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/options.html",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Preferences",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/gfbliohnnapiefjpjlpjnehglfpaknnc/1.17.5_0/_metadata/computed_hashes.json",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/cjpalhdlnbpafiamejdnhcphjbkeiagm/1.61.2_0/dashboard.html",
 				"/home/th3g3ntl3man/.config/Harmony/TracksDB-mrview-fd3556cf2d555d6d9a617ab2d808995c/000003.log",
 				"/home/th3g3ntl3man/.config/Harmony/TracksDB/000003.log",
 				"/home/th3g3ntl3man/.config/Harmony/PlaylistsDB/MANIFEST-000002",
@@ -282,6 +315,14 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extension Scripts/LOG",
+					"settings":
+					{
+						"buffer_size": 328,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -294,6 +335,18 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"prett",
+						"Pretty JSON: Format JSON"
+					],
+					[
+						"install pa",
+						"Package Control: Install Package"
+					],
+					[
+						"format",
+						"Pretty Lua: Format"
+					],
 					[
 						"Package Control: ",
 						"Package Control: Install Package"
@@ -327,6 +380,16 @@
 			},
 			"file_history":
 			[
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extension Scripts/000003.log",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/_metadata/computed_hashes.json",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/_metadata/verified_contents.json",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/devtools.bundle.js",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/devtools.html",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/manifest.json",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/options.html",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Preferences",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/gfbliohnnapiefjpjlpjnehglfpaknnc/1.17.5_0/_metadata/computed_hashes.json",
+				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/cjpalhdlnbpafiamejdnhcphjbkeiagm/1.61.2_0/dashboard.html",
 				"/home/th3g3ntl3man/.config/Harmony/TracksDB-mrview-fd3556cf2d555d6d9a617ab2d808995c/000003.log",
 				"/home/th3g3ntl3man/.config/Harmony/TracksDB/000003.log",
 				"/home/th3g3ntl3man/.config/Harmony/PlaylistsDB/MANIFEST-000002",
@@ -414,6 +477,36 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extension Scripts/LOG",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 328,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -453,7 +546,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,24,1920,1048,1920,1080,0",
+			"position": "0,1,0,0,0,0,24,1920,1048,1920,1080,1",
 			"project": "",
 			"replace":
 			{

@@ -1,12 +1,11 @@
-#!/bin/bash
+#!/bin/env bash
 
-set -eu pipefail
+set -euo pipefail
 
-dump_file="$DOTFILES_PATH/os/linux/config/dconf/cinnamon/cinnamon_dump.conf"
+SRC_PATH="$DOTFILES_PATH/os/linux/config/dconf/cinnamon"
 
-rm -rf "$dump_file"
-
-dconf dump /org/cinnamon/ > $dump_file
+dconf dump /org/cinnamon/ > "$SRC_PATH/cinnamon_dump.conf"
+dconf dump /org/cinnamon/desktop/keybindings/ > "$SRC_PATH/keys.conf"
 
 echo "dump finalized"
 
