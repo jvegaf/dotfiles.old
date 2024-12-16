@@ -1,11 +1,5 @@
 1password
-google-chrome
-intellij-idea-ultimate-edition
-intellij-idea-ultimate-edition-jre
-javafx-scenebuilder
+brave-browser
 logseq-desktop-bin
 nulloy-git
-postman-bin
-via-bin
 visual-studio-code-bin
-woeusb-ng
