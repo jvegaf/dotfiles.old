@@ -1,77 +1,27 @@
 {
 	"file_history":
 	[
-		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extension Scripts/000003.log",
-		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/_metadata/computed_hashes.json",
-		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/_metadata/verified_contents.json",
-		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/devtools.bundle.js",
-		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/devtools.html",
-		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/manifest.json",
-		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/options.html",
-		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Preferences",
-		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/gfbliohnnapiefjpjlpjnehglfpaknnc/1.17.5_0/_metadata/computed_hashes.json",
-		"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/cjpalhdlnbpafiamejdnhcphjbkeiagm/1.61.2_0/dashboard.html",
-		"/home/th3g3ntl3man/.config/Harmony/TracksDB-mrview-fd3556cf2d555d6d9a617ab2d808995c/000003.log",
-		"/home/th3g3ntl3man/.config/Harmony/TracksDB/000003.log",
-		"/home/th3g3ntl3man/.config/Harmony/PlaylistsDB/MANIFEST-000002",
-		"/home/th3g3ntl3man/.config/Harmony/PlaylistsDB/CURRENT",
-		"/home/th3g3ntl3man/.config/Harmony/Preferences",
-		"/home/th3g3ntl3man/.config/Harmony/config.json",
-		"/home/th3g3ntl3man/.config/electron-app/Local Storage/leveldb/000003.log",
-		"/home/th3g3ntl3man/.config/electron-app/Crashpad/client_id",
-		"/home/th3g3ntl3man/.config/electron-app/Preferences",
-		"/home/th3g3ntl3man/Code/py/Symphony/OLD/pyproject.toml",
-		"/home/th3g3ntl3man/Code/py/Symphony/OLD/symphony/main.py",
-		"/home/th3g3ntl3man/Code/py/Symphony/pyproject.toml",
-		"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/app.py",
-		"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/view/__init__.py",
-		"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/view/styles/__init__.py",
-		"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/view/main_window.py",
-		"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/__main__.py",
-		"/home/th3g3ntl3man/.dotfiles/editors/sublime/Packages/Default/Preferences.sublime-settings",
-		"/home/th3g3ntl3man/.dotfiles/editors/sublime/Packages/User/Preferences.sublime-settings",
-		"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/resources/README",
-		"/home/th3g3ntl3man/Code/ft/mysample/lib/main.dart",
-		"/home/th3g3ntl3man/Downloads/generate.vim",
-		"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/iTunes Music Library.xml",
-		"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/PropertyList-1.0.dtd.webarchive",
-		"/home/th3g3ntl3man/Documents/01-Music Manager/tagger/tagger/mixxx.py",
-		"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/app.jsx",
-		"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/footer.jsx",
-		"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/header.jsx",
-		"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/sidebar.jsx",
-		"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/package.json",
-		"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/app.js",
-		"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/iTunes.xml",
-		"/home/th3g3ntl3man/Documents/01-Music Manager/museeks/src/shared/types/interfaces.ts",
-		"/home/th3g3ntl3man/Documents/python-packaging-source/pyside6/installer/linux/.fpm",
-		"/home/th3g3ntl3man/Code/py/Symphony/symphony.spec",
-		"/home/th3g3ntl3man/Documents/python-packaging-source/pyside6/installer/linux/package.sh",
-		"/home/th3g3ntl3man/Code/py/FeelUOwn/pyinstaller_hooks/hook-feeluown.py",
-		"/home/th3g3ntl3man/Code/py/Apollo/pyproject.toml",
-		"/home/th3g3ntl3man/Downloads/Dockerfile",
-		"/home/th3g3ntl3man/Documents/python-packaging-source/OUTPUT/pyside6/installer/windows/app.ifp",
-		"/home/th3g3ntl3man/Documents/python-packaging-source/common/installer/linux/package.sh",
-		"/home/th3g3ntl3man/Code/py/Apollo/poetry.toml",
-		"/home/th3g3ntl3man/Documents/python-packaging-source/common/installer/linux/.fpm",
-		"/home/th3g3ntl3man/Code/py/MusicBox/MusicPlayer/dbManager/userInfoManager.py",
-		"/home/th3g3ntl3man/Code/py/MusicBox/MusicPlayer/dbManager/dbManager.py",
-		"/home/th3g3ntl3man/Code/py/Groove/Groove.pro",
-		"/home/th3g3ntl3man/Code/py/cookiecutter_prueba/symphony/setup.py",
-		"/home/th3g3ntl3man/Documents/python-packaging-source/common/data-folder/hello-world.spec",
-		"/home/th3g3ntl3man/UntitledProject/UntitledProjectContent/App.qml",
-		"/home/th3g3ntl3man/UntitledProject/UntitledProject/Constants.qml",
-		"/home/th3g3ntl3man/UntitledProject/UntitledProjectContent/Screen01.ui.qml"
+		"/home/th3g3ntl3man/Downloads/python-packaging-source/pyside6/installer/linux/package.sh",
+		"/home/th3g3ntl3man/Code/Symphony/tests/data/tags.json",
+		"/home/th3g3ntl3man/Code/Taggg/src/main/java/me/jvegaf/taggg/context/track/Artwork.java",
+		"/home/th3g3ntl3man/Desktop/bkp_symphony/README.md",
+		"/home/th3g3ntl3man/Desktop/bkp_symphony/pylintrc",
+		"/home/th3g3ntl3man/Desktop/bkp_symphony/.gitignore",
+		"/home/th3g3ntl3man/Desktop/bkp_symphony/.flake8",
+		"/home/th3g3ntl3man/Desktop/bkp_symphony/app/ui/actions/actions.py",
+		"/home/th3g3ntl3man/Code/Symphony/.github/workflows/pylint.yml",
+		"/home/th3g3ntl3man/.config/openbox/autostart",
+		"/home/th3g3ntl3man/.config/obmenu-generator/schema.pl",
+		"/home/th3g3ntl3man/.config/obmenu-generator/config.pl",
+		"/home/th3g3ntl3man/.config/jgmenu/jgmenurc"
 	],
 	"folder_history":
 	[
-		"/home/th3g3ntl3man/Code/py/Symphony",
-		"/home/th3g3ntl3man/Code/py/MusicBox"
 	],
 	"last_version": 4180,
-	"last_window_id": 7,
+	"last_window_id": 1,
 	"log_indexing": false,
-	"next_update_check": 1734083416,
+	"next_update_check": 1731961692,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -80,7 +30,7 @@
 		"new_window_position":
 		[
 			0.0,
-			84.0
+			75.0
 		],
 		"new_window_settings":
 		{
@@ -88,10 +38,6 @@
 			{
 				"selected_items":
 				[
-					[
-						"Sty",
-						"Style"
-					]
 				]
 			},
 			"build_system_choices":
@@ -104,30 +50,6 @@
 				"last_filter": "",
 				"selected_items":
 				[
-					[
-						"prett",
-						"Pretty JSON: Format JSON"
-					],
-					[
-						"install pa",
-						"Package Control: Install Package"
-					],
-					[
-						"format",
-						"Pretty Lua: Format"
-					],
-					[
-						"Package Control: ",
-						"Package Control: Install Package"
-					],
-					[
-						"packin",
-						"Package Control: Install Package"
-					],
-					[
-						"Package Control: ins",
-						"Package Control: Install Package"
-					]
 				],
 				"width": 0.0
 			},
@@ -149,66 +71,19 @@
 			},
 			"file_history":
 			[
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extension Scripts/LOG",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extension Scripts/000003.log",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/_metadata/computed_hashes.json",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/_metadata/verified_contents.json",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/devtools.bundle.js",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/devtools.html",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/manifest.json",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/options.html",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Preferences",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/gfbliohnnapiefjpjlpjnehglfpaknnc/1.17.5_0/_metadata/computed_hashes.json",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/cjpalhdlnbpafiamejdnhcphjbkeiagm/1.61.2_0/dashboard.html",
-				"/home/th3g3ntl3man/.config/Harmony/TracksDB-mrview-fd3556cf2d555d6d9a617ab2d808995c/000003.log",
-				"/home/th3g3ntl3man/.config/Harmony/TracksDB/000003.log",
-				"/home/th3g3ntl3man/.config/Harmony/PlaylistsDB/MANIFEST-000002",
-				"/home/th3g3ntl3man/.config/Harmony/PlaylistsDB/CURRENT",
-				"/home/th3g3ntl3man/.config/Harmony/Preferences",
-				"/home/th3g3ntl3man/.config/Harmony/config.json",
-				"/home/th3g3ntl3man/.config/electron-app/Local Storage/leveldb/000003.log",
-				"/home/th3g3ntl3man/.config/electron-app/Crashpad/client_id",
-				"/home/th3g3ntl3man/.config/electron-app/Preferences",
-				"/home/th3g3ntl3man/Code/py/Symphony/OLD/pyproject.toml",
-				"/home/th3g3ntl3man/Code/py/Symphony/OLD/symphony/main.py",
-				"/home/th3g3ntl3man/Code/py/Symphony/pyproject.toml",
-				"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/app.py",
-				"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/view/__init__.py",
-				"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/view/styles/__init__.py",
-				"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/view/main_window.py",
-				"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/__main__.py",
-				"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/resources/README",
-				"/home/th3g3ntl3man/Code/ft/mysample/lib/main.dart",
-				"/home/th3g3ntl3man/Downloads/generate.vim",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/iTunes Music Library.xml",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/PropertyList-1.0.dtd.webarchive",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/tagger/tagger/mixxx.py",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/app.jsx",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/footer.jsx",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/header.jsx",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/sidebar.jsx",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/package.json",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/app.js",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/iTunes.xml",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/museeks/src/shared/types/interfaces.ts",
-				"/home/th3g3ntl3man/Documents/python-packaging-source/pyside6/installer/linux/.fpm",
-				"/home/th3g3ntl3man/Code/py/Symphony/symphony.spec",
-				"/home/th3g3ntl3man/Documents/python-packaging-source/pyside6/installer/linux/package.sh",
-				"/home/th3g3ntl3man/Code/py/FeelUOwn/pyinstaller_hooks/hook-feeluown.py",
-				"/home/th3g3ntl3man/Code/py/Apollo/pyproject.toml",
-				"/home/th3g3ntl3man/Downloads/Dockerfile",
-				"/home/th3g3ntl3man/Documents/python-packaging-source/OUTPUT/pyside6/installer/windows/app.ifp",
-				"/home/th3g3ntl3man/Documents/python-packaging-source/common/installer/linux/package.sh",
-				"/home/th3g3ntl3man/Code/py/Apollo/poetry.toml",
-				"/home/th3g3ntl3man/Documents/python-packaging-source/common/installer/linux/.fpm",
-				"/home/th3g3ntl3man/Code/py/MusicBox/MusicPlayer/dbManager/userInfoManager.py",
-				"/home/th3g3ntl3man/Code/py/MusicBox/MusicPlayer/dbManager/dbManager.py",
-				"/home/th3g3ntl3man/Code/py/Groove/Groove.pro",
-				"/home/th3g3ntl3man/Code/py/cookiecutter_prueba/symphony/setup.py",
-				"/home/th3g3ntl3man/Documents/python-packaging-source/common/data-folder/hello-world.spec",
-				"/home/th3g3ntl3man/UntitledProject/UntitledProjectContent/App.qml",
-				"/home/th3g3ntl3man/UntitledProject/UntitledProject/Constants.qml",
-				"/home/th3g3ntl3man/UntitledProject/UntitledProjectContent/Screen01.ui.qml"
+				"/home/th3g3ntl3man/Downloads/python-packaging-source/pyside6/installer/linux/package.sh",
+				"/home/th3g3ntl3man/Code/Symphony/tests/data/tags.json",
+				"/home/th3g3ntl3man/Code/Taggg/src/main/java/me/jvegaf/taggg/context/track/Artwork.java",
+				"/home/th3g3ntl3man/Desktop/bkp_symphony/README.md",
+				"/home/th3g3ntl3man/Desktop/bkp_symphony/pylintrc",
+				"/home/th3g3ntl3man/Desktop/bkp_symphony/.gitignore",
+				"/home/th3g3ntl3man/Desktop/bkp_symphony/.flake8",
+				"/home/th3g3ntl3man/Desktop/bkp_symphony/app/ui/actions/actions.py",
+				"/home/th3g3ntl3man/Code/Symphony/.github/workflows/pylint.yml",
+				"/home/th3g3ntl3man/.config/openbox/autostart",
+				"/home/th3g3ntl3man/.config/obmenu-generator/schema.pl",
+				"/home/th3g3ntl3man/.config/obmenu-generator/config.pl",
+				"/home/th3g3ntl3man/.config/jgmenu/jgmenurc"
 			],
 			"find":
 			{
@@ -292,7 +167,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 302.0,
+			"side_bar_width": 150.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -307,22 +182,10 @@
 			{
 				"selected_items":
 				[
-					[
-						"Sty",
-						"Style"
-					]
 				]
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extension Scripts/LOG",
-					"settings":
-					{
-						"buffer_size": 328,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -335,30 +198,6 @@
 				"last_filter": "",
 				"selected_items":
 				[
-					[
-						"prett",
-						"Pretty JSON: Format JSON"
-					],
-					[
-						"install pa",
-						"Package Control: Install Package"
-					],
-					[
-						"format",
-						"Pretty Lua: Format"
-					],
-					[
-						"Package Control: ",
-						"Package Control: Install Package"
-					],
-					[
-						"packin",
-						"Package Control: Install Package"
-					],
-					[
-						"Package Control: ins",
-						"Package Control: Install Package"
-					]
 				],
 				"width": 0.0
 			},
@@ -380,65 +219,19 @@
 			},
 			"file_history":
 			[
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extension Scripts/000003.log",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/_metadata/computed_hashes.json",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/_metadata/verified_contents.json",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/devtools.bundle.js",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/devtools.html",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/manifest.json",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/lmhkpmbekcpmknklioeibfkpmmfibljd/3.2.7_0/options.html",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Preferences",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/gfbliohnnapiefjpjlpjnehglfpaknnc/1.17.5_0/_metadata/computed_hashes.json",
-				"/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extensions/cjpalhdlnbpafiamejdnhcphjbkeiagm/1.61.2_0/dashboard.html",
-				"/home/th3g3ntl3man/.config/Harmony/TracksDB-mrview-fd3556cf2d555d6d9a617ab2d808995c/000003.log",
-				"/home/th3g3ntl3man/.config/Harmony/TracksDB/000003.log",
-				"/home/th3g3ntl3man/.config/Harmony/PlaylistsDB/MANIFEST-000002",
-				"/home/th3g3ntl3man/.config/Harmony/PlaylistsDB/CURRENT",
-				"/home/th3g3ntl3man/.config/Harmony/Preferences",
-				"/home/th3g3ntl3man/.config/Harmony/config.json",
-				"/home/th3g3ntl3man/.config/electron-app/Local Storage/leveldb/000003.log",
-				"/home/th3g3ntl3man/.config/electron-app/Crashpad/client_id",
-				"/home/th3g3ntl3man/.config/electron-app/Preferences",
-				"/home/th3g3ntl3man/Code/py/Symphony/OLD/pyproject.toml",
-				"/home/th3g3ntl3man/Code/py/Symphony/OLD/symphony/main.py",
-				"/home/th3g3ntl3man/Code/py/Symphony/pyproject.toml",
-				"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/app.py",
-				"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/view/__init__.py",
-				"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/view/styles/__init__.py",
-				"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/view/main_window.py",
-				"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/__main__.py",
-				"/home/th3g3ntl3man/Code/py/Symphony/src/symphony/resources/README",
-				"/home/th3g3ntl3man/Code/ft/mysample/lib/main.dart",
-				"/home/th3g3ntl3man/Downloads/generate.vim",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/iTunes Music Library.xml",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/ITUNES XML/PropertyList-1.0.dtd.webarchive",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/tagger/tagger/mixxx.py",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/app.jsx",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/footer.jsx",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/header.jsx",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/react-photonkit/app/sidebar.jsx",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/package.json",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/app.js",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/pruebas-electron/prueba-xml/iTunes.xml",
-				"/home/th3g3ntl3man/Documents/01-Music Manager/museeks/src/shared/types/interfaces.ts",
-				"/home/th3g3ntl3man/Documents/python-packaging-source/pyside6/installer/linux/.fpm",
-				"/home/th3g3ntl3man/Code/py/Symphony/symphony.spec",
-				"/home/th3g3ntl3man/Documents/python-packaging-source/pyside6/installer/linux/package.sh",
-				"/home/th3g3ntl3man/Code/py/FeelUOwn/pyinstaller_hooks/hook-feeluown.py",
-				"/home/th3g3ntl3man/Code/py/Apollo/pyproject.toml",
-				"/home/th3g3ntl3man/Downloads/Dockerfile",
-				"/home/th3g3ntl3man/Documents/python-packaging-source/OUTPUT/pyside6/installer/windows/app.ifp",
-				"/home/th3g3ntl3man/Documents/python-packaging-source/common/installer/linux/package.sh",
-				"/home/th3g3ntl3man/Code/py/Apollo/poetry.toml",
-				"/home/th3g3ntl3man/Documents/python-packaging-source/common/installer/linux/.fpm",
-				"/home/th3g3ntl3man/Code/py/MusicBox/MusicPlayer/dbManager/userInfoManager.py",
-				"/home/th3g3ntl3man/Code/py/MusicBox/MusicPlayer/dbManager/dbManager.py",
-				"/home/th3g3ntl3man/Code/py/Groove/Groove.pro",
-				"/home/th3g3ntl3man/Code/py/cookiecutter_prueba/symphony/setup.py",
-				"/home/th3g3ntl3man/Documents/python-packaging-source/common/data-folder/hello-world.spec",
-				"/home/th3g3ntl3man/UntitledProject/UntitledProjectContent/App.qml",
-				"/home/th3g3ntl3man/UntitledProject/UntitledProject/Constants.qml",
-				"/home/th3g3ntl3man/UntitledProject/UntitledProjectContent/Screen01.ui.qml"
+				"/home/th3g3ntl3man/Downloads/python-packaging-source/pyside6/installer/linux/package.sh",
+				"/home/th3g3ntl3man/Code/Symphony/tests/data/tags.json",
+				"/home/th3g3ntl3man/Code/Taggg/src/main/java/me/jvegaf/taggg/context/track/Artwork.java",
+				"/home/th3g3ntl3man/Desktop/bkp_symphony/README.md",
+				"/home/th3g3ntl3man/Desktop/bkp_symphony/pylintrc",
+				"/home/th3g3ntl3man/Desktop/bkp_symphony/.gitignore",
+				"/home/th3g3ntl3man/Desktop/bkp_symphony/.flake8",
+				"/home/th3g3ntl3man/Desktop/bkp_symphony/app/ui/actions/actions.py",
+				"/home/th3g3ntl3man/Code/Symphony/.github/workflows/pylint.yml",
+				"/home/th3g3ntl3man/.config/openbox/autostart",
+				"/home/th3g3ntl3man/.config/obmenu-generator/schema.pl",
+				"/home/th3g3ntl3man/.config/obmenu-generator/config.pl",
+				"/home/th3g3ntl3man/.config/jgmenu/jgmenurc"
 			],
 			"find":
 			{
@@ -477,36 +270,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/th3g3ntl3man/.config/BraveSoftware/Brave-Browser/Default/Extension Scripts/LOG",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 328,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -546,7 +309,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,24,1920,1048,1920,1080,1",
+			"position": "0,1,0,0,0,0,22,1920,1056,3840,1080,0",
 			"project": "",
 			"replace":
 			{
@@ -588,7 +351,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 302.0,
+			"side_bar_width": 150.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{

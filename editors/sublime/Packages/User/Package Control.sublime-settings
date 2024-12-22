@@ -5,17 +5,11 @@
 	],
 	"installed_packages":
 	[
-		"Dockerfile Syntax Highlighting",
 		"Emoji",
 		"FormatLua",
-		"Formatter",
-		"Googler",
 		"LuaExtended",
-		"OnlineSearch",
 		"Package Control",
-		"Pretty JSON",
 		"Pretty Lua",
-		"TOML",
 		"VimL",
 	],
 }
