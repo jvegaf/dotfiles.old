@@ -1,0 +1,13 @@
+1password
+brave-bin
+cura-bin
+hypnotix
+iptvnator-bin
+nvm
+teams
+ulauncher
+visual-studio-code-bin
+winegui
+yay
+yay-debug
+zapzap
