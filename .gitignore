@@ -38,3 +38,4 @@ editors/vim/plugged
 editors/vim/undo/*
 editors/vim/swap/*
 editors/vim/backup/*
+editors/vim/plugged

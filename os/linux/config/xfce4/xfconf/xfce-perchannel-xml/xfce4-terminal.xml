@@ -18,9 +18,9 @@
   <property name="color-selection-use-default" type="bool" value="true"/>
   <property name="color-use-theme" type="bool" value="false"/>
   <property name="command-login-shell" type="bool" value="false"/>
-  <property name="custom-command" type="string" value="tmux"/>
+  <property name="custom-command" type="string" value="tmux new-session -A -s main-xfce4-term"/>
   <property name="font-allow-bold" type="bool" value="true"/>
-  <property name="font-name" type="string" value="JetBrainsMono Nerd Font Mono 10"/>
+  <property name="font-name" type="string" value="FiraCode Nerd Font 12"/>
   <property name="misc-always-show-tabs" type="bool" value="false"/>
   <property name="misc-bell" type="bool" value="false"/>
   <property name="misc-bell-urgent" type="bool" value="true"/>
@@ -30,7 +30,7 @@
   <property name="misc-cursor-blinks" type="bool" value="true"/>
   <property name="misc-cursor-shape" type="string" value="TERMINAL_CURSOR_SHAPE_UNDERLINE"/>
   <property name="misc-cycle-tabs" type="bool" value="true"/>
-  <property name="misc-default-geometry" type="string" value="100x30"/>
+  <property name="misc-default-geometry" type="string" value="100x34"/>
   <property name="misc-highlight-urls" type="bool" value="true"/>
   <property name="misc-inherit-geometry" type="bool" value="false"/>
   <property name="misc-menubar-default" type="bool" value="false"/>
@@ -52,4 +52,5 @@
   <property name="scrolling-bar" type="string" value="TERMINAL_SCROLLBAR_NONE"/>
   <property name="scrolling-unlimited" type="bool" value="true"/>
   <property name="tab-activity-color" type="string" value="#aa0000"/>
+  <property name="title-mode" type="string" value="TERMINAL_TITLE_REPLACE"/>
 </channel>
