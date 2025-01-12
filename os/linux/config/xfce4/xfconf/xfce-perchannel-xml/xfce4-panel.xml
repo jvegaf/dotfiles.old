@@ -13,6 +13,8 @@
         <value type="int" value="3"/>
         <value type="int" value="4"/>
         <value type="int" value="11"/>
+        <value type="int" value="13"/>
+        <value type="int" value="12"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
         <value type="int" value="7"/>
@@ -41,15 +43,16 @@
         <value type="string" value="xfce-settings-manager.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="xfce-session-settings.desktop"/>
-        <value type="string" value="xfce-keyboard-settings.desktop"/>
-        <value type="string" value="ulauncher.desktop"/>
-        <value type="string" value="xfce-settings-manager.desktop"/>
-        <value type="string" value="1password.desktop"/>
+        <value type="string" value="xfce4-web-browser.desktop"/>
         <value type="string" value="brave-browser.desktop"/>
-        <value type="string" value="thunar.desktop"/>
-        <value type="string" value="org.gnome.DiskUtility.desktop"/>
-        <value type="string" value="software-properties-drivers.desktop"/>
+        <value type="string" value="xfce4-power-manager-settings.desktop"/>
+        <value type="string" value="xfce-settings-manager.desktop"/>
+        <value type="string" value="soundconverter.desktop"/>
+        <value type="string" value="kitty.desktop"/>
+        <value type="string" value="xfce-display-settings.desktop"/>
+        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="com.rtosta.zapzap.desktop"/>
+        <value type="string" value="org.openshot.OpenShot.desktop"/>
       </property>
     </property>
     <property name="plugin-2" type="string" value="separator">
@@ -72,6 +75,8 @@
       <property name="symbolic-icons" type="bool" value="true"/>
       <property name="icon-size" type="int" value="0"/>
       <property name="known-items" type="array">
+        <value type="string" value="ZapZap"/>
+        <value type="string" value="vlc"/>
         <value type="string" value="ulauncher"/>
         <value type="string" value="chrome_status_icon_1"/>
         <value type="string" value="blueman"/>
@@ -93,7 +98,7 @@
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
       <property name="enable-wnck" type="bool" value="true"/>
-      <property name="known-players" type="string" value="parole;org.gnome.Rhythmbox3"/>
+      <property name="known-players" type="string" value="Brave;emusik;org.gnome.Rhythmbox3;parole;vlc"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
       <property name="persistent-players" type="string" value="parole;org.gnome.Rhythmbox3"/>
       <property name="show-notifications" type="bool" value="true"/>
@@ -176,6 +181,8 @@
         <value type="double" value="1"/>
       </property>
     </property>
+    <property name="plugin-12" type="string" value="pager"/>
+    <property name="plugin-13" type="string" value="cpufreq"/>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>
