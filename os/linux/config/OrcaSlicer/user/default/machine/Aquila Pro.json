@@ -1,0 +1,16 @@
+{
+    "from": "User",
+    "inherits": "Creality Ender-3 V2 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "M104 S0\nM140 S0\nG162 Z F1800\nG28 X Y\nM132 X Y A B\nM652\nG91\nM18",
+    "machine_start_gcode": "G28\nM132 X Y Z A B\nG1 Z50.000 F420\nG161 X Y F3300\nM7 T0\nM6 T0\nM651",
+    "name": "Aquila Pro",
+    "printable_area": [
+        "0x0",
+        "235x0",
+        "235x235",
+        "0x235"
+    ],
+    "printer_settings_id": "Aquila Pro",
+    "version": "2.2.0.4"
+}

@@ -1,0 +1,17 @@
+[warning]	2025-01-12 04:42:15.829848[Thread 0x000070db2b388480]:Failed to load to hints.cereal. File does not exists. /home/th3g3tl3man/.config/OrcaSlicer/user/hints.cereal
+[error]	2025-01-12 04:42:17.743314[Thread 0x000070db2b388480]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2025-01-12 04:42:18.317784[Thread 0x000070db2b388480]:04:42:18 AM: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-01-12 04:42:18.321653[Thread 0x000070db2b388480]:04:42:18 AM: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-01-12 04:42:18.333683[Thread 0x000070db2b388480]:04:42:18 AM: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-01-12 04:42:18.445967[Thread 0x000070db2b388480]:04:42:18 AM: Warning: Error running JavaScript: Unsupported result type
+[error]	2025-01-12 04:42:20.021009[Thread 0x000070db2b388480]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2025-01-12 04:42:20.385220[Thread 0x000070db2b388480]:LoadProfileFamily: parse /tmp/.mount_OrcaSlrheQsj/resources/profiles/Creality.json got exception: [json.exception.type_error.302] type must be string, but is null
+[error]	2025-01-12 04:42:20.421420[Thread 0x000070db2b388480]:LoadProfileFamily: parse /tmp/.mount_OrcaSlrheQsj/resources/profiles/Elegoo.json got exception: [json.exception.type_error.302] type must be string, but is null
+[error]	2025-01-12 04:42:20.556649[Thread 0x000070db2b388480]:LoadProfileFamily: parse /tmp/.mount_OrcaSlrheQsj/resources/profiles/Kingroon.json got exception: [json.exception.type_error.302] type must be string, but is null
+[warning]	2025-01-12 04:42:21.287456[Thread 0x000070db2b388480]:04:42:21 AM: Warning: Error running JavaScript: Unsupported result type
+[error]	2025-01-12 04:49:30.771616[Thread 0x000070db2b388480]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2025-01-12 04:49:30.785168[Thread 0x000070db2b388480]:get_version, get_version not supported,return 00.00.00.00!
+[error]	2025-01-12 04:52:57.285372[Thread 0x000070db2b388480]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2025-01-12 05:08:53.444249[Thread 0x000070db2b388480]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-01-12 05:22:35.145257[Thread 0x000070db2b388480]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-01-12 05:24:08.861237[Thread 0x000070db2b388480]:calc_exclude_triangles:Unable to create exclude triangles

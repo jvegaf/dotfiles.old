@@ -50,6 +50,9 @@
     ~/.config/wfuzz: os/linux/config/wfuzz
     ~/.config/regolith3: os/linux/config/regolith3
     ~/.config/xfce4: os/linux/config/xfce4
+    ~/.config/ghostty: os/linux/config/ghostty
+    ~/.config/OrcaSlicer: os/linux/config/OrcaSlicer
+    ~/.config/yazi: os/linux/config/yazi
     ~/.profile: os/linux/.profile
     ~/.wezterm.lua: os/linux/config/wezterm.lua
     ~/.tmux.conf: os/linux/config/tmux.conf
