@@ -4,8 +4,9 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 [Desktops]
 Id_1=98effb97-e492-471e-b290-37ea72efe17d
 Id_2=355e7426-7133-4a08-9789-d1934c847374
+Id_3=1243fa21-1266-478b-9904-f9b6dc36eb5c
 Name_2=Desktop 2
-Number=2
+Number=3
 Rows=1
 
 [ModifierOnlyShortcuts]
@@ -29,10 +30,22 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][62b60dc0-e77e-5ebc-b8e3-1bbb4a9ed3a9]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][825873ff-76d3-5a55-9aed-27dab42be6a9]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][afff7a09-197f-568f-939e-29fcc096879a]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][bbc99759-3e1a-5534-9a6e-4aad36b6097f]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][c07aba44-4c59-559c-8a0d-656096537c33]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][c75dd516-c99a-5551-b865-72e3e097021f]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][cc3aafd2-7ef9-5c60-8315-baa8f0367f38]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][d6a525d7-6d63-55e2-bbbc-1a6487f8941d]
@@ -43,7 +56,7 @@ ElectricBorderDelay=50
 RollOverDesktops=true
 
 [Xwayland]
-Scale=1
+Scale=1.25
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=

@@ -6,14 +6,15 @@ switch-to-activity-320255e9-2921-4025-a0e0-9dfaf03d96b5=none,none,Switch to acti
 switch-to-activity-32b1d6fe-17a1-445d-b3bd-fc5d3ad2d517=none,none,Switch to activity "Default"
 switch-to-activity-7267c402-abda-4a69-90b1-2d1fb94a0514=none,none,Switch to activity "Default"
 switch-to-activity-75279784-db76-42c1-95bf-f7839fcbff89=none,none,Switch to activity "Default"
+switch-to-activity-7cf7cbfd-767f-48d9-aef7-8fa55f3f8b5b=none,none,Switch to activity "Default"
 switch-to-activity-7d37784c-0d70-4c7d-a62a-b308dc895afe=none,none,Switch to activity "Default"
 switch-to-activity-b869cb74-1bff-4db8-97be-cc62ea929c54=none,none,Switch to activity "Default"
 switch-to-activity-d0453604-0ed7-4891-bb99-964b46fbbe7d=none,none,Switch to activity "Default"
 switch-to-activity-d14d1f58-036c-4754-8893-a282483c2c16=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
-Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,
-Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
+Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Keyboard Layout
+Switch to Next Keyboard Layout=none,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
 [kaccess]
@@ -23,7 +24,7 @@ _k_friendly_name=Accessibility
 [kcm_touchpad]
 Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
 Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
-Toggle Touchpad=Touchpad Toggle,Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Toggle Touchpad
+Toggle Touchpad=Touchpad Toggle,Touchpad Toggle,Toggle Touchpad
 _k_friendly_name=Touchpad
 
 [khotkeys]
@@ -44,8 +45,9 @@ mute=Volume Mute,Volume Mute,Mute
 [ksmserver]
 Halt Without Confirmation=none,,Shut Down Without Confirmation
 Lock Session=Meta+L\tScreensaver,Meta+L\tScreensaver,Lock Session
-Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Log Out
+Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Show Logout Screen
 Log Out Without Confirmation=none,,Log Out Without Confirmation
+LogOut=none,,Log Out
 Reboot=none,,Reboot
 Reboot Without Confirmation=none,,Reboot Without Confirmation
 Shut Down=none,,Shut Down
@@ -121,7 +123,7 @@ Switch to Screen Above=none,,Switch to Screen Above
 Switch to Screen Below=none,,Switch to Screen Below
 Switch to Screen to the Left=none,,Switch to Screen to the Left
 Switch to Screen to the Right=none,,Switch to Screen to the Right
-Toggle Night Color=none,none,Toggle Night Light
+Toggle Night Color=none,none,Suspend/Resume Night Light
 Toggle Window Raise/Lower=none,,Toggle Window Raise/Lower
 Walk Through Desktop List=none,none,Walk Through Desktop List
 Walk Through Desktop List (Reverse)=none,none,Walk Through Desktop List (Reverse)
@@ -282,11 +284,12 @@ PowerOff=Power Off,Power Off,Power Off
 Sleep=Sleep,Sleep,Suspend
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Toggle Keyboard Backlight
 Turn Off Screen=none,none,Turn Off Screen
-_k_friendly_name=KDE Power Management System
+_k_friendly_name=Power Management
 powerProfile=Battery,Battery\tMeta+B,Switch Power Profile
 
 [plasmashell]
 _k_friendly_name=plasmashell
+activate application launcher=Meta,Meta\tAlt+F1,Activate Application Launcher
 activate task manager entry 1=Meta+1,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=Meta+2,Meta+2,Activate Task Manager Entry 2
@@ -352,23 +355,27 @@ switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=none,,Toggle do not disturb
 
+[services][brave-browser.desktop]
+new-window=Meta+Shift+Return
+
+[services][com.mitchellh.ghostty.desktop]
+_launch=Meta+Return
+
 [services][google-chrome.desktop]
 _launch=Meta+C
 
-[services][kitty.desktop]
-_launch=Meta+Return
+[services][net.local.setxkbmap.desktop]
+_launch=Meta+Alt+K
 
 [services][org.kde.dolphin.desktop]
-_launch=Meta+F
+_launch=Meta+Alt+Return
 
 [services][org.kde.krunner.desktop]
 _launch=Meta+S
 
 [services][org.kde.spectacle.desktop]
-RecordWindow=
-
-[services][rofi.desktop]
-_launch=Meta+D
+ActiveWindowScreenShot=Meta+F12
+RecordWindow=none
 
 [wacomtablet]
 Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Map to fullscreen

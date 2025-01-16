@@ -1,10 +1,16 @@
 {
     "from": "User",
     "inherits": "0.20mm Standard @Creality Ender3V2",
+    "initial_layer_infill_speed": "15",
+    "initial_layer_speed": "10",
+    "initial_layer_travel_speed": "80",
     "is_custom_defined": "0",
     "name": "0.20mm Standard @AQUILA PRO",
     "print_settings_id": "0.20mm Standard @AQUILA PRO",
     "skirt_loops": "1",
+    "slow_down_layers": "1",
+    "support_speed": "100",
     "travel_acceleration": "500",
+    "travel_speed": "100",
     "version": "2.2.0.4"
 }

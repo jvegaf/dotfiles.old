@@ -39,3 +39,4 @@ editors/vim/undo/*
 editors/vim/swap/*
 editors/vim/backup/*
 editors/vim/plugged
+os/linux/config/OrcaSlicer/log
