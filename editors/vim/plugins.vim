@@ -58,8 +58,8 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'tomasr/molokai'
 Plug 'ku1ik/vim-monokai'
 Plug 'machakann/vim-highlightedyank'
-Plug 'Exafunction/codeium.vim', { 'branch': 'main' }
-
+" Plug 'Exafunction/codeium.vim', { 'branch': 'main' }
+Plug 'github/copilot.vim'
 
 "Dart/Flutter
 Plug 'dart-lang/dart-vim-plugin'

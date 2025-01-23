@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="xfce4-desktop" version="1.0">
   <property name="desktop-icons" type="empty">
     <property name="style" type="empty"/>
     <property name="file-icons" type="empty">
       <property name="show-home" type="empty"/>
-      <property name="show-filesystem" type="empty"/>
+      <property name="show-filesystem" type="bool" value="false"/>
       <property name="show-removable" type="empty"/>
       <property name="show-trash" type="empty"/>
+      <property name="migrated-4.19" type="array">
+        <value type="string" value="7221be7010722692ff9cfb486d968f9cb5d20392"/>
+      </property>
+      <property name="show-device-fixed" type="bool" value="false"/>
     </property>
     <property name="icon-size" type="empty"/>
     <property name="tooltip-size" type="empty"/>
@@ -38,7 +42,8 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/xubuntu-mantic.png"/>
+          <property name="last-image" type="string" value="/home/th3g3ntl3man/.local/share/backgrounds/2618275.jpg"/>
+          <property name="backdrop-cycle-enable" type="bool" value="false"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -55,7 +60,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/xubuntu-wallpaper.png"/>
+          <property name="last-image" type="string" value="/home/th3g3ntl3man/.local/share/backgrounds/2618275.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -72,7 +77,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/xubuntu-mantic.png"/>
+          <property name="last-image" type="string" value="/home/th3g3ntl3man/.local/share/backgrounds/1810646.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -91,7 +96,8 @@
     <property name="show" type="empty"/>
   </property>
   <property name="last" type="empty">
-    <property name="window-width" type="int" value="561"/>
+    <property name="window-width" type="int" value="631"/>
     <property name="window-height" type="int" value="545"/>
   </property>
+  <property name="last-settings-migration-version" type="uint" value="1"/>
 </channel>

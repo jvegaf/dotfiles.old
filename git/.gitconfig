@@ -23,6 +23,7 @@
 	precomposeunicode = false
 	pager = delta --dark
 	ignorecase = false
+	eol = lf
 
 [help]
 	autocorrect = 1

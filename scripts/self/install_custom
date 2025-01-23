@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -euo pipefail
+set -eu pipefail
 
 source "$DOTLY_PATH/scripts/core/_main.sh"
 source "$DOTFILES_PATH/scripts/self/utils/fonts-setup.sh"

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="xfce4-panel" version="1.0">
   <property name="panels" type="array">
@@ -17,10 +17,10 @@
         <value type="int" value="12"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
-        <value type="int" value="7"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
+        <value type="int" value="7"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
       <property name="size" type="uint" value="24"/>
@@ -35,23 +35,19 @@
       <property name="favorites" type="array">
         <value type="string" value="xfce4-web-browser.desktop"/>
         <value type="string" value="xfce4-file-manager.desktop"/>
-        <value type="string" value="libreoffice-writer.desktop"/>
-        <value type="string" value="libreoffice-calc.desktop"/>
         <value type="string" value="xfce4-terminal-emulator.desktop"/>
-        <value type="string" value="xfhelp4.desktop"/>
         <value type="string" value="xfce-settings-manager.desktop"/>
-        <value type="string" value="appimagekit_1ac183b15a872a6d8b7fa18ffc9c14f2-OrcaSlicer.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="com.mitchellh.ghostty.desktop"/>
-        <value type="string" value="xfce4-web-browser.desktop"/>
-        <value type="string" value="appimagekit_1ac183b15a872a6d8b7fa18ffc9c14f2-OrcaSlicer.desktop"/>
-        <value type="string" value="xfce4-file-manager.desktop"/>
-        <value type="string" value="code.desktop"/>
-        <value type="string" value="software-properties-drivers.desktop"/>
-        <value type="string" value="firmware-updater_firmware-updater.desktop"/>
-        <value type="string" value="appimagelaunchersettings.desktop"/>
+        <value type="string" value="vlc.desktop"/>
+        <value type="string" value="com.rtosta.zapzap.desktop"/>
+        <value type="string" value="ytdlp-gui.desktop"/>
+        <value type="string" value="ulauncher.desktop"/>
         <value type="string" value="brave-browser.desktop"/>
+        <value type="string" value="org.inkscape.Inkscape.desktop"/>
+        <value type="string" value="scenebuilder.desktop"/>
+        <value type="string" value="xfce4-web-browser.desktop"/>
+        <value type="string" value="xfce4-file-manager.desktop"/>
         <value type="string" value="xfce4-power-manager-settings.desktop"/>
       </property>
     </property>
@@ -75,6 +71,8 @@
       <property name="symbolic-icons" type="bool" value="true"/>
       <property name="icon-size" type="int" value="0"/>
       <property name="known-items" type="array">
+        <value type="string" value="flameshot"/>
+        <value type="string" value="TelegramDesktop"/>
         <value type="string" value="ZapZap"/>
         <value type="string" value="vlc"/>
         <value type="string" value="ulauncher"/>
@@ -83,25 +81,17 @@
         <value type="string" value="nm-applet"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="networkmanager applet"/>
         <value type="string" value="polkit-mate-authentication-agent-1"/>
       </property>
     </property>
     <property name="plugin-6" type="string" value="notification-plugin"/>
-    <property name="plugin-7" type="string" value="indicator">
-      <property name="blacklist" type="array">
-        <value type="string" value="libappmenu.so"/>
-      </property>
-      <property name="square-icons" type="bool" value="true"/>
-      <property name="known-indicators" type="array">
-        <value type="string" value="libayatana-application.so"/>
-      </property>
-    </property>
     <property name="plugin-8" type="string" value="power-manager-plugin"/>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
       <property name="enable-wnck" type="bool" value="true"/>
-      <property name="known-players" type="string" value="Brave;emusik;org.gnome.Rhythmbox3;parole;vlc"/>
+      <property name="known-players" type="string" value=";Brave;emusik;harmony;org.gnome.Rhythmbox3;parole;vlc;ZapZap"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
       <property name="persistent-players" type="string" value="parole;org.gnome.Rhythmbox3"/>
       <property name="show-notifications" type="bool" value="true"/>
@@ -186,6 +176,20 @@
     </property>
     <property name="plugin-12" type="string" value="pager"/>
     <property name="plugin-13" type="string" value="cpufreq"/>
+    <property name="plugin-7" type="string" value="systemload">
+      <property name="uptime" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="network" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="swap" type="empty">
+        <property name="enabled" type="bool" value="true"/>
+      </property>
+      <property name="cpu" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+    </property>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>
