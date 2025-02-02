@@ -1,8 +1,8 @@
 #!/bin/bash
 
-set -euo pipefail
+set -eu pipefail
 
-sudo apt install -y software-properties-common
+sudo apt install -y software-properties-common libfuse2t64
 sudo add-apt-repository ppa:appimagelauncher-team/stable
 sudo apt update
 sudo apt install appimagelauncher -y

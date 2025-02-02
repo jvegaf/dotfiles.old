@@ -2,22 +2,6 @@
     "device_error": {
         "en": [
             {
-                "ecode": "12018016",
-                "intro": "The extruder is not extruding normally; please refer to the HMS. After trouble shooting. If the defects are acceptable, please click \"Retry\" button."
-            },
-            {
-                "ecode": "12028016",
-                "intro": "The extruder is not extruding normally; please refer to the HMS. After trouble shooting. If the defects are acceptable, please click \"Retry\" button."
-            },
-            {
-                "ecode": "12038016",
-                "intro": "The extruder is not extruding normally; please refer to the HMS. After trouble shooting. If the defects are acceptable, please click \"Retry\" button."
-            },
-            {
-                "ecode": "0300801B",
-                "intro": "Nozzle temperature problem detected. Refer to the Assistant to re-connect the hotend connector. POWER OFF the printer before this operation to avoid a short circuit."
-            },
-            {
                 "ecode": "03008008",
                 "intro": "Printing Stopped because nozzle temperature problem."
             },
@@ -48,6 +32,22 @@
             {
                 "ecode": "05014038",
                 "intro": "The region settings do not match the printer; please check the printer's region settings."
+            },
+            {
+                "ecode": "12018016",
+                "intro": "The extruder is not extruding normally; please refer to the HMS. After trouble shooting. If the defects are acceptable, please click \"Retry\" button."
+            },
+            {
+                "ecode": "12028016",
+                "intro": "The extruder is not extruding normally; please refer to the HMS. After trouble shooting. If the defects are acceptable, please click \"Retry\" button."
+            },
+            {
+                "ecode": "12038016",
+                "intro": "The extruder is not extruding normally; please refer to the HMS. After trouble shooting. If the defects are acceptable, please click \"Retry\" button."
+            },
+            {
+                "ecode": "0300801B",
+                "intro": "Nozzle temperature problem detected. Refer to the Assistant to re-connect the hotend connector. POWER OFF the printer before this operation to avoid a short circuit."
             },
             {
                 "ecode": "0C00402A",
@@ -1098,10 +1098,26 @@
                 "intro": "Heatbed temperature malfunction."
             }
         ],
-        "ver": 202501022030
+        "ver": 202501221030
     },
     "device_hms": {
         "en": [
+            {
+                "ecode": "0500010000030004",
+                "intro": "Not enough space in MicroSD Card; please clear some space."
+            },
+            {
+                "ecode": "0300020000010006",
+                "intro": "The nozzle temperature is abnormal; the sensor may have a short circuit. Please check whether the connector is properly plugged in."
+            },
+            {
+                "ecode": "0500030000010021",
+                "intro": "Hardware incompatible: please check the laser."
+            },
+            {
+                "ecode": "0500050000030002",
+                "intro": "The device is in the engineering state; please pay attention to the information security related matters."
+            },
             {
                 "ecode": "030091000001000C",
                 "intro": "The chamber heater 1 has been working at full load for a long time. The temperature control system may have an issue."
@@ -1211,20 +1227,40 @@
                 "intro": "Timeout purging old filament. Possible cause: filament stuck or extruder/nozzle clogged. Please refer to the Assistant for details."
             },
             {
-                "ecode": "0500010000030004",
-                "intro": "Not enough space in MicroSD Card; please clear some space."
+                "ecode": "0502050000010010",
+                "intro": "Uncertified AMS C detected or AMS C firmware not upgraded. Unable to operate with this printer."
             },
             {
-                "ecode": "0300020000010006",
-                "intro": "The nozzle temperature is abnormal; the sensor may have a short circuit. Please check whether the connector is properly plugged in."
+                "ecode": "0500050000010010",
+                "intro": "Uncertified AMS A detected or AMS A firmware not upgraded. Unable to operate with this printer."
             },
             {
-                "ecode": "0500030000010021",
-                "intro": "Hardware incompatible: please check the laser."
+                "ecode": "0504050000010010",
+                "intro": "Uncertified AMS E detected or AMS E firmware not upgraded. Unable to operate with this printer."
             },
             {
-                "ecode": "0500050000030002",
-                "intro": "The device is in the engineering state; please pay attention to the information security related matters."
+                "ecode": "0503050000010010",
+                "intro": "Uncertified AMS D detected or AMS D firmware not upgraded. Unable to operate with this printer."
+            },
+            {
+                "ecode": "0507050000010010",
+                "intro": "Uncertified AMS H detected or AMS H firmware not upgraded. Unable to operate with this printer."
+            },
+            {
+                "ecode": "0505050000010010",
+                "intro": "Uncertified AMS F detected or AMS F firmware not upgraded. Unable to operate with this printer."
+            },
+            {
+                "ecode": "0506050000010010",
+                "intro": "Uncertified AMS G detected or AMS G firmware not upgraded. Unable to operate with this printer."
+            },
+            {
+                "ecode": "0501050000010010",
+                "intro": "Uncertified AMS B detected or AMS B firmware not upgraded. Unable to operate with this printer."
+            },
+            {
+                "ecode": "03000D000001000C",
+                "intro": "The heatbed leveling data is abnormal. Please check whether there are any foreign objects on the heatbed and Z slider. If so, please remove them and try again."
             },
             {
                 "ecode": "050005000001000A",
@@ -4771,7 +4807,7 @@
                 "intro": "The nozzle temperature is abnormal; the sensor may have an open circuit."
             }
         ],
-        "ver": 202501022030
+        "ver": 202501221030
     },
-    "version": "202501022030"
+    "version": "202501221030"
 }
