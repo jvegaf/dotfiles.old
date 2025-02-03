@@ -1,4 +1,4 @@
-TerminalEmulator=alacritty
+TerminalEmulator=xfce4-terminal
 WebBrowser=brave-browser
-FileManager=custom-FileManager
+FileManager=thunar
 

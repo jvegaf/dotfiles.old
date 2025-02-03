@@ -1,4 +1,4 @@
-<?xml version="1.1" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <channel name="xfce4-terminal" version="1.0">
   <property name="background-darkness" type="double" value="0.69999999999999996"/>
@@ -20,7 +20,7 @@
   <property name="command-login-shell" type="bool" value="false"/>
   <property name="custom-command" type="string" value="tmux new-session -A -s main-xfce4-term"/>
   <property name="font-allow-bold" type="bool" value="true"/>
-  <property name="font-name" type="string" value="ComicCodeLigatures NF 12"/>
+  <property name="font-name" type="string" value="JetBrainsMono Nerd Font 10"/>
   <property name="misc-always-show-tabs" type="bool" value="false"/>
   <property name="misc-bell" type="bool" value="false"/>
   <property name="misc-bell-urgent" type="bool" value="true"/>
