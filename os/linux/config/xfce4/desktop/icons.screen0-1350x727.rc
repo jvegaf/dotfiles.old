@@ -1,6 +1,34 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
+[/home/th3g3ntl3man/Desktop/ppcrkbd.20250212-223848.FCBak]
+row=1
+col=1
+
+[/home/th3g3ntl3man/Desktop/OrcaSlicer]
+row=3
+col=1
+
+[/home/th3g3ntl3man/Desktop/Untitled.dxf]
+row=5
+col=1
+
+[/home/th3g3ntl3man/Desktop/Untitled Folder]
+row=0
+col=1
+
+[/home/th3g3ntl3man/Desktop/ppcrkbd-Body.3mf]
+row=0
+col=2
+
+[/home/th3g3ntl3man/Desktop/2501]
+row=5
+col=0
+
+[/home/th3g3ntl3man/Desktop/New Folder]
+row=2
+col=0
+
 [/home/th3g3ntl3man/Desktop/brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop]
 row=3
 col=0
@@ -9,17 +37,17 @@ col=0
 row=4
 col=0
 
-[/home/th3g3ntl3man/Desktop/New Folder]
+[/home/th3g3ntl3man/Desktop/FreeCAD]
 row=2
-col=0
-
-[/home/th3g3ntl3man/Desktop/2501]
-row=5
-col=0
-
-[/home/th3g3ntl3man/Desktop/Untitled Folder]
-row=0
 col=1
+
+[/home/th3g3ntl3man/Desktop/ppcrkbd.FCStd]
+row=4
+col=1
+
+[/home/th3g3ntl3man/Desktop/ppcrkbd-Body.stl]
+row=1
+col=2
 
 [Trash]
 row=0

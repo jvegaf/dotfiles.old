@@ -1,5 +1,5 @@
 {
-    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n;G92 E0\n",
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n",
     "from": "User",
     "inherits": "Creality Ender-3 V2 0.4 nozzle",
     "is_custom_defined": "0",
@@ -13,8 +13,20 @@
         "0x235"
     ],
     "printer_settings_id": "Aquila Pro",
-    "thumbnails": "48x48/JPG",
+    "retraction_length": [
+        "6"
+    ],
+    "retraction_speed": [
+        "55"
+    ],
+    "thumbnails": "",
     "thumbnails_format": "JPG",
     "use_relative_e_distances": "0",
-    "version": "2.2.0.4"
+    "version": "2.2.0.4",
+    "wipe": [
+        "0"
+    ],
+    "z_hop": [
+        "0.2"
+    ]
 }

@@ -15,7 +15,7 @@ sudo ln -s ~/.platformio/penv/bin/piodebuggdb /usr/local/bin/piodebuggdb
 sudo usermod -a -G dialout $USER
 
 rm -rf get-platformio.py
-
-echo "Platformio installed"o
+curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/system/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules
+echo "Platformio installed, please restart your computer to apply udev rules changes"
 
 exit 0
