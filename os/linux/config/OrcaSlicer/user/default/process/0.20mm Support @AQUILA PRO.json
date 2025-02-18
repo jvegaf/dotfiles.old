@@ -11,7 +11,10 @@
     "skirt_loops": "1",
     "slow_down_layers": "1",
     "support_speed": "60",
+    "support_style": "organic",
+    "support_type": "tree(auto)",
     "travel_acceleration": "500",
     "travel_speed": "80",
-    "version": "2.2.0.4"
+    "version": "2.2.0.4",
+    "xy_hole_compensation": "0.3"
 }

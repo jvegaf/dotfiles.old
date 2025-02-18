@@ -1106,7 +1106,7 @@
                 "intro": "Heatbed temperature malfunction."
             }
         ],
-        "ver": 202502080930
+        "ver": 202502141100
     },
     "device_hms": {
         "en": [
@@ -1233,6 +1233,14 @@
             {
                 "ecode": "0700700000020004",
                 "intro": "Failed to pull back the filament from the toolhead to AMS. Possible cause: filament or spool stuck. Please refer to the Assistant for details."
+            },
+            {
+                "ecode": "0300180000010006",
+                "intro": "The heatbed leveling data is abnormal. Please check whether there are any foreign objects on the heatbed and Z slider. If so, please remove them and try again."
+            },
+            {
+                "ecode": "0300030000020002",
+                "intro": "The hotend cooling fan speed is slow. It may be stuck and need cleaning."
             },
             {
                 "ecode": "0300180000010006",
@@ -4127,10 +4135,6 @@
                 "intro": "MicroSD Card performance degradation has been detected. It may affect print jobs, logs, and video records. Please try to format or change the MicroSD card."
             },
             {
-                "ecode": "0300030000020002",
-                "intro": ""
-            },
-            {
                 "ecode": "12FF200000020002",
                 "intro": "Filament on the spool holder is empty; please insert a new filament."
             },
@@ -4819,7 +4823,7 @@
                 "intro": "The nozzle temperature is abnormal; the sensor may have an open circuit."
             }
         ],
-        "ver": 202502080930
+        "ver": 202502141100
     },
-    "version": "202502080930"
+    "version": "202502141100"
 }

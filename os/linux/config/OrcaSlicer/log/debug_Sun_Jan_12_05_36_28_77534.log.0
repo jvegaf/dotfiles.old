@@ -1,9 +1,0 @@
-[error]	2025-01-12 05:36:30.009762[Thread 0x000073010f90b480]:calc_exclude_triangles:Unable to create exclude triangles
-[warning]	2025-01-12 05:36:30.697624[Thread 0x000073010f90b480]:05:36:30 AM: Warning: Error running JavaScript: Unsupported result type
-[warning]	2025-01-12 05:36:30.705287[Thread 0x000073010f90b480]:05:36:30 AM: Warning: Error running JavaScript: Unsupported result type
-[warning]	2025-01-12 05:36:30.767098[Thread 0x000073010f90b480]:05:36:30 AM: Warning: Error running JavaScript: Unsupported result type
-[warning]	2025-01-12 05:36:30.835023[Thread 0x000073010f90b480]:05:36:30 AM: Warning: Error running JavaScript: Unsupported result type
-[error]	2025-01-12 05:36:32.330669[Thread 0x000073010f90b480]:calc_exclude_triangles:Unable to create exclude triangles
-[error]	2025-01-12 05:36:32.698916[Thread 0x000073010f90b480]:calc_exclude_triangles:Unable to create exclude triangles
-[warning]	2025-01-12 05:36:32.957339[Thread 0x000073010f90b480]:get_version, get_version not supported,return 00.00.00.00!
-[error]	2025-01-12 05:38:51.869243[Thread 0x000073010f90b480]:calc_exclude_triangles:Unable to create exclude triangles
