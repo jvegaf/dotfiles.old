@@ -57,4 +57,4 @@
     ~/.wezterm.lua: os/linux/config/wezterm.lua
     ~/.tmux.conf: os/linux/config/tmux.conf
     ~/mimeapps.list: os/linux/config/mimeapps.list
-    ~/.FreeCAD: os/linux/config/.FreeCAD
+    # ~/.FreeCAD: os/linux/config/.FreeCAD
