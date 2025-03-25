@@ -1,6 +1,8 @@
 {
 	"file_history":
 	[
+		"/home/th3g3ntl3man/.cncrc",
+		"/home/th3g3ntl3man/cncrc",
 		"/home/th3g3ntl3man/Downloads/python-packaging-source/pyside6/installer/linux/package.sh",
 		"/home/th3g3ntl3man/Code/Symphony/tests/data/tags.json",
 		"/home/th3g3ntl3man/Code/Taggg/src/main/java/me/jvegaf/taggg/context/track/Artwork.java",
@@ -18,10 +20,10 @@
 	"folder_history":
 	[
 	],
-	"last_version": 4180,
-	"last_window_id": 1,
+	"last_version": 4192,
+	"last_window_id": 3,
 	"log_indexing": false,
-	"next_update_check": 1731961692,
+	"next_update_check": 1741975113,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -30,7 +32,7 @@
 		"new_window_position":
 		[
 			0.0,
-			75.0
+			55.0
 		],
 		"new_window_settings":
 		{
@@ -71,6 +73,8 @@
 			},
 			"file_history":
 			[
+				"/home/th3g3ntl3man/.cncrc",
+				"/home/th3g3ntl3man/cncrc",
 				"/home/th3g3ntl3man/Downloads/python-packaging-source/pyside6/installer/linux/package.sh",
 				"/home/th3g3ntl3man/Code/Symphony/tests/data/tags.json",
 				"/home/th3g3ntl3man/Code/Taggg/src/main/java/me/jvegaf/taggg/context/track/Artwork.java",
@@ -219,6 +223,8 @@
 			},
 			"file_history":
 			[
+				"/home/th3g3ntl3man/.cncrc",
+				"/home/th3g3ntl3man/cncrc",
 				"/home/th3g3ntl3man/Downloads/python-packaging-source/pyside6/installer/linux/package.sh",
 				"/home/th3g3ntl3man/Code/Symphony/tests/data/tags.json",
 				"/home/th3g3ntl3man/Code/Taggg/src/main/java/me/jvegaf/taggg/context/track/Artwork.java",
@@ -309,7 +315,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,22,1920,1056,3840,1080,0",
+			"position": "0,1,0,0,0,0,0,1366,708,1366,768,0",
 			"project": "",
 			"replace":
 			{
