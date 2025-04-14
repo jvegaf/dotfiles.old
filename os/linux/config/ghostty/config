@@ -1,1 +1,9 @@
 command = tmux new-session -A -s main-ghostty
+
+font-family = "ComicCodeLigatures NF"
+font-size = 12
+background-opacity = 0.8
+window-theme = system
+window-step-resize = true
+window-padding-balance = true
+

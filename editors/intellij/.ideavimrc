@@ -8,6 +8,8 @@ set showmode
 " leader
 nnoremap <space> <nop>
 let mapleader=' '
+let maplocalleader=','
+
 
 set clipboard+=unnamedplus
 
@@ -48,10 +50,10 @@ nnoremap <leader>e :NERDTreeToggle<CR>
 map <leader>,cc <Action>(ChangeColorScheme)
 
 " better HJKL
-map H ^
-map L $
-map J }
-map K {
+" map H ^
+" map L $
+" map J }
+" map K {
 
 nnoremap vv V
 
@@ -70,8 +72,8 @@ nmap <leader>xo <Action>(CloseAllEditorsButActive)
 nmap <leader>xp <Action>(CloseAllUnpinnedEditors)
 
 " window
-nmap <C-S-Tab> <Action>(PreviousTab)
-nmap <C-Tab> <Action>(NextTab)
+nmap H <Action>(PreviousTab)
+nmap L <Action>(NextTab)
 nmap <leader>p <Action>(PinActiveEditorTab)
 
 nmap <leader>1 <Action>(GoToTab1)
@@ -89,8 +91,8 @@ map <leader>sh <Action>(MoveTabLeft)
 map <leader>sj <Action>(MoveTabDown)
 map <leader>sk <Action>(MoveTabUp)
 map <leader>sl <Action>(MoveTabRight)
-map <leader>sH <Action>(SplitHorizontally)
-map <leader>sV <Action>(SplitVertically)
+map <leader>ss <Action>(SplitHorizontally)
+map <leader>vs <Action>(SplitVertically)
 
 nmap <C-p> <Action>(JumpToLastWindow)
 nmap <M-i> <Action>(PrevSplitter)
@@ -265,7 +267,7 @@ nmap \\ti <Action>($InclusiveTranslateAction)
 nmap \\te <Action>($ExclusiveTranslateAction)
 
 " string manipulate (required idea plugin: String Manipulation)
-nmap <leader>ss <Action>(osmedile.intellij.stringmanip.PopupChoiceAction)
+nmap <leader>sm <Action>(osmedile.intellij.stringmanip.PopupChoiceAction)
 
 " code screenshot (required idea plugin: Code Screenshots)
 nmap <leader>cs <Action>(one.util.ideaplugin.screenshoter.CopyImageAction)
