@@ -29,9 +29,9 @@ font pango: Noto Sans Regular 10
 set $mod Mod4
 set $alt Mod1
 # set $term --no-startup-id /bin/xfce4-terminal --command tmux
-set $term --no-startup-id /bin/alacritty
+set $term --no-startup-id /bin/kitty
 set $file-browser --no-startup-id /bin/nemo
-set $web-browser --no-startup-id /bin/brave
+set $web-browser --no-startup-id /bin/firefox
 # set $launcher --no-startup-id rofi -show drun -show-icons
 set $launcher --no-startup-id /bin/ulauncher-toggle
 
@@ -408,6 +408,7 @@ exec --no-startup-id /usr/bin/dunst
 # autotiling script
 # https://github.com/nwg-piotr/autotiling
 # `yay -S autotiling ;) (it is in AUR)
+# pip install autotiling --break-system-packages (in ubuntu 24.04)
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id  /bin/ulauncher --hide-window
 
