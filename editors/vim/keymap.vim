@@ -100,8 +100,8 @@ cnoreabbrev W w
 cnoreabbrev Q q
 cnoreabbrev Qall qall
 
+nnoremap <silent> <leader>e :NERDTreeFocus<CR>
 nnoremap <silent> <leader>fe :NERDTreeFind<CR>
-nnoremap <silent> <leader>e :NERDTreeToggle<CR>
 
 " grep.vim
 nnoremap <silent> <leader>fg :Rgrep<CR>
@@ -130,8 +130,8 @@ nnoremap <leader>sd :DeleteSession<CR>
 nnoremap <leader>sc :CloseSession<CR>
 
 "" Tabs
-nnoremap <Tab> :bnext<cr>
-nnoremap <S-Tab> :bprevious<cr>
+nnoremap L :bnext<cr>
+nnoremap H :bprevious<cr>
 nnoremap <silent> <S-t> :tabnew<CR>
 nnoremap <silent> W :w<cr>
 nnoremap <silent> Q :bdelete<cr>
@@ -176,7 +176,7 @@ noremap Q :bd<CR>
 nnoremap vv V
 
 "" Clean search (highlight)
-nnoremap <silent> <leader><space> :noh<cr>
+nnoremap <silent> <Esc><Esc> :noh<cr>
 
 "" Vmap for maintain Visual Mode after shifting > and <
 vmap < <gv
@@ -186,8 +186,8 @@ vmap > >gv
 "" Move
 nnoremap <M-j> :m .+1<CR>==
 nnoremap <M-k> :m .-2<CR>==
-inoremap <M-j> <Esc>:m .+1<CR>==gi
-inoremap <M-k> <Esc>:m .-2<CR>==gi
+" inoremap <M-j> <Esc>:m .+1<CR>==gi
+" inoremap <M-k> <Esc>:m .-2<CR>==gi
 vnoremap <M-j> :m '>+1<CR>gv=gv
 vnoremap <M-k> :m '<-2<CR>gv=gv
 "" Open current line on GitHub

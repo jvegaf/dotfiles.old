@@ -2,7 +2,7 @@
 
 set -eu pipefail
 
-source "$DOTLY_PATH/scripts/core/_main.sh"
+# source "$DOTLY_PATH/scripts/core/_main.sh"
 # source "$DOTFILES_PATH/scripts/install/utils/install.sh"
 
 ##? Install Node Version Manager
@@ -11,7 +11,7 @@ source "$DOTLY_PATH/scripts/core/_main.sh"
 ##? Usage:
 ##?   nvm
 
-docs::parse "$@"
+# docs::parse "$@"
 
 PROFILE=/dev/null bash -c 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash'
 

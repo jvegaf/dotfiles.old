@@ -124,102 +124,29 @@ let g:gitgutter_map_keys = get(g:, 'gitgutter_map_keys', 0)
 
 let g:codeium_disable_bindings = 1
 
-let g:cpp_class_scope_highlight = get(g:, 'cpp_class_scope_highlight', 1)
-let g:cpp_class_decl_highlight = get(g:, 'cpp_class_decl_highlight', 1)
-let g:cpp_no_function_highlight = get(g:, 'cpp_no_function_highlight', 1)
+let g:cpp_class_scope_highlight = 1
+let g:cpp_class_decl_highlight = 1
+let g:cpp_no_function_highlight = 1
 
-let g:AutoPairsMapSpace = get(g:, 'AutoPairsMapSpace', 0)
-
-
-
-let g:closetag_emptyTags_caseSensitive =
-      \ get(g:, 'g:closetag_emptyTags_caseSensitive', 1)
-let g:closetag_filetypes =
-      \ get(g:, 'closetag_filetypes', 'html,xhtml,phtml,javascript.jsx,typescript.tsx')
+let g:AutoPairsMapSpace = 0
 
 
-let g:Illuminate_delay = get(g:, 'Illuminate_delay', 250)
-let g:Illuminate_ftblacklist = get(g:, 'Illuminate_ftblacklist', ['nerdtree'])
+
+let g:closetag_emptyTags_caseSensitive = 1
+let g:closetag_filetypes = 'html,xhtml,phtml,javascript.jsx,typescript.tsx'
+
+let g:Illuminate_delay = 250
+let g:Illuminate_ftblacklist = ['nerdtree']
 
 
-let g:NERDDefaultAlign = get(g:, 'NERDDefaultAlign', 'left')
+let g:NERDDefaultAlign = 'left'
 
 
-let g:sneak#label = get(g:, 'sneak#lable', 1)
-let g:sneak#use_ic_scs = get(g:, 'sneak#use_ic_scs', 1)
+let g:sneak#label = 1
 
+let g:sneak#use_ic_scs = 1
 
-let g:undotree_WindowLayout = get(g:, 'undotree_WindowLayout', 4)
-
-"" youcompleteme
-
-let g:ycm_key_list_select_completion =
-      \ get(g:, 'ycm_key_list_select_completion', ['<TAB>', '<Down>'])
-let g:ycm_key_list_previous_completion =
-      \ get(g:, 'ycm_key_list_previous_completion', ['<S-TAB>', '<Up>'])
-let g:ycm_auto_trigger =
-      \ get(g:, 'ycm_auto_trigger', 1)
-let g:ycm_autoclose_preview_window_after_insertion =
-      \ get(g:, 'ycm_autoclose_preview_window_after_insertion', 1)
-let g:ycm_seed_identifiers_with_syntax =
-      \ get(g:, 'ycm_seed_identifiers_with_syntax', 1)
-let g:ycm_collect_identifiers_from_comments_and_strings =
-      \ get(g:, 'ycm_collect_identifiers_from_comments_and_strings', 1)
-let g:ycm_python_binary_path =
-      \ get(g:, 'ycm_python_binary_path', 'python')
-let g:ycm_show_diagnostics_ui =
-      \ get(g:, 'ycm_show_diagnostics_ui', 0)
-let g:ycm_key_detailed_diagnostics =
-      \ get(g:, 'ycm_key_detailed_diagnostics', '')
-let g:ycm_semantic_triggers = get(g:, 'ycm_semantic_triggers', {
-      \ 'c': ['->', '.', 're!\w{3}'],
-      \ 'cpp': ['->', '.', '::', 're!\w{3}'],
-      \ 'cs' : ['.', 're!\w{3}'],
-      \ 'cuda': ['->', '.', '::', 're!\w{3}'],
-      \ 'd' : ['.', 're!\w{3}'],
-      \ 'elixir' : ['.', 're!\w{3}'],
-      \ 'erlang': [':'],
-      \ 'go' : ['.', 're!\w{3}'],
-      \ 'java' : ['.', 're!\w{3}'],
-      \ 'javascript' : ['.', 're!\w{3}'],
-      \ 'javascript.jsx' : ['.', 're!\w{3}'],
-      \ 'lua': ['.', ':'],
-      \ 'objc': ['->', '.', 're!\[[_a-zA-Z]+\w*\s', 're!^\s*[^\W\d]\w*\s', 're!\[.*\]\s'],
-      \ 'objcpp': ['->', '.', '::', 're!\w{3}'],
-      \ 'ocaml': ['.', '#'],
-      \ 'perl': ['->'],
-      \ 'perl6' : ['.', 're!\w{3}'],
-      \ 'php': ['->', '::'],
-      \ 'python' : ['.', 're!\w{3}'],
-      \ 'ruby': ['.', '::'],
-      \ 'rust': ['.', '::'],
-      \ 'scala' : ['.', 're!\w{3}'],
-      \ 'sh': ['re![\w-]{2}', '/', '-'],
-      \ 'typescript' : ['.', 're!\w{3}'],
-      \ 'typescript.tsx' : ['.', 're!\w{3}'],
-      \ 'vb' : ['.', 're!\w{3}'],
-      \ 'vim': ['re![_a-zA-Z]+[_\w]*\.'],
-      \ 'zsh': ['re![\w-]{2}', '/', '-'],
-      \ })
-let g:ycm_filetype_whitelist = get(g:, 'ycm_filetype_whitelist', {
-      \ 'c': 1,
-      \ 'cpp': 1,
-      \ 'go': 1,
-      \ 'java': 1,
-      \ 'javascript': 1,
-      \ 'javascript.jsx': 1,
-      \ 'python': 1,
-      \ 'rust': 1,
-      \ 'sh': 1,
-      \ 'typescript': 1,
-      \ 'typescript.tsx': 1,
-      \ 'vim': 1,
-      \ 'zsh': 1,
-      \ })
-let g:ycm_extra_conf_globlist = get(g:, 'ycm_extra_conf_globlist', [
-      \ '~/*',
-      \ ])
-let g:custom_ycm_install_options = '--clangd-completer --java-completer  --ts-completer'
+let g:undotree_WindowLayout = 4
 
 
 function! s:leader_guide_display_func()
@@ -237,12 +164,12 @@ else
 endif
 
 
-let g:vim_json_syntax_conceal = get(g:, 'vim_json_syntax_conceal', 0)
 
+let g:vim_json_syntax_conceal = 0
 
-let g:dockertools_default_all = get(g:, 'dockertools_default_all', 1)
-let g:dockertools_sudo_mode  = get(g:, 'dockertools_sudo_mode', 0)
-let g:dockertools_docker_cmd = get(g:, 'dockertools_docker_cmd', 'docker')
+let g:dockertools_default_all = 1
+let g:dockertools_sudo_mode  = 0
+let g:dockertools_docker_cmd = 'docker'
 
 filetype plugin indent on
 

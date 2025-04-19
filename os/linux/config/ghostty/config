@@ -1,4 +1,3 @@
-command = tmux new-session -A -s main-ghostty
 
 font-family = "ComicCodeLigatures NF"
 font-size = 12
