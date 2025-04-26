@@ -38,6 +38,7 @@ let s:builtin_plugins = [
       \ 'jump',
       \ 'kotlin',
       \ 'lark',
+      \ 'lsp',
       \ 'latex',
       \ 'markdown',
       \ 'mermaid',
@@ -57,6 +58,8 @@ let s:builtin_plugins = [
       \ 'surround',
       \ 'tabular',
       \ 'tagbar',
+      \ 'tmux',
+      \ 'tmuxline',
       \ 'toml',
       \ 'typescript',
       \ 'undotree',
@@ -119,18 +122,7 @@ function! s:load_builtin_plugins()
   endfor
 endfunction
 
-function! s:load_custom_plugins()
-  for plugin in g:custom_plugins
-    if len(plugin) > 1
-      execute "Plug '" . plugin[0] . "', " .join(plugin[1:], ',')
-    else
-      execute "Plug '" . plugin[0] . "'"
-    endif
-  endfor
-endfunction
-
 call plug#begin()
 call s:check_plugins()
 call s:load_builtin_plugins()
-call s:load_custom_plugins()
 call plug#end()
