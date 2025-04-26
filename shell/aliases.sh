@@ -27,6 +27,10 @@ alias run="./run"
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 alias open='xdg-open'
 alias zj='zellij'
+alias fks='flatpak search'
+alias fki='flatpak install'
+alias sns='snap search'
+alias sni='snap install'
 
 # Security
 alias checkrootkits="sudo rkhunter --update; sudo rkhunter --propupd; sudo rkhunter --check"

@@ -410,7 +410,8 @@ exec --no-startup-id /usr/bin/dunst
 # `yay -S autotiling ;) (it is in AUR)
 # pip install autotiling --break-system-packages (in ubuntu 24.04)
 exec_always --no-startup-id autotiling
-exec_always --no-startup-id  /bin/ulauncher --hide-window
+# exec_always --no-startup-id  /bin/ulauncher --hide-window
+exec_always --no-startup-id  /bin/ulauncher
 
 # Autostart apps as you like
 #exec --no-startup-id sleep 2 && xfce4-terminal
