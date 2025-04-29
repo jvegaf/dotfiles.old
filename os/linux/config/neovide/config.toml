@@ -1,0 +1,13 @@
+[font]
+size = 13
+
+
+[[font.normal]]
+family = "ComicCodeLigatures NF"
+style = "Regular"
+
+# You can set a different font for fallback
+[[font.normal]]
+family = "JetBrainsMono Nerd Font Propo"
+style = "Regular"
+

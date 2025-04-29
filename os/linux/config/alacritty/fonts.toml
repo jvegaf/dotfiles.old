@@ -1,20 +1,20 @@
 [font]
-size = 12
+size = 13
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+family = "ComicCodeLigatures NF"
 style = "Regular"
 
 [font.bold]
-family = "JetBrainsMono Nerd Font"
+family = "ComicCodeLigatures NF"
 style = "Bold"
 
 [font.bold_italic]
-family = "JetBrainsMono Nerd Font"
+family = "ComicCodeLigatures NF"
 style = "Bold Italic"
 
 [font.italic]
-family = "JetBrainsMono Nerd Font"
+family = "ComicCodeLigatures NF"
 style = "Italic"
 
 

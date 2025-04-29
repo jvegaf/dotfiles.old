@@ -4,23 +4,26 @@
 configs:
 - level: 1
   monitors:
-  - id: "2160bfc03606a69f10ccf1aa35406883bd2a17b2"
-    display_name: "Dell Inc. DELL P2414H KKMMW6421VTB (DP-1-3)"
+  - id: "cd7ad893ac566e5f940a941642eaec49237b0b09"
+    display_name: "Dell Inc. DELL P2414H KKMMW6452CMU (DP-1-2)"
     geometry:
       x: 1920
       y: 0
       width: 1920
       height: 1080
   icons: {}
-- level: 0
+- level: 1
   monitors:
-  - id: "cd7ad893ac566e5f940a941642eaec49237b0b09"
-    display_name: "Dell Inc. DELL P2414H KKMMW6452CMU (DP-1-2)"
+  - id: "2160bfc03606a69f10ccf1aa35406883bd2a17b2"
+    display_name: "Dell Inc. DELL P2414H KKMMW6421VTB (DP-1-3)"
     geometry:
-      x: 0
+      x: 3840
       y: 0
       width: 1920
       height: 1080
+  icons: {}
+- level: 0
+  monitors:
   - id: "7221be7010722692ff9cfb486d968f9cb5d20392"
     display_name: "BOE 0x0747 (eDP-1)"
     geometry:
@@ -29,97 +32,27 @@ configs:
       width: 1920
       height: 1080
   icons:
-    "ftp://192.168.0.32:2121/":
-      row: 6
+    "/home/th3g3ntl3man/Desktop/backoffice.txt.zip":
+      row: 3
       col: 0
-      last_seen: 1737555218357649
-    "/home/th3g3ntl3man/Desktop/josito @ soniquete 2025-01-18.mp3":
-      row: 5
-      col: 1
-    "trash:///":
+    "/home/th3g3ntl3man/Desktop/filezilla":
       row: 2
       col: 0
-    "/home/th3g3ntl3man/Desktop/mixo":
+    "/home/th3g3ntl3man/Desktop/yutk":
       row: 1
       col: 0
-    "/home/th3g3ntl3man/Desktop/flutter":
-      row: 1
-      col: 4
-    "/home/th3g3ntl3man/Desktop/New Folder":
-      row: 3
-      col: 0
-    "0042-0042":
-      row: 3
-      col: 0
-      last_seen: 1737383043521098
-    "/home/th3g3ntl3man/Desktop/collection.nml":
-      row: 4
-      col: 0
-    "/home/th3g3ntl3man/Desktop/Curso completo de Rust \uFF5C De \U0001F4A9 a \U0001F468\u200D\U0001F4BB \uFF5C Stan Tech.f248.webm":
-      row: 5
-      col: 0
-    "/home/th3g3ntl3man/Desktop/doc":
-      row: 3
-      col: 2
-    "/home/th3g3ntl3man/Desktop/Curso completo de Rust \uFF5C De \U0001F4A9 a \U0001F468\u200D\U0001F4BB \uFF5C Stan Tech.f248.webm.part":
-      row: 5
-      col: 0
-    "E6CA407ACA4048CF":
-      row: 9
-      col: 0
-      last_seen: 1737628732003781
-    "/home/th3g3ntl3man/Desktop/Curso completo de Rust \uFF5C De \U0001F4A9 a \U0001F468\u200D\U0001F4BB \uFF5C Stan Tech.webm":
-      row: 7
-      col: 0
-    "/":
+    "/home/th3g3ntl3man/Desktop/config.tar.gz":
       row: 1
       col: 0
-    "/home/th3g3ntl3man/Desktop/Arquitectura-CSS":
-      row: 8
-      col: 0
-    "/home/th3g3ntl3man/Desktop/linuxmint-22.1-cinnamon-64bit.iso":
+    "/home/th3g3ntl3man/Desktop/liubang_df":
       row: 1
       col: 0
-    "Trash":
+    "/home/th3g3ntl3man/Desktop/backoffice.txt":
+      row: 2
+      col: 0
+    "/home/th3g3ntl3man/Desktop/yutkat_df":
       row: 0
       col: 0
-    "545EE1925EE16D64":
-      row: 3
-      col: 0
-      last_seen: 1737136012382638
-    "/home/th3g3tl3man/Desktop/soniquete.mp3":
-      row: 4
-      col: 0
-    "/home/th3g3ntl3man/Desktop/Curso completo de Rust \uFF5C De \U0001F4A9 a \U0001F468\u200D\U0001F4BB \uFF5C Stan Tech.temp.webm":
-      row: 7
-      col: 0
-    "/home/th3g3ntl3man":
+    "/home/th3g3ntl3man/Desktop/BKP_LM":
       row: 0
-      col: 0
-    "/home/th3g3ntl3man/Desktop/Logs":
-      row: 3
-      col: 0
-    "/home/th3g3ntl3man/Desktop/Curso completo de Rust \uFF5C De \U0001F4A9 a \U0001F468\u200D\U0001F4BB \uFF5C Stan Tech.f251.webm.part":
-      row: 6
-      col: 0
-    "/home/th3g3tl3man":
-      row: 1
-      col: 0
-    "/home/th3g3ntl3man/Desktop/mas-talento":
-      row: 5
-      col: 3
-    "/home/th3g3tl3man/Desktop/2025-01-04_5h18m21_03h02m02.wav":
-      row: 3
-      col: 0
-    "/home/th3g3tl3man/Desktop/2025-01-04_5h18m21.wav":
-      row: 2
-      col: 0
-    "/home/th3g3tl3man/Desktop/ASUS DOCS":
-      row: 5
-      col: 0
-    "/home/th3g3ntl3man/Desktop/Curso completo de Rust \uFF5C De \U0001F4A9 a \U0001F468\u200D\U0001F4BB \uFF5C Stan Tech.mp4":
-      row: 2
-      col: 4
-    "/home/th3g3ntl3man/Desktop/CSS-Layouts":
-      row: 7
       col: 0

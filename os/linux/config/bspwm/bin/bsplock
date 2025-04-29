@@ -1,0 +1,62 @@
+#!/usr/bin/env bash
+
+## Get colors -----------------
+FG="#282828"
+BG="#ebdbb2"
+
+BLACK="#928374"
+RED="#fb4934"
+GREEN="#b8bb26"
+YELLOW="#fabd2f"
+BLUE="#83a598"
+MAGENTA="#d3869b"
+CYAN="#8ec07c"
+WHITE="#ebdbb2"
+
+## Exec	-----------------
+i3lock \
+--color="${BG}D9"			\
+\
+--insidever-color=${GREEN}	\
+--insidewrong-color=${RED}	\
+--inside-color="${BG}00"	\
+\
+--ringver-color=${GREEN}	\
+--ringwrong-color=${RED}	\
+--ring-color=${BLUE}		\
+\
+--line-color=${BG}			\
+--separator-color=${BG}		\
+\
+--keyhl-color=${YELLOW}		\
+--bshl-color=${RED}			\
+\
+--verif-color=${BG}			\
+--wrong-color=${FG}			\
+--layout-color=${FG}		\
+\
+--time-color=${FG}			\
+--date-color=${FG}			\
+\
+--pass-media-keys			\
+--pass-screen-keys			\
+--pass-power-keys			\
+--pass-volume-keys			\
+--{time,date,layout,verif,wrong,greeter}-font="Hack Nerd Font"	\
+--{layout,verif,wrong,greeter}-size=18							\
+--time-size=34													\
+--date-size=18													\
+--greeter-color=${CYAN}				\
+--verif-text="verifying..."			\
+--wrong-text="wrong!"				\
+--noinput-text="Empty"				\
+--lock-text="Locking..."			\
+--lockfailed-text="Failed to lock"	\
+--radius 120				\
+--ring-width 8.0			\
+--screen 1					\
+--clock						\
+--indicator					\
+--time-str="%I:%M %p"		\
+--date-str="%b %d, %G"		\
+#--blur 5					\

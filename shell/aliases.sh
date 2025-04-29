@@ -58,7 +58,7 @@ alias gsw="git switch"
 
 # Utils
 alias rmd='rm -rf'
-alias sb="/snap/bin/subl"
+alias sb="/bin/subl"
 alias v='nvim'
 alias b='bat'
 alias k='kill -9'
@@ -69,7 +69,7 @@ alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias v.='(nvim $PWD &>/dev/null &)'
 alias l.='(lapce $PWD &>/dev/null &)'
-alias o.='(nemo $PWD &>/dev/null &)'
+alias o.='(thunar $PWD &>/dev/null &)'
 alias up='dot package update_all'
 alias py='python'
 alias py3='python3'

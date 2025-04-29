@@ -12,7 +12,6 @@ source "$DOTFILES_PATH/scripts/self/utils/install.sh"
 ##? Usage:
 ##?   install_custom
 
-docs::parse "$@"
 
 if grep -qEi "(archlinux)" /proc/version &>/dev/null; then
     log::note "Installing ArchLinux 🐧 packages"
