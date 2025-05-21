@@ -71,7 +71,7 @@
 	"last_version": 4192,
 	"last_window_id": 6,
 	"log_indexing": false,
-	"next_update_check": 1747680089,
+	"next_update_check": 1747919297,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -347,7 +347,7 @@
 								"characters": "\n\n"
 							},
 							"AgAAAJo6AAAAAAAAmzoAAAAAAAAAAAAAmzoAAAAAAACcOgAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAmjoAAAAAAACaOgAAAAAAAAAAAAAAAPC/"
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACaOgAAAAAAAJo6AAAAAAAAAAAAAAAA8L8"
 						],
 						[
 							19,
@@ -355,7 +355,7 @@
 							"",
 							null,
 							"AQAAAJw6AAAAAAAArEAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAnDoAAAAAAACcOgAAAAAAAAAAAAAAAPC/"
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACcOgAAAAAAAJw6AAAAAAAAAAAAAAAA8L8"
 						],
 						[
 							21,
@@ -363,7 +363,7 @@
 							"ensure_newline_at_eof",
 							null,
 							"AQAAAKxAAAAAAAAArUAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAArEAAAAAAAACsQAAAAAAAAAAAAAAAAPC/"
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACsQAAAAAAAAKxAAAAAAAAAAAAAAAAA8L8"
 						]
 					]
 				}
@@ -526,7 +526,7 @@
 								[
 									[
 										16556,
-										16556
+										16250
 									]
 								],
 								"settings":
@@ -535,7 +535,7 @@
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 9435.0,
+								"translation.y": 9987.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
