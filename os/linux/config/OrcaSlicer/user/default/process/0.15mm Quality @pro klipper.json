@@ -12,5 +12,5 @@
     "sparse_infill_density": "35%",
     "version": "2.3.0.3",
     "wall_loops": "4",
-    "xy_hole_compensation": "0.2"
+    "xy_hole_compensation": "0.25"
 }
