@@ -1,4 +1,3 @@
-B
 #!/bin/bash
 
 echo "Installing SDKMAN ☕ "
