@@ -18,7 +18,8 @@
     "brim_type": "auto_brim",
     "brim_width": "5",
     "compatible_printers": [
-        "Josito Pipper Bear 0.4 nozzle"
+        "Josito Pipper Bear 0.4 nozzle",
+        "Aquila Pro Klipper"
     ],
     "compatible_printers_condition": "",
     "counterbore_hole_bridging": "none",

@@ -1,6 +1,14 @@
 {
 	"file_history":
 	[
+		"/home/th3g3ntl3man/.opt/arduino-1.8.19/hardware/arduino/avr/boards.txt",
+		"/home/th3g3ntl3man/.opt/arduino-1.8.19/hardware/arduino/avr/platform.txt",
+		"/home/th3g3ntl3man/Documents/Hall-Effect-Sensor-CAD-Mouse-Spacemouse/HE_Spacemouse.ino",
+		"/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/encoder_i2c_test/src/Encoder.cpp",
+		"/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/encoder_i2c_test/src/main.cpp",
+		"/home/th3g3ntl3man/.dotfiles/editors/sublime/Packages/google-search/google_search.sublime-settings",
+		"/home/th3g3ntl3man/.dotfiles/editors/sublime/Packages/User/google_search.sublime-settings",
+		"/run/media/th3g3ntl3man/545EE1925EE16D64/patrones_conocidos.txt",
 		"/home/th3g3ntl3man/Downloads/carfs_bd.sql",
 		"/tmp/fz3temp-2/invoice.addresses-tab.tpl",
 		"/tmp/fz3temp-2/invoice.addresses-tab.tpl.BAK",
@@ -61,9 +69,9 @@
 	[
 	],
 	"last_version": 4192,
-	"last_window_id": 3,
+	"last_window_id": 6,
 	"log_indexing": false,
-	"next_update_check": 1746023230,
+	"next_update_check": 1747680089,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -108,6 +116,14 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: giigk",
+						"Package Control: Revert Built-in Package"
+					]
 				],
 				"width": 0.0
 			},
@@ -129,6 +145,15 @@
 			},
 			"file_history":
 			[
+				"/home/th3g3ntl3man/.arduino15/packages/SparkFun/hardware/avr/1.1.13/boards.txt",
+				"/home/th3g3ntl3man/.opt/arduino-1.8.19/hardware/arduino/avr/boards.txt",
+				"/home/th3g3ntl3man/.opt/arduino-1.8.19/hardware/arduino/avr/platform.txt",
+				"/home/th3g3ntl3man/Documents/Hall-Effect-Sensor-CAD-Mouse-Spacemouse/HE_Spacemouse.ino",
+				"/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/encoder_i2c_test/src/Encoder.cpp",
+				"/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/encoder_i2c_test/src/main.cpp",
+				"/home/th3g3ntl3man/.dotfiles/editors/sublime/Packages/google-search/google_search.sublime-settings",
+				"/home/th3g3ntl3man/.dotfiles/editors/sublime/Packages/User/google_search.sublime-settings",
+				"/run/media/th3g3ntl3man/545EE1925EE16D64/patrones_conocidos.txt",
 				"/home/th3g3ntl3man/Downloads/carfs_bd.sql",
 				"/tmp/fz3temp-2/invoice.addresses-tab.tpl",
 				"/tmp/fz3temp-2/invoice.addresses-tab.tpl.BAK",
@@ -304,6 +329,44 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/th3g3ntl3man/.arduino15/packages/SparkFun/hardware/avr/1.1.13/boards.txt",
+					"settings":
+					{
+						"buffer_size": 16557,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					},
+					"undo_stack":
+					[
+						[
+							17,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"AgAAAJo6AAAAAAAAmzoAAAAAAAAAAAAAmzoAAAAAAACcOgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAmjoAAAAAAACaOgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							19,
+							1,
+							"",
+							null,
+							"AQAAAJw6AAAAAAAArEAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAnDoAAAAAAACcOgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							21,
+							1,
+							"ensure_newline_at_eof",
+							null,
+							"AQAAAKxAAAAAAAAArUAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAArEAAAAAAAACsQAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -316,6 +379,14 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: giigk",
+						"Package Control: Revert Built-in Package"
+					]
 				],
 				"width": 0.0
 			},
@@ -337,6 +408,14 @@
 			},
 			"file_history":
 			[
+				"/home/th3g3ntl3man/.opt/arduino-1.8.19/hardware/arduino/avr/boards.txt",
+				"/home/th3g3ntl3man/.opt/arduino-1.8.19/hardware/arduino/avr/platform.txt",
+				"/home/th3g3ntl3man/Documents/Hall-Effect-Sensor-CAD-Mouse-Spacemouse/HE_Spacemouse.ino",
+				"/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/encoder_i2c_test/src/Encoder.cpp",
+				"/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/encoder_i2c_test/src/main.cpp",
+				"/home/th3g3ntl3man/.dotfiles/editors/sublime/Packages/google-search/google_search.sublime-settings",
+				"/home/th3g3ntl3man/.dotfiles/editors/sublime/Packages/User/google_search.sublime-settings",
+				"/run/media/th3g3ntl3man/545EE1925EE16D64/patrones_conocidos.txt",
 				"/home/th3g3ntl3man/Downloads/carfs_bd.sql",
 				"/tmp/fz3temp-2/invoice.addresses-tab.tpl",
 				"/tmp/fz3temp-2/invoice.addresses-tab.tpl.BAK",
@@ -432,6 +511,37 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/th3g3ntl3man/.arduino15/packages/SparkFun/hardware/avr/1.1.13/boards.txt",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 16557,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										16556,
+										16556
+									]
+								],
+								"settings":
+								{
+									"show_line_column": "disabled",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 9435.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -471,7 +581,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,35,1920,1056,1920,1080,0",
+			"position": "0,1,0,0,0,0,35,1920,1058,1920,1080,0",
 			"project": "",
 			"replace":
 			{
@@ -518,7 +628,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 1,
+			"window_id": 6,
 			"workspace_name": ""
 		}
 	],

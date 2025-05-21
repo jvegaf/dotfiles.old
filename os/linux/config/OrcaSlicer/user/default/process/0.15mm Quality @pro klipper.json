@@ -1,0 +1,16 @@
+{
+    "bridge_acceleration": "500",
+    "default_acceleration": "500",
+    "from": "User",
+    "inherits": "0.15mm Quality @Josito Pipper Bear 0.4 nozzle",
+    "initial_layer_acceleration": "500",
+    "inner_wall_acceleration": "500",
+    "is_custom_defined": "0",
+    "name": "0.15mm Quality @pro klipper",
+    "print_settings_id": "0.15mm Quality @pro klipper",
+    "sparse_infill_acceleration": "500",
+    "sparse_infill_density": "35%",
+    "version": "2.3.0.3",
+    "wall_loops": "4",
+    "xy_hole_compensation": "0.2"
+}

@@ -284,7 +284,9 @@ set $ws10 "10"
 # workspace $ws5 output DP-1-1
 
 # bind program to workspace and focus to them on startup:
-# for know which class is which program, use xprop WM_CLASS
+# for know which class is which program,
+
+#     use    xprop | grep WM_CLASS
 
 
 assign [class="Xfce4-terminal"]  $ws1
@@ -293,6 +295,8 @@ assign [class="(?i)firefox"]     $ws2
 assign [class="Brave-browser"]   $ws2
 assign [class="Thunar"]          $ws3
 assign [class="Nemo"]            $ws3
+assign [class="Thonny"]          $ws3
+assign [class="Code"]            $ws3
 assign [class="Harmony"]         $ws3
 assign [class="thunderbird"]     $ws4
 assign [class="TelegramDesktop"] $ws5
@@ -308,6 +312,8 @@ for_window [class="(?i)Thunderbird"]      focus
 for_window [class="(?i)TelegramDesktop"]  focus
 for_window [class="(?i)Symphony"]         focus
 for_window [class="(?i)Harmony"]          focus
+for_window [class="(?i)Thonny"]           focus
+for_window [class="(?i)Code"]             focus
 
 ##############
 # compositor #
