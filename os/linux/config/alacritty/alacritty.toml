@@ -24,9 +24,9 @@ save_to_clipboard = true
 
 [env]
 # TERM = "tmux-256color"
-TERM = "alacritty"
+# TERM = "alacritty"
 
 [general]
 import = ["~/.config/alacritty/colors.toml", "~/.config/alacritty/fonts.toml"]
 
-[terminal]
+# [terminal]

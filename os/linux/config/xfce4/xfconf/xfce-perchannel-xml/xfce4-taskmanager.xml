@@ -6,4 +6,8 @@
     <property name="sort-type" type="uint" value="1"/>
     <property name="sort-id" type="uint" value="7"/>
   </property>
+  <property name="interface" type="empty">
+    <property name="show-all-processes" type="bool" value="true"/>
+    <property name="process-tree" type="bool" value="false"/>
+  </property>
 </channel>

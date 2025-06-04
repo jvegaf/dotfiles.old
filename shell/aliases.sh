@@ -56,6 +56,17 @@ alias gpl="git pull --rebase --autostash"
 alias gl='$DOTLY_PATH/bin/dot git pretty-log'
 alias gsw="git switch"
 
+# Copilot
+alias cops="gh copilot suggest"
+alias cope="gh copilot explain"
+
+# flatpak
+alias fps="flatpak search"
+alias fpi="flatpak install"
+
+
+
+
 # Utils
 alias rmd='rm -rf'
 alias sb="/bin/subl"

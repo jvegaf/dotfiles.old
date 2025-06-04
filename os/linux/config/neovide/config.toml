@@ -1,5 +1,5 @@
 [font]
-size = 13
+size = 10
 
 
 [[font.normal]]
@@ -8,6 +8,6 @@ style = "Regular"
 
 # You can set a different font for fallback
 [[font.normal]]
-family = "JetBrainsMono Nerd Font Propo"
+family = "JetBrainsMono Nerd Font"
 style = "Regular"
 

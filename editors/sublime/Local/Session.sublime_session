@@ -1,6 +1,10 @@
 {
 	"file_history":
 	[
+		"/home/th3g3ntl3man/Code/carfast/dev/carfast.vehicleinteroperability/dev.sh",
+		"/home/th3g3ntl3man/Code/carfast/ps17/dev.sh",
+		"/home/th3g3ntl3man/Code/carfast/fix_permissions.sh",
+		"/home/th3g3ntl3man/.arduino15/packages/SparkFun/hardware/avr/1.1.13/boards.txt",
 		"/home/th3g3ntl3man/.opt/arduino-1.8.19/hardware/arduino/avr/boards.txt",
 		"/home/th3g3ntl3man/.opt/arduino-1.8.19/hardware/arduino/avr/platform.txt",
 		"/home/th3g3ntl3man/Documents/Hall-Effect-Sensor-CAD-Mouse-Spacemouse/HE_Spacemouse.ino",
@@ -68,10 +72,10 @@
 	"folder_history":
 	[
 	],
-	"last_version": 4192,
+	"last_version": 4200,
 	"last_window_id": 6,
 	"log_indexing": false,
-	"next_update_check": 1747919297,
+	"next_update_check": 1748967857,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -80,7 +84,7 @@
 		"new_window_position":
 		[
 			0.0,
-			86.0
+			100.0
 		],
 		"new_window_settings":
 		{
@@ -145,6 +149,9 @@
 			},
 			"file_history":
 			[
+				"/home/th3g3ntl3man/Code/carfast/dev/carfast.vehicleinteroperability/dev.sh",
+				"/home/th3g3ntl3man/Code/carfast/ps17/dev.sh",
+				"/home/th3g3ntl3man/Code/carfast/fix_permissions.sh",
 				"/home/th3g3ntl3man/.arduino15/packages/SparkFun/hardware/avr/1.1.13/boards.txt",
 				"/home/th3g3ntl3man/.opt/arduino-1.8.19/hardware/arduino/avr/boards.txt",
 				"/home/th3g3ntl3man/.opt/arduino-1.8.19/hardware/arduino/avr/platform.txt",
@@ -212,7 +219,7 @@
 			],
 			"find":
 			{
-				"height": 32.0
+				"height": 28.0
 			},
 			"find_in_files":
 			{
@@ -246,7 +253,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 32.0
+				"height": 28.0
 			},
 			"input":
 			{
@@ -255,12 +262,15 @@
 			"menu_visible": true,
 			"output.find_results":
 			{
-				"height": 0.0
+				"height": 0.0,
+				"history":
+				[
+				]
 			},
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 60.0
+				"height": 52.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -329,44 +339,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/th3g3ntl3man/.arduino15/packages/SparkFun/hardware/avr/1.1.13/boards.txt",
-					"settings":
-					{
-						"buffer_size": 16557,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					},
-					"undo_stack":
-					[
-						[
-							17,
-							1,
-							"insert",
-							{
-								"characters": "\n\n"
-							},
-							"AgAAAJo6AAAAAAAAmzoAAAAAAAAAAAAAmzoAAAAAAACcOgAAAAAAAAAAAAA",
-							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACaOgAAAAAAAJo6AAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							19,
-							1,
-							"",
-							null,
-							"AQAAAJw6AAAAAAAArEAAAAAAAAAAAAAA",
-							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACcOgAAAAAAAJw6AAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							21,
-							1,
-							"ensure_newline_at_eof",
-							null,
-							"AQAAAKxAAAAAAAAArUAAAAAAAAAAAAAA",
-							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACsQAAAAAAAAKxAAAAAAAAAAAAAAAAA8L8"
-						]
-					]
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -408,6 +380,10 @@
 			},
 			"file_history":
 			[
+				"/home/th3g3ntl3man/Code/carfast/dev/carfast.vehicleinteroperability/dev.sh",
+				"/home/th3g3ntl3man/Code/carfast/ps17/dev.sh",
+				"/home/th3g3ntl3man/Code/carfast/fix_permissions.sh",
+				"/home/th3g3ntl3man/.arduino15/packages/SparkFun/hardware/avr/1.1.13/boards.txt",
 				"/home/th3g3ntl3man/.opt/arduino-1.8.19/hardware/arduino/avr/boards.txt",
 				"/home/th3g3ntl3man/.opt/arduino-1.8.19/hardware/arduino/avr/platform.txt",
 				"/home/th3g3ntl3man/Documents/Hall-Effect-Sensor-CAD-Mouse-Spacemouse/HE_Spacemouse.ino",
@@ -474,7 +450,7 @@
 			],
 			"find":
 			{
-				"height": 32.0
+				"height": 28.0
 			},
 			"find_in_files":
 			{
@@ -511,43 +487,12 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/th3g3ntl3man/.arduino15/packages/SparkFun/hardware/avr/1.1.13/boards.txt",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 16557,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										16556,
-										16250
-									]
-								],
-								"settings":
-								{
-									"show_line_column": "disabled",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 9987.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 32.0
+				"height": 28.0
 			},
 			"input":
 			{
@@ -578,14 +523,17 @@
 			"menu_visible": true,
 			"output.find_results":
 			{
-				"height": 0.0
+				"height": 0.0,
+				"history":
+				[
+				]
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,35,1920,1058,1920,1080,0",
+			"position": "0,1,0,0,0,0,33,1920,1044,1920,1080,0",
 			"project": "",
 			"replace":
 			{
-				"height": 60.0
+				"height": 52.0
 			},
 			"save_all_on_build": true,
 			"select_file":

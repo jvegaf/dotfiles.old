@@ -2,7 +2,7 @@
     "2c396a3a-cafa-48aa-ac31-2069c27d18f7": {
         "id": "2c396a3a-cafa-48aa-ac31-2069c27d18f7",
         "name": "Google Search",
-        "keyword": "g",
+        "keyword": "gg",
         "cmd": "https://google.com/search?q=%s",
         "icon": "/usr/share/ulauncher/media/google-search-icon.png",
         "is_default_search": true,
