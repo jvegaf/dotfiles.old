@@ -5,6 +5,10 @@
 row=6
 col=0
 
+[/home/th3g3ntl3man/Desktop/via-3.0.0-linux.AppImage]
+row=4
+col=1
+
 [/home/th3g3ntl3man/Desktop/soniquete_mayo_25_cruda.mp3]
 row=2
 col=1
@@ -13,6 +17,10 @@ col=1
 row=1
 col=0
 
+[/home/th3g3ntl3man/Desktop/Vial-v0.7.3-x86_64.AppImage]
+row=3
+col=1
+
 [/home/th3g3ntl3man/Desktop/Soniquete-Mayo25.mp3]
 row=1
 col=1
@@ -20,6 +28,10 @@ col=1
 [/home/th3g3ntl3man/Desktop/harmony-0.12.3.AppImage]
 row=2
 col=0
+
+[/home/th3g3ntl3man/Desktop/crkbd_rev4.json]
+row=5
+col=1
 
 [/home/th3g3ntl3man/Desktop/LaserWeb.desktop]
 row=8
