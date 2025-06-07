@@ -39,14 +39,17 @@
     <property name="plugin-1" type="empty">
       <property name="favorites" type="array">
         <value type="string" value="firefox.desktop"/>
-        <value type="string" value="org.gnome.Rhythmbox3.desktop"/>
         <value type="string" value="mintinstall.desktop"/>
         <value type="string" value="xfce4-taskmanager.desktop"/>
         <value type="string" value="xfce-settings-manager.desktop"/>
         <value type="string" value="code-insiders.desktop"/>
         <value type="string" value="code.desktop"/>
+        <value type="string" value="org.freecad.FreeCAD.desktop"/>
+        <value type="string" value="brave-browser.desktop"/>
       </property>
       <property name="recent" type="array">
+        <value type="string" value="com.rtosta.zapzap.desktop"/>
+        <value type="string" value="appimagelaunchersettings.desktop"/>
         <value type="string" value="brave-browser.desktop"/>
         <value type="string" value="via-nativia.desktop"/>
         <value type="string" value="com.github.IsmaelMartinez.teams_for_linux.desktop"/>
@@ -55,8 +58,6 @@
         <value type="string" value="code-insiders.desktop"/>
         <value type="string" value="wine-Programs-LaserWeb.desktop"/>
         <value type="string" value="wine-Programs-FlatCAM.desktop"/>
-        <value type="string" value="com.rtosta.zapzap.desktop"/>
-        <value type="string" value="CAMotics.desktop"/>
       </property>
     </property>
     <property name="plugin-2" type="empty"/>
@@ -105,7 +106,7 @@
       <property name="enable-mpris" type="empty"/>
       <property name="mixer-command" type="empty"/>
       <property name="show-notifications" type="empty"/>
-      <property name="known-players" type="string" value="firefox;harmony;org.telegram.desktop"/>
+      <property name="known-players" type="string" value="Brave;firefox;harmony;org.gnome.Rhythmbox3;org.telegram.desktop"/>
     </property>
     <property name="plugin-13" type="empty">
       <property name="digital-time-format" type="empty"/>

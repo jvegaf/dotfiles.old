@@ -29,8 +29,8 @@ font pango: Noto Sans Regular 10
 set $mod Mod4
 set $alt Mod1
 # set $term --no-startup-id /bin/xfce4-terminal --command tmux
-set $term --no-startup-id /bin/kitty
-set $file-browser --no-startup-id /bin/nemo
+set $term --no-startup-id /bin/alacritty
+set $file-browser --no-startup-id /bin/thunar
 set $web-browser --no-startup-id /bin/firefox
 # set $launcher --no-startup-id rofi -show drun -show-icons
 set $launcher --no-startup-id /bin/ulauncher-toggle
@@ -351,9 +351,14 @@ exec_always --no-startup-id ~/.config/picom/launch.sh
 
 #get auth work with polkit-gnome
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-
+exec /usr/bin/gnome-keyring-daemon --start --components=pkcs11
+exec /usr/bin/gnome-keyring-daemon --start --components=secrets
+exec /usr/bin/gnome-keyring-daemon --start --components=ssh
 
 exec --no-startup-id ~/.config/i3/scripts/keyring
+exec --no-startup-id /usr/bin/snap userd --autostart
+
+exec --no-startup-id blueman-applet
 
 # exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=ssh,secrets,pkcs11
 # dex execute .desktop files + apps using /etc/xdg/autostart.
@@ -434,7 +439,7 @@ exec_always --no-startup-id  /bin/ulauncher
 #exec --no-startup-id blueberry-tray
 
 # networkmanager-applet
-#exec --no-startup-id nm-applet
+exec --no-startup-id nm-applet
 
 # clipman-applet
 #exec --no-startup-id xfce4-clipman

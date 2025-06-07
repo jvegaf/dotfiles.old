@@ -1,6 +1,8 @@
 {
 	"file_history":
 	[
+		"/home/th3g3ntl3man/Desktop/bspwm/root.sh",
+		"/home/th3g3ntl3man/Downloads/crkbd-via-layout.json",
 		"/home/th3g3ntl3man/Documents/cornev4.vil",
 		"/home/th3g3ntl3man/Code/carfast/dev/carfast.vehicleinteroperability/dev.sh",
 		"/home/th3g3ntl3man/Code/carfast/ps17/dev.sh",
@@ -76,7 +78,7 @@
 	"last_version": 4200,
 	"last_window_id": 6,
 	"log_indexing": false,
-	"next_update_check": 1749209262,
+	"next_update_check": 1749344665,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -150,6 +152,7 @@
 			},
 			"file_history":
 			[
+				"/home/th3g3ntl3man/Desktop/bspwm/root.sh",
 				"/home/th3g3ntl3man/Downloads/crkbd-via-layout.json",
 				"/home/th3g3ntl3man/Documents/cornev4.vil",
 				"/home/th3g3ntl3man/Code/carfast/dev/carfast.vehicleinteroperability/dev.sh",
@@ -222,7 +225,7 @@
 			],
 			"find":
 			{
-				"height": 28.0
+				"height": 29.0
 			},
 			"find_in_files":
 			{
@@ -256,7 +259,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 28.0
+				"height": 29.0
 			},
 			"input":
 			{
@@ -273,7 +276,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 52.0
+				"height": 54.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -342,14 +345,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/th3g3ntl3man/Downloads/crkbd-via-layout.json",
-					"settings":
-					{
-						"buffer_size": 3196,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -391,6 +386,8 @@
 			},
 			"file_history":
 			[
+				"/home/th3g3ntl3man/Desktop/bspwm/root.sh",
+				"/home/th3g3ntl3man/Downloads/crkbd-via-layout.json",
 				"/home/th3g3ntl3man/Documents/cornev4.vil",
 				"/home/th3g3ntl3man/Code/carfast/dev/carfast.vehicleinteroperability/dev.sh",
 				"/home/th3g3ntl3man/Code/carfast/ps17/dev.sh",
@@ -462,7 +459,7 @@
 			],
 			"find":
 			{
-				"height": 28.0
+				"height": 29.0
 			},
 			"find_in_files":
 			{
@@ -499,44 +496,12 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/th3g3ntl3man/Downloads/crkbd-via-layout.json",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3196,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/JSON/JSON.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 3477.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 28.0
+				"height": 29.0
 			},
 			"input":
 			{
@@ -577,7 +542,7 @@
 			"project": "",
 			"replace":
 			{
-				"height": 52.0
+				"height": 54.0
 			},
 			"save_all_on_build": true,
 			"select_file":

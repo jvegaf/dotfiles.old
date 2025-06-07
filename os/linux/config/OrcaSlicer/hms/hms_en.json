@@ -1763,6 +1763,134 @@
     "device_hms": {
         "en": [
             {
+                "ecode": "0700910000010004",
+                "intro": "The current sensor of AMS A exhaust valve 2 is abnormal; please get in touch with customer support to replace the AMS mainboard."
+            },
+            {
+                "ecode": "0702900000010004",
+                "intro": "The current sensor of AMS C exhaust valve 1 is abnormal; please get in touch with customer support to replace the AMS mainboard."
+            },
+            {
+                "ecode": "0706910000010004",
+                "intro": "The current sensor of AMS G exhaust valve 2 is abnormal; please get in touch with customer support to replace the AMS mainboard."
+            },
+            {
+                "ecode": "0701910000010004",
+                "intro": "The current sensor of AMS B exhaust valve 2 is abnormal; please get in touch with customer support to replace the AMS mainboard."
+            },
+            {
+                "ecode": "1801910000010004",
+                "intro": "The current sensor of AMS-HT B exhaust valve 2 is abnormal; please get in touch with customer support to replace the AMS-HT mainboard."
+            },
+            {
+                "ecode": "1806910000010004",
+                "intro": "The current sensor of AMS-HT G exhaust valve 2 is abnormal; please get in touch with customer support to replace the AMS-HT mainboard."
+            },
+            {
+                "ecode": "0703910000010004",
+                "intro": "The current sensor of AMS D exhaust valve 2 is abnormal; please get in touch with customer support to replace the AMS mainboard."
+            },
+            {
+                "ecode": "0700900000010004",
+                "intro": "The current sensor of AMS A exhaust valve 1 is abnormal; please get in touch with customer support to replace the AMS mainboard."
+            },
+            {
+                "ecode": "0704910000010004",
+                "intro": "The current sensor of AMS E exhaust valve 2 is abnormal; please get in touch with customer support to replace the AMS mainboard."
+            },
+            {
+                "ecode": "0705910000010004",
+                "intro": "The current sensor of AMS F exhaust valve 2 is abnormal; please get in touch with customer support to replace the AMS mainboard."
+            },
+            {
+                "ecode": "0702910000010004",
+                "intro": "The current sensor of AMS C exhaust valve 2 is abnormal; please get in touch with customer support to replace the AMS mainboard."
+            },
+            {
+                "ecode": "0703900000010004",
+                "intro": "The current sensor of AMS D exhaust valve 1 is abnormal; please get in touch with customer support to replace the AMS mainboard."
+            },
+            {
+                "ecode": "1801900000010004",
+                "intro": "The current sensor of AMS-HT B exhaust valve 1 is abnormal; please get in touch with customer support to replace the AMS-HT mainboard."
+            },
+            {
+                "ecode": "1807900000010004",
+                "intro": "The current sensor of AMS-HT H exhaust valve 1 is abnormal; please get in touch with customer support to replace the AMS-HT mainboard."
+            },
+            {
+                "ecode": "1802910000010004",
+                "intro": "The current sensor of AMS-HT C exhaust valve 2 is abnormal; please get in touch with customer support to replace the AMS-HT mainboard."
+            },
+            {
+                "ecode": "0701900000010004",
+                "intro": "The current sensor of AMS B exhaust valve 1 is abnormal; please get in touch with customer support to replace the AMS mainboard."
+            },
+            {
+                "ecode": "0707910000010004",
+                "intro": "The current sensor of AMS H exhaust valve 2 is abnormal; please get in touch with customer support to replace the AMS mainboard."
+            },
+            {
+                "ecode": "1803900000010004",
+                "intro": "The current sensor of AMS-HT D exhaust valve 1 is abnormal; please get in touch with customer support to replace the AMS-HT mainboard."
+            },
+            {
+                "ecode": "1807910000010004",
+                "intro": "The current sensor of AMS-HT H exhaust valve 2 is abnormal; please get in touch with customer support to replace the AMS-HT mainboard."
+            },
+            {
+                "ecode": "1800910000010004",
+                "intro": "The current sensor of AMS-HT A exhaust valve 2 is abnormal; please get in touch with customer support to replace the AMS-HT mainboard."
+            },
+            {
+                "ecode": "1800900000010004",
+                "intro": "The current sensor of AMS-HT A exhaust valve 1 is abnormal; please get in touch with customer support to replace the AMS-HT mainboard."
+            },
+            {
+                "ecode": "0704900000010004",
+                "intro": "The current sensor of AMS E exhaust valve 1 is abnormal; please get in touch with customer support to replace the AMS mainboard."
+            },
+            {
+                "ecode": "1803910000010004",
+                "intro": "The current sensor of AMS-HT D exhaust valve 2 is abnormal; please get in touch with customer support to replace the AMS-HT mainboard."
+            },
+            {
+                "ecode": "0705900000010004",
+                "intro": "The current sensor of AMS F exhaust valve 1 is abnormal; please get in touch with customer support to replace the AMS mainboard."
+            },
+            {
+                "ecode": "1805900000010004",
+                "intro": "The current sensor of AMS-HT F exhaust valve 1 is abnormal; please get in touch with customer support to replace the AMS-HT mainboard."
+            },
+            {
+                "ecode": "0706900000010004",
+                "intro": "The current sensor of AMS G exhaust valve 1 is abnormal; please get in touch with customer support to replace the AMS mainboard."
+            },
+            {
+                "ecode": "1804900000010004",
+                "intro": "The current sensor of AMS-HT E exhaust valve 1 is abnormal; please get in touch with customer support to replace the AMS-HT mainboard."
+            },
+            {
+                "ecode": "0707900000010004",
+                "intro": "The current sensor of AMS H exhaust valve 1 is abnormal; please get in touch with customer support to replace the AMS mainboard."
+            },
+            {
+                "ecode": "1802900000010004",
+                "intro": "The current sensor of AMS-HT C exhaust valve 1 is abnormal; please get in touch with customer support to replace the AMS-HT mainboard."
+            },
+            {
+                "ecode": "1805910000010004",
+                "intro": "The current sensor of AMS-HT F exhaust valve 2 is abnormal; please get in touch with customer support to replace the AMS-HT mainboard."
+            },
+            {
+                "ecode": "1804910000010004",
+                "intro": "The current sensor of AMS-HT E exhaust valve 2 is abnormal; please get in touch with customer support to replace the AMS-HT mainboard."
+            },
+            {
+                "ecode": "1806900000010004",
+                "intro": "The current sensor of AMS-HT G exhaust valve 1 is abnormal; please get in touch with customer support to replace the AMS-HT mainboard."
+            },
+            {
                 "ecode": "0581050000010010",
                 "intro": "The firmware of AMS-HT B does not match the printer. Please update it on the \"Firmware\" page."
             },
@@ -2137,134 +2265,6 @@
             {
                 "ecode": "0707610000020001",
                 "intro": "The AMS H Slot 2 is overloaded. The filament may be tangled or the filament buffer may be stuck."
-            },
-            {
-                "ecode": "0701900000010004",
-                "intro": "The current sensor of AMS B exhaust valve 1 is abnormal, please get in touch with customer support to replace AMS mainboard."
-            },
-            {
-                "ecode": "0707910000010004",
-                "intro": "The current sensor of AMS H exhaust valve 2 is abnormal, please get in touch with customer support to replace AMS mainboard."
-            },
-            {
-                "ecode": "1803900000010004",
-                "intro": "The current sensor of AMS-HT D exhaust valve 1 is abnormal, please get in touch with customer support to replace AMS-HT mainboard."
-            },
-            {
-                "ecode": "1807910000010004",
-                "intro": "The current sensor of AMS-HT H exhaust valve 2 is abnormal, please get in touch with customer support to replace AMS-HT mainboard."
-            },
-            {
-                "ecode": "1800910000010004",
-                "intro": "The current sensor of AMS-HT A exhaust valve 2 is abnormal, please get in touch with customer support to replace AMS-HT mainboard."
-            },
-            {
-                "ecode": "1800900000010004",
-                "intro": "The current sensor of AMS-HT A exhaust valve 1 is abnormal, please get in touch with customer support to replace AMS-HT mainboard."
-            },
-            {
-                "ecode": "0704900000010004",
-                "intro": "The current sensor of AMS E exhaust valve 1 is abnormal, please get in touch with customer support to replace AMS mainboard."
-            },
-            {
-                "ecode": "1803910000010004",
-                "intro": "The current sensor of AMS-HT D exhaust valve 2 is abnormal, please get in touch with customer support to replace AMS-HT mainboard."
-            },
-            {
-                "ecode": "0705900000010004",
-                "intro": "The current sensor of AMS F exhaust valve 1 is abnormal, please get in touch with customer support to replace AMS mainboard."
-            },
-            {
-                "ecode": "1805900000010004",
-                "intro": "The current sensor of AMS-HT F exhaust valve 1 is abnormal, please get in touch with customer support to replace AMS-HT mainboard."
-            },
-            {
-                "ecode": "0706900000010004",
-                "intro": "The current sensor of AMS G exhaust valve 1 is abnormal, please get in touch with customer support to replace AMS mainboard."
-            },
-            {
-                "ecode": "1804900000010004",
-                "intro": "The current sensor of AMS-HT E exhaust valve 1 is abnormal, please get in touch with customer support to replace AMS-HT mainboard."
-            },
-            {
-                "ecode": "0707900000010004",
-                "intro": "The current sensor of AMS H exhaust valve 1 is abnormal, please get in touch with customer support to replace AMS mainboard."
-            },
-            {
-                "ecode": "1802900000010004",
-                "intro": "The current sensor of AMS-HT C exhaust valve 1 is abnormal, please get in touch with customer support to replace AMS-HT mainboard."
-            },
-            {
-                "ecode": "1805910000010004",
-                "intro": "The current sensor of AMS-HT F exhaust valve 2 is abnormal, please get in touch with customer support to replace AMS-HT mainboard."
-            },
-            {
-                "ecode": "1804910000010004",
-                "intro": "The current sensor of AMS-HT E exhaust valve 2 is abnormal, please get in touch with customer support to replace AMS-HT mainboard."
-            },
-            {
-                "ecode": "1806900000010004",
-                "intro": "The current sensor of AMS-HT G exhaust valve 1 is abnormal, please get in touch with customer support to replace AMS-HT mainboard."
-            },
-            {
-                "ecode": "0700910000010004",
-                "intro": "The current sensor of AMS A exhaust valve 2 is abnormal, please get in touch with customer support to replace AMS mainboard."
-            },
-            {
-                "ecode": "0702900000010004",
-                "intro": "The current sensor of AMS C exhaust valve 1 is abnormal, please get in touch with customer support to replace AMS mainboard."
-            },
-            {
-                "ecode": "0706910000010004",
-                "intro": "The current sensor of AMS G exhaust valve 2 is abnormal, please get in touch with customer support to replace AMS mainboard."
-            },
-            {
-                "ecode": "0701910000010004",
-                "intro": "The current sensor of AMS B exhaust valve 2 is abnormal, please get in touch with customer support to replace AMS mainboard."
-            },
-            {
-                "ecode": "1801910000010004",
-                "intro": "The current sensor of AMS-HT B exhaust valve 2 is abnormal, please get in touch with customer support to replace AMS-HT mainboard."
-            },
-            {
-                "ecode": "1806910000010004",
-                "intro": "The current sensor of AMS-HT G exhaust valve 2 is abnormal, please get in touch with customer support to replace AMS-HT mainboard."
-            },
-            {
-                "ecode": "0703910000010004",
-                "intro": "The current sensor of AMS D exhaust valve 2 is abnormal, please get in touch with customer support to replace AMS mainboard."
-            },
-            {
-                "ecode": "0700900000010004",
-                "intro": "The current sensor of AMS A exhaust valve 1 is abnormal, please get in touch with customer support to replace AMS mainboard."
-            },
-            {
-                "ecode": "0704910000010004",
-                "intro": "The current sensor of AMS E exhaust valve 2 is abnormal, please get in touch with customer support to replace AMS mainboard."
-            },
-            {
-                "ecode": "0705910000010004",
-                "intro": "The current sensor of AMS F exhaust valve 2 is abnormal, please get in touch with customer support to replace AMS mainboard."
-            },
-            {
-                "ecode": "0702910000010004",
-                "intro": "The current sensor of AMS C exhaust valve 2 is abnormal, please get in touch with customer support to replace AMS mainboard."
-            },
-            {
-                "ecode": "0703900000010004",
-                "intro": "The current sensor of AMS D exhaust valve 1 is abnormal, please get in touch with customer support to replace AMS mainboard."
-            },
-            {
-                "ecode": "1801900000010004",
-                "intro": "The current sensor of AMS-HT B exhaust valve 1 is abnormal, please get in touch with customer support to replace AMS-HT mainboard."
-            },
-            {
-                "ecode": "1807900000010004",
-                "intro": "The current sensor of AMS-HT H exhaust valve 1 is abnormal, please get in touch with customer support to replace AMS-HT mainboard."
-            },
-            {
-                "ecode": "1802910000010004",
-                "intro": "The current sensor of AMS-HT C exhaust valve 2 is abnormal, please get in touch with customer support to replace AMS-HT mainboard."
             },
             {
                 "ecode": "050003000002000E",
@@ -15331,7 +15331,7 @@
                 "intro": "External disturbance was detected on the heatbed acceleeration sensor. The sensor signal wire may not be affixed."
             }
         ],
-        "ver": 202506060000
+        "ver": 202506061200
     },
-    "version": "202506060000"
+    "version": "202506061200"
 }
