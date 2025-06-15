@@ -17,7 +17,6 @@ i3-wm
 i3status
 jq
 kitty
-kitty
 lazygit
 lsd
 luarocks
@@ -28,7 +27,6 @@ nmap
 ntfs-3g
 picom
 polybar
-prusa-slicer
 python-pip
 python-pynvim
 ranger
@@ -38,7 +36,7 @@ rustup
 rxvt-unicode
 sed
 telegram-desktop
-tldr
+tldr++
 tmux
 tree
 ttf-dejavu

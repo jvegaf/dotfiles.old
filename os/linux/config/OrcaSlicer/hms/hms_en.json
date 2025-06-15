@@ -2,6 +2,18 @@
     "device_error": {
         "en": [
             {
+                "ecode": "05004040",
+                "intro": "The printer has reached its power limit. Please connect a dedicated power adapter to this AMS to enable drying."
+            },
+            {
+                "ecode": "05004041",
+                "intro": "The AMS drying cannot be started during printing."
+            },
+            {
+                "ecode": "05004042",
+                "intro": "Due to power limitations, starting AMS drying will pause current operations such as nozzle heating and fan running. Do you want to proceed with drying?"
+            },
+            {
                 "ecode": "05004031",
                 "intro": "The accessory firmware does not match the printer. Please update it on the \"Firmware\" page."
             },
@@ -624,10 +636,6 @@
             {
                 "ecode": "03008004",
                 "intro": "Filament ran out. Please load new filament."
-            },
-            {
-                "ecode": "05004042",
-                "intro": "The AMS is currently being used for printing and cannot initiate drying."
             },
             {
                 "ecode": "05004008",
@@ -1614,20 +1622,12 @@
                 "intro": "AMS D is assisting in filament insertion. Unable to start drying. Please try again later."
             },
             {
-                "ecode": "05004040",
-                "intro": "Due to power limitations, the AMS is not allowed to use the device's power for drying during printing. Should the drying be stopped?"
-            },
-            {
                 "ecode": "18018023",
                 "intro": "The cooling process after drying has failed in AMS-HT B."
             },
             {
                 "ecode": "0300400A",
                 "intro": "Mechanical resonance frequency identification failed."
-            },
-            {
-                "ecode": "05004041",
-                "intro": "Due to power limitations, only one AMS is allowed to use the device's power for drying during printing. Should the drying be stopped?"
             },
             {
                 "ecode": "18008012",
@@ -1758,10 +1758,74 @@
                 "intro": "The cutter is stuck. Please make sure the cutter handle is out and check the filament sensor cable connection."
             }
         ],
-        "ver": 202506060000
+        "ver": 202506101800
     },
     "device_hms": {
         "en": [
+            {
+                "ecode": "1807960000020004",
+                "intro": "AMS-HT H The temperature control error is too large, which may be due to the lid being open or an abnormality with the heater."
+            },
+            {
+                "ecode": "1802960000020004",
+                "intro": "AMS-HT C The temperature control error is too large, which may be due to the lid being open or an abnormality with the heater."
+            },
+            {
+                "ecode": "0702960000020004",
+                "intro": "AMS C The temperature control error is too large, which may be due to the lid being open or an abnormality with the heater."
+            },
+            {
+                "ecode": "0704960000020004",
+                "intro": "AMS E The temperature control error is too large, which may be due to the lid being open or an abnormality with the heater."
+            },
+            {
+                "ecode": "0706960000020004",
+                "intro": "AMS G The temperature control error is too large, which may be due to the lid being open or an abnormality with the heater."
+            },
+            {
+                "ecode": "0705960000020004",
+                "intro": "AMS F The temperature control error is too large, which may be due to the lid being open or an abnormality with the heater."
+            },
+            {
+                "ecode": "1800960000020004",
+                "intro": "AMS-HT A The temperature control error is too large, which may be due to the lid being open or an abnormality with the heater."
+            },
+            {
+                "ecode": "0701960000020004",
+                "intro": "AMS B The temperature control error is too large, which may be due to the lid being open or an abnormality with the heater."
+            },
+            {
+                "ecode": "1801960000020004",
+                "intro": "AMS-HT B The temperature control error is too large, which may be due to the lid being open or an abnormality with the heater."
+            },
+            {
+                "ecode": "1805960000020004",
+                "intro": "AMS-HT F The temperature control error is too large, which may be due to the lid being open or an abnormality with the heater."
+            },
+            {
+                "ecode": "1806960000020004",
+                "intro": "AMS-HT G The temperature control error is too large, which may be due to the lid being open or an abnormality with the heater."
+            },
+            {
+                "ecode": "0700960000020004",
+                "intro": "AMS A The temperature control error is too large, which may be due to the lid being open or an abnormality with the heater."
+            },
+            {
+                "ecode": "0703960000020004",
+                "intro": "AMS D The temperature control error is too large, which may be due to the lid being open or an abnormality with the heater."
+            },
+            {
+                "ecode": "1803960000020004",
+                "intro": "AMS-HT D The temperature control error is too large, which may be due to the lid being open or an abnormality with the heater."
+            },
+            {
+                "ecode": "0707960000020004",
+                "intro": "AMS H The temperature control error is too large, which may be due to the lid being open or an abnormality with the heater."
+            },
+            {
+                "ecode": "1804960000020004",
+                "intro": "AMS-HT E The temperature control error is too large, which may be due to the lid being open or an abnormality with the heater."
+            },
             {
                 "ecode": "0700910000010004",
                 "intro": "The current sensor of AMS A exhaust valve 2 is abnormal; please get in touch with customer support to replace the AMS mainboard."
@@ -15331,7 +15395,7 @@
                 "intro": "External disturbance was detected on the heatbed acceleeration sensor. The sensor signal wire may not be affixed."
             }
         ],
-        "ver": 202506061200
+        "ver": 202506101800
     },
-    "version": "202506061200"
+    "version": "202506101800"
 }
