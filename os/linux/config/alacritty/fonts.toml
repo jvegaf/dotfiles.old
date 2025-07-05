@@ -2,23 +2,23 @@
 size = 12
 
 [font.normal]
-family = "ComicCodeLigatures NF"
+family = "JetBrainsMono NF"
 style = "Regular"
 
 [font.bold]
-family = "ComicCodeligatures NF"
+family = "JetBrainsMono NF"
 style = "Bold"
 
 [font.bold_italic]
-family = "ComicCodeLigatures NF"
+family = "JetBrainsMono NF"
 style = "Bold Italic"
 
 [font.italic]
-family = "ComicCodeLigatures NF"
+family = "JetBrainsMono NF"
 style = "Italic"
 
 
-# family = "ComicCodeLigatures NF"
+# family = "JetBrainsMono NF"
 
 
 # [font.bold]

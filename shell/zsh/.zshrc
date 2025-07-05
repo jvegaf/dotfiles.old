@@ -70,3 +70,10 @@ export SDKMAN_DIR="$HOME/.sdkman"
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+# bun completions
+[ -s "/home/th3g3ntl3man/.bun/_bun" ] && source "/home/th3g3ntl3man/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

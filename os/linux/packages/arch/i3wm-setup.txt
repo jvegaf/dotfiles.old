@@ -32,7 +32,7 @@ polybar
 ranger
 rofi
 rxvt-unicode
-tldr
+tldr++
 tmux
 tree
 ttf-dejavu-nerd

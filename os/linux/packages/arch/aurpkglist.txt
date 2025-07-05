@@ -4,3 +4,5 @@ logseq-desktop-bin
 nulloy-git
 visual-studio-code-bin
 visual-studio-code-insiders-bin
+tldr++
+neofetch

@@ -25,6 +25,7 @@ save_to_clipboard = true
 [env]
 # TERM = "tmux-256color"
 # TERM = "alacritty"
+WINIT_X11_SCALE_FACTOR= '1.0'
 
 [general]
 import = ["~/.config/alacritty/colors.toml", "~/.config/alacritty/fonts.toml"]

@@ -21,7 +21,6 @@ lazygit
 lsd
 luarocks
 mdcat
-neofetch
 neovim
 nmap
 ntfs-3g
@@ -36,7 +35,6 @@ rustup
 rxvt-unicode
 sed
 telegram-desktop
-tldr++
 tmux
 tree
 ttf-dejavu
