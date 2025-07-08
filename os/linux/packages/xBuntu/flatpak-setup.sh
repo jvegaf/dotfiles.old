@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -euo pipefail
 
 echo "🔧 Instalador de Snap, Flatpak, Flathub y AppImageLauncher (Ubuntu 24.04+)"
 
@@ -37,7 +37,10 @@ ARCH=$(dpkg --print-architecture)
 
 # Descargar versión estable directamente desde GitHub (puedes actualizar el número de versión si cambia)
 APPIMAGELAUNCHER_VERSION="2.2.0"
-DEB_URL="https://github.com/TheAssassin/AppImageLauncher/releases/download/v${APPIMAGELAUNCHER_VERSION}/appimagelauncher_${APPIMAGELAUNCHER_VERSION}-${ARCH}.deb"
+# DEB_URL="https://github.com/TheAssassin/AppImageLauncher/releases/download/v${APPIMAGELAUNCHER_VERSION}/appimagelauncher_${APPIMAGELAUNCHER_VERSION}-${ARCH}.deb"
+DEB_URL="https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb"
+
+
 
 # Crear carpeta temporal
 TMP_DIR=$(mktemp -d)

@@ -1,7 +1,6 @@
 {
     "brim_type": "no_brim",
     "default_acceleration": "1000",
-    "enable_arc_fitting": "1",
     "exclude_object": "0",
     "from": "User",
     "gap_infill_speed": "30",
