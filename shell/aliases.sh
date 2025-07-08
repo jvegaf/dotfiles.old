@@ -59,6 +59,7 @@ alias gsw="git switch"
 # Copilot
 alias cops="gh copilot suggest"
 alias cope="gh copilot explain"
+alias copt="gh extensions install github/gh-copilot"
 
 # flatpak
 alias fps="flatpak search"
@@ -81,7 +82,7 @@ alias c.='(code $PWD &>/dev/null &)'
 alias cin='(code-insiders $PWD &>/dev/null &)'
 alias v.='(nvim $PWD &>/dev/null &)'
 alias l.='(lapce $PWD &>/dev/null &)'
-alias o.='(thunar $PWD &>/dev/null &)'
+alias o.='(nautilus $PWD &>/dev/null &)'
 alias up='dot package update_all'
 alias py='python'
 alias py3='python3'
