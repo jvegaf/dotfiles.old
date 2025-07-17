@@ -1,6 +1,6 @@
 #!/bin/env bash
 
-set -euo pipefail
+set -eu pipefail
 
 sudo pacman -S --needed --noconfirm - < pkglist.txt
 

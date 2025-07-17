@@ -4,10 +4,10 @@ set -euo pipefail
 
 echo "dumping packages ⚡"
 
-today=$(date +%Y%m%d)
+rm -rf pkglist.txt aurpkglist.txt
 
-pacman -Qqen >pkglist."$today".txt
-pacman -Qqem >aurpkglist."$today".txt
+pacman -Qqen >pkglist.txt
+pacman -Qqem >aurpkglist.txt
 
 echo "packages dumped ✅"
 

@@ -13,7 +13,7 @@ alias dw="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias du="du -hd 1"
 alias dotfiles="cd $DOTFILES_PATH"
-alias logout="xfce4-session-logout"
+alias logout="gnome-session-quit --logout"
 alias avcfg="nvim ~/.config/nvim/lua/user/init.lua"
 alias chadcfg="cd ~/.config/nvim/lua/custom"
 alias nvcfg="cd ~/.config/nvim"
@@ -56,6 +56,8 @@ alias gpl="git pull --rebase --autostash"
 alias gl='$DOTLY_PATH/bin/dot git pretty-log'
 alias gsw="git switch"
 
+alias grc="gh repo clone"
+
 # Copilot
 alias cops="gh copilot suggest"
 alias cope="gh copilot explain"
@@ -65,6 +67,8 @@ alias copt="gh extensions install github/gh-copilot"
 alias fps="flatpak search"
 alias fpi="flatpak install"
 
+alias yau="yay -Syyu"
+alias pau="sudo pacman -Syyu"
 
 
 
@@ -95,7 +99,7 @@ alias savemode='dot system cpumode powersave'
 alias schedmode='dot system cpumode schedutil'
 alias currmode='dot system cpumode current'
 
-alias winreb='sudo grub-reboot 2 && sudo reboot'
+alias winreb='sudo grub-reboot 4 && sudo reboot'
 
 # WSL
 alias expl='/mnt/c/Windows/explorer.exe'

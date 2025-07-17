@@ -56,6 +56,7 @@
     ~/.profile: os/linux/.profile
     ~/.screenlayout: os/linux/config/screenlayout
     ~/.tmux.conf: os/linux/config/tmux.conf
+    ~/.local/bin/tmux-status: os/linux/config/tmux/tmux-status
     ~/.config/tmux: os/linux/config/tmux
     ~/.wezterm.lua: os/linux/config/wezterm.lua
     ~/mimeapps.list: os/linux/config/mimeapps.list
