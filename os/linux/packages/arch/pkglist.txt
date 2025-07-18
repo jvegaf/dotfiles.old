@@ -60,7 +60,6 @@ firefox
 firewalld
 flameshot
 font-manager
-freecad
 galculator
 gdm
 git

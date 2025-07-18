@@ -1,10 +1,12 @@
 1password
 adwaita-qt5-git
 adwaita-qt6-git
+appimagelauncher
 brave-bin
 bruno-bin
 bun-bin
 cursor-bin
+fstl
 lazydocker
 logseq-desktop-bin
 luajit-tiktoken-bin
@@ -14,6 +16,7 @@ nvidia-exec
 opencode-ai-bin
 orca-slicer-bin
 spacenavd
+speedtest++
 teams
 tldr++
 ulauncher

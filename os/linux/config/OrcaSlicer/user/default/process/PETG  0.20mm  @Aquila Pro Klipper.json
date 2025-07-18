@@ -18,10 +18,11 @@
     "outer_wall_acceleration": "1000",
     "outer_wall_speed": "30",
     "overhang_2_4_speed": "40",
+    "precise_outer_wall": "1",
     "print_settings_id": "PETG  0.20mm  @Aquila Pro Klipper",
     "skirt_height": "1",
     "skirt_loops": "2",
-    "skirt_speed": "30",
+    "skirt_speed": "15",
     "sparse_infill_density": "20%",
     "sparse_infill_pattern": "honeycomb",
     "sparse_infill_speed": "40",
@@ -33,6 +34,6 @@
     "travel_speed": "150",
     "version": "2.3.0.3",
     "wall_loops": "4",
-    "wall_sequence": "outer wall/inner wall",
+    "wall_sequence": "inner-outer-inner wall",
     "xy_hole_compensation": "0.2"
 }
