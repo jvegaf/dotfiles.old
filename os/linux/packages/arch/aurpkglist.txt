@@ -5,7 +5,6 @@ appimagelauncher
 brave-bin
 bruno-bin
 bun-bin
-cursor-bin
 fstl
 lazydocker
 logseq-desktop-bin
@@ -17,13 +16,9 @@ opencode-ai-bin
 orca-slicer-bin
 spacenavd
 speedtest++
-teams
 tldr++
 ulauncher
-via-bin
 visual-studio-code-bin
 visual-studio-code-insiders-bin
-windsurf
 winegui
-xfce4-mate-applet-loader-plugin-git
 zapzap
