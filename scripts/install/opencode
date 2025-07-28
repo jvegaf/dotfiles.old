@@ -2,7 +2,6 @@
 
 # set -eu pipefail
 
-# source "$DOTLY_PATH/scripts/core/_main.sh"
 # source "$DOTFILES_PATH/scripts/install/utils/install.sh"
 
 ##? Install Node Version Manager
@@ -11,8 +10,4 @@
 ##? Usage:
 ##?   sdkman
 
-
-curl -LsSf https://pyenv.run| bash
-
-exit 0
-# log::note("pyenv installed ✅")
+curl -fsSL https://raw.githubusercontent.com/opencode-ai/opencode/refs/heads/main/install | bash

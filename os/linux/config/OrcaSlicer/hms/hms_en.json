@@ -2,52 +2,12 @@
     "device_error": {
         "en": [
             {
-                "ecode": "058440A2",
-                "intro": "AMS HT E communication is abnormal; please restart the printer."
+                "ecode": "0583409C",
+                "intro": "The firmware of AMS-HT D does not match the printer; the device cannot continue working. Please update it on the \"Firmware\" page."
             },
             {
-                "ecode": "058640A2",
-                "intro": "AMS HT G communication is abnormal; please restart the printer."
-            },
-            {
-                "ecode": "058540A2",
-                "intro": "AMS HT F communication is abnormal; please restart the printer."
-            },
-            {
-                "ecode": "058240A2",
-                "intro": "AMS HT C communication is abnormal; please restart the printer."
-            },
-            {
-                "ecode": "058740A2",
-                "intro": "AMS HT H communication is abnormal; please restart the printer."
-            },
-            {
-                "ecode": "050240A3",
-                "intro": "AMS HT C communication is abnormal; please restart the printer."
-            },
-            {
-                "ecode": "050140A3",
-                "intro": "AMS HT B communication is abnormal; please restart the printer."
-            },
-            {
-                "ecode": "050040A3",
-                "intro": "AMS HT A communication is abnormal; please restart the printer."
-            },
-            {
-                "ecode": "050340A3",
-                "intro": "AMS HT D communication is abnormal; please restart the printer."
-            },
-            {
-                "ecode": "058140A2",
-                "intro": "AMS HT B communication is abnormal; please restart the printer."
-            },
-            {
-                "ecode": "058040A2",
-                "intro": "AMS HT A communication is abnormal; please restart the printer."
-            },
-            {
-                "ecode": "058340A2",
-                "intro": "AMS HT D communication is abnormal; please restart the printer."
+                "ecode": "0501409D",
+                "intro": "The firmware of AMS B does not match the printer; the device cannot continue working. Please update it on the \"Firmware\" page."
             },
             {
                 "ecode": "05004031",
@@ -86,19 +46,7 @@
                 "intro": "The firmware of AMS-HT A does not match the printer; the device cannot continue working. Please update it on the \"Firmware\" page."
             },
             {
-                "ecode": "0583409C",
-                "intro": "The firmware of AMS-HT D does not match the printer; the device cannot continue working. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "0501409D",
-                "intro": "The firmware of AMS B does not match the printer; the device cannot continue working. Please update it on the \"Firmware\" page."
-            },
-            {
                 "ecode": "0500C011",
-                "intro": ""
-            },
-            {
-                "ecode": "0C008002",
                 "intro": ""
             },
             {
@@ -107,6 +55,14 @@
             },
             {
                 "ecode": "05024009",
+                "intro": ""
+            },
+            {
+                "ecode": "05024007",
+                "intro": ""
+            },
+            {
+                "ecode": "0C008002",
                 "intro": ""
             },
             {
@@ -122,8 +78,60 @@
                 "intro": ""
             },
             {
-                "ecode": "05024007",
-                "intro": ""
+                "ecode": "058440A2",
+                "intro": "AMS-HT E communication is abnormal. Please reconnect the module cable or restart the printer."
+            },
+            {
+                "ecode": "058640A2",
+                "intro": "AMS-HT G communication is abnormal. Please reconnect the module cable or restart the printer."
+            },
+            {
+                "ecode": "058740A2",
+                "intro": "AMS-HT H communication is abnormal. Please reconnect the module cable or restart the printer."
+            },
+            {
+                "ecode": "050240A3",
+                "intro": "AMS(or AMS lite) C communication is abnormal. Please reconnect the module cable or restart the printer."
+            },
+            {
+                "ecode": "050040A3",
+                "intro": "AMS(or AMS lite) A communication is abnormal. Please reconnect the module cable or restart the printer."
+            },
+            {
+                "ecode": "050340A3",
+                "intro": "AMS(or AMS lite) D communication is abnormal. Please reconnect the module cable or restart the printer."
+            },
+            {
+                "ecode": "058140A2",
+                "intro": "AMS-HT B communication is abnormal. Please reconnect the module cable or restart the printer."
+            },
+            {
+                "ecode": "058040A2",
+                "intro": "AMS-HT A communication is abnormal. Please reconnect the module cable or restart the printer."
+            },
+            {
+                "ecode": "058340A2",
+                "intro": "AMS-HT D communication is abnormal. Please reconnect the module cable or restart the printer."
+            },
+            {
+                "ecode": "05008041",
+                "intro": "The filament in hotend is too cold. Extrusion may damage the extruder. Still feeding in/out the filament?"
+            },
+            {
+                "ecode": "05008040",
+                "intro": "Toolhead front cover is detached. Moving the toolhead may damage the printer. Do you want to continue?"
+            },
+            {
+                "ecode": "058540A2",
+                "intro": "AMS-HT F communication is abnormal. Please reconnect the module cable or restart the printer."
+            },
+            {
+                "ecode": "058240A2",
+                "intro": "AMS-HT C communication is abnormal. Please reconnect the module cable or restart the printer."
+            },
+            {
+                "ecode": "050140A3",
+                "intro": "AMS(or AMS lite) B communication is abnormal. Please reconnect the module cable or restart the printer."
             },
             {
                 "ecode": "18018023",
@@ -1926,10 +1934,26 @@
                 "intro": "The cutter is stuck. Please make sure the cutter handle is out and check the filament sensor cable connection."
             }
         ],
-        "ver": 202507110000
+        "ver": 202507251800
     },
     "device_hms": {
         "en": [
+            {
+                "ecode": "0583040000010045",
+                "intro": "The firmware of AMS-HT D does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "0580040000010045",
+                "intro": "The firmware of AMS-HT A does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "0587040000010045",
+                "intro": "The firmware of AMS-HT H does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "0500040000010044",
+                "intro": "The firmware of AMS A does not match the printer. Please update it on the \"Firmware\" page."
+            },
             {
                 "ecode": "0582040000010045",
                 "intro": "The firmware of AMS-HT C does not match the printer. Please update it on the \"Firmware\" page."
@@ -2035,34 +2059,6 @@
                 "intro": "The firmware of AMS-HT G does not match the printer. Please update it on the \"Firmware\" page."
             },
             {
-                "ecode": "0583040000010045",
-                "intro": "The firmware of AMS-HT D does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "0580040000010045",
-                "intro": "The firmware of AMS-HT A does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "0587040000010045",
-                "intro": "The firmware of AMS-HT H does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "0500040000010044",
-                "intro": "The firmware of AMS A does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "1800020000020002",
-                "intro": "AMS-HT A the odometer has no signal. The odometer connector may have poor contact."
-            },
-            {
-                "ecode": "0500030000020012",
-                "intro": ""
-            },
-            {
-                "ecode": "0500050000010009",
-                "intro": ""
-            },
-            {
                 "ecode": "0C00010000020016",
                 "intro": ""
             },
@@ -2072,6 +2068,58 @@
             },
             {
                 "ecode": "050005000001000C",
+                "intro": ""
+            },
+            {
+                "ecode": "0500030000020014",
+                "intro": ""
+            },
+            {
+                "ecode": "0500030000020016",
+                "intro": ""
+            },
+            {
+                "ecode": "05000600000200A0",
+                "intro": ""
+            },
+            {
+                "ecode": "050005000001000A",
+                "intro": ""
+            },
+            {
+                "ecode": "05000600000200A1",
+                "intro": ""
+            },
+            {
+                "ecode": "0C0001000002001B",
+                "intro": ""
+            },
+            {
+                "ecode": "0500030000020018",
+                "intro": ""
+            },
+            {
+                "ecode": "0500060000020054",
+                "intro": ""
+            },
+            {
+                "ecode": "0500060000020062",
+                "intro": ""
+            },
+            {
+                "ecode": "0C0001000002000E",
+                "intro": ""
+            },
+            {
+                "ecode": "0500030000020012",
+                "intro": ""
+            },
+            {
+                "ecode": "0500030000020011",
+                "intro": ""
+            },
+            {
+                "ecode": "0500050000010009",
                 "intro": ""
             },
             {
@@ -2087,27 +2135,11 @@
                 "intro": ""
             },
             {
-                "ecode": "0500030000020014",
-                "intro": ""
-            },
-            {
                 "ecode": "0500030000030007",
                 "intro": ""
             },
             {
-                "ecode": "0500030000020016",
-                "intro": ""
-            },
-            {
-                "ecode": "05000600000200A0",
-                "intro": ""
-            },
-            {
                 "ecode": "0C0001000002001A",
-                "intro": ""
-            },
-            {
-                "ecode": "050005000001000A",
                 "intro": ""
             },
             {
@@ -2116,14 +2148,6 @@
             },
             {
                 "ecode": "0500030000020017",
-                "intro": ""
-            },
-            {
-                "ecode": "05000600000200A1",
-                "intro": ""
-            },
-            {
-                "ecode": "0C0001000002001B",
                 "intro": ""
             },
             {
@@ -2143,18 +2167,6 @@
                 "intro": ""
             },
             {
-                "ecode": "0500030000020018",
-                "intro": ""
-            },
-            {
-                "ecode": "0500060000020054",
-                "intro": ""
-            },
-            {
-                "ecode": "0500060000020062",
-                "intro": ""
-            },
-            {
                 "ecode": "0500010000020003",
                 "intro": ""
             },
@@ -2163,20 +2175,24 @@
                 "intro": ""
             },
             {
-                "ecode": "0C0001000002000E",
-                "intro": ""
-            },
-            {
-                "ecode": "0500030000020011",
-                "intro": ""
-            },
-            {
                 "ecode": "0500030000010053",
                 "intro": ""
             },
             {
+                "ecode": "1800020000020002",
+                "intro": "AMS-HT A The odometer has no signal. The odometer connector may have poor contact."
+            },
+            {
                 "ecode": "0500040000010049",
-                "intro": "Communication error detected with AMS or AMS HT. Please restart the printer when it is idle."
+                "intro": "Communication error detected with AMS, AMS lite or AMS HT. Please reconnect the module cable or restart the printer when it is idle."
+            },
+            {
+                "ecode": "0501040000030001",
+                "intro": "Carbon rods need cleaning now."
+            },
+            {
+                "ecode": "0501040000030002",
+                "intro": "Threaded rod need lubrication now."
             },
             {
                 "ecode": "0500030000020055",
@@ -12543,10 +12559,6 @@
                 "intro": "AMS F The cooling fan speed of heater 1 is too low, which could be due to excessive fan resistance."
             },
             {
-                "ecode": "0300920000010008",
-                "intro": "Chamber heater 2 failed to rise to target temperature."
-            },
-            {
                 "ecode": "1802810000010001",
                 "intro": "AMS-HT C The current sensor of heater 2 is abnormal."
             },
@@ -12597,10 +12609,6 @@
             {
                 "ecode": "1805230000020022",
                 "intro": "AMS-HT F slot 4 assist motor is stalled，due to excessive resistance in the tube near the toolhead."
-            },
-            {
-                "ecode": "0300910000010008",
-                "intro": "Chamber heater 1 failed to rise to target temperature."
             },
             {
                 "ecode": "1803200000020004",
@@ -18499,7 +18507,7 @@
                 "intro": "External disturbance was detected on the heatbed acceleeration sensor. The sensor signal wire may not be affixed."
             }
         ],
-        "ver": 202507110000
+        "ver": 202507251800
     },
-    "version": "202507110000"
+    "version": "202507251800"
 }
