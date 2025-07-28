@@ -13,7 +13,7 @@
     ~/.config/bspwm: os/linux/config/bspwm
     ~/.config/dunst: os/linux/config/dunst
     ~/.config/ghostty: os/linux/config/ghostty
-    # ~/.config/gtk-3.0: os/linux/config/gtk-3.0
+    ~/.config/opencode: os/linux/config/opencode
     # ~/.config/gtk-4.0: os/linux/config/gtk-4.0
     ~/.config/hypr: os/linux/config/hypr
     ~/.config/i3: os/linux/config/i3
