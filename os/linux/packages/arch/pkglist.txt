@@ -19,9 +19,6 @@ gnome-keyring
 hwinfo
 i3-wm
 i3status
-kicad
-kicad-library
-kicad-library-3d
 kitty
 lazygit
 less

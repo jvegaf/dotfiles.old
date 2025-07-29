@@ -16,7 +16,6 @@ opencode-ai-bin
 orca-slicer-bin
 spacenavd
 speedtest++
-tldr++
 ulauncher
 visual-studio-code-bin
 visual-studio-code-insiders-bin
