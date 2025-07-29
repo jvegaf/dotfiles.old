@@ -2,22 +2,6 @@
     "device_error": {
         "en": [
             {
-                "ecode": "0583409C",
-                "intro": "The firmware of AMS-HT D does not match the printer; the device cannot continue working. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "0501409D",
-                "intro": "The firmware of AMS B does not match the printer; the device cannot continue working. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "05004031",
-                "intro": "The accessory firmware does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "05004033",
-                "intro": "The AMS firmware does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
                 "ecode": "0582409C",
                 "intro": "The firmware of AMS-HT C does not match the printer; the device cannot continue working. Please update it on the \"Firmware\" page."
             },
@@ -44,6 +28,22 @@
             {
                 "ecode": "0580409C",
                 "intro": "The firmware of AMS-HT A does not match the printer; the device cannot continue working. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "0583409C",
+                "intro": "The firmware of AMS-HT D does not match the printer; the device cannot continue working. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "0501409D",
+                "intro": "The firmware of AMS B does not match the printer; the device cannot continue working. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "05004031",
+                "intro": "The accessory firmware does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "05004033",
+                "intro": "The AMS firmware does not match the printer. Please update it on the \"Firmware\" page."
             },
             {
                 "ecode": "0500C011",
@@ -1934,10 +1934,22 @@
                 "intro": "The cutter is stuck. Please make sure the cutter handle is out and check the filament sensor cable connection."
             }
         ],
-        "ver": 202507251800
+        "ver": 202507271200
     },
     "device_hms": {
         "en": [
+            {
+                "ecode": "0503040000010044",
+                "intro": "The firmware of AMS D does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "0502040000010044",
+                "intro": "The firmware of AMS C does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "0586040000010045",
+                "intro": "The firmware of AMS-HT G does not match the printer. Please update it on the \"Firmware\" page."
+            },
             {
                 "ecode": "0583040000010045",
                 "intro": "The firmware of AMS-HT D does not match the printer. Please update it on the \"Firmware\" page."
@@ -2045,18 +2057,6 @@
             {
                 "ecode": "0585040000010045",
                 "intro": "The firmware of AMS-HT F does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "0503040000010044",
-                "intro": "The firmware of AMS D does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "0502040000010044",
-                "intro": "The firmware of AMS C does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "0586040000010045",
-                "intro": "The firmware of AMS-HT G does not match the printer. Please update it on the \"Firmware\" page."
             },
             {
                 "ecode": "0C00010000020016",
@@ -18507,7 +18507,7 @@
                 "intro": "External disturbance was detected on the heatbed acceleeration sensor. The sensor signal wire may not be affixed."
             }
         ],
-        "ver": 202507251800
+        "ver": 202507271200
     },
-    "version": "202507251800"
+    "version": "202507271200"
 }
