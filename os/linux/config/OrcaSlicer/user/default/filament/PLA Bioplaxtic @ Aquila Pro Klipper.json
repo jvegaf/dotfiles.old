@@ -1,0 +1,28 @@
+{
+    "compatible_printers": [
+        "MyKlipper 0.4 nozzle"
+    ],
+    "filament_settings_id": [
+        "PLA Bioplaxtic @ Aquila Pro Klipper"
+    ],
+    "filament_start_gcode": [
+        "; Filament gcode\n; SET_MATERIAL  MATERIAL=PLA"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "60"
+    ],
+    "inherits": "Generic PLA @System",
+    "is_custom_defined": "0",
+    "name": "PLA Bioplaxtic @ Aquila Pro Klipper",
+    "nozzle_temperature": [
+        "200"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "200"
+    ],
+    "version": "2.3.0.3"
+}
