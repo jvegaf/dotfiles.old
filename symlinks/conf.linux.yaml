@@ -15,7 +15,7 @@
     ~/.config/ghostty: os/linux/config/ghostty
     ~/.config/opencode: os/linux/config/opencode
     # ~/.config/gtk-4.0: os/linux/config/gtk-4.0
-    ~/.config/hypr: os/linux/config/hypr
+    # ~/.config/hypr: os/linux/config/hypr
     ~/.config/i3: os/linux/config/i3
     ~/.config/i3blocks: os/linux/config/i3blocks
     ~/.config/kglobalshortcutsrc: os/linux/config/kglobalshortcutsrc
@@ -44,7 +44,7 @@
     ~/.config/terminator: os/linux/config/terminator
     ~/.config/termite: os/linux/config/termite
     ~/.config/ulauncher: os/linux/config/ulauncher
-    ~/.config/waybar: os/linux/config/waybar
+    # ~/.config/waybar: os/linux/config/waybar
     ~/.config/wfuzz: os/linux/config/wfuzz
     ~/.config/wofi: os/linux/config/wofi
     # ~/.config/xfce4: os/linux/config/xfce4
