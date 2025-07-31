@@ -19,7 +19,5 @@
     "top_surface_speed": "50",
     "travel_acceleration": "2000",
     "version": "2.3.0.3",
-    "wall_sequence": "inner-outer-inner wall",
-    "xy_contour_compensation": "0.1",
-    "xy_hole_compensation": "0.1"
+    "wall_sequence": "inner-outer-inner wall"
 }

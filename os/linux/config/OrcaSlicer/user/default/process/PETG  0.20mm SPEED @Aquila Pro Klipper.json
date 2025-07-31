@@ -2,7 +2,6 @@
     "brim_type": "no_brim",
     "default_acceleration": "500",
     "enable_arc_fitting": "1",
-    "exclude_object": "0",
     "from": "User",
     "gap_infill_speed": "30",
     "gcode_label_objects": "0",
@@ -30,6 +29,5 @@
     "travel_speed": "100",
     "version": "2.3.0.3",
     "wall_loops": "4",
-    "wall_sequence": "inner-outer-inner wall",
-    "xy_hole_compensation": "0.2"
+    "wall_sequence": "inner-outer-inner wall"
 }
