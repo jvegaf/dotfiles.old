@@ -6,7 +6,7 @@
         "PLA Bioplaxtic @ Aquila Pro Klipper"
     ],
     "filament_start_gcode": [
-        "; Filament gcode\n; SET_MATERIAL  MATERIAL=PLA"
+        "; Filament gcode"
     ],
     "from": "User",
     "hot_plate_temp": [
