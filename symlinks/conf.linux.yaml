@@ -32,7 +32,7 @@
     ~/.config/openbox-themes: os/linux/config/openbox-themes
     ~/.config/openbox: os/linux/config/openbox
     ~/.config/picom: os/linux/config/picom
-    ~/.config/plank: os/linux/config/plank
+    # ~/.config/plank: os/linux/config/plank
     ~/.config/polybar: os/linux/config/polybar
     ~/.config/ranger: os/linux/config/ranger
     ~/.config/regolith3: os/linux/config/regolith3
@@ -60,4 +60,4 @@
     ~/.config/tmux: os/linux/config/tmux
     ~/.wezterm.lua: os/linux/config/wezterm.lua
     ~/mimeapps.list: os/linux/config/mimeapps.list
-    # ~/.FreeCAD: os/linux/config/.FreeCAD
+    ~/.config/FreeCAD: os/linux/config/FreeCAD
