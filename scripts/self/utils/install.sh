@@ -65,7 +65,8 @@ install_linux_extra() {
   sudo mv emoji-menu /usr/local/bin
 
   sh "$DOTFILES_PATH/os/linux/packages/xBuntu/sdkman-setup.sh"
-  #sh "$DOTFILES_PATH/os/linux/packages/xBuntu/neovim-stable.sh"
+
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/neovim-stable.sh"
 }
 
 install_nvm() {
