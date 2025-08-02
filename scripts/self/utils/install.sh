@@ -23,9 +23,9 @@ install_common_packages() {
   sh "$DOTFILES_PATH/os/linux/packages/xBuntu/common_packages.sh"
   echo "Common packages installed"
 
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/lazygit-setup.sh"
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/1password_setup.sh"
+  echo "1Password installed"
 
-  echo "Lazygit installed"
   sh "$DOTFILES_PATH/os/linux/packages/xBuntu/github_cli.sh"
 }
 
@@ -47,14 +47,8 @@ install_arch_linux_extra() {
 }
 
 install_linux_extra() {
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/brave_browser.sh"
-  echo "Brave installed"
-
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/1password_setup.sh"
-  echo "1Password installed"
-
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/github_cli.sh"
-  echo "Github CLI installed"
+  # sh "$DOTFILES_PATH/os/linux/packages/xBuntu/brave_browser.sh"
+  # echo "Brave installed"
 
   sh "$DOTFILES_PATH/os/linux/packages/xBuntu/docker_setup.sh"
   echo "Docker installed"
