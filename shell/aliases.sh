@@ -70,6 +70,9 @@ alias fpi="flatpak install"
 alias yau="yay -Syyu"
 alias pau="sudo pacman -Syyu"
 
+alias sai="sudo apt install"
+alias aps="apt search"
+
 
 
 # Utils
