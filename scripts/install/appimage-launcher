@@ -11,9 +11,20 @@ set -eu pipefail
 ##? Usage:
 ##?   sdkman
 
+set -e
 
-sudo apt install software-properties-common
-sudo add-apt-repository ppa:appimagelauncher-team/stable
-sudo apt update
-sudo apt install appimagelauncher
-log::note("AppImage launcher installed ✅")
+URL="https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb"
+DEB_FILE="appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb"
+
+cd /tmp
+
+echo "Descargando AppImageLauncher..."
+wget -O "$DEB_FILE" "$URL"
+
+echo "Instalando paquete .deb con dpkg..."
+sudo dpkg -i "$DEB_FILE"
+
+echo "Corrigiendo dependencias (si es necesario)..."
+sudo apt-get install -f -y
+
+echo "¡Instalación completada!"
