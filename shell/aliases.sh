@@ -72,6 +72,8 @@ alias pau="sudo pacman -Syyu"
 
 alias sai="sudo apt install"
 alias aps="apt search"
+alias apu="sudo apt update && sudo apt uprade -y"
+
 
 
 
@@ -89,7 +91,7 @@ alias c.='(code $PWD &>/dev/null &)'
 alias cin='(code-insiders $PWD &>/dev/null &)'
 alias v.='(nvim $PWD &>/dev/null &)'
 alias l.='(lapce $PWD &>/dev/null &)'
-alias o.='(nautilus $PWD &>/dev/null &)'
+alias o.='(nemo $PWD &>/dev/null &)'
 alias up='dot package update_all'
 alias py='python'
 alias py3='python3'

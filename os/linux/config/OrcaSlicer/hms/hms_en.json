@@ -2,6 +2,14 @@
     "device_error": {
         "en": [
             {
+                "ecode": "05004031",
+                "intro": "The accessory firmware does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "05004033",
+                "intro": "The AMS firmware does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
                 "ecode": "0582409C",
                 "intro": "The firmware of AMS-HT C does not match the printer; the device cannot continue working. Please update it on the \"Firmware\" page."
             },
@@ -36,14 +44,6 @@
             {
                 "ecode": "0501409D",
                 "intro": "The firmware of AMS B does not match the printer; the device cannot continue working. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "05004031",
-                "intro": "The accessory firmware does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "05004033",
-                "intro": "The AMS firmware does not match the printer. Please update it on the \"Firmware\" page."
             },
             {
                 "ecode": "0500C011",
@@ -1934,46 +1934,10 @@
                 "intro": "The cutter is stuck. Please make sure the cutter handle is out and check the filament sensor cable connection."
             }
         ],
-        "ver": 202507271200
+        "ver": 202508051800
     },
     "device_hms": {
         "en": [
-            {
-                "ecode": "0503040000010044",
-                "intro": "The firmware of AMS D does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "0502040000010044",
-                "intro": "The firmware of AMS C does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "0586040000010045",
-                "intro": "The firmware of AMS-HT G does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "0583040000010045",
-                "intro": "The firmware of AMS-HT D does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "0580040000010045",
-                "intro": "The firmware of AMS-HT A does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "0587040000010045",
-                "intro": "The firmware of AMS-HT H does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "0500040000010044",
-                "intro": "The firmware of AMS A does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "0582040000010045",
-                "intro": "The firmware of AMS-HT C does not match the printer. Please update it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "0581040000010045",
-                "intro": "The firmware of AMS-HT B does not match the printer. Please update it on the \"Firmware\" page."
-            },
             {
                 "ecode": "0581050000010010",
                 "intro": "The firmware of AMS-HT B does not match the printer. Please update it on the \"Firmware\" page."
@@ -2057,6 +2021,54 @@
             {
                 "ecode": "0585040000010045",
                 "intro": "The firmware of AMS-HT F does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "0503040000010044",
+                "intro": "The firmware of AMS D does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "0502040000010044",
+                "intro": "The firmware of AMS C does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "0586040000010045",
+                "intro": "The firmware of AMS-HT G does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "0583040000010045",
+                "intro": "The firmware of AMS-HT D does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "0580040000010045",
+                "intro": "The firmware of AMS-HT A does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "0587040000010045",
+                "intro": "The firmware of AMS-HT H does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "0500040000010044",
+                "intro": "The firmware of AMS A does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "0582040000010045",
+                "intro": "The firmware of AMS-HT C does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "0581040000010045",
+                "intro": "The firmware of AMS-HT B does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "0501040000030002",
+                "intro": "Threaded rods need lubrication now."
+            },
+            {
+                "ecode": "0500050000010021",
+                "intro": "Time-lapse kit authentication failed. Please reconnect the cable or restart the printer."
+            },
+            {
+                "ecode": "0500050000020030",
+                "intro": ""
             },
             {
                 "ecode": "0C00010000020016",
@@ -2189,10 +2201,6 @@
             {
                 "ecode": "0501040000030001",
                 "intro": "Carbon rods need cleaning now."
-            },
-            {
-                "ecode": "0501040000030002",
-                "intro": "Threaded rod need lubrication now."
             },
             {
                 "ecode": "0500030000020055",
@@ -10635,10 +10643,6 @@
                 "intro": "Failed to extrude AMS-HT H Slot 2 filament; the extruder may be clogged or the filament may be too thin, causing the extruder to slip."
             },
             {
-                "ecode": "0300920000010007",
-                "intro": "The temperature of chamber heater 2 is abnormal. The sensor may have an open circuit."
-            },
-            {
                 "ecode": "0705220000010083",
                 "intro": "Failed to read the filament information from AMS F slot 3. The RFID tag may be damaged."
             },
@@ -15599,10 +15603,6 @@
                 "intro": "AMS-HT E slot 2 feeds filament out of AMS timeout."
             },
             {
-                "ecode": "0300910000010007",
-                "intro": "The temperature of chamber heater 1 is abnormal. The sensor may have an open circuit."
-            },
-            {
                 "ecode": "0300100000020001",
                 "intro": "The resonance frequency of the X axis is low. The timing belt may be loose."
             },
@@ -18507,7 +18507,7 @@
                 "intro": "External disturbance was detected on the heatbed acceleeration sensor. The sensor signal wire may not be affixed."
             }
         ],
-        "ver": 202507271200
+        "ver": 202508051800
     },
-    "version": "202507271200"
+    "version": "202508051800"
 }

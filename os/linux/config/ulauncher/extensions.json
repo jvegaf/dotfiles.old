@@ -2,112 +2,112 @@
     "com.github.beobcode.ulauncher-session-actions": {
         "id": "com.github.beobcode.ulauncher-session-actions",
         "url": "https://github.com/beobcode/ulauncher-session-actions",
-        "updated_at": "2025-08-03T07:39:46.566335",
+        "updated_at": "2025-08-03T13:11:36.617590",
         "last_commit": "78b90d855d41f769a149caf90b5b9811e45fc918",
         "last_commit_time": "2024-07-08T12:42:04"
     },
     "com.github.pascalbe-dev.ulauncher-browser-bookmarks": {
         "id": "com.github.pascalbe-dev.ulauncher-browser-bookmarks",
         "url": "https://github.com/pascalbe-dev/ulauncher-browser-bookmarks",
-        "updated_at": "2025-08-03T07:39:48.780501",
+        "updated_at": "2025-08-03T13:11:39.341377",
         "last_commit": "4c5ccf5ff5186d92f3870adc8453f89151eaedb7",
         "last_commit_time": "2025-07-27T08:28:30"
     },
     "com.github.lighttigerxiv.ulauncher-bookmarks": {
         "id": "com.github.lighttigerxiv.ulauncher-bookmarks",
         "url": "https://github.com/lighttigerXIV/ulauncher-bookmarks",
-        "updated_at": "2025-08-03T07:39:50.753356",
+        "updated_at": "2025-08-03T13:11:41.088232",
         "last_commit": "ef8b1e73e76356cee7bc5d46b94a7db8f4c178b7",
         "last_commit_time": "2023-06-25T09:13:08"
     },
     "com.github.ultiblog.ulauncher-password-generator": {
         "id": "com.github.ultiblog.ulauncher-password-generator",
         "url": "https://github.com/Ultiblog/ULauncher-Password-Generator",
-        "updated_at": "2025-08-03T07:39:53.060048",
+        "updated_at": "2025-08-03T13:11:42.695823",
         "last_commit": "de08e6b3ce1c58e4f2b23321702ba40fa2110f73",
         "last_commit_time": "2022-11-11T12:05:05"
     },
     "com.github.hillaryychan.ulauncher-fzf": {
         "id": "com.github.hillaryychan.ulauncher-fzf",
         "url": "https://github.com/hillaryychan/ulauncher-fzf",
-        "updated_at": "2025-08-03T07:39:55.187210",
+        "updated_at": "2025-08-03T13:11:44.991206",
         "last_commit": "be5571cc3b7598e0b3fad222986274cf168a5761",
         "last_commit_time": "2025-07-28T10:35:48"
     },
     "com.github.leogouveia.ulauncher-npmjs": {
         "id": "com.github.leogouveia.ulauncher-npmjs",
         "url": "https://github.com/leogouveia/ulauncher-npmjs",
-        "updated_at": "2025-08-03T07:39:57.426674",
+        "updated_at": "2025-08-03T13:11:48.468484",
         "last_commit": "d0cac29b68c9fbf3d85095f466a4a3801dc48cfb",
         "last_commit_time": "2021-12-31T11:40:55"
     },
     "com.github.mastdiekin.ulauncher-pypi-search": {
         "id": "com.github.mastdiekin.ulauncher-pypi-search",
         "url": "https://github.com/mastdiekin/ulauncher-pypi-search",
-        "updated_at": "2025-08-03T07:39:59.540885",
+        "updated_at": "2025-08-03T13:11:50.912606",
         "last_commit": "3527a6c21b212ba2dac83824d107f1cc15a29971",
         "last_commit_time": "2022-01-01T02:42:56"
     },
     "com.github.barathbheeman.vsw-extension": {
         "id": "com.github.barathbheeman.vsw-extension",
         "url": "https://github.com/barathbheeman/vsw-extension/",
-        "updated_at": "2025-08-03T07:40:01.366880",
+        "updated_at": "2025-08-03T13:11:52.791378",
         "last_commit": "080d8aaa359bfbd2f47a856138478de7c506fc36",
         "last_commit_time": "2022-06-17T18:11:12"
     },
     "com.github.dhelmr.ulauncher-tldr": {
         "id": "com.github.dhelmr.ulauncher-tldr",
         "url": "https://github.com/dhelmr/ulauncher-tldr",
-        "updated_at": "2025-08-03T07:40:03.535321",
+        "updated_at": "2025-08-03T13:11:55.361135",
         "last_commit": "2e5904451bf89dfa155280dfb6fa3d45ed4cab4c",
         "last_commit_time": "2023-07-29T11:06:30"
     },
     "com.github.ahaasler.ulauncher-tmux": {
         "id": "com.github.ahaasler.ulauncher-tmux",
         "url": "https://github.com/ahaasler/ulauncher-tmux",
-        "updated_at": "2025-08-03T07:40:05.116286",
+        "updated_at": "2025-08-03T17:38:12.312924",
         "last_commit": "dd631a2e5a1d8bf2ab21095b43afe068443f02b9",
         "last_commit_time": "2021-06-05T16:42:59"
     },
     "com.github.norbr9.ulauncher-youtube-search": {
         "id": "com.github.norbr9.ulauncher-youtube-search",
         "url": "https://github.com/norbr9/ulauncher-youtube-search/",
-        "updated_at": "2025-08-03T07:40:07.119257",
+        "updated_at": "2025-08-03T13:11:58.863138",
         "last_commit": "f06b3636bc18b574409eedbb50aadfcb2d083da6",
         "last_commit_time": "2021-05-15T18:06:54"
     },
     "com.github.brpaz.ulauncher-shortcuts": {
         "id": "com.github.brpaz.ulauncher-shortcuts",
         "url": "https://github.com/brpaz/ulauncher-shortcuts",
-        "updated_at": "2025-08-03T07:40:09.837792",
+        "updated_at": "2025-08-03T13:12:02.209675",
         "last_commit": "8f226b0cbe744221ce441cd09853b0abe06e78fd",
         "last_commit_time": "2022-02-05T15:11:07"
     },
     "com.github.brpaz.ulauncher-devdocs": {
         "id": "com.github.brpaz.ulauncher-devdocs",
         "url": "https://github.com/brpaz/ulauncher-devdocs",
-        "updated_at": "2025-08-03T07:40:13.910610",
+        "updated_at": "2025-08-03T13:12:05.238424",
         "last_commit": "491bb5a5ccef082c5f6623db5f5676a8ab481144",
         "last_commit_time": "2022-04-03T10:50:15"
     },
     "com.github.seofernando25.ulauncher-gpt": {
         "id": "com.github.seofernando25.ulauncher-gpt",
         "url": "https://github.com/SeoFernando25/ulauncher-gpt",
-        "updated_at": "2025-08-03T07:40:15.864148",
+        "updated_at": "2025-08-03T13:12:06.858025",
         "last_commit": "2d51ff40fcbd501e64034f3c7be1cd35abc47d6b",
         "last_commit_time": "2023-04-14T22:57:18"
     },
     "com.github.kalligator.ulauncher-gemini-direct": {
         "id": "com.github.kalligator.ulauncher-gemini-direct",
         "url": "https://github.com/kalligator/ulauncher-gemini-direct",
-        "updated_at": "2025-08-03T07:40:17.953689",
+        "updated_at": "2025-08-03T13:12:09.959554",
         "last_commit": "2fba87f14ac0beb571271fde2aa9d650a90ebb78",
         "last_commit_time": "2025-07-05T07:29:11"
     },
     "com.github.tchar.ulauncher-albert-calculate-anything": {
         "id": "com.github.tchar.ulauncher-albert-calculate-anything",
         "url": "https://github.com/tchar/ulauncher-albert-calculate-anything",
-        "updated_at": "2025-08-03T07:40:22.425278",
+        "updated_at": "2025-08-03T13:12:14.998160",
         "last_commit": "037965a44e6f6f496e7ad71ec1651b9edfcde32d",
         "last_commit_time": "2024-05-29T21:57:26"
     }

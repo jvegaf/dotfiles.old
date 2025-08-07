@@ -2,7 +2,6 @@
     "bridge_speed": "40",
     "brim_type": "no_brim",
     "default_acceleration": "1000",
-    "exclude_object": "0",
     "from": "User",
     "gap_fill_target": "everywhere",
     "gap_infill_speed": "40",
