@@ -1,7 +1,4 @@
 {
-    "compatible_printers": [
-        "MyKlipper 0.4 nozzle"
-    ],
     "filament_settings_id": [
         "PLA Bioplaxtic @ Aquila Pro Klipper"
     ],
