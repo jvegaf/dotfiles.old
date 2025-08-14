@@ -46,6 +46,54 @@
                 "intro": "The firmware of AMS B does not match the printer; the device cannot continue working. Please update it on the \"Firmware\" page."
             },
             {
+                "ecode": "05844096",
+                "intro": "The device cannot detect AMS-HT F. Please reconnect the AMS-HT cable or restart the printer."
+            },
+            {
+                "ecode": "05824096",
+                "intro": "The device cannot detect AMS-HT C. Please reconnect the AMS-HT cable or restart the printer."
+            },
+            {
+                "ecode": "05864096",
+                "intro": "The device cannot detect AMS-HT G. Please reconnect the AMS-HT cable or restart the printer."
+            },
+            {
+                "ecode": "05014098",
+                "intro": "The device cannot detect AMS B. Please reconnect the AMS cable or restart the printer."
+            },
+            {
+                "ecode": "05854096",
+                "intro": "The device cannot detect AMS-HT E. Please reconnect the AMS-HT cable or restart the printer."
+            },
+            {
+                "ecode": "05874096",
+                "intro": "The device cannot detect AMS-HT H. Please reconnect the AMS-HT cable or restart the printer."
+            },
+            {
+                "ecode": "05834096",
+                "intro": "The device cannot detect AMS-HT D. Please reconnect the AMS-HT cable or restart the printer."
+            },
+            {
+                "ecode": "05814096",
+                "intro": "The device cannot detect AMS-HT B. Please reconnect the AMS-HT cable or restart the printer."
+            },
+            {
+                "ecode": "05004098",
+                "intro": "The device cannot detect AMS A. Please reconnect the AMS cable or restart the printer."
+            },
+            {
+                "ecode": "05024098",
+                "intro": "The device cannot detect AMS C. Please reconnect the AMS cable or restart the printer."
+            },
+            {
+                "ecode": "05034098",
+                "intro": "The device cannot detect AMS D. Please reconnect the AMS cable or restart the printer."
+            },
+            {
+                "ecode": "05804096",
+                "intro": "The device cannot detect AMS-HT A. Please reconnect the AMS-HT cable or restart the printer."
+            },
+            {
                 "ecode": "0500C011",
                 "intro": ""
             },
@@ -518,56 +566,8 @@
                 "intro": "The firmware of AMS-HT H does not match the printer; the device cannot continue working. Please upgrade it on the \"Firmware\" page."
             },
             {
-                "ecode": "05844096",
-                "intro": "Uncertified AMS-HT F detected; the device cannot continue working. Please reconnect the AMS-HT cable or restart the printer."
-            },
-            {
-                "ecode": "05824096",
-                "intro": "Uncertified AMS-HT C detected; the device cannot continue working. Please reconnect the AMS-HT cable or restart the printer."
-            },
-            {
                 "ecode": "0502409D",
                 "intro": "The firmware of AMS C does not match the printer; the device cannot continue working. Please upgrade it on the \"Firmware\" page."
-            },
-            {
-                "ecode": "05864096",
-                "intro": "Uncertified AMS-HT G detected; the device cannot continue working. Please reconnect the AMS-HT cable or restart the printer."
-            },
-            {
-                "ecode": "05014098",
-                "intro": "Uncertified AMS B detected; the device cannot continue working. Please reconnect the AMS cable or restart the printer."
-            },
-            {
-                "ecode": "05854096",
-                "intro": "Uncertified AMS-HT E detected; the device cannot continue working. Please reconnect the AMS-HT cable or restart the printer."
-            },
-            {
-                "ecode": "05874096",
-                "intro": "Uncertified AMS-HT H detected; the device cannot continue working. Please reconnect the AMS-HT cable or restart the printer."
-            },
-            {
-                "ecode": "05834096",
-                "intro": "Uncertified AMS-HT D detected; the device cannot continue working. Please reconnect the AMS-HT cable or restart the printer."
-            },
-            {
-                "ecode": "05814096",
-                "intro": "Uncertified AMS-HT B detected; the device cannot continue working. Please reconnect the AMS-HT cable or restart the printer."
-            },
-            {
-                "ecode": "05004098",
-                "intro": "Uncertified AMS A detected; the device cannot continue working. Please reconnect the AMS cable or restart the printer."
-            },
-            {
-                "ecode": "05024098",
-                "intro": "Uncertified AMS C detected; the device cannot continue working. Please reconnect the AMS cable or restart the printer."
-            },
-            {
-                "ecode": "05034098",
-                "intro": "Uncertified AMS D detected; the device cannot continue working. Please reconnect the AMS cable or restart the printer."
-            },
-            {
-                "ecode": "05804096",
-                "intro": "Uncertified AMS-HT A detected; the device cannot continue working. Please reconnect the AMS-HT cable or restart the printer."
             },
             {
                 "ecode": "03004008",
@@ -1934,7 +1934,7 @@
                 "intro": "The cutter is stuck. Please make sure the cutter handle is out and check the filament sensor cable connection."
             }
         ],
-        "ver": 202508051800
+        "ver": 202508130000
     },
     "device_hms": {
         "en": [
@@ -18507,7 +18507,7 @@
                 "intro": "External disturbance was detected on the heatbed acceleeration sensor. The sensor signal wire may not be affixed."
             }
         ],
-        "ver": 202508051800
+        "ver": 202508130000
     },
-    "version": "202508051800"
+    "version": "202508130000"
 }
