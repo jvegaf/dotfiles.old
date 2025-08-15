@@ -23,6 +23,11 @@ rm -rf "$local_dir"
 rm -rf "$cache_dir"
 rm -rf "$state_dir"
 
+log::note "Neovim config removed"
+
+
+log::note "Init Neovim config ..."
+
 cd ~/.config/nvim && nvim --headless +q
 log::note "Reset Neovim config successfully"
 
