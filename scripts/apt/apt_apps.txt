@@ -1411,6 +1411,7 @@ libtirpc3t64
 libtk8.6
 libtool-bin
 libtool
+libtorrent-rasterbar2.0t64
 libtotem-plparser-common
 libtotem-plparser18
 libtraceevent1-plugin
@@ -1915,6 +1916,7 @@ python3.12-minimal
 python3.12-venv
 python3.12
 python3
+qbittorrent
 qml6-module-qt-labs-animation
 qml6-module-qt-labs-folderlistmodel
 qml6-module-qt-labs-lottieqt
