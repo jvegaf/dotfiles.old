@@ -4,7 +4,13 @@
       create: true
       force: true
 - link:
+    # ~/.config/gtk-4.0: os/linux/config/gtk-4.0
+    # ~/.config/hypr: os/linux/config/hypr
+    # ~/.config/plank: os/linux/config/plank
+    # ~/.config/waybar: os/linux/config/waybar
+    # ~/.config/xfce4: os/linux/config/xfce4
     ~/.Xresources: os/linux/.Xresources
+    ~/.config/FreeCAD: os/linux/config/FreeCAD
     ~/.config/OrcaSlicer: os/linux/config/OrcaSlicer
     ~/.config/PrusaSlicer: os/linux/config/PrusaSlicer
     ~/.config/alacritty: os/linux/config/alacritty
@@ -13,9 +19,6 @@
     ~/.config/bspwm: os/linux/config/bspwm
     ~/.config/dunst: os/linux/config/dunst
     ~/.config/ghostty: os/linux/config/ghostty
-    ~/.config/opencode: os/linux/config/opencode
-    # ~/.config/gtk-4.0: os/linux/config/gtk-4.0
-    # ~/.config/hypr: os/linux/config/hypr
     ~/.config/i3: os/linux/config/i3
     ~/.config/i3blocks: os/linux/config/i3blocks
     ~/.config/kglobalshortcutsrc: os/linux/config/kglobalshortcutsrc
@@ -31,8 +34,8 @@
     ~/.config/obmenu-generator: os/linux/config/obmenu-generator
     ~/.config/openbox-themes: os/linux/config/openbox-themes
     ~/.config/openbox: os/linux/config/openbox
+    ~/.config/opencode: os/linux/config/opencode
     ~/.config/picom: os/linux/config/picom
-    # ~/.config/plank: os/linux/config/plank
     ~/.config/polybar: os/linux/config/polybar
     ~/.config/ranger: os/linux/config/ranger
     ~/.config/regolith3: os/linux/config/regolith3
@@ -43,21 +46,18 @@
     ~/.config/sxhkd: os/linux/config/sxhkd
     ~/.config/terminator: os/linux/config/terminator
     ~/.config/termite: os/linux/config/termite
+    ~/.config/tmux: os/linux/config/tmux
     ~/.config/ulauncher: os/linux/config/ulauncher
-    # ~/.config/waybar: os/linux/config/waybar
     ~/.config/wfuzz: os/linux/config/wfuzz
     ~/.config/wofi: os/linux/config/wofi
-    # ~/.config/xfce4: os/linux/config/xfce4
     ~/.config/xremap: os/linux/config/xremap
     ~/.config/yazi: os/linux/config/yazi
     ~/.config/zellij: os/linux/config/zellij
     ~/.dotly: os/linux/.dotly
+    ~/.local/bin/tmux-status: os/linux/config/tmux/tmux-status
     ~/.local/share/backgrounds: backgrounds
     ~/.profile: os/linux/.profile
     ~/.screenlayout: os/linux/config/screenlayout
     ~/.tmux.conf: os/linux/config/tmux.conf
-    ~/.local/bin/tmux-status: os/linux/config/tmux/tmux-status
-    ~/.config/tmux: os/linux/config/tmux
     ~/.wezterm.lua: os/linux/config/wezterm.lua
     ~/mimeapps.list: os/linux/config/mimeapps.list
-    ~/.config/FreeCAD: os/linux/config/FreeCAD
