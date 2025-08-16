@@ -15,10 +15,16 @@ Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
 [Tiling]
 padding=4
 
+[Tiling][1243fa21-1266-478b-9904-f9b6dc36eb5c][2f9f48e7-6824-4613-a6cd-1660cd55e430]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][33e995d2-2d8f-5d4a-a663-aed47957bead]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][355e7426-7133-4a08-9789-d1934c847374][2f9f48e7-6824-4613-a6cd-1660cd55e430]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][3c373409-48e0-57e9-a1a9-eb32e49f8772]
@@ -31,6 +37,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][825873ff-76d3-5a55-9aed-27dab42be6a9]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][98effb97-e492-471e-b290-37ea72efe17d][2f9f48e7-6824-4613-a6cd-1660cd55e430]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][afff7a09-197f-568f-939e-29fcc096879a]
@@ -56,7 +65,7 @@ ElectricBorderDelay=50
 RollOverDesktops=true
 
 [Xwayland]
-Scale=1.25
+Scale=1
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=
