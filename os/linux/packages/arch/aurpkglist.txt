@@ -15,6 +15,4 @@ spacenavd
 ulauncher
 visual-studio-code-bin
 visual-studio-code-insiders-bin
-winegui
-yayfzf
 zapzap
