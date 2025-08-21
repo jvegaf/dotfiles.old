@@ -1,6 +1,9 @@
 {
     "change_filament_gcode": "M600",
     "default_print_profile": "0.20mm Speed @MK3S 0.4",
+    "deretraction_speed": [
+        "40"
+    ],
     "from": "User",
     "inherits": "MyKlipper 0.4 nozzle",
     "is_custom_defined": "0",
@@ -19,11 +22,11 @@
         "3000"
     ],
     "machine_max_acceleration_x": [
-        "2000",
+        "1000",
         "2000"
     ],
     "machine_max_acceleration_y": [
-        "2000",
+        "1000",
         "2000"
     ],
     "machine_max_acceleration_z": [
@@ -57,6 +60,9 @@
         "0x235"
     ],
     "printer_settings_id": "Aquila Pro Klipper",
+    "retraction_speed": [
+        "40"
+    ],
     "thumbnails": "300x300/PNG",
     "version": "2.3.0.3",
     "z_hop_types": [
