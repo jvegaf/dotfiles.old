@@ -20,4 +20,4 @@
     ~/.gitattributes: git/.gitattributes
     ~/.gitignore_global: git/.gitignore_global
     ~/.ideavimrc: editors/intellij/.ideavimrc
-    ~/.vim: editors/vim
+    ~/.vimrc: editors/vim/vimrc

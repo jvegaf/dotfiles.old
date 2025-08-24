@@ -8,7 +8,8 @@
     # ~/.config/hypr: os/linux/config/hypr
     # ~/.config/plank: os/linux/config/plank
     # ~/.config/waybar: os/linux/config/waybar
-    # ~/.config/xfce4: os/linux/config/xfce4
+    ~/.config/btop: os/linux/config/btop
+    ~/.config/kicad: os/linux/config/kicad
     ~/.Xresources: os/linux/.Xresources
     ~/.config/FreeCAD: os/linux/config/FreeCAD
     ~/.config/OrcaSlicer: os/linux/config/OrcaSlicer
