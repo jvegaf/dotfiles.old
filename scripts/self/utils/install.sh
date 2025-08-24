@@ -33,7 +33,7 @@ install_arch_common_packages() {
   sudo pacman -Syyu --noconfirm
   sudo pacman -S --noconfirm --needed - <"$DOTFILES_PATH/os/linux/packages/arch/pkglist.txt"
 
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/sdkman-setup.sh"
+  # sh "$DOTFILES_PATH/os/linux/packages/xBuntu/sdkman-setup.sh"
 }
 
 install_arch_linux_extra() {

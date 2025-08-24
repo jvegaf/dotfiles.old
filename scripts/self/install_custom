@@ -20,7 +20,6 @@ if grep -qEi "(archlinux)" /proc/version &>/dev/null; then
     install_arch_linux_extra
     log::note "Installing fonts "
     install_fonts
-    install_nvm
 elif grep -qEi "(manjaro)" /proc/version &>/dev/null; then
     log::note "Installing ArchLinux 🐧 packages"
     install_arch_common_packages
@@ -29,7 +28,6 @@ elif grep -qEi "(manjaro)" /proc/version &>/dev/null; then
     log::note "Installing fonts "
     install_fonts
     log::note "Installing NVM "
-    install_nvm
 elif grep -qEi "(cachyos)" /proc/version &>/dev/null; then
     log::note "Installing ArchLinux 🐧 packages"
     install_arch_common_packages
@@ -38,7 +36,6 @@ elif grep -qEi "(cachyos)" /proc/version &>/dev/null; then
     log::note "Installing fonts "
     install_fonts
     log::note "Installing NVM "
-    install_nvm
 elif grep -qEi "(ubuntu)" /proc/version &>/dev/null; then
     log::note "Installing fonts "
     log::note "Installing Linux 🐧 packages"

@@ -17,6 +17,7 @@ less
 lsd
 luarocks
 mdcat
+mise
 neovide
 neovim
 nmap
