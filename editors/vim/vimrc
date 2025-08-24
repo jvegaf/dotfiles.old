@@ -116,6 +116,7 @@ call plug#end()
 
 " }}}
 
+"
 " MAPPINGS --------------------------------------------------------------- {{{
 
 " Set the backslash as the leader key.
@@ -183,10 +184,24 @@ nnoremap <leader>e :NERDTreeToggle<cr>
 let NERDTreeIgnore=['\.git$', '\.jpg$', '\.mp4$', '\.ogg$', '\.iso$', '\.pdf$', '\.pyc$', '\.odt$', '\.png$', '\.gif$', '\.db$']
 
 " }}}
+"
 
+"
 " VIMSCRIPT -------------------------------------------------------------- {{{
 
 " Enable the marker method of folding.
+"
+function! HandleURL()
+  let s:uri = matchstr(getline("."), '[a-z]*:\/\/[^ >,;]*')
+  echo s:uri
+  if s:uri != ""
+    silent exec "!open '".s:uri."'"
+  else
+    echo "No URI found in line."
+  endif
+endfunction
+map gx :call HandleURL()<cr>
+
 augroup filetype_vim
     autocmd!
     autocmd FileType vim setlocal foldmethod=marker
