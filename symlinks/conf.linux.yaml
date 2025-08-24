@@ -38,7 +38,6 @@
     ~/.config/openbox: os/linux/config/openbox
     ~/.config/opencode: os/linux/config/opencode
     ~/.config/picom: os/linux/config/picom
-    ~/.config/plank: os/linux/config/plank
     ~/.config/polybar: os/linux/config/polybar
     ~/.config/qt5ct: os/linux/config/qt5ct
     ~/.config/qt6ct: os/linux/config/qt6ct
@@ -58,6 +57,7 @@
     ~/.config/wofi: os/linux/config/wofi
     ~/.config/xremap: os/linux/config/xremap
     ~/.config/yazi: os/linux/config/yazi
+    ~/.config/zed: os/linux/config/zed
     ~/.config/zellij: os/linux/config/zellij
     ~/.dotly: os/linux/.dotly
     ~/.local/bin/tmux-status: os/linux/config/tmux/tmux-status

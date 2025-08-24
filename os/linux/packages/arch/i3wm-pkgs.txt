@@ -24,7 +24,6 @@ lazygit
 libpulse
 lsd
 mdcat
-neofetch
 network-manager-applet
 networkmanager
 picom
@@ -32,7 +31,6 @@ polybar
 ranger
 rofi
 rxvt-unicode
-tldr++
 tmux
 tree
 ttf-dejavu-nerd
@@ -63,7 +61,6 @@ xss-lock
 xterm
 yelp
 yt-dlp
-zram-generator
 zsh
 zsh-completions
 zsh-syntax-highlighting

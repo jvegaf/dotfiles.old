@@ -11,9 +11,6 @@ freecad
 git
 github-cli
 gnome-keyring
-i3-wm
-i3status
-inetutils
 kitty
 lazygit
 less
@@ -24,7 +21,6 @@ neovide
 neovim
 nmap
 picom
-polybar
 pyenv
 python-pip
 python-poetry
@@ -46,7 +42,6 @@ uv
 vim
 vlc
 w3m
-wezterm
 wget
 wl-clipboard
 wpa_supplicant

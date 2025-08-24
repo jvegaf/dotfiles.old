@@ -72,11 +72,11 @@ command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
 # bun completions
-[ -s "/home/th3g3ntl3man/.bun/_bun" ] && source "/home/th3g3ntl3man/.bun/_bun"
+# [ -s "/home/th3g3ntl3man/.bun/_bun" ] && source "/home/th3g3ntl3man/.bun/_bun"
 
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+# # bun
+# export BUN_INSTALL="$HOME/.bun"
+# export PATH="$BUN_INSTALL/bin:$PATH"
 
 # opencode
 export PATH=/home/th3g3ntl3man/.opencode/bin:$PATH
