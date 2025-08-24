@@ -1,112 +1,206 @@
-/* =============================================================================
- *
- * Waybar configuration
- *
- * Configuration reference: https://github.com/Alexays/Waybar/wiki/Configuration
- *
- * =========================================================================== */
-
-/* -----------------------------------------------------------------------------
- * Keyframes
- * -------------------------------------------------------------------------- */
-
-
-/*
-Polar Night
-nord0  #2e3440
-nord1  #3b4252
-nord2  #434c5e
-nord3  #4c566a
-Snow Storm
-nord4  #d8dee9
-nord5  #e5e9f0
-nord6  #eceff4
-Frost
-nord7  #8fbcbb
-nord8  #88c0d0
-nord9  #81a1c1
-nord10 #5e81ac
-Aurora
-nord11 #bf616a
-nord12 #d08770
-nord13 #ebcb8b
-nord14 #a3be8c
-nord15 #b48ead
-*/
-
-/* -----------------------------------------------------------------------------
- * Base styles
- * -------------------------------------------------------------------------- */
-
-/* Reset all styles */
-
 * {
-    color: #eceff4;
-    border: 0;
-    border-radius: 0;
-    padding: 0 0;
-    font-family:Symbols Nerd Font Mono;
-    font-size: 15px;
-    margin-right: 5px;
-    margin-left: 5px;
-    padding-bottom:2px;
-   }
+	border: none;
+	/*border-radius: 14px;*/
+    border-radius: 30px 30px 30px 30px;
+    font-family: "JetBrains Mono";
+	font-weight: bold;
+	font-size: 14px;
+    min-height: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+    margin-top: 2px;
+	margin-bottom: 0px;
+    /*color: #B5E8E0;
+	background: #161320;*/
+}
 
 window#waybar {
-    background:rgba (0, 0, 0, 0.65);
-    border-radius: 20px 20px 20px 20px;
+    background: transparent;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+window#waybar.hidden {
+	opacity: 0.2;
+}
+
+window#waybar.empty #window {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    color: transparent;
+    background-color: transparent;
+}
+
+#window {
+	color: #161320;
+	/*background: transparent;*/
+	background: #FAE3B0;
+    transition: none;
+}
+
+#window.focused {
+		background: #ABE9B3;
+}
+
+#layout{
+	color: #1A1826;
+	background: transparent;
+    transition: none;
+}       
+
+#layout.focused {
+	background: #ABE9B3;
+}
+
+#mode{
+	color: #161320;
+	background: #F28FAD;
+    transition: none;
+}
+#mode.normal{
+	/*background: #96CDFB;*/
+    color:#161320;
+	background: transparent;
+	}
+	 
+#workspaces {
+    padding-bottom: 2px;
+    padding-top: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+	background: transparent;
+	border-color:  #1D1D1D;/*dark*/
 }
 
 #workspaces button {
-    padding: 2px 0px;
-    border-bottom: 2px;
-    color: #eceff4;
-    border-color: #d8dee9;
-    border-style: solid;
-    margin-top:2px;
+    color: #1D1D1D;/*dark*/
+	background: transparent;
+	border-color:  #1D1D1D;/*dark*/
 }
 
 #workspaces button.active {
-    border-color: #81a1c1;
+	/*background: transparent;*/
+    color: #1D1D1D;/*dark*/
+    background: #B5E8E0;/*blue-ish*/
 }
 
-#clock, #battery, #cpu, #memory,#idle_inhibitor, #temperature,#custom-keyboard-layout, #backlight, #network, #pulseaudio, #tray, #window,#custom-launcher,#custom-power,#custom-updates ,#custom-network_traffic,#custom-weather{
-    padding: 0 3px;
-    border-bottom: 2px;
-    border-style: solid;
+#workspaces button.empty {
+    color: #1D1D1D;/*dark*/
+	background: transparent;
 }
 
-/* -----------------------------------------------------------------------------
- * Module styles
- * -------------------------------------------------------------------------- */
+#workspaces button.focused {
+	/*color: #99FF33;*//*bright green*/
+    border-left: 2px solid #FF8FAD;
+    border-right: 2px solid #FF8FAD;
+    border-top: 2px solid #FF8FAD;
+    border-bottom: 2px solid #FF8FAD;
+} 
 
-
-#clock {
- color:#a3be8c;
+#workspaces button.current_output {
+/*	background: #99FF33;*/
+    /*color: #ff0000;*//*red*/
+    border-left: 2px solid #B5E8E0;/*blue-ish*/
+    border-right: 2px solid #B5E8E0;/*blue-ish*/
+    border-top: 2px solid #B5E8E0;/*blue-ish*/  
+    border-bottom: 2px solid #B5E8E0;/*blue-ish*/
 }
 
-#backlight {
-    color: #ebcb8b;
+#workspaces button:hover {
+	box-shadow: inherit;
+	text-shadow: inherit;
+	background: #FF8FAD;
+	color: #161320;/*dark*/
+    border-color: #E8A2AF;/*soft pink*/
+}
+
+#workspaces button.focused:hover {
+    background: #E8A2AF;
+	color: #161320;
+	border-color: #161320;
+}
+
+
+#tags {
+    padding-bottom: 2px;
+    padding-top: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+	background: #161320;
+}
+
+#tags button {
+	color: #B5E8E0;
+	background: transparent;
+}
+
+#tags button.occupied {
+	color: #F28FAD;
+	background: transparent;
+}
+
+#tags button.focused {
+	color: #99FF33;
+    border-left: 2px solid #FF8FAD;
+    border-right: 2px solid #FF8FAD;
+    border-top: 2px solid #FF8FAD;
+    border-bottom: 2px solid #FF8FAD;
+}
+
+#tags button.urgent {
+	background: #99FF33;
+    color: #ff0000;
+    border-left: 4px solid #1D1D1D;
+    border-right: 4px solid #1D1D1D;
+    border-top: 4px solid #1D1D1D;
+    border-bottom: 4px solid #1D1D1D;
+}
+
+#tags button:hover {
+	box-shadow: inherit;
+	text-shadow: inherit;
+	background: #FF8FAD;
+	color: #161320;
+    border-color: #E8A2AF;
+}
+
+#tags button.focused:hover {
+    background: #E8A2AF;
+	color: #161320;
+	border-color: #161320;
+}
+
+#network {
+	color: #161320;
+	background: #bd93f9;
+    transition: none;
+}
+
+#pulseaudio {
+	color: #1A1826;
+	background: #FAE3B0;
+    transition: none;
 }
 
 #battery {
-    color: #d8dee9;
+	color: #161320;
+	background: #B5E8E0;
+    transition: none;
 }
 
-#battery.charging {
-    color: #81a1c1;
-}
-
-@keyframes blink {
-    to {
-        color: #4c566a;
-        background-color: #eceff4;
-    }
+#battery.charging, #battery.plugged {
+	color: #161320;
+    background-color: #B5E8E0;
 }
 
 #battery.critical:not(.charging) {
-    background: #bf616a;
-    color: #eceff4;
+    background-color: #B5E8E0;
+    color: #161320;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -114,70 +208,90 @@ window#waybar {
     animation-direction: alternate;
 }
 
-#cpu {
-    color:#a3be8c ;
+@keyframes blink {
+    to {
+        background-color: #BF616A;
+        color: #B5E8E0;
+    }
+}
+
+#backlight {
+	color: #161320;
+	background: #F8BD96;
+    transition: none;
+}
+#clock {
+	color: #161320;
+	background: #ABE9B3;
+	/*background: #1A1826;*/
+    transition: none;
 }
 
 #memory {
-    color: #d3869b;
-}
-
-#network.disabled {
-    color:#bf616a;
-}
-
-#network{
-    color:#a3be8c;
-}
-
-#network.disconnected {
-    color: #bf616a;
-}
-
-#pulseaudio {
-    color: #b48ead;
-}
-
-#pulseaudio.muted {
-    color: #e20548;
-}
-
-#temperature {
-    color: #8fbcbb;
-}
-
-#temperature.critical {
-    color: #bf616a;
+	color: #161320;
+	background: #DDB6F2;
+    transition: none;
 }
 
 #idle_inhibitor {
-   color: #ebcb8b;
+	color: #B5E8E0;
+	background: #161320;
+    transition: none;
+}
+
+#cpu {
+	color: #161320;
+	background: #96CDFB;
+    transition: none;
+}
+
+#temperature {
+	color: #B5E8E0;
+	background: #161320;
+    transition: none;
 }
 
 #tray {
+  	padding-left: 0px;
+	padding-right: 0px;
+    color: #B5E8E0;
+	background: #161320;
+    transition: none;
 }
 
-#custom-launcher{
-        font-size: 20px;
-        background-image: url('/home/th3g3ntl3man/.config/waybar/launcher.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        border-style: hidden;
+#custom-power {
+	margin-right: 0px;
+	font-size: 24px;
+	color: #161320;
+	background: #F28FAD;
+    transition: none;
 }
 
-#custom-power{
-    border-style: hidden;
-    margin-top:2px;
+#custom-wallpaper {
+	color: #161320;
+	background: #C9CBFF;
+    transition: none;
 }
 
-#window{
-    border-style: hidden;
-    margin-top:1px;
+#custom-media {
+	color: #161320;
+	background: #F2CDCD;
+    transition: none;
 }
-#custom-keyboard-layout{
-   color:#d08770;
+
+#custom-launcher {
+	margin-left: 0px;
+	background: #161320;
+	color: #B5E8E0;
+	/*background: #b41e1e;
+	color: #f4f4de;*/
+    transition: none;
+    padding: 0px 20px 0px 20px;
 }
-#custom-network_traffic{
-   color:#d08770;
+
+#custom-pacman {
+	color: #1A1826;
+	background: #FAE3B0;
+    transition: none;
 }
+

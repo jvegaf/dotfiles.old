@@ -4,12 +4,6 @@
       create: true
       force: true
 - link:
-    # ~/.config/gtk-4.0: os/linux/config/gtk-4.0
-    # ~/.config/hypr: os/linux/config/hypr
-    # ~/.config/plank: os/linux/config/plank
-    # ~/.config/waybar: os/linux/config/waybar
-    ~/.config/btop: os/linux/config/btop
-    ~/.config/kicad: os/linux/config/kicad
     ~/.Xresources: os/linux/.Xresources
     ~/.config/FreeCAD: os/linux/config/FreeCAD
     ~/.config/OrcaSlicer: os/linux/config/OrcaSlicer
@@ -18,14 +12,21 @@
     ~/.config/autorandr: os/linux/config/autorandr
     ~/.config/awesome: os/linux/config/awesome
     ~/.config/bspwm: os/linux/config/bspwm
+    ~/.config/btop: os/linux/config/btop
     ~/.config/dunst: os/linux/config/dunst
+    ~/.config/foot: os/linux/config/foot
+    ~/.config/fuzzel: os/linux/config/fuzzel
     ~/.config/ghostty: os/linux/config/ghostty
+    ~/.config/hypr: os/linux/config/hypr
     ~/.config/i3: os/linux/config/i3
     ~/.config/i3blocks: os/linux/config/i3blocks
     ~/.config/kglobalshortcutsrc: os/linux/config/kglobalshortcutsrc
+    ~/.config/kicad: os/linux/config/kicad
     ~/.config/kitty: os/linux/config/kitty
     ~/.config/kwinrc: os/linux/config/kwinrc
     ~/.config/libinput-gestures.conf: os/linux/config/gestures/libinput-gestures.conf
+    ~/.config/mako: os/linux/config/mako
+    ~/.config/niri: os/linux/config/niri
     ~/.config/mpd: os/linux/config/mpd
     ~/.config/ncmpcpp: os/linux/config/ncmpcpp
     ~/.config/neofetch: os/linux/config/neofetch
@@ -37,7 +38,10 @@
     ~/.config/openbox: os/linux/config/openbox
     ~/.config/opencode: os/linux/config/opencode
     ~/.config/picom: os/linux/config/picom
+    ~/.config/plank: os/linux/config/plank
     ~/.config/polybar: os/linux/config/polybar
+    ~/.config/qt5ct: os/linux/config/qt5ct
+    ~/.config/qt6ct: os/linux/config/qt6ct
     ~/.config/ranger: os/linux/config/ranger
     ~/.config/regolith3: os/linux/config/regolith3
     ~/.config/rofi: os/linux/config/rofi
@@ -49,6 +53,7 @@
     ~/.config/termite: os/linux/config/termite
     ~/.config/tmux: os/linux/config/tmux
     ~/.config/ulauncher: os/linux/config/ulauncher
+    ~/.config/waybar: os/linux/config/waybar
     ~/.config/wfuzz: os/linux/config/wfuzz
     ~/.config/wofi: os/linux/config/wofi
     ~/.config/xremap: os/linux/config/xremap
