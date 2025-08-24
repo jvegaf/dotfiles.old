@@ -43,7 +43,7 @@ install_arch_linux_extra() {
   if ! type yay >/dev/null 2>&1; then
     yay_setup
   fi
-  sudo yay -S "$aurpkgs" --noconfirm --needed
+  yay -S "$aurpkgs" --noconfirm --needed
 }
 
 install_linux_extra() {

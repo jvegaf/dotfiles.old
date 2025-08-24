@@ -1,11 +1,8 @@
 alacritty
-base
 base-devel
 bat
 blueman
 btop
-docker
-docker-compose
 fastfetch
 feh
 firefox
@@ -26,11 +23,9 @@ mdcat
 neovide
 neovim
 nmap
-paru
 picom
 polybar
 pyenv
-python
 python-pip
 python-poetry
 python-pynvim
