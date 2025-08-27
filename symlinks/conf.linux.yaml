@@ -27,6 +27,7 @@
     ~/.config/libinput-gestures.conf: os/linux/config/gestures/libinput-gestures.conf
     ~/.config/mako: os/linux/config/mako
     ~/.config/niri: os/linux/config/niri
+    ~/.config/mise: os/linux/config/mise
     ~/.config/mpd: os/linux/config/mpd
     ~/.config/ncmpcpp: os/linux/config/ncmpcpp
     ~/.config/neofetch: os/linux/config/neofetch
