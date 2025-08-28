@@ -52,13 +52,7 @@ bindkey "\e[3;5~" kill-word
 #setxkbmap -option caps:backspace
 # eval "$(zellij setup --generate-auto-start zsh)"
 
-# export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# Generated for envman. Do not edit.
-# [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
-
+eval "$(mise activate zsh)"
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/th3g3ntl3man/.lmstudio/bin"
