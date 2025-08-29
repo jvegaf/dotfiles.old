@@ -78,3 +78,4 @@ export SDKMAN_DIR="$HOME/.sdkman"
 export PATH="$PATH:/home/th3g3ntl3man/.lmstudio/bin"
 # End of LM Studio CLI section
 
+eval "$(/home/th3g3ntl3man/.local/bin/mise activate bash)"

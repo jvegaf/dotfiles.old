@@ -5,6 +5,7 @@
       force: true
 - link:
     ~/.Xresources: os/linux/.Xresources
+    ~/.FlatCAM: os/linux/config/FlatCAM
     ~/.config/FreeCAD: os/linux/config/FreeCAD
     ~/.config/OrcaSlicer: os/linux/config/OrcaSlicer
     ~/.config/PrusaSlicer: os/linux/config/PrusaSlicer

@@ -1,4 +1,5 @@
 [tools]
+dotnet = "8"
 gradle = "latest"
 java = "temurin-21"
 maven = "latest"
