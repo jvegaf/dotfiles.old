@@ -14,6 +14,7 @@
     ~/.config/bspwm: os/linux/config/bspwm
     ~/.config/btop: os/linux/config/btop
     ~/.config/dunst: os/linux/config/dunst
+    ~/.config/eww: os/linux/config/eww
     ~/.config/foot: os/linux/config/foot
     ~/.config/fuzzel: os/linux/config/fuzzel
     ~/.config/ghostty: os/linux/config/ghostty
@@ -26,13 +27,13 @@
     ~/.config/kwinrc: os/linux/config/kwinrc
     ~/.config/libinput-gestures.conf: os/linux/config/gestures/libinput-gestures.conf
     ~/.config/mako: os/linux/config/mako
-    ~/.config/niri: os/linux/config/niri
     ~/.config/mise: os/linux/config/mise
     ~/.config/mpd: os/linux/config/mpd
     ~/.config/ncmpcpp: os/linux/config/ncmpcpp
     ~/.config/neofetch: os/linux/config/neofetch
     ~/.config/neovide: os/linux/config/neovide
     ~/.config/networkmanager-dmenu: os/linux/config/networkmanager-dmenu
+    ~/.config/niri: os/linux/config/niri
     ~/.config/nitrogen: os/linux/config/nitrogen
     ~/.config/obmenu-generator: os/linux/config/obmenu-generator
     ~/.config/openbox-themes: os/linux/config/openbox-themes
@@ -49,6 +50,7 @@
     ~/.config/starship: os/linux/config/starship
     ~/.config/sublime-text: editors/sublime
     ~/.config/sxhkd: os/linux/config/sxhkd
+    ~/.config/tealdeer: os/linux/config/tealdeer
     ~/.config/terminator: os/linux/config/terminator
     ~/.config/termite: os/linux/config/termite
     ~/.config/tmux: os/linux/config/tmux
@@ -58,6 +60,7 @@
     ~/.config/wofi: os/linux/config/wofi
     ~/.config/xremap: os/linux/config/xremap
     ~/.config/yazi: os/linux/config/yazi
+    ~/.config/zathura: os/linux/config/zathura
     ~/.config/zed: os/linux/config/zed
     ~/.config/zellij: os/linux/config/zellij
     ~/.dotly: os/linux/.dotly

@@ -52,7 +52,7 @@
     ],
     "name": "Aquila Pro Klipper",
     "nozzle_type": "brass",
-    "print_host": "http://klipperpi.local:3000",
+    "print_host": "http://192.168.16.103:3000",
     "printable_area": [
         "0x0",
         "235x0",
