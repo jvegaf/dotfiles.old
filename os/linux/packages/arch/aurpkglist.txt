@@ -1,7 +1,9 @@
 1password
+adwaita-qt5-git
+brave-bin
 bruno-bin
+eww
 fstl
-lazydocker
 logseq-desktop-bin
 luajit-tiktoken-bin
 nulloy-git
@@ -9,5 +11,8 @@ opencode-ai-bin
 orca-slicer-bin
 spacenavd
 ulauncher
+visual-studio-code-bin
 visual-studio-code-insiders-bin
+yay
+yay-debug
 zapzap
