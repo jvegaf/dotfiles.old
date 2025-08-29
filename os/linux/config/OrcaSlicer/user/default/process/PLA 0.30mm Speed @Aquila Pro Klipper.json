@@ -23,7 +23,7 @@
     "skirt_loops": "1",
     "skirt_speed": "30",
     "sparse_infill_density": "10%",
-    "sparse_infill_pattern": "honeycomb",
+    "sparse_infill_pattern": "triangles",
     "sparse_infill_speed": "100",
     "support_type": "tree(auto)",
     "top_surface_acceleration": "1000",
@@ -31,6 +31,6 @@
     "travel_acceleration": "1000",
     "travel_speed": "150",
     "version": "2.3.0.3",
-    "wall_loops": "5",
+    "wall_loops": "4",
     "wall_sequence": "inner-outer-inner wall"
 }

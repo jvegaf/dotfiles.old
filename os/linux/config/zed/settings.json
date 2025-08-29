@@ -18,14 +18,15 @@
     "indent_size": 12
   },
   "agent": {
+    "always_allow_tool_actions": true,
     "inline_assistant_model": {
       "provider": "copilot_chat",
-      "model": "claude-4-sonnet"
+      "model": "gpt-5"
     },
     "model_parameters": [],
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4"
+      "model": "gpt-5"
     }
   },
   "vim_mode": true,
@@ -35,12 +36,12 @@
   "ui_font_size": 16,
   "buffer_font_size": 16,
   "agent_font_size": 16,
-  "ui_font_family": "IosevkaTerm Nerd Font",
-  "buffer_font_family": "IosevkaTerm Nerd Font",
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
   "theme": {
     "mode": "system",
-    "light": "Kanagawa Lotus",
-    "dark": "Gentleman Kanagawa Blur"
+    "light": "One Light",
+    "dark": "One Dark"
   },
   "diagnostics": {
     "inline": {
