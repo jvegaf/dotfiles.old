@@ -1,297 +1,186 @@
+/* =============================================================================
+ *
+ * Waybar configuration
+ *
+ * Configuration reference: https://github.com/Alexays/Waybar/wiki/Configuration
+ *
+ * =========================================================================== */
+
+/* -----------------------------------------------------------------------------
+ * Keyframes
+ * -------------------------------------------------------------------------- */
+
+@define-color highlight #685878 ;
+@define-color base1  #19191e ;
+
+@keyframes blink-warning {
+    70% {
+        color: white;
+    }
+
+    to {
+        color: white;
+        background-color: orange;
+    }
+}
+
+@keyframes blink-critical {
+    70% {
+      color: white;
+    }
+
+    to {
+        color: white;
+        background-color: red;
+    }
+}
+
+/* -----------------------------------------------------------------------------
+ * Base styles
+ * -------------------------------------------------------------------------- */
+
+/* Reset all styles */
 * {
-	border: none;
-	/*border-radius: 14px;*/
-    border-radius: 30px 30px 30px 30px;
-    font-family: "JetBrains Mono NF";
-	font-weight: bold;
-	font-size: 14px;
-    min-height: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-	padding-left: 10px;
-	padding-right: 10px;
-    margin-top: 2px;
-	margin-bottom: 0px;
-    /*color: #B5E8E0;
-	background: #161320;*/
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    margin: 1px;
+    padding: 0;
 }
 
-window#waybar {
+/* The whole bar */
+#waybar {
     background: transparent;
-    transition-property: background-color;
-    transition-duration: 0.3s;
-    margin-left: 0px;
-    margin-right: 0px;
+    color: #e3e3ea;
+    background-color: @base1;
+    font-family: JetBrainsMono;
+    font-size: 13px;
 }
 
-window#waybar.hidden {
-	opacity: 0.2;
+/* Every modules */
+#mode,
+#network,
+#custom-keyboard-layout,
+#idle_inhibitor,
+#cpu,
+#memory,
+#backlight,
+#pulseaudio,
+#battery,
+#clock,
+#tray {
+    padding:0.5rem 0.6rem;
+    margin: 1px 0px;
 }
 
-window#waybar.empty #window {
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    color: transparent;
-    background-color: transparent;
+/* -----------------------------------------------------------------------------
+ * Module styles
+ * -------------------------------------------------------------------------- */
+
+#custom-launcher {
+    margin-left:15px;
+    margin-right:10px;
 }
 
-#window {
-	color: #161320;
-	/*background: transparent;*/
-	background: #FAE3B0;
-    transition: none;
-}
-
-#window.focused {
-		background: #ABE9B3;
-}
-
-#layout{
-	color: #1A1826;
-	background: transparent;
-    transition: none;
-}       
-
-#layout.focused {
-	background: #ABE9B3;
-}
-
-#mode{
-	color: #161320;
-	background: #F28FAD;
-    transition: none;
-}
-#mode.normal{
-	/*background: #96CDFB;*/
-    color:#161320;
-	background: transparent;
-	}
-	 
 #workspaces {
-    padding-bottom: 2px;
-    padding-top: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
-	background: transparent;
-	border-color:  #1D1D1D;/*dark*/
+    font-size:13px;
 }
 
 #workspaces button {
-    color: #1D1D1D;/*dark*/
-	background: transparent;
-	border-color:  #1D1D1D;/*dark*/
-}
-
-#workspaces button.active {
-	/*background: transparent;*/
-    color: #1D1D1D;/*dark*/
-    background: #B5E8E0;/*blue-ish*/
-}
-
-#workspaces button.empty {
-    color: #1D1D1D;/*dark*/
-	background: transparent;
+    border-radius: 5px;
+    color: #eceff4;
+    padding: 1px 6px;
+    margin-right: 2px;
+    margin-left: 2px;
 }
 
 #workspaces button.focused {
-	/*color: #99FF33;*//*bright green*/
-    border-left: 2px solid #FF8FAD;
-    border-right: 2px solid #FF8FAD;
-    border-top: 2px solid #FF8FAD;
-    border-bottom: 2px solid #FF8FAD;
-} 
-
-#workspaces button.current_output {
-/*	background: #99FF33;*/
-    /*color: #ff0000;*//*red*/
-    border-left: 2px solid #B5E8E0;/*blue-ish*/
-    border-right: 2px solid #B5E8E0;/*blue-ish*/
-    border-top: 2px solid #B5E8E0;/*blue-ish*/  
-    border-bottom: 2px solid #B5E8E0;/*blue-ish*/
+    border: 1px solid #d8dee9;
 }
 
-#workspaces button:hover {
-	box-shadow: inherit;
-	text-shadow: inherit;
-	background: #FF8FAD;
-	color: #161320;/*dark*/
-    border-color: #E8A2AF;/*soft pink*/
+#workspaces button.urgent {
+    border-color: #c9545d;
+    color: #c9545d;
 }
 
-#workspaces button.focused:hover {
-    background: #E8A2AF;
-	color: #161320;
-	border-color: #161320;
+#mode {
+    background: @highlight;
+    border-bottom: 3px transparent;
+    color:white;
+    margin-left: 5px;
+    padding: 7px;
 }
 
-
-#tags {
-    padding-bottom: 2px;
-    padding-top: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
-	background: #161320;
+#window {
+    font-weight: bold;
 }
 
-#tags button {
-	color: #B5E8E0;
-	background: transparent;
+#network.disconnected {
+    color: orange;
 }
 
-#tags button.occupied {
-	color: #F28FAD;
-	background: transparent;
+#cpu.warning {
+    color: orange;
 }
 
-#tags button.focused {
-	color: #99FF33;
-    border-left: 2px solid #FF8FAD;
-    border-right: 2px solid #FF8FAD;
-    border-top: 2px solid #FF8FAD;
-    border-bottom: 2px solid #FF8FAD;
+#cpu.critical {
+    color: red;
 }
 
-#tags button.urgent {
-	background: #99FF33;
-    color: #ff0000;
-    border-left: 4px solid #1D1D1D;
-    border-right: 4px solid #1D1D1D;
-    border-top: 4px solid #1D1D1D;
-    border-bottom: 4px solid #1D1D1D;
-}
-
-#tags button:hover {
-	box-shadow: inherit;
-	text-shadow: inherit;
-	background: #FF8FAD;
-	color: #161320;
-    border-color: #E8A2AF;
-}
-
-#tags button.focused:hover {
-    background: #E8A2AF;
-	color: #161320;
-	border-color: #161320;
-}
-
-#network {
-	color: #161320;
-	background: #bd93f9;
-    transition: none;
-}
-
-#pulseaudio {
-	color: #1A1826;
-	background: #FAE3B0;
-    transition: none;
-}
-
-#battery {
-	color: #161320;
-	background: #B5E8E0;
-    transition: none;
-}
-
-#battery.charging, #battery.plugged {
-	color: #161320;
-    background-color: #B5E8E0;
-}
-
-#battery.critical:not(.charging) {
-    background-color: #B5E8E0;
-    color: #161320;
-    animation-name: blink;
-    animation-duration: 0.5s;
+#memory {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
-@keyframes blink {
-    to {
-        background-color: #BF616A;
-        color: #B5E8E0;
-    }
+#memory.warning {
+    color: orange;
+ }
+
+#memory.critical {
+    color: red;
+    animation-name: blink-critical;
+    animation-duration: 2s;
+    padding-left:5px;
+    padding-right:5px;
 }
 
-#backlight {
-	color: #161320;
-	background: #F8BD96;
-    transition: none;
-}
-#clock {
-	color: #161320;
-	background: #ABE9B3;
-	/*background: #1A1826;*/
-    transition: none;
+#backlight.icon {
 }
 
-#memory {
-	color: #161320;
-	background: #DDB6F2;
-    transition: none;
+#pulseaudio {
 }
 
-#idle_inhibitor {
-	color: #B5E8E0;
-	background: #161320;
-    transition: none;
+#pulseaudio.muted {
+    color: @highlight;
 }
 
-#cpu {
-	color: #161320;
-	background: #96CDFB;
-    transition: none;
+#battery {
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
-#temperature {
-	color: #B5E8E0;
-	background: #161320;
-    transition: none;
+#battery.warning {
+    color: orange;
 }
 
-#tray {
-  	padding-left: 0px;
-	padding-right: 0px;
-    color: #B5E8E0;
-	background: #161320;
-    transition: none;
+#battery.critical {
+    color: red;
+}
+
+#battery.warning.discharging {
+    animation-name: blink-warning;
+    animation-duration: 3s;
+}
+
+#battery.critical.discharging {
+    animation-name: blink-critical;
+    animation-duration: 2s;
 }
 
 #custom-power {
-	margin-right: 0px;
-	font-size: 24px;
-	color: #161320;
-	background: #F28FAD;
-    transition: none;
+    margin-left:15px;
+    margin-right:15px;
+    font-size:15px;
 }
-
-#custom-wallpaper {
-	color: #161320;
-	background: #C9CBFF;
-    transition: none;
-}
-
-#custom-media {
-	color: #161320;
-	background: #F2CDCD;
-    transition: none;
-}
-
-#custom-launcher {
-	margin-left: 0px;
-	background: #161320;
-	color: #B5E8E0;
-	/*background: #b41e1e;
-	color: #f4f4de;*/
-    transition: none;
-    padding: 0px 20px 0px 20px;
-}
-
-#custom-pacman {
-	color: #1A1826;
-	background: #FAE3B0;
-    transition: none;
-}
-

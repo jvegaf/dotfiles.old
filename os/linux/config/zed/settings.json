@@ -1,4 +1,11 @@
 {
+  "context_servers": {
+    "browser-tools-context-server": {
+      "source": "extension",
+      "enabled": true,
+      "settings": {}
+    }
+  },
   "toolbar": {
     "quick_actions": false
   },
@@ -40,7 +47,7 @@
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "theme": {
     "mode": "system",
-    "light": "One Light",
+    "light": "One Dark",
     "dark": "One Dark"
   },
   "diagnostics": {

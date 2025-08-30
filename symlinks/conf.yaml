@@ -15,6 +15,7 @@
     ~/.zshenv: shell/zsh/.zshenv
     ~/.zshrc: shell/zsh/.zshrc
     ~/.p10k.zsh: shell/zsh/.p10k.zsh
+    ~/.config/fish: shell/fish
     ~/.inputrc: shell/.inputrc
     ~/.gitconfig: git/.gitconfig
     ~/.gitattributes: git/.gitattributes

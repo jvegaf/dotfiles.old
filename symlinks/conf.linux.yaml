@@ -51,6 +51,7 @@
     ~/.config/starship: os/linux/config/starship
     ~/.config/sublime-text: editors/sublime
     ~/.config/sxhkd: os/linux/config/sxhkd
+    ~/.config/sway: os/linux/config/sway
     ~/.config/tealdeer: os/linux/config/tealdeer
     ~/.config/terminator: os/linux/config/terminator
     ~/.config/termite: os/linux/config/termite
