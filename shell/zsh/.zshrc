@@ -57,7 +57,6 @@ eval "$(mise activate zsh)"
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/th3g3ntl3man/.lmstudio/bin"
 
-eval "$(mise activate zsh)"
 
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!

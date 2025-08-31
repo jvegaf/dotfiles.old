@@ -16,7 +16,7 @@ exec_always swayidle -w before-sleep "gtklock -d"
 exec mako
 
 # Start foot server
-exec_always --no-startup-id foot --server
+# exec_always --no-startup-id foot --server
 
 # Autotiling
 exec autotiling
