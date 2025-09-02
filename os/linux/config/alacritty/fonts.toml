@@ -1,6 +1,6 @@
 [font]
-size = 12
-builtin_box_drawing = true
+size = 10
+# builtin_box_drawing = true
 
 [font.normal]
 family = "JetBrainsMono NF"

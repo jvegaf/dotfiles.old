@@ -1,7 +1,6 @@
 1password
 adwaita-qt5-git
 aylurs-gtk-shell
-gpu-screen-recorder
 grimblast-git
 hypnotix
 hyprcap
@@ -11,7 +10,6 @@ luajit-tiktoken-bin
 matugen-bin
 moc-pulse
 nwg-launchers
-oh-my-posh
 opencode-ai-bin
 orca-slicer-bin
 rose-pine-cursor
@@ -19,8 +17,8 @@ rose-pine-hyprcursor
 swayfx
 swaylock-effects
 swayr
+tuxclocker
 ulauncher
 visual-studio-code-bin
 visual-studio-code-insiders-bin
-yuki-iptv
 zapzap

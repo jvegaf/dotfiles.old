@@ -73,3 +73,4 @@
     ~/.tmux.conf: os/linux/config/tmux.conf
     ~/.wezterm.lua: os/linux/config/wezterm.lua
     ~/mimeapps.list: os/linux/config/mimeapps.list
+    ~/.config/conky: os/linux/config/conky

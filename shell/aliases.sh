@@ -12,7 +12,7 @@ alias doc="cd ~/Documents"
 alias dw="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias du="du -hd 1"
-alias dotfiles="cd $DOTFILES_PATH"
+alias dfs="cd $DOTFILES_PATH"
 alias logout="gnome-session-quit --logout"
 alias avcfg="nvim ~/.config/nvim/lua/user/init.lua"
 alias chadcfg="cd ~/.config/nvim/lua/custom"
@@ -23,6 +23,7 @@ alias paru="paru --bottomup"
 alias edalias="nvim $DOTFILES_PATH/shell/aliases.sh"
 alias dfscripts="cd $DOTFILES_PATH/scripts"
 alias ubscripts="cd $DOTFILES_PATH/os/linux/packages/xBuntu"
+alias alscripts="cd $DOTFILES_PATH/os/linux/packages/arch"
 alias run="./run"
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 alias open='xdg-open'
@@ -74,9 +75,6 @@ alias sai="sudo apt install"
 alias aps="apt search"
 alias apu="sudo apt update && sudo apt upgrade -y"
 
-
-
-
 # Utils
 alias rmd='rm -rf'
 alias sb="/bin/subl"
@@ -91,7 +89,7 @@ alias c.='(code $PWD &>/dev/null &)'
 alias cin='(code-insiders $PWD &>/dev/null &)'
 alias v.='(nvim $PWD &>/dev/null &)'
 alias l.='(lapce $PWD &>/dev/null &)'
-alias o.='(nautilus $PWD &>/dev/null &)'
+alias o.='(thunar $PWD &>/dev/null &)'
 alias up='dot package update_all'
 alias py='python'
 alias py3='python3'
