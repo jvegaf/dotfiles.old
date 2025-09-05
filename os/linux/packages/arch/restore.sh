@@ -2,8 +2,8 @@
 
 set -eu pipefail
 
-sudo pacman -S --needed --noconfirm - < pkglist.txt
+sudo pacman -Syu --needed --noconfirm - <pkglist.txt
 
-yay -S --needed --noconfirm - < aurpkglist.txt
+yay -Syu --needed --noconfirm - <aurpkglist.txt
 
 exit 0
