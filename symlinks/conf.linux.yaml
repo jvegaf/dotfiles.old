@@ -30,6 +30,8 @@
     ~/.config/mako: os/linux/config/mako
     ~/.config/mise: os/linux/config/mise
     ~/.config/mpd: os/linux/config/mpd
+    ~/.config/nwg-drawer: os/linux/config/nwg-drawer
+    ~/.config/nwg-launchers: os/linux/config/nwg-launchers
     ~/.config/ncmpcpp: os/linux/config/ncmpcpp
     ~/.config/neofetch: os/linux/config/neofetch
     ~/.config/neovide: os/linux/config/neovide
@@ -52,6 +54,7 @@
     ~/.config/sublime-text: editors/sublime
     ~/.config/sxhkd: os/linux/config/sxhkd
     ~/.config/sway: os/linux/config/sway
+    ~/.config/swayr: os/linux/config/swayr
     ~/.config/tealdeer: os/linux/config/tealdeer
     ~/.config/terminator: os/linux/config/terminator
     ~/.config/termite: os/linux/config/termite
