@@ -1,0 +1,64 @@
+#!/bin/bash
+
+# set -euo fails
+sudo apt install \
+  alacritty \
+  arandr \
+  bat \
+  blueman \
+  btop \
+  dkms \
+  dmenu \
+  feh \
+  flameshot \
+  font-manager \
+  fonts-dejavu \
+  fonts-droid-fallback \
+  fonts-font-awesome \
+  fonts-hack-ttf \
+  fonts-jetbrains-mono \
+  fonts-roboto \
+  fonts-ubuntu \
+  fzf \
+  gnome-disk-utility \
+  gnome-font-viewer \
+  gnome-keyring \
+  i3-wm \
+  i3blocks \
+  i3lock \
+  i3status \
+  iwd \
+  jq \
+  kitty \
+  libpulse0 \
+  lsd \
+  network-manager \
+  network-manager-gnome \
+  picom \
+  pipx \
+  polybar \
+  ranger \
+  rofi \
+  rxvt-unicode \
+  tmux \
+  tree \
+  unar \
+  unrar \
+  vim \
+  vlc \
+  w3m \
+  wireless-tools \
+  wireplumber \
+  wl-clipboard \
+  xclip \
+  xdg-desktop-portal-gnome \
+  xdg-user-dirs-gtk \
+  xdg-utils \
+  xinit \
+  xsel \
+  xss-lock \
+  xterm \
+  yelp \
+  yt-dlp \
+  zsh \
+  zsh-syntax-highlighting
