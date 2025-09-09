@@ -71,7 +71,7 @@ gaps outer 3
 #title_align center
 
 # Use Mouse+$mod to drag floating windows to their wanted position
-floating_modifier $mod
+floating_modifier $alt
 
 # switch/iterate between workspaces
 bindsym $mod+Tab workspace next
@@ -154,6 +154,8 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to update i3)
 bindsym $mod+Shift+r restart
 
+bindsym $mod+slash exec --no-startup-id 1password show --clip
+
 # keybinding in fancy rofi (automated):
 bindsym F1 exec --no-startup-id ~/.config/i3/scripts/keyhint-2
 bindsym F12 exec --no-startup-id ~/.config/i3/scripts/window_class
@@ -207,10 +209,10 @@ bindsym $mod+g layout tabbed
 bindsym $mod+n layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+Shift+space focus mode_toggle
 
 # focus the parent container
 # bindsym $mod+a focus parent
@@ -290,6 +292,12 @@ set $ws10 "10"
 #     use    xprop | grep WM_CLASS
 
 
+
+
+
+#Window Rules
+
+
 assign [class="Xfce4-terminal"]  $ws1
 assign [class="wezterm"]         $ws1
 assign [class="(?i)firefox"]     $ws2
@@ -300,12 +308,12 @@ assign [class="Thonny"]          $ws3
 assign [class="Code"]            $ws3
 assign [class="Code-Insiders"]   $ws3
 assign [class="Harmony"]         $ws3
-assign [class="thunderbird"]     $ws4
+assign [class="Symphony"]        $ws3
+# assign [class="1Password""]      $ws4
 assign [class="OrcaSlicer"]      $ws4
 assign [class="TelegramDesktop"] $ws5
 assign [class="FreeCAD"]         $ws5
 assign [class="KiCAD"]           $ws5
-assign [class="Symphony"]        $ws3
 
 # automatic set focus new window if it opens on another workspace than the current:
 for_window [class="(?i)Xfce4-terminal"]   focus
@@ -455,12 +463,14 @@ exec --no-startup-id nm-applet
 
 # set floating (nontiling) for apps needing it
 for_window [class="Yad" instance="yad"] floating enable
+for_window [class="1Password" instance="1password"] floating enable
+for_window [class="Nm-connection-editor" instance="nm-connection-editor"] floating enable
 for_window [class="Galculator" instance="galculator"] floating enable
 for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
 
 # set floating (nontiling) for special apps
 for_window [class="Xsane" instance="xsane"] floating enable
-for_window [class="Pavucontrol" instance="pavucontrol"] floating enable
+for_window [class="pavucontrol" instance="pavucontrol"] floating enable
 for_window [class="qt5ct" instance="qt5ct"] floating enable
 for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
 for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enable

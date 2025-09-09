@@ -1,5 +1,0 @@
-[plugin]
-deps = [{ use = "dedukun/relative-motions", rev = "df97039" }, { use = "dawsers/dual-pane", rev = "c2fed12" }]
-
-[flavor]
-deps = []

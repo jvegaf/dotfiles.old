@@ -21,7 +21,6 @@ iwd
 jq
 kitty
 lazygit
-libpulse
 lsd
 mdcat
 network-manager-applet
@@ -30,7 +29,6 @@ picom
 polybar
 ranger
 rofi
-rxvt-unicode
 tmux
 tree
 ttf-dejavu-nerd
@@ -47,7 +45,6 @@ vim
 vkd3d
 vlc
 w3m
-wezterm
 wireless_tools
 wireplumber
 wl-clipboard

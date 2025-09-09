@@ -44,3 +44,4 @@ os/linux/config/OrcaSlicer/cache
 os/linux/config/xfce4
 editors/sublime/Local
 os/linux/config/btop/btop.log
+os/linux/config/yazi/plugins/*

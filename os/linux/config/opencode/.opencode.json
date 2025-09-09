@@ -1,4 +1,5 @@
 {
+  "$schema": "https://opencode.ai/config.json",
   "data": {},
   "providers": {
     "copilot": {
@@ -18,3 +19,4 @@
   },
   "shell": {}
 }
+

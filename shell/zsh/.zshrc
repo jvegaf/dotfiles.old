@@ -17,6 +17,7 @@ setopt HIST_FCNTL_LOCK
 setopt +o nomatch
 # setopt autopushd
 
+eval "$(mise activate zsh)"
 # Start zim
 source "$ZIM_HOME/init.zsh"
 # source "$DOTFILES_PATH/shell/zsh/sudo.plugin.zsh"
