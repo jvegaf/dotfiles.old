@@ -4,8 +4,8 @@
       create: true
       force: true
 - link:
-    ~/.Xresources: os/linux/.Xresources
     ~/.FlatCAM: os/linux/config/FlatCAM
+    ~/.Xresources: os/linux/.Xresources
     ~/.config/FreeCAD: os/linux/config/FreeCAD
     ~/.config/OrcaSlicer: os/linux/config/OrcaSlicer
     ~/.config/PrusaSlicer: os/linux/config/PrusaSlicer
@@ -14,8 +14,10 @@
     ~/.config/awesome: os/linux/config/awesome
     ~/.config/bspwm: os/linux/config/bspwm
     ~/.config/btop: os/linux/config/btop
+    ~/.config/conky: os/linux/config/conky
     ~/.config/dunst: os/linux/config/dunst
     ~/.config/eww: os/linux/config/eww
+    ~/.config/fastfetch: os/linux/config/fastfetch
     ~/.config/foot: os/linux/config/foot
     ~/.config/fuzzel: os/linux/config/fuzzel
     ~/.config/ghostty: os/linux/config/ghostty
@@ -26,18 +28,18 @@
     ~/.config/kicad: os/linux/config/kicad
     ~/.config/kitty: os/linux/config/kitty
     ~/.config/kwinrc: os/linux/config/kwinrc
+    ~/.config/lazygit: os/linux/config/lazygit
     ~/.config/libinput-gestures.conf: os/linux/config/gestures/libinput-gestures.conf
     ~/.config/mako: os/linux/config/mako
     ~/.config/mise: os/linux/config/mise
     ~/.config/mpd: os/linux/config/mpd
-    ~/.config/nwg-drawer: os/linux/config/nwg-drawer
-    ~/.config/nwg-launchers: os/linux/config/nwg-launchers
     ~/.config/ncmpcpp: os/linux/config/ncmpcpp
-    ~/.config/neofetch: os/linux/config/neofetch
     ~/.config/neovide: os/linux/config/neovide
     ~/.config/networkmanager-dmenu: os/linux/config/networkmanager-dmenu
     ~/.config/niri: os/linux/config/niri
     ~/.config/nitrogen: os/linux/config/nitrogen
+    ~/.config/nwg-drawer: os/linux/config/nwg-drawer
+    ~/.config/nwg-launchers: os/linux/config/nwg-launchers
     ~/.config/obmenu-generator: os/linux/config/obmenu-generator
     ~/.config/openbox-themes: os/linux/config/openbox-themes
     ~/.config/openbox: os/linux/config/openbox
@@ -50,11 +52,11 @@
     ~/.config/regolith3: os/linux/config/regolith3
     ~/.config/rofi: os/linux/config/rofi
     ~/.config/scripts: os/linux/config/scripts
-    ~/.config/starship: os/linux/config/starship
+    ~/.config/starship.toml: os/linux/config/starship.toml
     ~/.config/sublime-text: editors/sublime
-    ~/.config/sxhkd: os/linux/config/sxhkd
     ~/.config/sway: os/linux/config/sway
     ~/.config/swayr: os/linux/config/swayr
+    ~/.config/sxhkd: os/linux/config/sxhkd
     ~/.config/tealdeer: os/linux/config/tealdeer
     ~/.config/terminator: os/linux/config/terminator
     ~/.config/termite: os/linux/config/termite
@@ -76,4 +78,3 @@
     ~/.tmux.conf: os/linux/config/tmux.conf
     ~/.wezterm.lua: os/linux/config/wezterm.lua
     ~/mimeapps.list: os/linux/config/mimeapps.list
-    ~/.config/conky: os/linux/config/conky

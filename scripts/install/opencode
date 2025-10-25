@@ -10,4 +10,4 @@
 ##? Usage:
 ##?   sdkman
 
-curl -fsSL https://raw.githubusercontent.com/opencode-ai/opencode/refs/heads/main/install | bash
+curl -fsSL https://opencode.ai/install | bash

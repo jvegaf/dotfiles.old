@@ -16,7 +16,6 @@
     "name": "PLA 0.15mm DETAIL @ Aquila Pro Klipper",
     "outer_wall_acceleration": "1000",
     "outer_wall_speed": "35",
-    "precise_outer_wall": "1",
     "print_settings_id": "PLA 0.15mm DETAIL @ Aquila Pro Klipper",
     "sparse_infill_density": "30%",
     "sparse_infill_speed": "60",
@@ -28,6 +27,6 @@
     "travel_speed": "100",
     "version": "2.3.0.3",
     "wall_loops": "4",
-    "wall_sequence": "inner-outer-inner wall",
+    "wall_sequence": "outer wall/inner wall",
     "xy_hole_compensation": "0.1"
 }

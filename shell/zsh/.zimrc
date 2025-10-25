@@ -5,7 +5,7 @@ zmodule zimfw/input
 zmodule zsh-users/zsh-autosuggestions
 zmodule zsh-users/zsh-syntax-highlighting
 zmodule zimfw/completion
-zmodule romkatv/powerlevel10k
+# zmodule romkatv/powerlevel10k
 zmodule MikeDacre/tmux-zsh-vim-titles
 
 zhighlighters=(main brackets)
