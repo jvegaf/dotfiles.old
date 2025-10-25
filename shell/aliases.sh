@@ -123,10 +123,10 @@ alias pacdel='sudo pacman -Rns'
 # Get the error messages from journalctl
 alias jctl="journalctl -p 3 -xb"
 
-alias perfmode='cpumode performance'
-alias savemode='cpumode powersave'
-alias schedmode='cpumode schedutil'
-alias currmode='cpumode current'
+alias perfmode='dot system cpumode performance'
+alias savemode='dot system cpumode powersave'
+alias schedmode='dot system cpumode schedutil'
+alias currmode='dot system cpumode current'
 
 alias winreb='sudo grub-reboot 4 && sudo reboot'
 alias sysd='sudo systemd-manager-tui'

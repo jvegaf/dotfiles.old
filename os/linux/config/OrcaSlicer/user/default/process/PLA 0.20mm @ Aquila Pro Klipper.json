@@ -1,5 +1,6 @@
 {
-    "brim_type": "brim_ears",
+    "brim_type": "outer_only",
+    "brim_width": "10",
     "default_acceleration": "1000",
     "from": "User",
     "gap_infill_speed": "40",
@@ -15,6 +16,8 @@
     "outer_wall_speed": "50",
     "precise_outer_wall": "0",
     "print_settings_id": "PLA 0.20mm @ Aquila Pro Klipper",
+    "seam_slope_conditional": "1",
+    "seam_slope_type": "external",
     "skirt_distance": "5",
     "skirt_height": "1",
     "skirt_loops": "1",
