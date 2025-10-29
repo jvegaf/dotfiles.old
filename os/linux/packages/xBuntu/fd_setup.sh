@@ -2,6 +2,8 @@
 
 set -euo pipefail
 
+sudo apt remove -y fd-find
+
 FD_VERSION=$(curl -s "https://api.github.com/repos/sharkdp/fd/releases/latest" | grep -Po '"tag_name": "v\K[0-9.]+')
 
 cd /tmp

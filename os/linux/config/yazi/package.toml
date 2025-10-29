@@ -4,11 +4,6 @@ rev = "a603d9e"
 hash = "e02a788e5b8ae0fb47fd0193dda589cc"
 
 [[plugin.deps]]
-use = "WhoSowSee/whoosh"
-rev = "b1c1083"
-hash = "9e2389ffac61f6727cf2c669d46851a2"
-
-[[plugin.deps]]
 use = "yazi-rs/plugins:smart-paste"
 rev = "8f1d971"
 hash = "75fd60b2df7115e0a6ca31a6a804d320"

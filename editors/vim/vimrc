@@ -1,4 +1,4 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""               
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""               
 "               
 "               ██╗   ██╗██╗███╗   ███╗██████╗  ██████╗
 "               ██║   ██║██║████╗ ████║██╔══██╗██╔════╝
@@ -109,21 +109,70 @@ call plug#begin()
   Plug 'preservim/nerdtree'
   Plug 'itchyny/lightline.vim'
   Plug 'chrisbra/colorizer'
+  Plug 'Yggdroot/indentLine'
+  Plug 'tpope/vim-rhubarb' " required by fugitive to :GBrowse
+  Plug 'joshdick/onedark.vim'
   Plug 'NLKNguyen/papercolor-theme'
   Plug 'dracula/vim', { 'as': 'dracula' }
+  Plug 'scrooloose/nerdtree'
+  Plug 'jistr/vim-nerdtree-tabs'
+  Plug 'tpope/vim-commentary'
+  Plug 'tpope/vim-fugitive'
+  Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
+  Plug 'airblade/vim-gitgutter'
+  Plug 'vim-scripts/grep.vim'
+  Plug 'skanehira/docker.vim'
+  Plug 'skanehira/docker-compose.vim'
+  Plug 'christoomey/vim-tmux-navigator'
+
+
 
 call plug#end()
 
 " }}}
 
+" IndentLine
+let g:indentLine_enabled = 1
+let g:indentLine_concealcursor = ''
+let g:indentLine_char = '┆'
+let g:indentLine_faster = 1
+
+"" NERDTree configuration
+let g:NERDTreeChDirMode=2
+let g:NERDTreeIgnore=['node_modules','\.rbc$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__']
+let g:NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$', '\.bak$', '\~$']
+let g:NERDTreeShowBookmarks=1
+let g:nerdtree_tabs_focus_on_files=1
+let g:NERDTreeMapOpenInTabSilent = '<RightMouse>'
+let g:NERDTreeWinSize = 50
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.db,*.sqlite,*node_modules/
+" nnoremap <silent> <F2> :NERDTreeFind<CR>
+
+" grep.vim
+nnoremap <silent> <leader>f :Rgrep<CR>
+let Grep_Default_Options = '-IR'
+let Grep_Skip_Files = '*.log *.db'
+let Grep_Skip_Dirs = '.git node_modules'
+
+" terminal emulation
+nnoremap <silent> <leader>sh :terminal<CR>
+
+let g:tmux_navigator_no_mappings = 1
+
+
+
 "
 " MAPPINGS --------------------------------------------------------------- {{{
 
 " Set the backslash as the leader key.
-let mapleader = '\'
+let mapleader = ' '
+let maplocalleader = ','
+
+
 
 " Press \\ to jump back to the last cursor position.
-nnoremap <leader>\ ``
+nnoremap <ctrl-o> ``
 
 " Press \p to print the current file to the default printer from a Linux operating system.
 " View available printers:   lpstat -v
@@ -132,15 +181,10 @@ nnoremap <leader>\ ``
 nnoremap <silent> <leader>p :%w !lp<CR>
 
 " Type ii to exit insert mode quickly.
-inoremap ii <Esc>
+inoremap jk <Esc>
 
 " Press the space bar to type the : character in command mode.
 nnoremap <space> :
-
-" Pressing the letter o will open a new line below the current one.
-" Exit insert mode after creating a new line above or below the current line.
-nnoremap o o<esc>
-nnoremap O O<esc>
 
 " Center the cursor vertically when moving to the next word during a search.
 nnoremap n nzz
@@ -179,7 +223,15 @@ noremap <c-right> <c-w><
 " NERDTree specific mappings.
 " Map the F3 key to toggle NERDTree open and close.
 nnoremap <leader>e :NERDTreeToggle<cr>
+nnoremap <leader>q :quit<cr>
+nnoremap W :write<cr>
+nnoremap q :bd<cr>
 
+nnoremap <silent> <c-h> :<C-U>TmuxNavigateLeft<cr>
+nnoremap <silent> <c-j> :<C-U>TmuxNavigateDown<cr>
+nnoremap <silent> <c-k> :<C-U>TmuxNavigateUp<cr>
+nnoremap <silent> <c-l> :<C-U>TmuxNavigateRight<cr>
+" nnoremap <silent> <C-h> :<C-U>TmuxNavigatePrevious<cr>
 " Have nerdtree ignore certain files and directories.
 let NERDTreeIgnore=['\.git$', '\.jpg$', '\.mp4$', '\.ogg$', '\.iso$', '\.pdf$', '\.pyc$', '\.odt$', '\.png$', '\.gif$', '\.db$']
 
@@ -234,7 +286,7 @@ augroup END
 
     " Set the color scheme. 
     " Use :colorscheme <Tab> to view installed themes
-    colorscheme default 
+    colorscheme monokai
 
 " If GUI version of Vim is running set these options.
 if has('gui_running')
