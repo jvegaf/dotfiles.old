@@ -17,9 +17,9 @@
     "edit_sheet_height": -1,
     "edit_sheet_visible_columns": "0 1 2 3 4 5 6 7",
     "edit_sheet_width": -1,
-    "edit_symbol_height": -1,
+    "edit_symbol_height": 587,
     "edit_symbol_visible_columns": "0 1 2 3 4 5 6 7",
-    "edit_symbol_width": -1,
+    "edit_symbol_width": 1111,
     "erc_severities": 48,
     "footprint_preview": true,
     "mark_sim_exclusions": true,
@@ -106,7 +106,7 @@
     "zoom_to_fit": true
   },
   "design_block_chooser": {
-    "height": 679,
+    "height": 647,
     "keep_annotations": false,
     "lib_tree": {
       "column_widths": {
@@ -117,7 +117,7 @@
     "place_as_sheet": false,
     "repeated_placement": false,
     "sash_pos_h": 440,
-    "sash_pos_v": 459,
+    "sash_pos_v": 443,
     "sort_mode": 0,
     "width": 300
   },
@@ -188,9 +188,39 @@
     "esc_clears_net_highlight": true
   },
   "lib_tree": {
-    "column_widths": null,
-    "columns": [],
-    "open_libs": []
+    "column_widths": {
+      "Description": 600,
+      "Item": 300
+    },
+    "columns": [
+      "Item",
+      "Description"
+    ],
+    "open_libs": [
+      "Connector",
+      "Device",
+      "Graphic",
+      "Sensor_Current",
+      "Transistor_BJT",
+      "PCM_Diode_AKL",
+      "Diode",
+      "PCM_Graphics_AKL",
+      "MCU_NXP_S08",
+      "Transistor_FET",
+      "Analog_ADC",
+      "Amplifier_Current",
+      "Sensor_Motion",
+      "Power_Supervisor",
+      "Interface_Optical",
+      "Sensor_Temperature",
+      "Amplifier_Operational",
+      "Regulator_Linear",
+      "RF_GPS",
+      "Sensor_Pressure",
+      "Relay",
+      "PCM_Diode_Schottky_AKL",
+      "Switch"
+    ]
   },
   "lib_view": {
     "cmp_list_width": 150,
@@ -440,16 +470,17 @@
     }
   },
   "symbol_chooser": {
-    "height": -1,
+    "height": 680,
     "keep_symbol": false,
     "place_all_units": true,
-    "sash_pos_h": -1,
-    "sash_pos_v": -1,
+    "sash_pos_h": 440,
+    "sash_pos_v": 460,
     "sort_mode": 0,
-    "width": -1
+    "width": 880
   },
   "system": {
     "file_history": [
+      "/home/th3g3ntl3man/Documents/motor-noise-reductor/motor-noise-reductor.kicad_sch",
       "/home/th3g3ntl3man/Code/R3M1XXX/KiCAD/0x01/Encoders-LCD/Encoders-LCD.kicad_sch",
       "/home/th3g3ntl3man/Downloads/adafruit-backpack/Adafruit 7seg backpack/Adafruit 7seg backpack.kicad_sch",
       "/home/th3g3ntl3man/Downloads/adafruit-backpack/Adafruit 7seg backpack.sch"
@@ -517,9 +548,9 @@
     },
     "maximized": true,
     "mru_path": "",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1172;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SchematicHierarchy;caption=Schematic Hierarchy;state=2099148;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=300;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=378;floaty=92;floatw=200;floath=200|name=PropertiesManager;caption=Properties;state=2099148;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=300;floath=400|name=SelectionFilter;caption=Selection Filter;state=2098636;dir=4;layer=3;row=0;pos=2;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DesignBlocks;caption=Design Blocks;state=2099150;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=800;floath=600|name=NetNavigator;caption=Net Navigator;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=200;floath=200|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=460;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=890;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=197;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(3,6,0)=32|dock_size(4,3,0)=302|dock_size(4,2,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=399|",
-    "pos_x": 26,
-    "pos_y": 23,
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1172;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SchematicHierarchy;caption=Schematic Hierarchy;state=2099148;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=300;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=646;floaty=220;floatw=200;floath=200|name=PropertiesManager;caption=Properties;state=2099148;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=300;floath=400|name=SelectionFilter;caption=Selection Filter;state=2098636;dir=4;layer=3;row=0;pos=2;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DesignBlocks;caption=Design Blocks;state=2099150;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=800;floath=600|name=NetNavigator;caption=Net Navigator;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=200;floath=200|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=460;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=890;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=165;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(3,6,0)=32|dock_size(4,3,0)=302|dock_size(4,2,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=399|",
+    "pos_x": 294,
+    "pos_y": 151,
     "size_x": 1332,
     "size_y": 809,
     "zoom_factors": [

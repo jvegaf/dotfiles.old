@@ -45,3 +45,4 @@ os/linux/config/xfce4
 editors/sublime/Local
 os/linux/config/btop/btop.log
 os/linux/config/yazi/plugins/*
+os/linux/config/kicad/9.0/installed_packages.json

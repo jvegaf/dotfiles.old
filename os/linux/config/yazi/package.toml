@@ -35,8 +35,8 @@ hash = "4ee57085277d616acfa0ef1fef37dc00"
 
 [[plugin.deps]]
 use = "ruudjhuu/f3d-preview"
-rev = "f498e1b"
-hash = "93dc2231626ba213c30b9a6d48a776b2"
+rev = "713e8d0"
+hash = "248ffdf21c7006cf32960624db2db586"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:piper"
