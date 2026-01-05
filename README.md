@@ -9,12 +9,12 @@
 ### On '*xBuntu*' distros
 ```bash
 sudo apt install zsh curl git -y && \
-bash <(curl -s https://raw.githubusercontent.com/jvegaf/dotfiles/main/installer)
+bash <(curl -s https://raw.githubusercontent.com/jvegaf/dotfiles.old/main/installer)
 ```
 </br>
 
 ### On Arch Linux
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/jvegaf/dotfiles/main/installer)
+bash <(curl -s https://raw.githubusercontent.com/jvegaf/dotfiles.old/main/installer)
 ```
