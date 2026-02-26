@@ -37,10 +37,10 @@ elif grep -qEi "(cachyos)" /proc/version &>/dev/null; then
   log::note "Installing NVM "
 elif grep -qEi "(ubuntu)" /proc/version &>/dev/null; then
   log::note "Installing fonts "
+  install_fonts
   log::note "Installing Linux 🐧 packages"
   install_common_packages
-  install_fonts
-  install_flatpak
+  # install_flatpak
   install_linux_extra
   # install_nvm
 elif grep -qEi "(microsoft|WSL)" /proc/version &>/dev/null; then

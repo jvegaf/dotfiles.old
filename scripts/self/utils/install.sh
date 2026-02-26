@@ -50,15 +50,19 @@ install_linux_extra() {
   # sh "$DOTFILES_PATH/os/linux/packages/xBuntu/brave_browser.sh"
   # echo "Brave installed"
 
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/docker_setup.sh"
-  echo "Docker installed"
+  # sh "$DOTFILES_PATH/os/linux/packages/xBuntu/docker_setup.sh"
+  # echo "Docker installed"
 
   #emoji-menu       https://github.com/jchook/emoji-menu
   wget 'https://bit.ly/emoji-menu'
   chmod +x emoji-menu
   sudo mv emoji-menu /usr/local/bin
 
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/sdkman-setup.sh"
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/fd_setup.sh"
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/alacritty.sh"
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/platformio.sh"
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/lazygit-setup.sh"
+  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/sad-setup.sh"
 
   sh "$DOTFILES_PATH/os/linux/packages/xBuntu/neovim-stable.sh"
 }

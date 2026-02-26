@@ -2,6 +2,6 @@
 
 set -eu pipefail
 
-yay -Syu --needed --noconfirm - <i3wm-pkgs.txt
+paru -Syu --needed --noconfirm - <i3wm-pkgs.txt
 
 exit 0
