@@ -12,3 +12,5 @@ export SUDO_PROMPT="passwd: "
 export PATH="$PATH:/home/th3g3ntl3man/.lmstudio/bin"
 # End of LM Studio CLI section
 export GTK_THEME=Adwaita-dark
+
+. "$HOME/.local/bin/env"

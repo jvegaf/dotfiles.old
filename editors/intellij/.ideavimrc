@@ -13,14 +13,37 @@ let maplocalleader=','
 
 set clipboard+=unnamedplus
 
-set surround  "usage: https://github.com/tpope/vim-surround
-set easymotion  " jump-motion (required idea plugin: IdeaVim-EasyMotion, AceJump)
-set commentary
+" Highlight copied text
+Plug 'machakann/vim-highlightedyank'
+" Commentary plugin
+Plug 'tpope/vim-commentary'
+" set surround  "usage: https://github.com/tpope/vim-surround
+Plug 'tpope/vim-surround'
+" set easymotion  " jump-motion (required idea plugin: IdeaVim-EasyMotion, AceJump)
+Plug 'easymotion/vim-easymotion'
+" set commentary
+Plug 'terryma/vim-multiple-cursors'" Remap multiple-cursors shortcuts to match terryma/vim-multiple-cursors
+nmap <C-n> <Plug>NextWholeOccurrence
+xmap <C-n> <Plug>NextWholeOccurrence
+nmap g<C-n> <Plug>NextOccurrence
+xmap g<C-n> <Plug>NextOccurrence
+xmap <C-x> <Plug>SkipOccurrence
+xmap <C-p> <Plug>RemoveOccurrence
+
+" Note that the default <A-n> and g<A-n> shortcuts don't work on Mac due to dead keys.
+" <A-n> is used to enter accented text e.g. ñ
+" Feel free to pick your own mappings that are not affected. I like to use <leader>
+nmap <leader><C-n> <Plug>AllWholeOccurrences
+xmap <leader><C-n> <Plug>AllWholeOccurrences
+nmap <leader>g<C-n> <Plug>AllOccurrences
+xmap <leader>g<C-n> <Plug>AllOccurrences
+
 set ReplaceWithRegister  "usage: https://github.com/vim-scripts/ReplaceWithRegister
 set hlsearch
 set incsearch
 set number relativenumber
 set exchange  " usage: https://github.com/tommcdo/vim-exchange
+set mini-ai
 set ignorecase
 set smartcase
 set gdefault
@@ -29,7 +52,11 @@ set ideamarks
 set idearefactormode=normal
 set ideastatusicon=gray
 set highlightedyank
-set NERDTree
+" set NERDTree
+Plug 'preservim/nerdtree'
+
+Plug 'justinmk/vim-sneak'
+
 set vim-paragraph-motion
 set textobj-indent
 set textobj-entire
@@ -258,6 +285,10 @@ nmap \\v <Action>(VimActions)
 nmap <leader>ir <Action>(IdeaVim.ReloadVimRc.reload)
 map <ESC><ESC> :nohlsearch<CR>
 
+" Copilot
+nmap <leader>ac <Action>(copilot.chat.show)
+nmap <leader>ai <Action>(copilot.chat.inline)
+
 
 
 " translation (required idea plugin: Translation)
@@ -280,4 +311,5 @@ vnoremap p "_dP
 
 " alias
 nnoremap <C-a> ggVG"+y
+
 

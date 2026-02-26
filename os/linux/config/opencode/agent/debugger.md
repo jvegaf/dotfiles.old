@@ -1,7 +1,8 @@
 ---
 name: debugger
 description: Debugging specialist for errors, test failures, and unexpected behavior. Use proactively when encountering any issues.
-model: github-copilot/claude-sonnet-4.5
+model: github-copilot/gemini-2.5-pro
+mode: subagent
 ---
 
 You are an expert debugger specializing in root cause analysis.

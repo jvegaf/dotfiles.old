@@ -1,7 +1,6 @@
 ---
 description: Coding agent
 mode: primary
-model: github-copilot/claude-sonnet-4.5
 temperature: 0.3
 tools:
   write: true
@@ -13,6 +12,7 @@ tools:
   glob: true
   webfetch: true
   patch: true
+  converse: true
 ---
 
 A coding agent that writes great code based on best practices and codebase conventions.

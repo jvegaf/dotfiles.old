@@ -5,3 +5,5 @@ source ~/.bashrc
 export PATH="$PATH:/home/th3g3ntl3man/.lmstudio/bin"
 # End of LM Studio CLI section
 
+
+. "$HOME/.local/bin/env"

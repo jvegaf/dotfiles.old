@@ -5,58 +5,58 @@ hash = "e02a788e5b8ae0fb47fd0193dda589cc"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:smart-paste"
-rev = "8f1d971"
-hash = "75fd60b2df7115e0a6ca31a6a804d320"
+rev = "b224ddf"
+hash = "3f8d49413bc8691b4c652eb417a20178"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:jump-to-char"
-rev = "8f1d971"
-hash = "ce67445ebb1bf3d97b8e44f50904b2c5"
+rev = "b224ddf"
+hash = "7a4b4237223aaa94e589d1c01a23542a"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:diff"
-rev = "8f1d971"
-hash = "82376c3381ae915fd799d40f4dd4c6cd"
+rev = "b224ddf"
+hash = "8b1af6b5a69797ee951f2a80ce570818"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:chmod"
-rev = "8f1d971"
-hash = "8ad3e90b079190b4905f24a44f4ca06b"
+rev = "b224ddf"
+hash = "815dd20e682dec52bb92864037fa5f53"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "8f1d971"
-hash = "63b6c222bf2103b3023389dde5e2ecfe"
+rev = "b224ddf"
+hash = "270915fa8282a19908449530ff66f7e2"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:vcs-files"
-rev = "8f1d971"
-hash = "4ee57085277d616acfa0ef1fef37dc00"
+rev = "b224ddf"
+hash = "f6e6a829c6dc6c900a75bebe422a5c33"
 
 [[plugin.deps]]
 use = "ruudjhuu/f3d-preview"
-rev = "713e8d0"
-hash = "248ffdf21c7006cf32960624db2db586"
+rev = "76d115d"
+hash = "6b2008327d65fe374d99f6b6ff007cba"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:piper"
-rev = "8f1d971"
-hash = "64713dcd74daf9ec644883a5895e5d1"
+rev = "b224ddf"
+hash = "384464b6df8cb807425c521f8cd790f3"
 
 [[plugin.deps]]
 use = "KKV9/compress"
-rev = "c264639"
-hash = "e17c11b605d989568a1d1741ca17c584"
+rev = "cb6e8ec"
+hash = "424ada4807b20ccd4fc85d1d7c26d1e4"
 
 [[plugin.deps]]
 use = "boydaihungst/gvfs"
-rev = "6db0c60"
-hash = "4351334ef72ea0fb3bbafc6eec8738cf"
+rev = "9d64595"
+hash = "b6f691f01a2122bd94866800d4d12a22"
 
 [[plugin.deps]]
 use = "NoponyAsked/sxiv"
-rev = "8237d90"
-hash = "c1d3be5032ebd56c0731365241c39bd1"
+rev = "525a842"
+hash = "ca5c2ad5cccb94f93f3bf8eb2e9a1421"
 
 [flavor]
 deps = []
