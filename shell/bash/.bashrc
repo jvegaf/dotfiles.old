@@ -81,3 +81,6 @@ export PATH="$PATH:/home/th3g3ntl3man/.lmstudio/bin"
 eval "$(/home/th3g3ntl3man/.local/bin/mise activate bash)"
 
 . "$HOME/.local/bin/env"
+
+# opencode
+export PATH=/home/th3g3ntl3man/.opencode/bin:$PATH
