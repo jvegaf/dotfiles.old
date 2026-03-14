@@ -14,4 +14,4 @@ set -eu pipefail
 
 curl -fsSL https://ollama.com/install.sh | sh
 
-log::note("Ollama installed ✅")
+# log::note("Ollama installed ✅")

@@ -267,3 +267,8 @@ end
 mise activate fish | source
 
 oh-my-posh init fish --config wopian | source
+
+# Added by LM Studio CLI (lms)
+set -gx PATH $PATH /home/th3g3ntl3man/.lmstudio/bin
+# End of LM Studio CLI section
+

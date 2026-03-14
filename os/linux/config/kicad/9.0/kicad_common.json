@@ -1,6 +1,6 @@
 {
   "api": {
-    "enable_server": false,
+    "enable_server": true,
     "interpreter_path": "/usr/bin/python3"
   },
   "appearance": {
@@ -39,7 +39,7 @@
     "useDefaultAuthor": true
   },
   "graphics": {
-    "cairo_antialiasing_mode": 0,
+    "cairo_antialiasing_mode": 1,
     "opengl_antialiasing_mode": 2
   },
   "input": {
@@ -70,7 +70,7 @@
   "netclass_panel": {
     "eeschema_shown_columns": "0 10 11 12 13",
     "pcbnew_shown_columns": "0 1 2 3 4 5 6 7 8 9",
-    "sash_pos": 160
+    "sash_pos": 288
   },
   "package_manager": {
     "sash_pos": 380
@@ -90,6 +90,6 @@
     "pdf_viewer_name": "",
     "text_editor": "nvim",
     "use_system_pdf_viewer": true,
-    "working_dir": "/home/th3g3ntl3man/Documents/motor-noise-reductor"
+    "working_dir": "/home/th3g3ntl3man/Code/R3M1XXX/KiCAD/0x01/Controller-2040"
   }
 }

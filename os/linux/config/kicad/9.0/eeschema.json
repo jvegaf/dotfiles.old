@@ -1,9 +1,9 @@
 {
   "annotation": {
     "automatic": true,
-    "messages_filter": -1,
+    "messages_filter": 58,
     "method": 0,
-    "options": 0,
+    "options": 1,
     "recursive": true,
     "scope": 0,
     "sort_order": 0
@@ -11,15 +11,15 @@
   "appearance": {
     "color_theme": "/home/th3g3ntl3man/.local/share/kicad/9.0/3rdparty/colors/com_github_pointhi_kicad-color-schemes_solarized-dark/solarized-dark.json",
     "default_font": "KiCad Font",
-    "edit_label_height": -1,
+    "edit_label_height": 494,
     "edit_label_visible_columns": "0 1 2 3 4 5 6 7",
-    "edit_label_width": -1,
+    "edit_label_width": 949,
     "edit_sheet_height": -1,
     "edit_sheet_visible_columns": "0 1 2 3 4 5 6 7",
     "edit_sheet_width": -1,
-    "edit_symbol_height": 587,
+    "edit_symbol_height": 603,
     "edit_symbol_visible_columns": "0 1 2 3 4 5 6 7",
-    "edit_symbol_width": 1111,
+    "edit_symbol_width": 1124,
     "erc_severities": 48,
     "footprint_preview": true,
     "mark_sim_exclusions": true,
@@ -39,7 +39,7 @@
     "show_sheet_filename_case_sensitivity_dialog": true
   },
   "aui": {
-    "design_blocks_panel_docked_width": 300,
+    "design_blocks_panel_docked_width": 283,
     "design_blocks_panel_float_height": -1,
     "design_blocks_panel_float_width": -1,
     "design_blocks_show": false,
@@ -60,15 +60,15 @@
       "height": 200,
       "width": 200
     },
-    "properties_panel_width": 300,
+    "properties_panel_width": 283,
     "properties_splitter_proportion": 0.5,
     "schematic_hierarchy_float": false,
     "search_panel_dock_direction": 3,
     "search_panel_height": 110,
     "search_panel_width": 284,
     "show_net_nav_panel": false,
-    "show_properties": true,
-    "show_schematic_hierarchy": true,
+    "show_properties": false,
+    "show_schematic_hierarchy": false,
     "show_search": false
   },
   "autoplace_fields": {
@@ -79,22 +79,22 @@
   "bom": {
     "plugins": [
       {
-        "command": "",
+        "command": "/usr/bin/python3 \"/usr/share/kicad/plugins/bom_csv_grouped_extra.py\" \"%I\" \"%O.csv\"",
         "name": "bom_csv_grouped_extra",
         "path": "bom_csv_grouped_extra.py"
       },
       {
-        "command": "",
+        "command": "/usr/bin/python3 \"/usr/share/kicad/plugins/bom_csv_grouped_by_value.py\" \"%I\" \"%O.csv\"",
         "name": "bom_csv_grouped_by_value",
         "path": "bom_csv_grouped_by_value.py"
       },
       {
-        "command": "",
+        "command": "/usr/bin/python3 \"/usr/share/kicad/plugins/bom_csv_grouped_by_value_with_fp.py\" \"%I\" \"%O.csv\"",
         "name": "bom_csv_grouped_by_value_with_fp",
         "path": "bom_csv_grouped_by_value_with_fp.py"
       }
     ],
-    "selected_plugin": ""
+    "selected_plugin": "bom_csv_grouped_extra"
   },
   "color_picker": {
     "default_tab": 0
@@ -106,7 +106,7 @@
     "zoom_to_fit": true
   },
   "design_block_chooser": {
-    "height": 647,
+    "height": 346,
     "keep_annotations": false,
     "lib_tree": {
       "column_widths": {
@@ -117,9 +117,9 @@
     "place_as_sheet": false,
     "repeated_placement": false,
     "sash_pos_h": 440,
-    "sash_pos_v": 443,
+    "sash_pos_v": 232,
     "sort_mode": 0,
-    "width": 300
+    "width": 283
   },
   "drawing": {
     "auto_start_wires": true,
@@ -149,12 +149,21 @@
   },
   "field_editor": {
     "export_filename": "",
-    "field_widths": {},
-    "height": 0,
-    "page": 0,
+    "field_widths": {
+      "${DNP}": 100,
+      "${EXCLUDE_FROM_BOARD}": 100,
+      "${EXCLUDE_FROM_BOM}": 100,
+      "${QUANTITY}": 100,
+      "Datasheet": 307,
+      "Footprint": 400,
+      "Reference": 100,
+      "Value": 132
+    },
+    "height": 713,
+    "page": 1,
     "scope": 0,
     "selection_mode": 0,
-    "width": 0
+    "width": 1200
   },
   "find_replace": {
     "find_history": [],
@@ -197,29 +206,18 @@
       "Description"
     ],
     "open_libs": [
+      "-- Recently Used --",
+      "-- Already Placed --",
+      "Switch",
       "Connector",
-      "Device",
-      "Graphic",
-      "Sensor_Current",
-      "Transistor_BJT",
-      "PCM_Diode_AKL",
-      "Diode",
-      "PCM_Graphics_AKL",
-      "MCU_NXP_S08",
-      "Transistor_FET",
+      "Connector_Generic",
+      "Connector_Generic_MountingPin",
+      "Connector_Generic_Shielded",
+      "74xx",
       "Analog_ADC",
-      "Amplifier_Current",
-      "Sensor_Motion",
-      "Power_Supervisor",
-      "Interface_Optical",
-      "Sensor_Temperature",
-      "Amplifier_Operational",
-      "Regulator_Linear",
-      "RF_GPS",
-      "Sensor_Pressure",
-      "Relay",
-      "PCM_Diode_Schottky_AKL",
-      "Switch"
+      "Driver_LED",
+      "MCU_Texas_MSP430",
+      "Transformer"
     ]
   },
   "lib_view": {
@@ -228,7 +226,7 @@
     "show_pin_electrical_type": true,
     "window": {
       "cursor": {
-        "always_show_cursor": true,
+        "always_show_cursor": false,
         "fullscreen_cursor": false
       },
       "display": 0,
@@ -279,12 +277,12 @@
         "user_grid_y": ""
       },
       "maximized": false,
-      "mru_path": "",
-      "perspective": "",
-      "pos_x": 0,
-      "pos_y": 0,
-      "size_x": 500,
-      "size_y": 400,
+      "mru_path": "/home/th3g3ntl3man/.local/share/kicad/9.0/projects",
+      "perspective": "layout2|",
+      "pos_x": 518,
+      "pos_y": 194,
+      "size_x": 880,
+      "size_y": 680,
       "zoom_factors": [
         0.05,
         0.07,
@@ -333,14 +331,14 @@
     "export_title": false
   },
   "plot": {
-    "background_color": false,
+    "background_color": true,
     "color": true,
     "color_theme": "user",
-    "format": 0,
+    "format": 4,
     "frame_reference": true,
     "hpgl_origin": 0,
     "hpgl_paper_size": 0,
-    "hpgl_pen_size": 0.5,
+    "hpgl_pen_size": 0.49999899999999997,
     "other_open_file_after_plot": false,
     "pdf_hierarchical_links": true,
     "pdf_metadata": true,
@@ -480,15 +478,19 @@
   },
   "system": {
     "file_history": [
-      "/home/th3g3ntl3man/Documents/motor-noise-reductor/motor-noise-reductor.kicad_sch",
       "/home/th3g3ntl3man/Code/R3M1XXX/KiCAD/0x01/Encoders-LCD/Encoders-LCD.kicad_sch",
+      "/home/th3g3ntl3man/Code/R3M1XXX/KiCAD/0x01/FX-Pots/FX-Pots.kicad_sch",
+      "/home/th3g3ntl3man/Code/R3M1XXX/KiCAD/0x01/Controller-2040/Controller-2040.kicad_sch",
+      "/home/th3g3ntl3man/Code/R3M1XXX/KiCAD/0x01/FX-Pads/FX-Pads.kicad_sch",
+      "/home/th3g3ntl3man/Code/bbq20kbd_hw/bbq20_keyboard.kicad_sch",
+      "/home/th3g3ntl3man/Code/R3M1XXX/DemoBox/ht16k33-adapter/ht16k33-adapter.kicad_sch",
       "/home/th3g3ntl3man/Downloads/adafruit-backpack/Adafruit 7seg backpack/Adafruit 7seg backpack.kicad_sch",
       "/home/th3g3ntl3man/Downloads/adafruit-backpack/Adafruit 7seg backpack.sch"
     ],
     "first_run_shown": false,
     "last_imperial_units": 5,
     "last_metric_units": 1,
-    "last_symbol_lib_dir": "",
+    "last_symbol_lib_dir": "/home/th3g3ntl3man/.local/share/kicad/9.0/symbols",
     "max_undo_items": 0,
     "never_show_rescue_dialog": false,
     "show_import_issues": true,
@@ -497,14 +499,14 @@
   "window": {
     "cursor": {
       "always_show_cursor": true,
-      "fullscreen_cursor": false
+      "fullscreen_cursor": true
     },
     "display": 0,
     "grid": {
       "axes_enabled": false,
       "fast_grid_1": 1,
       "fast_grid_2": 2,
-      "last_size": 1,
+      "last_size": 3,
       "line_width": 1.0,
       "min_spacing": 10.0,
       "override_connected": true,
@@ -548,11 +550,11 @@
     },
     "maximized": true,
     "mru_path": "",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1172;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SchematicHierarchy;caption=Schematic Hierarchy;state=2099148;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=300;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=646;floaty=220;floatw=200;floath=200|name=PropertiesManager;caption=Properties;state=2099148;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=300;floath=400|name=SelectionFilter;caption=Selection Filter;state=2098636;dir=4;layer=3;row=0;pos=2;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DesignBlocks;caption=Design Blocks;state=2099150;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=800;floath=600|name=NetNavigator;caption=Net Navigator;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=200;floath=200|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=460;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=890;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=165;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(3,6,0)=32|dock_size(4,3,0)=302|dock_size(4,2,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=399|",
-    "pos_x": 294,
-    "pos_y": 151,
-    "size_x": 1332,
-    "size_y": 809,
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1172;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=46;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SchematicHierarchy;caption=Schematic Hierarchy;state=2099150;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=45;floaty=76;floatw=200;floath=200|name=PropertiesManager;caption=Properties;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=300;floath=400|name=SelectionFilter;caption=Selection Filter;state=2098638;dir=4;layer=3;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DesignBlocks;caption=Design Blocks;state=2099150;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=800;floath=600|name=NetNavigator;caption=Net Navigator;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=200;floath=200|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=460;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=890;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=175;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(3,6,0)=46|dock_size(4,2,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=285|",
+    "pos_x": 0,
+    "pos_y": 0,
+    "size_x": 950,
+    "size_y": 505,
     "zoom_factors": [
       0.05,
       0.07,

@@ -48,7 +48,7 @@
     ],
     "name": "Aquila Pro Klipper",
     "nozzle_type": "brass",
-    "print_host": "http://192.168.1.199",
+    "print_host": "http://192.168.8.199",
     "printable_area": [
         "0x0",
         "235x0",
@@ -57,10 +57,13 @@
     ],
     "printer_settings_id": "Aquila Pro Klipper",
     "retraction_length": [
-        "0.4"
+        "0.3"
     ],
     "thumbnails": "300x300/PNG",
     "version": "2.3.0.3",
+    "z_hop": [
+        "0.3"
+    ],
     "z_hop_types": [
         "Slope Lift"
     ]

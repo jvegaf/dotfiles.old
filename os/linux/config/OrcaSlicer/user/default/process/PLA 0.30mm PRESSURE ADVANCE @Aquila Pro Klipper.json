@@ -23,7 +23,7 @@
     "top_surface_acceleration": "1000",
     "top_surface_speed": "50",
     "travel_acceleration": "1000",
-    "travel_speed": "150",
+    "travel_speed": "200",
     "version": "2.3.0.3",
     "wall_loops": "2",
     "wall_sequence": "inner-outer-inner wall"
