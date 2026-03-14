@@ -6,6 +6,7 @@
 - link:
     ~/.FlatCAM: os/linux/config/FlatCAM
     ~/.Xresources: os/linux/.Xresources
+    ~/.xinitrc: os/linux/.xinitrc
     ~/.config/FreeCAD: os/linux/config/FreeCAD
     ~/.config/OrcaSlicer: os/linux/config/OrcaSlicer
     ~/.config/PrusaSlicer: os/linux/config/PrusaSlicer

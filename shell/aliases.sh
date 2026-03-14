@@ -115,6 +115,7 @@ alias bt='btop'
 
 alias nvdprf='nvidia-settings -a "[gpu:0]/GpuPowerMizerMode=2"'
 alias ip='ip -color'
+alias darkmode='gsettings set org.gnome.desktop.interface color-scheme prefer-dark'
 
 # Cleanup orphaned packages
 alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
@@ -136,8 +137,11 @@ alias expl='/mnt/c/Windows/explorer.exe'
 alias winyank='/mnt/c/Users/josev/scoop/shims/win32yank.exe'
 
 #VPN
-alias vpnup='sudo wg-quick up wg0'
-alias vpndown='sudo wg-quick down wg0'
+# alias vpnup='sudo wg-quick up wg0'
+# alias vpndown='sudo wg-quick down wg0'
+# alias vpnstatus='sudo systemctl status wg-quick@wg0'
+alias vpnup='dot system vpn up'
+alias vpndown='dot system vpn down'
 alias vpnstatus='sudo systemctl status wg-quick@wg0'
 # status vpn tunnel sudo wg
 
@@ -158,4 +162,3 @@ alias dkd='docker compose down'
 alias lzd='lazydocker'
 
 # vim: ft=sh
-
