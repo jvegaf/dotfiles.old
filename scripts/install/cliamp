@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# set -eu pipefail
+
+curl -fsSL https://raw.githubusercontent.com/bjarneo/cliamp/HEAD/install.sh | sh
+
+echo "Cliamp installed"
+
+exit 0

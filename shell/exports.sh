@@ -9,6 +9,7 @@ export EDITOR="/usr/bin/nvim"
 export M2_HOME="$HOME/.sdkman/candidates/maven/current"
 # export WINEPREFIX="$HOME/.fusion360/wineprefixes/default"
 # export EDITOR="$HOME/.local/bin/lvim"
+export FILE_BROWSER="nemo"
 # ------------------------------------------------------------------------------
 # Languages
 # ------------------------------------------------------------------------------
