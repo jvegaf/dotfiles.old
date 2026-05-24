@@ -20,9 +20,6 @@ install_wslu() {
 }
 
 install_common_packages() {
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/common_packages.sh"
-  echo "Common packages installed"
-
   sh "$DOTFILES_PATH/os/linux/packages/xBuntu/1password_setup.sh"
   echo "1Password installed"
 
@@ -64,7 +61,7 @@ install_linux_extra() {
   sh "$DOTFILES_PATH/os/linux/packages/xBuntu/lazygit-setup.sh"
   sh "$DOTFILES_PATH/os/linux/packages/xBuntu/sad-setup.sh"
 
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/neovim-stable.sh"
+  # sh "$DOTFILES_PATH/os/linux/packages/xBuntu/neovim-stable.sh"
 }
 
 install_nvm() {

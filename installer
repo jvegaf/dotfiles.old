@@ -31,7 +31,7 @@ else
 fi
 
 export PATH="$HOME/.cargo/bin:$PATH"
-cargo install docpars git-delta bat grip-grab
+cargo install docpars bat grip-grab
 
 export DOTFILES_PATH="$HOME/.dotfiles"
 echo "👉  Cloning into: '$DOTFILES_PATH'"
@@ -46,10 +46,15 @@ echo "Symlinks apply"
 "$DOTLY_PATH/bin/dot" symlinks apply
 
 echo "Installing Linux Packages"
+"$DOTLY_PATH/bin/dot" install common-pkgs
+"$DOTLY_PATH/bin/dot" install neovim
 "$DOTLY_PATH/bin/dot" install mise
 "$DOTLY_PATH/bin/dot" install fastfetch
 "$DOTLY_PATH/bin/dot" install starship
 "$DOTLY_PATH/bin/dot" install uvx
 "$DOTLY_PATH/bin/dot" install opencode
+"$DOTLY_PATH/bin/dot" install 1password
+"$DOTLY_PATH/bin/dot" install docker
+"$DOTLY_PATH/bin/dot" install github-cli
 
 "$DOTLY_PATH/bin/dot" self install_custom

@@ -39,7 +39,7 @@ elif grep -qEi "(ubuntu)" /proc/version &>/dev/null; then
   log::note "Installing fonts "
   install_fonts
   log::note "Installing Linux 🐧 packages"
-  install_common_packages
+  # install_common_packages
   # install_flatpak
   install_linux_extra
   # install_nvm
