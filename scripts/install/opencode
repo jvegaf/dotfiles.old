@@ -1,13 +1,9 @@
 #!/usr/bin/env bash
 
-# set -eu pipefail
-
-# source "$DOTFILES_PATH/scripts/install/utils/install.sh"
-
-##? Install Node Version Manager
-#?? 1.0.0
-##?
-##? Usage:
-##?   sdkman
-
 curl -fsSL https://opencode.ai/install | bash
+
+echo "Opencode installed successfully!"
+
+curl -fsSL https://plannotator.ai/install.sh | bash
+
+echo "Plannotator plugin installed successfully!"
