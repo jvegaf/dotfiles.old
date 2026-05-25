@@ -73,4 +73,4 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 
 
-[ -f "$HOME/.local/bin/env" ] && . "$HOME/.local/bin/env"
+[[ -f "$HOME/.local/bin/env" ]] && . "$HOME/.local/bin/env"

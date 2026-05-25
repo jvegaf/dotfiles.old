@@ -1,27 +1,7 @@
 [[plugin.deps]]
-use = "dedukun/relative-motions"
-rev = "a603d9e"
-hash = "e02a788e5b8ae0fb47fd0193dda589cc"
-
-[[plugin.deps]]
-use = "yazi-rs/plugins:smart-paste"
+use = "yazi-rs/plugins:full-border"
 rev = "be524fb"
-hash = "3f8d49413bc8691b4c652eb417a20178"
-
-[[plugin.deps]]
-use = "yazi-rs/plugins:jump-to-char"
-rev = "be524fb"
-hash = "7a4b4237223aaa94e589d1c01a23542a"
-
-[[plugin.deps]]
-use = "yazi-rs/plugins:diff"
-rev = "be524fb"
-hash = "8b1af6b5a69797ee951f2a80ce570818"
-
-[[plugin.deps]]
-use = "yazi-rs/plugins:chmod"
-rev = "be524fb"
-hash = "f0c8c378184d5f8abd1b095a443d336d"
+hash = "7b625412411be411153886894d9acaf"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
@@ -29,34 +9,19 @@ rev = "be524fb"
 hash = "88e56a64b7ce7c4314427452343fef17"
 
 [[plugin.deps]]
-use = "yazi-rs/plugins:vcs-files"
-rev = "be524fb"
-hash = "6b141fbed3c74b45558fbc7088c805ee"
+use = "DreamMaoMao/searchjump"
+rev = "8a1a785"
+hash = "36bf4d772125a51af4ef440c06820e32"
 
 [[plugin.deps]]
-use = "ruudjhuu/f3d-preview"
-rev = "76d115d"
-hash = "6b2008327d65fe374d99f6b6ff007cba"
+use = "Rolv-Apneseth/starship"
+rev = "a837101"
+hash = "635b0feb9215772d22020eb0abf0bb34"
 
 [[plugin.deps]]
-use = "yazi-rs/plugins:piper"
-rev = "be524fb"
-hash = "384464b6df8cb807425c521f8cd790f3"
-
-[[plugin.deps]]
-use = "KKV9/compress"
-rev = "e60e122"
-hash = "fbaf0adc8efc59555b748d36aab62d40"
-
-[[plugin.deps]]
-use = "boydaihungst/gvfs"
-rev = "3abc0a2"
-hash = "eed89e75671723c8f9390a2862af0e4e"
-
-[[plugin.deps]]
-use = "NoponyAsked/sxiv"
-rev = "525a842"
-hash = "ca5c2ad5cccb94f93f3bf8eb2e9a1421"
+use = "ndtoan96/ouch"
+rev = "406ce6c"
+hash = "f5afc904d5106ee368c8aa2ded43bd74"
 
 [flavor]
 deps = []
