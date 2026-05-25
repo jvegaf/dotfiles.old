@@ -47,7 +47,7 @@ echo "Symlinks apply"
 
 echo "Installing Linux Packages"
 "$DOTLY_PATH/bin/dot" install common-pkgs
-"$DOTLY_PATH/bin/dot" install neovim
+"$DOTLY_PATH/bin/dot" install neovim-stable
 "$DOTLY_PATH/bin/dot" install mise
 "$DOTLY_PATH/bin/dot" install fastfetch
 "$DOTLY_PATH/bin/dot" install starship

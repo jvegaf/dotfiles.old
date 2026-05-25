@@ -71,4 +71,6 @@ export PATH=/home/th3g3ntl3man/.opencode/bin:$PATH
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-. "$HOME/.local/bin/env"
+
+
+[ -f "$HOME/.local/bin/env" ] && . "$HOME/.local/bin/env"
