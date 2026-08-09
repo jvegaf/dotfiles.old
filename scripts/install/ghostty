@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -euo pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+
+
+cd /tmp
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mkasberg/ghostty-ubuntu/HEAD/install.sh)"
+
+log::note "Ghostty installed ✅"
+
+exit 0

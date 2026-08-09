@@ -17,7 +17,6 @@ setopt HIST_FCNTL_LOCK
 setopt +o nomatch
 # setopt autopushd
 
-eval "$(mise activate zsh)"
 # Start zim
 source "$ZIM_HOME/init.zsh"
 # source "$DOTFILES_PATH/shell/zsh/sudo.plugin.zsh"
@@ -53,11 +52,10 @@ bindkey "\e[3;5~" kill-word
 #setxkbmap -option caps:backspace
 # eval "$(zellij setup --generate-auto-start zsh)"
 
-eval "$(mise activate zsh)"
-
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/th3g3ntl3man/.lmstudio/bin"
 
+eval "$(mise activate zsh)"
 eval "$(starship init zsh)"
 
 # opencode
@@ -66,11 +64,6 @@ export PATH=/home/th3g3ntl3man/.opencode/bin:$PATH
 [[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
 
 [[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code-insiders --locate-shell-integration-path zsh)"
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-
 
 
 [[ -f "$HOME/.local/bin/env" ]] && . "$HOME/.local/bin/env"
