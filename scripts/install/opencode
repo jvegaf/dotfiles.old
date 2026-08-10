@@ -7,3 +7,9 @@ echo "Opencode installed successfully!"
 curl -fsSL https://plannotator.ai/install.sh | bash
 
 echo "Plannotator plugin installed successfully!"
+
+curl -fsSL https://raw.githubusercontent.com/Gentleman-Programming/gentle-ai/main/scripts/install.sh | bash
+
+echo "Gentleman AI installed successfully!"
+
+exit 0
