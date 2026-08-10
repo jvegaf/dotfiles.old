@@ -55,11 +55,11 @@ install_linux_extra() {
   chmod +x emoji-menu
   sudo mv emoji-menu /usr/local/bin
 
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/fd_setup.sh"
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/alacritty.sh"
+  # sh "$DOTFILES_PATH/os/linux/packages/xBuntu/fd_setup.sh"
+  # sh "$DOTFILES_PATH/os/linux/packages/xBuntu/alacritty.sh"
   sh "$DOTFILES_PATH/os/linux/packages/xBuntu/platformio.sh"
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/lazygit-setup.sh"
-  sh "$DOTFILES_PATH/os/linux/packages/xBuntu/sad-setup.sh"
+  # sh "$DOTFILES_PATH/os/linux/packages/xBuntu/lazygit-setup.sh"
+  # sh "$DOTFILES_PATH/os/linux/packages/xBuntu/sad-setup.sh"
 
   # sh "$DOTFILES_PATH/os/linux/packages/xBuntu/neovim-stable.sh"
 }

@@ -52,9 +52,15 @@ echo "Installing Linux Packages"
 "$DOTLY_PATH/bin/dot" install fastfetch
 "$DOTLY_PATH/bin/dot" install starship
 "$DOTLY_PATH/bin/dot" install uvx
+"$DOTLY_PATH/bin/dot" install fd_setup
 "$DOTLY_PATH/bin/dot" install opencode
 "$DOTLY_PATH/bin/dot" install 1password
 "$DOTLY_PATH/bin/dot" install docker
 "$DOTLY_PATH/bin/dot" install github-cli
+"$DOTLY_PATH/bin/dot" install yazi
+"$DOTLY_PATH/bin/dot" install sad
+"$DOTLY_PATH/bin/dot" install ghostty
+"$DOTLY_PATH/bin/dot" install alacritty
+"$DOTLY_PATH/bin/dot" install lazygit
 
 "$DOTLY_PATH/bin/dot" self install_custom
