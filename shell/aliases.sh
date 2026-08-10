@@ -22,6 +22,7 @@ alias nvcfg="cd ~/.config/nvim"
 alias vimcfg="vim ~/.vimrc"
 alias y="yazi"
 alias paru="paru --bottomup"
+alias mx="tmux"
 # alias edalias='nvim $HOME/.config/zsh/zshalias'
 alias edalias='nvim $DOTFILES_PATH/shell/aliases.sh'
 alias myscripts='cd $HOME/.local/bin'
