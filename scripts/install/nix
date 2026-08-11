@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+set -eu pipefail
+
+# source "$DOTLY_PATH/scripts/core/_main.sh"
+# source "$DOTFILES_PATH/scripts/install/utils/install.sh"
+
+##? Install Node Version Manager
+#?? 1.0.0
+##?
+##? Usage:
+##?   sdkman
+
+curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install | sh -s -- --no-daemon
+
+# log::note("nix single user installed ✅")
