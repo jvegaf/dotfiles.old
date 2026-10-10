@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# source "$DOTLY_PATH/scripts/core/_main.sh"
+# source "$DOTFILES_PATH/scripts/install/utils/install.sh"
+
+echo "Installing Creality Print (Flatpak)"
+
+flatpak remote-add --if-not-exists flatpark https://dl.flatpark.org/flatpark.flatpakrepo
+flatpak install flatpark io.github.crealityofficial.CrealityPrint
+
+echo "CrealityPrint Installed"
+
+exit 0

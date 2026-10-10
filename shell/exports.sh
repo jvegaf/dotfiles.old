@@ -5,7 +5,7 @@ export EDITOR="nvim"
 # export M2_HOME="$HOME/.sdkman/candidates/maven/current"
 # export WINEPREFIX="$HOME/.fusion360/wineprefixes/default"
 # export EDITOR="$HOME/.local/bin/lvim"
-export FILE_BROWSER="nautilus"
+export FILE_BROWSER="nemo"
 # ------------------------------------------------------------------------------
 # Languages
 # ------------------------------------------------------------------------------
@@ -23,10 +23,13 @@ export GOPATH="$HOME/.go"
 
 # export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
 
+export NIX_REMOTE=daemon
 # ------------------------------------------------------------------------------
 # Path - The higher it is, the more priority it has
 # ------------------------------------------------------------------------------
 export path=(
+  "/nix/var/nix/profiles/default/bin"
+  "$HOME/.nix-profile/bin"
   "$HOME/.local/bin"
   "$HOME/.cargo/bin"
   "$HOME/.bin"
@@ -45,6 +48,5 @@ export path=(
   "/usr/sbin"
   "/sbin"
   "$HOME/.local/share/JetBrains/Toolbox/scripts"
-  "/snap/bin"
   "$HOME/.platformio/penv/bin"
 )

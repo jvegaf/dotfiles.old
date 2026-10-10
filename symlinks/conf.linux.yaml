@@ -8,7 +8,7 @@
     ~/.Xresources: os/linux/.Xresources
     ~/.xinitrc: os/linux/.xinitrc
     ~/.config/FreeCAD: os/linux/config/FreeCAD
-    ~/.config/OrcaSlicer: os/linux/config/OrcaSlicer
+    ~/.var/app/com.orcaslicer.OrcaSlicer/config/OrcaSlicer: os/linux/config/OrcaSlicer
     ~/.config/PrusaSlicer: os/linux/config/PrusaSlicer
     ~/.config/alacritty: os/linux/config/alacritty
     ~/.config/autorandr: os/linux/config/autorandr
