@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Discord tui client
+
+curl -fsSL https://raw.githubusercontent.com/sparklost/endcord/main/tools/install.sh | bash -s -- --install --binary --level full --user
+
+exit 0

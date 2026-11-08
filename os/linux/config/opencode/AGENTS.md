@@ -1,179 +1,3 @@
-# AGENTS.md
-
-## The Golden Rule
-
-When unsure about implementation details, ALWAYS ask the developer.
-
----
-
-## Non-negotiable golden rules
-
-| #:  | AI _may_ do                                                                                                                                                                        | AI _must NOT_ do                                                                                                                                      |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| G-0 | Whenever unsure about something that's related to the project, ask the developer for clarification before making changes.                                                          | ❌ Write changes or use tools when you are not sure about something project specific, or if you don't have context for a particular feature/decision. |
-| G-1 | Add/update **`AIDEV-NOTE:` anchor comments** near non-trivial edited code.                                                                                                         | ❌ Delete or mangle existing `AIDEV-` comments.                                                                                                       |
-| G-2 | Follow lint/style configs (`pyproject.toml`, `.prettierrc`, `.pre-commit-config.yaml`). Use the project's configured linter, if available, instead of manually re-formatting code. | ❌ Re-format code to any other style.                                                                                                                 |
-| G-3 | For changes >300 LOC or >3 files, **ask for confirmation**.                                                                                                                        | ❌ Refactor large modules without human guidance.                                                                                                     |
-| G-4 | Stay within the current task context. Inform the dev if it'd be better to start afresh.                                                                                            | ❌ Continue work from a prior prompt after "new task" – start a fresh session.                                                                        |
-
----
-
-## Code Style and Patterns
-
-### Anchor comments
-
-Add specially formatted comments throughout the codebase, where appropriate, for yourself as inline knowledge that can be easily \`grep\`ped for.
-
-### Guidelines
-
-- Use \`AIDEV-NOTE:\`, \`AIDEV-TODO:\`, or \`AIDEV-QUESTION:\` (all-caps prefix) for comments aimed at AI and developers.
-- **Important:** Before scanning files, always first try to **grep for existing anchors** \`AIDEV-\*\` in relevant subdirectories.
-- **Update relevant anchors** when modifying associated code.
-- **Do not remove \`AIDEV-NOTE\`s** without explicit human instruction.
-- Make sure to add relevant anchor comments, whenever a file or piece of code is:
-  - too complex, or
-  - very important, or
-  - confusing, or
-  - could have a bug
-
-## Commit discipline
-
-- **Granular commits**: One logical change per commit.
-- **Tag AI-generated commits**: e.g., `feat: optimise feed query [AI]`.
-- **Clear commit messages**: Explain the _why_; link to issues/ADRs if architectural.
-- **Use `git worktree`** for parallel/long-running AI branches (e.g., `git worktree add ../wip-foo -b wip-foo`).
-- **Review AI-generated code**: Never merge code you don't understand.
-
----
-
-## Domain Glossary (learn these!)
-
-- **Agent**: AI entity with memory, tools, and defined behavior
-- **Task**: Workflow definition composed of steps (NOT a Celery task)
-- **Execution**: Running instance of a task
-- **Tool**: Function an agent can call (browser, API, etc.)
-- **Session**: Conversation context with memory
-- **Entry**: Single interaction within a session
-
----
-
-## Directory-Specific AGENTS.md Files
-
-- **Always check for `AGENTS.md` files in specific directories** before working on code within them. These files contain targeted context.
-- If a directory's `AGENTS.md` is outdated or incorrect, **update it**.
-- If you make significant changes to a directory's structure, patterns, or critical implementation details, **document these in its `AGENTS.md`**.
-- If a directory lacks a `AGENTS.md` but contains complex logic or patterns worth documenting for AI/humans, **suggest creating one**.
-
----
-
-## Meta: Guidelines for updating AGENTS.md files
-
-### Elements that would be helpful to add
-
-1. **Decision flowchart**: A simple decision tree for "when to use X vs Y" for key architectural choices would guide my recommendations.
-2. **Reference links**: Links to key files or implementation examples that demonstrate best practices.
-3. **Domain-specific terminology**: A small glossary of project-specific terms would help me understand domain language correctly.
-4. **Versioning conventions**: How the project handles versioning, both for APIs and internal components.
-
-### Format preferences
-
-1. **Consistent syntax highlighting**: Ensure all code blocks have proper language tags (`python`, `bash`, etc.).
-2. **Hierarchical organization**: Consider using hierarchical numbering for subsections to make referencing easier.
-3. **Tabular format for key facts**: The tables are very helpful - more structured data in tabular format would be valuable.
-4. **Keywords or tags**: Adding semantic markers (like `#performance` or `#security`) to certain sections would help me quickly locate relevant guidance.
-
-This principle emphasizes human oversight for critical aspects like architecture, testing, and domain-specific decisions, ensuring AI assists rather than fully dictates development.
-
----
-
-## Files to NOT modify
-
-These files control which files should be ignored by AI tools and indexing systems:
-
-- @.agentignore : Specifies files that should be ignored by the Cursor IDE, including:
-  - Build and distribution directories
-  - Environment and configuration files
-  - Large data files (parquet, arrow, pickle, etc.)
-  - Generated documentation
-  - Package-manager files (lock files)
-  - Logs and cache directories
-  - IDE and editor files
-  - Compiled binaries and media files
-
-- @.agentindexignore : Controls which files are excluded from indexing to improve performance, including:
-  - All files in `.agentignore`
-  - Files that may contain sensitive information
-  - Large JSON data files
-  - Generated TypeSpec outputs
-  - Memory-store migration files
-  - Docker templates and configuration files
-
-**Never modify these ignore files** without explicit permission, as they're carefully configured to optimize IDE performance while ensuring all relevant code is properly indexed.
-
-**When adding new files or directories**, check these ignore patterns to ensure your files will be properly included in the IDE's indexing and AI assistance features.
-
----
-
-## AI Assistant Workflow: Step-by-Step Methodology
-
-When responding to user instructions, the AI assistant (Opencode, Claude, Cursor, GPT, etc.) should follow this process to ensure clarity, correctness, and maintainability:
-
-1. **Consult Relevant Guidance**: When the user gives an instruction, consult the relevant instructions from `AGENTS.md` files (both root and directory-specific) for the request.
-2. **Clarify Ambiguities**: Based on what you could gather, see if there's any need for clarifications. If so, ask the user targeted questions before proceeding.
-3. **Break Down & Plan**: Break down the task at hand and chalk out a rough plan for carrying it out, referencing project conventions and best practices.
-4. **Trivial Tasks**: If the plan/request is trivial, go ahead and get started immediately.
-5. **Non-Trivial Tasks**: Otherwise, present the plan to the user for review and iterate based on their feedback.
-6. **Track Progress**: Use a to-do list (internally, or optionally in a `TODOS.md` file) to keep track of your progress on multi-step or complex tasks.
-7. **If Stuck, Re-plan**: If you get stuck or blocked, return to step 3 to re-evaluate and adjust your plan.
-8. **Update Documentation**: Once the user's request is fulfilled, update relevant anchor comments (`AIDEV-NOTE`, etc.) and `AGENTS.md` files in the files and directories you touched.
-9. **User Review**: After completing the task, ask the user to review what you've done, and repeat the process as needed.
-10. **Session Boundaries**: If the user's request isn't directly related to the current context and can be safely started in a fresh session, suggest starting from scratch to avoid context confusion.
-
----
-
-## What AI Must NEVER Do
-
-1. **Never modify test files** - Tests encode human intent
-2. **Never change API contracts** - Breaks real applications
-3. **Never alter migration files** - Data loss risk
-4. **Never commit secrets** - Use environment variables
-5. **Never assume business logic** - Always ask
-6. **Never remove AIDEV- comments** - They're there for a reason
-
-Remember: We optimize for maintainability over cleverness.
-When in doubt, choose the boring solution.
-
-<!-- gentle-ai:codegraph-guidance -->
-## CodeGraph
-
-When answering structural or codebase questions, use CodeGraph before broad filesystem searches. This is a hard ordering rule for repo maps, architecture, call flow, dependencies, symbol references, impact analysis, and “how does X work” questions.
-
-CodeGraph-aware worktree placement:
-
-- Create Git worktrees that may need CodeGraph under the user's home directory, preferably as a sibling such as `<repo-parent>/<repo-name>-worktrees/<worktree-name>`. Never place a CodeGraph-dependent worktree under `/tmp`, `/var/tmp`, or `/tmp/opencode`; generic temporary-work guidance does not override this rule.
-- Every worktree needs its own `.codegraph/` index. Never copy, symlink, or reuse another checkout's index because its root and checked-out bytes may differ.
-
-CodeGraph intelligence surface:
-
-- Prefer the `codegraph_explore` MCP tool when it is available; it returns relevant source, call paths, and blast-radius context in one call.
-- If the MCP tool is unavailable, invoke the upstream CLI directly. Agents may use its read-only intelligence commands: `codegraph status`, `codegraph query`, `codegraph explore`, `codegraph node`, `codegraph files`, `codegraph callers`, `codegraph callees`, `codegraph impact`, and `codegraph affected`.
-- Do not use `gentle-ai codegraph` as a general proxy. Its `init` command exists only to validate the project root before initialization; intelligence queries belong to the upstream CLI.
-- Never run or recommend destructive or administrative lifecycle commands: `codegraph uninit`, `codegraph install`, `codegraph uninstall`, or `codegraph upgrade`. Reserve `codegraph index` for explicit index-corruption recovery, never routine use.
-
-Required order for structural/codebase questions:
-
-1. Resolve the project root with `git rev-parse --show-toplevel || pwd`.
-2. Confirm the root is a real project/workspace. Do not ask the user before initializing CodeGraph in a real project. Do not initialize CodeGraph in `$HOME`, temporary directories, or non-project folders.
-3. Check for `<project-root>/.codegraph/` before any broad Read/Glob/Grep filesystem exploration.
-4. If `.codegraph/` is missing and CodeGraph is enabled/available, immediately run `gentle-ai codegraph init --cwd <project-root>` once.
-5. Missing .codegraph/ is the trigger to initialize, not a reason to skip CodeGraph. Do not fall back just because `.codegraph/` is missing; a missing index is the trigger to lazy-initialize, not a reason to skip CodeGraph.
-6. Use `codegraph_explore` after initialization, or the read-only upstream CLI commands when MCP tools are absent.
-7. After edits, rely on watcher auto-sync by default. Run `codegraph sync` only when the watcher is disabled or CodeGraph reports stale files that do not refresh normally.
-8. Only fall back to normal filesystem tools after CodeGraph initialization or use fails, and briefly explain the fallback.
-
-Broad Read/Glob/Grep exploration before this CodeGraph check is explicitly discouraged for structural/codebase questions.
-<!-- /gentle-ai:codegraph-guidance -->
-
 <!-- gentle-ai:persona -->
 ## Rules
 
@@ -260,13 +84,18 @@ This protocol is MANDATORY and ALWAYS ACTIVE — not something you activate on d
 ### SESSION START & PROJECT DETECTION PROTOCOL (mandatory)
 
 At the very beginning of the session, when the runtime supplies a current workspace directory:
-1. **Detect Project Name**: Call `mem_current_project` with the absolute path of the workspace directory supplied by the runtime in the `cwd` (or `directory`) parameter.
+1. **Resolve Project Before Initial Memory Access**: Before any initial `mem_context`, `mem_search`, or `mem_review` call, call `mem_current_project` and wait for its result (never in parallel). Pass the absolute workspace directory supplied by the runtime as `cwd` (or `directory`) only when the tool schema exposes that parameter; otherwise call it with no arguments (the server then detects from its own process directory). Then apply the first matching branch below, in this order, and stop there:
+   - **Workspace check (terminal)**: If the runtime workspace directory is unknown, the returned `cwd` is missing or does not match it, or the tool is unavailable or fails, stop: skip initial project-scoped reads, trust neither `project` nor `available_projects` from that result, and tell the user the Engram server resolved a different or unknown directory, so the correct workspace is needed.
+   - **Ambiguous**: If `available_projects` is non-empty or `project_source` is `ambiguous`, whether `project` is empty or non-empty, never guess and do not read memory yet. Ask the user to choose exactly one value from `available_projects`; that value is a workspace alternative, not a project key, so never pass it as `project`. Re-resolve only when the tool schema accepts `cwd` (or `directory`) and the choice identifies that repository's absolute directory: call `mem_current_project` with it and accept only a Unique result whose `cwd` matches it. Otherwise the project stays unresolved: skip initial project-scoped reads and tell the user Engram must run from the chosen repository's workspace.
+   - **Unique**: Only after the workspace check passed and no ambiguity was found, a non-empty `project` (for example from `project_source` `git_remote` or `dir_basename`) is the canonical key: pass that exact returned value as `project`; never rewrite or guess it.
+   - **No project**: If `project` is empty and there are no `available_projects`, skip initial project-scoped reads. Never invent a project name and never fall back to an omitted `project` or `all_projects` search.
 2. **Consume Runtime Session Identity**: Use only the authoritative session ID already registered by the top-level runtime. Never invent, derive, generate, or register a session ID; do not call `mem_session_start`.
 3. **Persist State**: Store the resolved project name and, when available, the registered session ID in your active context. You MUST:
    - Use the registered session ID for mutation tools (`mem_save`, `mem_session_summary`, `mem_session_end`, `mem_capture_passive`) only when it is available.
    - Retain and reuse that exact identity across compaction.
    - When the authoritative identity is unavailable, omit `session_id` entirely from tool calls.
-   - Use the project name for all read/search/diagnostic tools (`mem_search`, `mem_context`, `mem_doctor`).
+   - Use the project resolved in step 1 for all read/search/diagnostic tools (`mem_search`, `mem_context`, `mem_doctor`).
+   - **Cross-project recall exception (independent of the step 1 branches and their outcome)**: Search outside the resolved project, or when none resolved, only when the user explicitly asks to recall memory across projects or from a named other project; that requested scope never becomes the current project, and asking to work on another project is not such a request. It never enables an implicit all-projects fallback.
 
 ### PROACTIVE SAVE TRIGGERS (mandatory — do NOT wait for user to ask)
 
@@ -303,19 +132,22 @@ Format for `mem_save`:
 - **type**: bugfix | decision | architecture | discovery | pattern | config | preference
 - **scope**: `project` (default) | `personal`
 - **topic_key** (recommended for evolving topics): stable key like `architecture/auth-model`
-- **capture_prompt**: optional; default `true`. Do not set this for normal human/proactive saves. Set `false` only for automated artifacts such as SDD proposal/spec/design/tasks/apply/verify/archive/init reports, testing-capabilities caches, onboarding/state artifacts, or skill-registry output.
-- **content**:
-  - **What**: One sentence — what was done
-  - **Why**: What motivated it (user request, bug, performance, etc.)
-  - **Where**: Files or paths affected
-  - **Learned**: Gotchas, edge cases, things that surprised you (omit if none)
+- **capture_prompt**: optional; default `true`. Do not set this for normal human/proactive saves. Set `false` only for automated artifacts such as task-document mirrors, testing-capabilities caches, onboarding/state artifacts, or skill-registry output.
+- **content** (required, single JSON string): A concise, self-contained summary. Recommended structure inside the string:
+  ```
+  What: One sentence — what was done
+  Why: What motivated it (user request, bug, performance, etc.)
+  Where: Files or paths affected
+  Learned: Gotchas, edge cases, things that surprised you (omit if none)
+  ```
+  Example: `"What: Fixed N+1 query in UserList. Why: N+1 caused 200ms overhead. Where: internal/repo/user_list.go. Learned: preload() avoids the N+1."`
 
 Prompt capture behavior (Engram v1.15.3+):
 - `mem_save` captures the user prompt best-effort when the MCP process already has prompt context for the same `project + session_id`.
 - `mem_save` never invents prompt text. If no prompt context exists, the save still succeeds without prompt capture.
 - `mem_save_prompt` records the prompt and feeds SessionActivity so later `mem_save` calls can capture and dedupe it.
 - If an agent/plugin hook can observe the user's prompt before derived memory saves happen, it should call `mem_save_prompt` first.
-- Do not decide prompt capture by `type`; SDD artifacts also use `architecture`, and human decisions can too. Use explicit `capture_prompt: false` for automated artifacts.
+- Do not decide prompt capture by `type`; automated artifacts also use `architecture`, and human decisions can too. Use explicit `capture_prompt: false` for automated artifacts.
 - If an older Engram tool schema does not expose `capture_prompt`, omit the field rather than failing.
 
 Topic update rules:
@@ -340,6 +172,8 @@ Session registration and ambiguous project recovery rules:
 - Do not apply the write-tool recovery shape (`project`, `project_choice_reason`, `recovery_token`) to `mem_session_start`.
 
 ### WHEN TO SEARCH MEMORY
+
+Every search below uses the project resolved at session start (step 1). If no project was resolved, do not run project-scoped searches unless the user explicitly asks to recall memory across projects or from a named other project.
 
 On any variation of "remember", "recall", "what did we do", "how did we solve", or references to past work (in any language the user writes in):
 1. Call `mem_context` — checks recent session history (fast, cheap)
@@ -384,3 +218,35 @@ If you see a compaction message or "FIRST ACTION REQUIRED":
 
 Do not skip step 1. Without it, everything done before compaction is lost from memory.
 <!-- /gentle-ai:engram-protocol -->
+
+<!-- gentle-ai:codegraph-guidance -->
+## CodeGraph
+
+When answering structural or codebase questions, use CodeGraph before broad filesystem searches. This is a hard ordering rule for repo maps, architecture, call flow, dependencies, symbol references, impact analysis, and “how does X work” questions.
+
+CodeGraph-aware worktree placement:
+
+- Create Git worktrees that may need CodeGraph under the user's home directory. For a repository rooted there, place them as a sibling of the repository root at `<repo-parent>/<repo-name>-worktrees/<worktree-name>`, where `<repo-parent>` is the immediate parent directory of the repository root (repo `~/Projects/Rust/foo` → `~/Projects/Rust/foo-worktrees/<worktree-name>`). Never place a CodeGraph-dependent worktree under `/tmp`, `/var/tmp`, or `/tmp/opencode`; generic temporary-work guidance does not override this rule.
+- Every worktree needs its own `.codegraph/` index. Never copy, symlink, or reuse another checkout's index because its root and checked-out bytes may differ.
+
+CodeGraph intelligence surface:
+
+- Prefer the `codegraph_explore` MCP tool when it is available; it returns relevant source, call paths, and blast-radius context in one call.
+- If the MCP tool is unavailable, invoke the upstream CLI directly. Agents may use its read-only intelligence commands: `codegraph status`, `codegraph query`, `codegraph explore`, `codegraph node`, `codegraph files`, `codegraph callers`, `codegraph callees`, `codegraph impact`, and `codegraph affected`.
+- Do not use `gentle-ai codegraph` as a general proxy. Its `init` command exists only to validate the project root before initialization; intelligence queries belong to the upstream CLI.
+- Never run or recommend destructive or administrative lifecycle commands: `codegraph uninit`, `codegraph install`, `codegraph uninstall`, or `codegraph upgrade`. Reserve `codegraph index` for explicit index-corruption recovery, never routine use.
+
+Required order for structural/codebase questions:
+
+1. For project initialization, the explicit agent working directory is authoritative: use that directory as `<project-root>` (run `pwd` with the agent's shell tool if needed). Check `<cwd>/.git` (directory or worktree file) and `<cwd>/.codegraph/` before ancestor discovery. Never replace an initialization target with an enclosing repository. Only for an already-selected existing repository, resolve its root with `git rev-parse --show-toplevel || pwd`.
+   If the explicit initialization target is not a Git root, stop CodeGraph initialization and explain that local Git initialization is required (`git -C <cwd> init`); never retry initialization against the parent. Do not initialize Git merely to answer a structural/codebase question.
+2. Confirm the root is a real project/workspace. Do not ask the user before initializing CodeGraph in a real project. Do not initialize CodeGraph in `$HOME`, temporary directories, or non-project folders.
+3. Check for `<project-root>/.codegraph/` before any broad Read/Glob/Grep filesystem exploration.
+4. If `.codegraph/` is missing and CodeGraph is enabled/available, immediately run `gentle-ai codegraph init --cwd <project-root>` once.
+5. Missing .codegraph/ is the trigger to initialize, not a reason to skip CodeGraph. Do not fall back just because `.codegraph/` is missing; a missing index is the trigger to lazy-initialize, not a reason to skip CodeGraph.
+6. MCP auto-sync requires a running daemon with an active file watcher. CLI intelligence commands read the existing index as-is and do not auto-sync. Before CLI intelligence reads, run `codegraph sync -q <project-root>`, including after edits. If sync fails, do not treat the existing index as current; explain the failure and fall back to normal filesystem tools. The presence of `.codegraph/` alone does not guarantee freshness. For MCP, run `codegraph sync -q <project-root>` when the watcher is disabled or stale files do not refresh normally.
+7. Use `codegraph_explore` after initialization, or the read-only upstream CLI commands when MCP tools are absent.
+8. Only fall back to normal filesystem tools after CodeGraph initialization or use fails, and briefly explain the fallback.
+
+Broad Read/Glob/Grep exploration before this CodeGraph check is explicitly discouraged for structural/codebase questions.
+<!-- /gentle-ai:codegraph-guidance -->

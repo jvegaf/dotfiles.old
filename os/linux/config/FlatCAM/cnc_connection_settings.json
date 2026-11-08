@@ -1,0 +1,14 @@
+{
+  "auto_connect": false,
+  "config": {
+    "mode": "serial",
+    "profile": "fluidnc",
+    "port": "",
+    "baudrate": 115200,
+    "host": "fluidnc.local",
+    "tcp_port": 23,
+    "web_url": "http://fluidnc.local",
+    "user": "",
+    "password": ""
+  }
+}

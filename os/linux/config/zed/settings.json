@@ -1,4 +1,7 @@
 {
+  "session": {
+    "trust_all_worktrees": true
+  },
   "buffer_font_weight": 500.0,
   "on_last_window_closed": "quit_app",
   "when_closing_with_no_tabs": "close_window",
@@ -57,7 +60,7 @@
   "terminal": {
     "blinking": "on",
     "cursor_shape": "block",
-    "font_family": "'JetBrains Mono', 'Fira Code', monospace",
+    "font_family": ".ZedMono",
     "font_size": 14.0,
     "shell": "system",
     "env": {
@@ -75,7 +78,7 @@
     "tool_permissions": {
       "default": "allow",
     },
-    "play_sound_when_agent_done": true,
+    "play_sound_when_agent_done": "always",
     "inline_assistant_model": {
       "provider": "copilot_chat",
       "model": "gpt-5",
@@ -95,10 +98,10 @@
   "buffer_font_size": 20.0,
   "agent_ui_font_size": 16,
   "ui_font_family": "JetBrainsMono Nerd Font",
-  "buffer_font_family": "FantasqueSansM Nerd Font",
+  "buffer_font_family": ".ZedMono",
   "theme": {
     "mode": "system",
-    "light": "One Dark",
+    "light": "One Light",
     "dark": "One Dark",
   },
   "diagnostics": {

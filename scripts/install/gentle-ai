@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+set -eu pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+source "$DOTFILES_PATH/scripts/install/utils/install.sh"
+
+##? Install Node Version Manager
+#?? 1.0.0
+##?
+##? Usage:
+##?   sdkman
+
+sudo apt install -y golang-go
+echo "export PATH=\"$(go env GOPATH)/bin:\$PATH\"" >>~/.bashrc
+
+curl -fsSL https://raw.githubusercontent.com/Gentleman-Programming/gentle-ai/main/scripts/install.sh | bash -s -- --channel beta
+
+exit 0

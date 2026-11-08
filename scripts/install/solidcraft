@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+
+flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --user --if-not-exists solidcraft https://docs.solidcraft.io/flatpak/solidcraft.flatpakrepo
+flatpak install --user solidcraft io.tangencylabs.solidcraft
+flatpak run io.tangencylabs.solidcraft
+
+exit 0
