@@ -28,16 +28,17 @@ export NIX_REMOTE=daemon
 # Path - The higher it is, the more priority it has
 # ------------------------------------------------------------------------------
 export path=(
-  "/nix/var/nix/profiles/default/bin"
-  "$HOME/.nix-profile/bin"
+  "$HOME/.gentle-ai/bin"
+  # "/nix/var/nix/profiles/default/bin"
+  # "$HOME/.nix-profile/bin"
   "$HOME/.local/bin"
   "$HOME/.cargo/bin"
   "$HOME/.bin"
   "$HOME/.opt"
   "$DOTLY_PATH/bin"
   "$DOTFILES_PATH/bin"
-  "$GEM_HOME/bin"
   "$GOPATH/bin"
+  "$GEM_HOME/bin"
   "/usr/local/opt/ruby/bin"
   "/usr/local/opt/python/libexec/bin"
   "/usr/local/bin"

@@ -52,18 +52,15 @@ bindkey "\e[3;5~" kill-word
 #setxkbmap -option caps:backspace
 # eval "$(zellij setup --generate-auto-start zsh)"
 
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/home/th3g3ntl3man/.lmstudio/bin"
-
 eval "$(mise activate zsh)"
 eval "$(starship init zsh)"
 
 # opencode
-export PATH=/home/th3g3ntl3man/.opencode/bin:$PATH
+# export PATH=/home/th3g3ntl3man/.opencode/bin:$PATH
 
-[[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
-
-[[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code-insiders --locate-shell-integration-path zsh)"
+# [[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
+#
+# [[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code-insiders --locate-shell-integration-path zsh)"
 
 
 [[ -f "$HOME/.local/bin/env" ]] && . "$HOME/.local/bin/env"
