@@ -62,6 +62,7 @@ eval "$(starship init zsh)"
 #
 # [[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code-insiders --locate-shell-integration-path zsh)"
 
+[ -f ~/.keys ] && source ~/.keys
 
 [[ -f "$HOME/.local/bin/env" ]] && . "$HOME/.local/bin/env"
 

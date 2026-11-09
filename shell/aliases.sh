@@ -23,12 +23,9 @@ alias vimcfg="vim ~/.vimrc"
 alias y="yazi"
 alias paru="paru --bottomup"
 alias mx="tmux"
-# alias edalias='nvim $HOME/.config/zsh/zshalias'
 alias edalias='nvim $DOTFILES_PATH/shell/aliases.sh'
 alias myscripts='cd $HOME/.local/bin'
 alias dfscripts='cd $DOTFILES_PATH/scripts/install/'
-alias ubscripts="cd $DOTFILES_PATH/os/linux/packages/xBuntu"
-# alias alscripts="cd $DOTFILES_PATH/os/linux/packages/arch"
 alias run="./run"
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 alias open='xdg-open'
@@ -72,17 +69,13 @@ alias copt="gh extensions install github/gh-copilot"
 
 # flatpak
 alias fps="flatpak search"
+alias fpl="flatpak list --app"
 alias fpi="flatpak install"
-
-# Arch
-alias yau="yay -Syyu"
-alias pau="sudo pacman -Syyu"
-alias mirrors-rank="sudo reflector --verbose --latest 5 --country 'Sweden' --age 6 --sort rate --save /etc/pacman.d/mirrorlist"
 
 # Ubuntu
 alias sai="sudo apt install"
 alias aps="apt search"
-alias apu="sudo apt update && sudo apt upgrade -y"
+alias apu="sudo apt update && sudo apt full-upgrade -y"
 
 # WebDev
 alias nom='npm'
@@ -90,9 +83,9 @@ alias nim='npm'
 
 alias ns='npm start'
 alias ys='yarn start'
+alias yd='yarn dev'
 
 # Utils
-alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg" # Arch
 alias rmd='rm -rf'
 alias sb="/bin/subl"
 alias v='nvim'
@@ -112,15 +105,17 @@ alias ffet='fastfetch'
 alias i3cfg='nvim $HOME/.config/i3/config'
 alias swcfg='nvim $HOME/.config/sway/config.d/application_defaults'
 alias hycfg='nvim $HOME/.config/hypr/UserConfigs/UserKeybinds.conf'
+alias nicfg='nvim $HOME/.config/niri/config.kdl'
+alias niwin='niri msg windows'
+alias hywin='pretty_clients'
+alias occfg='cd $HOME/.config/opencode'
+alias kicfg='nvim $HOME/.config/kitty/kitty.conf'
+alias ghstcfg='nvim $HOME/.config/ghostty/config'
 alias bt='btop'
 
 alias nvdprf='nvidia-settings -a "[gpu:0]/GpuPowerMizerMode=2"'
 alias ip='ip -color'
 alias darkmode='gsettings set org.gnome.desktop.interface color-scheme prefer-dark'
-
-# Cleanup orphaned packages
-alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
-alias pacdel='sudo pacman -Rns'
 
 # Get the error messages from journalctl
 alias jctl="journalctl -p 3 -xb"
