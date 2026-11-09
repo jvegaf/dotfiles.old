@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "filename": "/home/th3g3ntl3man/Documents/775-noise-filter/gerber/775-noise-filter.drl",
+    "kind": "excellon"
+  },
+  {
+    "filename": "/home/th3g3ntl3man/Documents/775-noise-filter/gerber/775-noise-filter-F_Cu.gbr",
+    "kind": "gerber"
+  },
+  {
+    "filename": "/home/th3g3ntl3man/Documents/775-noise-filter/gerber/775-noise-filter-Edge_Cuts.gbr",
+    "kind": "gerber"
+  }
+]

@@ -1,0 +1,5 @@
+// ────────────── Startup Applications ──────────────
+
+spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
+spawn-at-startup "udiskie" "-A" "-t"
+spawn-at-startup "blueman-applet"
