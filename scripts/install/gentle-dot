@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+set -eu pipefail
+
+cd /tmp
+git clone https://github.com/Gentleman-Programming/gentle-dot.git
+cd gentle-dot
+mise use pnpm
+pnpm install
+pnpm package:linux --arch amd64
+cd
+sudo dpkg -i build/linux/gentle-dot*.deb
+
+exit 0

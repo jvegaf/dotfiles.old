@@ -75,6 +75,8 @@ pi install npm:@narumitw/pi-lsp
 # pi install npm:pi-subagents
 #
 pi install npm:pi-web-access
+pi install npm:gentle-emote
+pi install npm:opencode-flema-engram-sidebar@0.4.2
 #
 # pi install npm:pi-background-tasks
 #
