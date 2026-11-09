@@ -1,5 +1,6 @@
 // ────────────── Startup Applications ──────────────
 
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
-spawn-at-startup "udiskie" "-A" "-t"
-spawn-at-startup "blueman-applet"
+// spawn-at-startup "udiskie" "-A" "-t"
+// spawn-at-startup "blueman-applet"
+spawn-sh-at-startup "~/.go/bin/niri-float-sticky -title Picture-in-Picture"
