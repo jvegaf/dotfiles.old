@@ -17,6 +17,9 @@
     ~/.config/btop: os/linux/config/btop
     ~/.config/conky: os/linux/config/conky
     ~/.config/dunst: os/linux/config/dunst
+    ~/.config/dms/plugin_settings.json: os/linux/config/dms/plugin_settings.json
+    ~/.config/dms/plugins.lock.json: os/linux/config/dms/plugins.lock.json
+    ~/.config/dms/settings.json: os/linux/config/dms/settings.json
     ~/.config/eww: os/linux/config/eww
     ~/.config/fastfetch: os/linux/config/fastfetch
     ~/.config/foot: os/linux/config/foot
