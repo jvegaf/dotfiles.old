@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -eu pipefail
+
+curl -fsSL https://herdr.dev/install.sh | sh
+
+echo "Herdr installed successfully ✅"
+
+exit 0
