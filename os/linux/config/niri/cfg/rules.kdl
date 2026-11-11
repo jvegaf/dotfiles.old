@@ -11,6 +11,8 @@ window-rule {
     match app-id="org.gnome.Calculator"
     match app-id="nemo"
     open-floating true // Always float Firefox PiP windows
+    default-window-height { proportion 0.6; }
+    default-column-width { proportion 0.6; }
 }
 
 window-rule {
@@ -36,6 +38,9 @@ window-rule {
 window-rule {
     match app-id="firefox"
     // match app-id="Alacritty"
+    match app-id="campilot"
+    match app-id="ai.storyteller.figcraft"
+    match app-id="io.tangencylabs.solidcraft"
     match app-id="FreeCAD"
     match app-id="org.QCAD.qcad-bin"
     match app-id="code"

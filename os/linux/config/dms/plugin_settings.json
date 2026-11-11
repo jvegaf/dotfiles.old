@@ -2,8 +2,9 @@
   "aiOverviewControl": {
     "enabled": true,
     "refreshInterval": "120000",
-    "providerSelection": "pi,ollama",
-    "pillProviders": "pi"
+    "providerSelection": "pi",
+    "pillProviders": "pi",
+    "pinnedProviders": "pi"
   },
   "quickCapture": {
     "enabled": true
@@ -24,7 +25,8 @@
     "openRouterEnabled": true,
     "showResetCountdown": true,
     "refreshInterval": 120,
-    "displayMode": "used"
+    "displayMode": "used",
+    "pinnedLimits": "{\"claude\":[\"5h\"],\"codex\":[\"5h\"],\"opencode\":[\"Rolling\",\"Weekly\",\"Monthly\"],\"zai\":[\"5h\"],\"kimi\":[\"5h\"],\"deepseek\":[\"balance\"],\"openrouter\":[\"balance\"],\"grok\":[\"Billing\"],\"antigravity\":[\"Gemini Models - Five Hour Limit Remaining\"]}"
   },
   "systemMonitorPlus": {
     "enabled": true,

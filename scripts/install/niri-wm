@@ -5,7 +5,7 @@ set -eu pipefail
 sudo add-apt-repository -y ppa:duxlabs/dux-repo
 sudo add-apt-repository -y ppa:duxlabs/dms
 sudo apt update
-sudo apt install -y niri dms golang-go
+sudo apt install -y niri dms golang-go grim slurp
 
 go install github.com/probeldev/niri-float-sticky@latest
 

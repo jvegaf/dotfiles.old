@@ -15,6 +15,7 @@ alias cdc="cd ~/Code"
 alias doc="cd ~/Documents"
 alias dw="cd ~/Downloads"
 alias dt="cd ~/Desktop"
+alias dpic="cd ~/Pictures"
 alias du="du -hd 1"
 alias dots='cd $DOTFILES_PATH'
 alias logout="gnome-session-quit --logout"
@@ -156,5 +157,6 @@ alias pvd='deactivate' # Deactivate python environment
 alias dku='docker compose up -d'
 alias dkd='docker compose down'
 alias lzd='lazydocker'
+alias oc='opencode'
 
 # vim: ft=sh
