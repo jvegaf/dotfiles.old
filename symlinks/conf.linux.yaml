@@ -6,9 +6,7 @@
 - link:
     ~/.FlatCAM: os/linux/config/FlatCAM
     ~/.Xresources: os/linux/.Xresources
-    ~/.xinitrc: os/linux/.xinitrc
     ~/.config/FreeCAD: os/linux/config/FreeCAD
-    ~/.var/app/com.orcaslicer.OrcaSlicer/config/OrcaSlicer: os/linux/config/OrcaSlicer
     ~/.config/PrusaSlicer: os/linux/config/PrusaSlicer
     ~/.config/alacritty: os/linux/config/alacritty
     ~/.config/autorandr: os/linux/config/autorandr
@@ -16,15 +14,17 @@
     ~/.config/bspwm: os/linux/config/bspwm
     ~/.config/btop: os/linux/config/btop
     ~/.config/conky: os/linux/config/conky
-    ~/.config/dunst: os/linux/config/dunst
     ~/.config/dms/plugin_settings.json: os/linux/config/dms/plugin_settings.json
     ~/.config/dms/plugins.lock.json: os/linux/config/dms/plugins.lock.json
     ~/.config/dms/settings.json: os/linux/config/dms/settings.json
+    ~/.config/dunst: os/linux/config/dunst
     ~/.config/eww: os/linux/config/eww
     ~/.config/fastfetch: os/linux/config/fastfetch
     ~/.config/foot: os/linux/config/foot
     ~/.config/fuzzel: os/linux/config/fuzzel
     ~/.config/ghostty: os/linux/config/ghostty
+    ~/.config/herdr/config.toml: os/linux/config/herdr/config.toml
+    ~/.config/herdr/plugins.json: os/linux/config/herdr/plugins.json
     ~/.config/hypr: os/linux/config/hypr
     ~/.config/i3: os/linux/config/i3
     ~/.config/i3blocks: os/linux/config/i3blocks
@@ -80,5 +80,7 @@
     ~/.profile: os/linux/.profile
     ~/.screenlayout: os/linux/config/screenlayout
     ~/.tmux.conf: os/linux/config/tmux.conf
+    ~/.var/app/com.orcaslicer.OrcaSlicer/config/OrcaSlicer: os/linux/config/OrcaSlicer
     ~/.wezterm.lua: os/linux/config/wezterm.lua
+    ~/.xinitrc: os/linux/.xinitrc
     ~/mimeapps.list: os/linux/config/mimeapps.list
