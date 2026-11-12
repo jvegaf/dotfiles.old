@@ -6,7 +6,7 @@ binds {
     // ─── noctalia-shell keybinds ───
     // https://docs.noctalia.dev/getting-started/keybinds/
 
-    Mod+Slash                           { show-hotkey-overlay; }
+    Mod+ALT+Z                           { show-hotkey-overlay; }
 
     // ─── Applications ───
     Mod+Return                          hotkey-overlay-title="Open Terminal: Kitty" { spawn "kitty"; }
@@ -40,7 +40,7 @@ binds {
     Mod+D                               hotkey-overlay-title="App Launcher: dms launcher" { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
     Mod+ALT+L                           hotkey-overlay-title="Screen: dms lock" { spawn "dms" "ipc" "call" "lock" "lock"; }
     Mod+Shift+Q                         hotkey-overlay-title="Session Menu: dms sessionMenu" { spawn-sh "dms msg panel-toggle session"; }
-    Mod+ALT+Z                           hotkey-overlay-title="hyprwhspr" { spawn-sh "/usr/lib/hyprwhspr/config/hyprland/hyprwhspr-tray.sh record"; }
+    // Mod+ALT+Z                           hotkey-overlay-title="hyprwhspr" { spawn-sh "/usr/lib/hyprwhspr/config/hyprland/hyprwhspr-tray.sh record"; }
     Mod+N                               hotkey-overlay-title="Notification Center" { spawn "dms" "ipc" "call" "notifications" "toggle"; }
     Mod+Shift+E                         hotkey-overlay-title="Task Manager" { spawn "dms" "ipc" "call" "processlist" "focusOrToggle"; }
     // Audio Controls
