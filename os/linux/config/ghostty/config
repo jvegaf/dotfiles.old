@@ -1,7 +1,7 @@
 theme = dark:ayu-dark,light:ayu-light
 # font-family = "JetBrainsMono NF"
 font-family = monospace
-font-size = 10
+font-size = 12
 window-decoration = false
 command = zsh
 window-padding-balance = true
