@@ -1,5 +1,6 @@
 7zip
 btop
+clang
 coreutils
 eza
 f3d
@@ -10,6 +11,7 @@ git-lfs
 glow
 jq
 kitty
+libclang-dev
 lm-sensors
 locate
 luarocks

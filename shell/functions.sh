@@ -257,3 +257,7 @@ pretty_clients() {
   unfunction _pretty_clients_flush
 }
 
+checkVirus() {
+  local current_dir="${PWD}"
+  clamscan --recursive=yes --infected "${current_dir}"
+}

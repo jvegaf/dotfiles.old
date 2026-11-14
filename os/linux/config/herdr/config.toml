@@ -101,10 +101,14 @@ next_tab = "prefix+n"
 # edit_scrollback = "prefix+e"
 # Disable herdr's default pane navigation so Ctrl+hjkl pass through to tmux/neovim
 # where smart-splits handles seamless navigation across neovim/tmux/herdr boundaries
-focus_pane_left = "Ctrl+h"
-focus_pane_down = "Ctrl+j"
-focus_pane_up = "Ctrl+k"
-focus_pane_right = "Ctrl+l"
+# focus_pane_left = "Ctrl+h"
+# focus_pane_down = "Ctrl+j"
+# focus_pane_up = "Ctrl+k"
+# focus_pane_right = "Ctrl+l"
+focus_pane_left = ""
+focus_pane_down = ""
+focus_pane_up = ""
+focus_pane_right = ""
 # cycle_pane_next = "prefix+tab"
 # cycle_pane_previous = "prefix+shift+tab"
 # last_pane = ""          # optional, unset by default; bind e.g. "prefix+tab" for global back-and-forth
@@ -138,6 +142,31 @@ goto = "ctrl+p"
 new_worktree = "prefix+shift+g"  # crear rama nueva y abrirla como espacio
 open_worktree = "prefix+alt+g"   # abrir un worktree que ya existe
 remove_worktree = "prefix+alt+d" # quitar el checkout (pide confirmacion)
+
+[[keys.command]]
+key = "ctrl+h"
+type = "plugin_action"
+command = "smart-splits-backend-herdr.left"
+description = "navigate left (neovim/herdr)"
+
+[[keys.command]]
+key = "ctrl+j"
+type = "plugin_action"
+command = "smart-splits-backend-herdr.down"
+description = "navigate down (neovim/herdr)"
+
+[[keys.command]]
+key = "ctrl+k"
+type = "plugin_action"
+command = "smart-splits-backend-herdr.up"
+description = "navigate up (neovim/herdr)"
+
+[[keys.command]]
+key = "ctrl+l"
+type = "plugin_action"
+command = "smart-splits-backend-herdr.right"
+description = "navigate right (neovim/herdr)"
+
 
 [[keys.command]]
 key = "prefix+alt+p"

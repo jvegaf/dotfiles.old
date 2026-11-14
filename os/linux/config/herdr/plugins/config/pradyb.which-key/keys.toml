@@ -76,7 +76,7 @@ prompt = "Workspace name"
 run = "workspace create --cwd {cwd} --label {input} --focus"
 
 [[key]]
-seq = "w s"
+seq = "w w"
 desc = "switch workspace"
 pick = "workspace"
 run = "workspace focus {pick}"
@@ -252,4 +252,3 @@ run = "herdr-lazygit.open-tab"
 seq = "g g"
 desc = "lazygit: open in split"
 run = "herdr-lazygit.open"
-

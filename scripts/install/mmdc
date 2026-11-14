@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+cargo install ariel-rs-cli
+
+ln -sf "${HOME}/.cargo/bin/arielc" "${HOME}/.local/bin/mmdc"
+
+exit 0

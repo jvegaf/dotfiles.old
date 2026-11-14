@@ -47,3 +47,4 @@ os/linux/config/btop/btop.log
 os/linux/config/yazi/plugins/*
 os/linux/config/kicad/9.0/installed_packages.json
 /.atl
+/os/linux/config/kicad/10.0/fp-lib-table.bak
