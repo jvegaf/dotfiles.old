@@ -2,11 +2,22 @@
 
 set -euo pipefail
 
-SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
-LIST_FILE="${SCRIPT_DIR}/apt_apps.txt"
+SCRIPT_DIR="${DOTFILES_DIR}/scripts/install/utils"
+LIST_FILE="${SCRIPT_DIR}/debpkgs.txt"
+SYS_PKG_FILE="${SYS_PKG_FILE:-${XDG_CONFIG_HOME:-$HOME/.config}/system.pkgs.txt}"
+
 echo "# APT installation dump"
 rm -rf "$LIST_FILE"
-apt list --installed 2>/dev/null | tail -n +2 | awk -F'/' '{print $1}' > "$LIST_FILE"
 
-echo
+INSTALLED_PKGS="$(apt list --installed 2>/dev/null | tail -n +2 | awk -F'/' '{print $1}')"
+
+if [[ -f "$SYS_PKG_FILE" ]]; then
+  grep -vxFf "$SYS_PKG_FILE" <<<"$INSTALLED_PKGS" >"$LIST_FILE" || true
+else
+  echo "Aviso: $SYS_PKG_FILE no existe, se exportan todos los paquetes instalados." >&2
+  printf '%s\n' "$INSTALLED_PKGS" >"$LIST_FILE"
+fi
+
 echo "Archivo generado: $LIST_FILE"
+
+exit 0

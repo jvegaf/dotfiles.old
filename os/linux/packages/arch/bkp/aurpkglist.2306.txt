@@ -1,8 +1,0 @@
-google-chrome
-networkmanager-dmenu-git
-paru
-picom-git
-siji-git
-via-bin
-visual-studio-code-bin
-yay

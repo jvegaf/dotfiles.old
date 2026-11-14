@@ -1,2 +1,0 @@
-1password
-visual-studio-code-bin

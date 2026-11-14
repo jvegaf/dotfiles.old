@@ -12,23 +12,9 @@ echo "🚀 Welcome to the jvegaf/dotfiles installer!"
 echo "-------------------------------------------------"
 echo
 
-if grep -qEi "(archlinux)" /proc/version &>/dev/null; then
-  echo "Installing previuos dependencies"
-  sudo pacman -S git base-devel rustup --noconfirm --needed
-  rustup default stable
-elif grep -qEi "(cachyos)" /proc/version &>/dev/null; then
-  echo "Installing previuos dependencies"
-  sudo pacman -S git base-devel rustup --noconfirm --needed
-  rustup default stable
-elif grep -qEi "(manjaro)" /proc/version &>/dev/null; then
-  echo "Installing previuos dependencies"
-  sudo pacman -S git base-devel rustup --noconfirm --needed
-  rustup default stable
-else
-  echo "Installing previuos dependencies"
-  sudo apt-get update && sudo apt-get install -y build-essential fzf eza fonts-powerline python3-pip python-is-python3 python3-venv
-  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-fi
+echo "Installing previuos dependencies"
+sudo apt-get update && sudo apt-get install -y build-essential fzf eza fonts-powerline python3-pip python-is-python3 python3-venv
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 export PATH="$HOME/.cargo/bin:$PATH"
 cargo install docpars bat grip-grab
@@ -45,22 +31,26 @@ echo "Installing dotly 🌚"
 echo "Symlinks apply"
 "$DOTLY_PATH/bin/dot" symlinks apply
 
+echo "Registry system installed ackages"
+"$DOTLY_PATH/bin/dot" system dump-syspkgs
+
 echo "Installing Linux Packages"
 "$DOTLY_PATH/bin/dot" install common-pkgs
+"$DOTLY_PATH/bin/dot" install 1password
 "$DOTLY_PATH/bin/dot" install neovim-stable
 "$DOTLY_PATH/bin/dot" install mise
+sh mise install
 "$DOTLY_PATH/bin/dot" install fastfetch
 "$DOTLY_PATH/bin/dot" install starship
 "$DOTLY_PATH/bin/dot" install uvx
 "$DOTLY_PATH/bin/dot" install fd_setup
-"$DOTLY_PATH/bin/dot" install opencode
-"$DOTLY_PATH/bin/dot" install 1password
+# "$DOTLY_PATH/bin/dot" install opencode
 "$DOTLY_PATH/bin/dot" install docker
+"$DOTLY_PATH/bin/dot" install lazy-docker
 "$DOTLY_PATH/bin/dot" install github-cli
 "$DOTLY_PATH/bin/dot" install yazi
 "$DOTLY_PATH/bin/dot" install sad
 "$DOTLY_PATH/bin/dot" install ghostty
 "$DOTLY_PATH/bin/dot" install alacritty
+"$DOTLY_PATH/bin/dot" install herdr
 "$DOTLY_PATH/bin/dot" install lazygit
-
-"$DOTLY_PATH/bin/dot" self install_custom
