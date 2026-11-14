@@ -25,6 +25,8 @@
     ~/.config/ghostty: os/linux/config/ghostty
     ~/.config/herdr/config.toml: os/linux/config/herdr/config.toml
     ~/.config/herdr/plugins.json: os/linux/config/herdr/plugins.json
+    ~/.config/herdr/scripts: os/linux/config/herdr/scripts
+    ~/.config/herdr/plugins/config: os/linux/config/herdr/plugins/config
     ~/.config/hypr: os/linux/config/hypr
     ~/.config/i3: os/linux/config/i3
     ~/.config/i3blocks: os/linux/config/i3blocks

@@ -9,7 +9,7 @@ binds {
     Mod+ALT+Z                           { show-hotkey-overlay; }
 
     // ─── Applications ───
-    Mod+Return                          hotkey-overlay-title="Open Terminal: Kitty" { spawn "kitty"; }
+    Mod+Return                          hotkey-overlay-title="Open Terminal: Kitty" { spawn "ghostty"; }
     Mod+B                               hotkey-overlay-title="Open Browser" { spawn "firefox"; }
 
     // --- Noctalia ---

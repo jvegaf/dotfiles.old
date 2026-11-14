@@ -1,16 +1,30 @@
 theme = dark:ayu-dark,light:ayu-light
-font-family = "JetBrainsMono NF"
-font-size = 12
+# font-family = "JetBrainsMono NF"
+font-family = monospace
+font-size = 10
 window-decoration = false
 command = zsh
 window-padding-balance = true
 window-padding-x = 10
 window-padding-y = 10
 font-style-bold = true
-font-style = Bold
+background-opacity = 0.75
+background-blur = false
+mouse-hide-while-typing = true
+# font-style = Bold
+adjust-cell-height = 4
 
+wait-after-command = false
+shell-integration = detect
+window-save-state = always
+gtk-single-instance = true
+gtk-titlebar = false
+quick-terminal-position = center
+shell-integration-features = cursor,sudo
 confirm-close-surface = false
-copy-on-select = true
+copy-on-select = clipboard
 right-click-action = paste
 
 # initial-command = /usr/bin/fastfetch
+
+#vim: ft=conf
