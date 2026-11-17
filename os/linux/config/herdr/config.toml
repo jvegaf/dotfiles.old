@@ -233,5 +233,13 @@ delivery = "herdr"
 [ui.sound]
 enabled = true
 
+[ui.sidebar.agents]
+row_gap = 0
+rows = [
+  ["state_icon", "machine", "workspace", "tab"],
+  ['$summary'], ['$summary2'],
+  ["agent"],
+]
+
 [experimental]
 pane_history = false
